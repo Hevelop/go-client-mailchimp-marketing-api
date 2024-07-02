@@ -25,7 +25,7 @@ var _ MappedNullable = &ECommerceOrder1{}
 type ECommerceOrder1 struct {
 	// A unique identifier for the order.
 	Id string `json:"id"`
-	Customer ECommerceCustomer1 `json:"customer"`
+	Customer ECommerceCustomer5 `json:"customer"`
 	// A string that uniquely identifies the campaign for an order.
 	CampaignId *string `json:"campaign_id,omitempty"`
 	// The URL for the page where the buyer landed when entering the shop.
@@ -75,7 +75,7 @@ type _ECommerceOrder1 ECommerceOrder1
 // This constructor will assign default values to properties that have it defined,
 // and makes sure properties required by API are set, but the set of arguments
 // will change when the set of required properties is changed
-func NewECommerceOrder1(id string, customer ECommerceCustomer1, currencyCode string, orderTotal float32, lines []ECommerceOrderLineItem1) *ECommerceOrder1 {
+func NewECommerceOrder1(id string, customer ECommerceCustomer5, currencyCode string, orderTotal float32, lines []ECommerceOrderLineItem1) *ECommerceOrder1 {
 	this := ECommerceOrder1{}
 	this.Id = id
 	this.Customer = customer
@@ -118,9 +118,9 @@ func (o *ECommerceOrder1) SetId(v string) {
 }
 
 // GetCustomer returns the Customer field value
-func (o *ECommerceOrder1) GetCustomer() ECommerceCustomer1 {
+func (o *ECommerceOrder1) GetCustomer() ECommerceCustomer5 {
 	if o == nil {
-		var ret ECommerceCustomer1
+		var ret ECommerceCustomer5
 		return ret
 	}
 
@@ -129,7 +129,7 @@ func (o *ECommerceOrder1) GetCustomer() ECommerceCustomer1 {
 
 // GetCustomerOk returns a tuple with the Customer field value
 // and a boolean to check if the value has been set.
-func (o *ECommerceOrder1) GetCustomerOk() (*ECommerceCustomer1, bool) {
+func (o *ECommerceOrder1) GetCustomerOk() (*ECommerceCustomer5, bool) {
 	if o == nil {
 		return nil, false
 	}
@@ -137,7 +137,7 @@ func (o *ECommerceOrder1) GetCustomerOk() (*ECommerceCustomer1, bool) {
 }
 
 // SetCustomer sets field value
-func (o *ECommerceOrder1) SetCustomer(v ECommerceCustomer1) {
+func (o *ECommerceOrder1) SetCustomer(v ECommerceCustomer5) {
 	o.Customer = v
 }
 

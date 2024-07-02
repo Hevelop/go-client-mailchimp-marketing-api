@@ -17,17 +17,17 @@ import (
 	"fmt"
 )
 
-// checks if the ECommerceCustomer1 type satisfies the MappedNullable interface at compile time
-var _ MappedNullable = &ECommerceCustomer1{}
+// checks if the ECommerceCustomer5 type satisfies the MappedNullable interface at compile time
+var _ MappedNullable = &ECommerceCustomer5{}
 
-// ECommerceCustomer1 Information about a specific customer. For existing customers include only the `id` parameter in the `customer` object body.
-type ECommerceCustomer1 struct {
+// ECommerceCustomer5 Information about a specific customer. For existing customers include only the `id` parameter in the `customer` object body.
+type ECommerceCustomer5 struct {
 	// A unique identifier for the customer. Limited to 50 characters.
 	Id string `json:"id"`
 	// The customer's email address.
 	EmailAddress *string `json:"email_address,omitempty"`
 	// The customer's opt-in status. This value will never overwrite the opt-in status of a pre-existing Mailchimp list member, but will apply to list members that are added through the e-commerce API endpoints. Customers who don't opt in to your Mailchimp list [will be added as `Transactional` members](https://mailchimp.com/developer/marketing/docs/e-commerce/#customers).
-	OptInStatus bool `json:"opt_in_status"`
+	OptInStatus *bool `json:"opt_in_status,omitempty"`
 	// The customer's company.
 	Company *string `json:"company,omitempty"`
 	// The customer's first name.
@@ -37,29 +37,28 @@ type ECommerceCustomer1 struct {
 	Address *Address `json:"address,omitempty"`
 }
 
-type _ECommerceCustomer1 ECommerceCustomer1
+type _ECommerceCustomer5 ECommerceCustomer5
 
-// NewECommerceCustomer1 instantiates a new ECommerceCustomer1 object
+// NewECommerceCustomer5 instantiates a new ECommerceCustomer5 object
 // This constructor will assign default values to properties that have it defined,
 // and makes sure properties required by API are set, but the set of arguments
 // will change when the set of required properties is changed
-func NewECommerceCustomer1(id string, optInStatus bool) *ECommerceCustomer1 {
-	this := ECommerceCustomer1{}
+func NewECommerceCustomer5(id string) *ECommerceCustomer5 {
+	this := ECommerceCustomer5{}
 	this.Id = id
-	this.OptInStatus = optInStatus
 	return &this
 }
 
-// NewECommerceCustomer1WithDefaults instantiates a new ECommerceCustomer1 object
+// NewECommerceCustomer5WithDefaults instantiates a new ECommerceCustomer5 object
 // This constructor will only assign default values to properties that have it defined,
 // but it doesn't guarantee that properties required by API are set
-func NewECommerceCustomer1WithDefaults() *ECommerceCustomer1 {
-	this := ECommerceCustomer1{}
+func NewECommerceCustomer5WithDefaults() *ECommerceCustomer5 {
+	this := ECommerceCustomer5{}
 	return &this
 }
 
 // GetId returns the Id field value
-func (o *ECommerceCustomer1) GetId() string {
+func (o *ECommerceCustomer5) GetId() string {
 	if o == nil {
 		var ret string
 		return ret
@@ -70,7 +69,7 @@ func (o *ECommerceCustomer1) GetId() string {
 
 // GetIdOk returns a tuple with the Id field value
 // and a boolean to check if the value has been set.
-func (o *ECommerceCustomer1) GetIdOk() (*string, bool) {
+func (o *ECommerceCustomer5) GetIdOk() (*string, bool) {
 	if o == nil {
 		return nil, false
 	}
@@ -78,12 +77,12 @@ func (o *ECommerceCustomer1) GetIdOk() (*string, bool) {
 }
 
 // SetId sets field value
-func (o *ECommerceCustomer1) SetId(v string) {
+func (o *ECommerceCustomer5) SetId(v string) {
 	o.Id = v
 }
 
 // GetEmailAddress returns the EmailAddress field value if set, zero value otherwise.
-func (o *ECommerceCustomer1) GetEmailAddress() string {
+func (o *ECommerceCustomer5) GetEmailAddress() string {
 	if o == nil || IsNil(o.EmailAddress) {
 		var ret string
 		return ret
@@ -93,7 +92,7 @@ func (o *ECommerceCustomer1) GetEmailAddress() string {
 
 // GetEmailAddressOk returns a tuple with the EmailAddress field value if set, nil otherwise
 // and a boolean to check if the value has been set.
-func (o *ECommerceCustomer1) GetEmailAddressOk() (*string, bool) {
+func (o *ECommerceCustomer5) GetEmailAddressOk() (*string, bool) {
 	if o == nil || IsNil(o.EmailAddress) {
 		return nil, false
 	}
@@ -101,7 +100,7 @@ func (o *ECommerceCustomer1) GetEmailAddressOk() (*string, bool) {
 }
 
 // HasEmailAddress returns a boolean if a field has been set.
-func (o *ECommerceCustomer1) HasEmailAddress() bool {
+func (o *ECommerceCustomer5) HasEmailAddress() bool {
 	if o != nil && !IsNil(o.EmailAddress) {
 		return true
 	}
@@ -110,36 +109,44 @@ func (o *ECommerceCustomer1) HasEmailAddress() bool {
 }
 
 // SetEmailAddress gets a reference to the given string and assigns it to the EmailAddress field.
-func (o *ECommerceCustomer1) SetEmailAddress(v string) {
+func (o *ECommerceCustomer5) SetEmailAddress(v string) {
 	o.EmailAddress = &v
 }
 
-// GetOptInStatus returns the OptInStatus field value
-func (o *ECommerceCustomer1) GetOptInStatus() bool {
-	if o == nil {
+// GetOptInStatus returns the OptInStatus field value if set, zero value otherwise.
+func (o *ECommerceCustomer5) GetOptInStatus() bool {
+	if o == nil || IsNil(o.OptInStatus) {
 		var ret bool
 		return ret
 	}
-
-	return o.OptInStatus
+	return *o.OptInStatus
 }
 
-// GetOptInStatusOk returns a tuple with the OptInStatus field value
+// GetOptInStatusOk returns a tuple with the OptInStatus field value if set, nil otherwise
 // and a boolean to check if the value has been set.
-func (o *ECommerceCustomer1) GetOptInStatusOk() (*bool, bool) {
-	if o == nil {
+func (o *ECommerceCustomer5) GetOptInStatusOk() (*bool, bool) {
+	if o == nil || IsNil(o.OptInStatus) {
 		return nil, false
 	}
-	return &o.OptInStatus, true
+	return o.OptInStatus, true
 }
 
-// SetOptInStatus sets field value
-func (o *ECommerceCustomer1) SetOptInStatus(v bool) {
-	o.OptInStatus = v
+// HasOptInStatus returns a boolean if a field has been set.
+func (o *ECommerceCustomer5) HasOptInStatus() bool {
+	if o != nil && !IsNil(o.OptInStatus) {
+		return true
+	}
+
+	return false
+}
+
+// SetOptInStatus gets a reference to the given bool and assigns it to the OptInStatus field.
+func (o *ECommerceCustomer5) SetOptInStatus(v bool) {
+	o.OptInStatus = &v
 }
 
 // GetCompany returns the Company field value if set, zero value otherwise.
-func (o *ECommerceCustomer1) GetCompany() string {
+func (o *ECommerceCustomer5) GetCompany() string {
 	if o == nil || IsNil(o.Company) {
 		var ret string
 		return ret
@@ -149,7 +156,7 @@ func (o *ECommerceCustomer1) GetCompany() string {
 
 // GetCompanyOk returns a tuple with the Company field value if set, nil otherwise
 // and a boolean to check if the value has been set.
-func (o *ECommerceCustomer1) GetCompanyOk() (*string, bool) {
+func (o *ECommerceCustomer5) GetCompanyOk() (*string, bool) {
 	if o == nil || IsNil(o.Company) {
 		return nil, false
 	}
@@ -157,7 +164,7 @@ func (o *ECommerceCustomer1) GetCompanyOk() (*string, bool) {
 }
 
 // HasCompany returns a boolean if a field has been set.
-func (o *ECommerceCustomer1) HasCompany() bool {
+func (o *ECommerceCustomer5) HasCompany() bool {
 	if o != nil && !IsNil(o.Company) {
 		return true
 	}
@@ -166,12 +173,12 @@ func (o *ECommerceCustomer1) HasCompany() bool {
 }
 
 // SetCompany gets a reference to the given string and assigns it to the Company field.
-func (o *ECommerceCustomer1) SetCompany(v string) {
+func (o *ECommerceCustomer5) SetCompany(v string) {
 	o.Company = &v
 }
 
 // GetFirstName returns the FirstName field value if set, zero value otherwise.
-func (o *ECommerceCustomer1) GetFirstName() string {
+func (o *ECommerceCustomer5) GetFirstName() string {
 	if o == nil || IsNil(o.FirstName) {
 		var ret string
 		return ret
@@ -181,7 +188,7 @@ func (o *ECommerceCustomer1) GetFirstName() string {
 
 // GetFirstNameOk returns a tuple with the FirstName field value if set, nil otherwise
 // and a boolean to check if the value has been set.
-func (o *ECommerceCustomer1) GetFirstNameOk() (*string, bool) {
+func (o *ECommerceCustomer5) GetFirstNameOk() (*string, bool) {
 	if o == nil || IsNil(o.FirstName) {
 		return nil, false
 	}
@@ -189,7 +196,7 @@ func (o *ECommerceCustomer1) GetFirstNameOk() (*string, bool) {
 }
 
 // HasFirstName returns a boolean if a field has been set.
-func (o *ECommerceCustomer1) HasFirstName() bool {
+func (o *ECommerceCustomer5) HasFirstName() bool {
 	if o != nil && !IsNil(o.FirstName) {
 		return true
 	}
@@ -198,12 +205,12 @@ func (o *ECommerceCustomer1) HasFirstName() bool {
 }
 
 // SetFirstName gets a reference to the given string and assigns it to the FirstName field.
-func (o *ECommerceCustomer1) SetFirstName(v string) {
+func (o *ECommerceCustomer5) SetFirstName(v string) {
 	o.FirstName = &v
 }
 
 // GetLastName returns the LastName field value if set, zero value otherwise.
-func (o *ECommerceCustomer1) GetLastName() string {
+func (o *ECommerceCustomer5) GetLastName() string {
 	if o == nil || IsNil(o.LastName) {
 		var ret string
 		return ret
@@ -213,7 +220,7 @@ func (o *ECommerceCustomer1) GetLastName() string {
 
 // GetLastNameOk returns a tuple with the LastName field value if set, nil otherwise
 // and a boolean to check if the value has been set.
-func (o *ECommerceCustomer1) GetLastNameOk() (*string, bool) {
+func (o *ECommerceCustomer5) GetLastNameOk() (*string, bool) {
 	if o == nil || IsNil(o.LastName) {
 		return nil, false
 	}
@@ -221,7 +228,7 @@ func (o *ECommerceCustomer1) GetLastNameOk() (*string, bool) {
 }
 
 // HasLastName returns a boolean if a field has been set.
-func (o *ECommerceCustomer1) HasLastName() bool {
+func (o *ECommerceCustomer5) HasLastName() bool {
 	if o != nil && !IsNil(o.LastName) {
 		return true
 	}
@@ -230,12 +237,12 @@ func (o *ECommerceCustomer1) HasLastName() bool {
 }
 
 // SetLastName gets a reference to the given string and assigns it to the LastName field.
-func (o *ECommerceCustomer1) SetLastName(v string) {
+func (o *ECommerceCustomer5) SetLastName(v string) {
 	o.LastName = &v
 }
 
 // GetAddress returns the Address field value if set, zero value otherwise.
-func (o *ECommerceCustomer1) GetAddress() Address {
+func (o *ECommerceCustomer5) GetAddress() Address {
 	if o == nil || IsNil(o.Address) {
 		var ret Address
 		return ret
@@ -245,7 +252,7 @@ func (o *ECommerceCustomer1) GetAddress() Address {
 
 // GetAddressOk returns a tuple with the Address field value if set, nil otherwise
 // and a boolean to check if the value has been set.
-func (o *ECommerceCustomer1) GetAddressOk() (*Address, bool) {
+func (o *ECommerceCustomer5) GetAddressOk() (*Address, bool) {
 	if o == nil || IsNil(o.Address) {
 		return nil, false
 	}
@@ -253,7 +260,7 @@ func (o *ECommerceCustomer1) GetAddressOk() (*Address, bool) {
 }
 
 // HasAddress returns a boolean if a field has been set.
-func (o *ECommerceCustomer1) HasAddress() bool {
+func (o *ECommerceCustomer5) HasAddress() bool {
 	if o != nil && !IsNil(o.Address) {
 		return true
 	}
@@ -262,11 +269,11 @@ func (o *ECommerceCustomer1) HasAddress() bool {
 }
 
 // SetAddress gets a reference to the given Address and assigns it to the Address field.
-func (o *ECommerceCustomer1) SetAddress(v Address) {
+func (o *ECommerceCustomer5) SetAddress(v Address) {
 	o.Address = &v
 }
 
-func (o ECommerceCustomer1) MarshalJSON() ([]byte, error) {
+func (o ECommerceCustomer5) MarshalJSON() ([]byte, error) {
 	toSerialize,err := o.ToMap()
 	if err != nil {
 		return []byte{}, err
@@ -274,13 +281,15 @@ func (o ECommerceCustomer1) MarshalJSON() ([]byte, error) {
 	return json.Marshal(toSerialize)
 }
 
-func (o ECommerceCustomer1) ToMap() (map[string]interface{}, error) {
+func (o ECommerceCustomer5) ToMap() (map[string]interface{}, error) {
 	toSerialize := map[string]interface{}{}
 	toSerialize["id"] = o.Id
 	if !IsNil(o.EmailAddress) {
 		toSerialize["email_address"] = o.EmailAddress
 	}
-	toSerialize["opt_in_status"] = o.OptInStatus
+	if !IsNil(o.OptInStatus) {
+		toSerialize["opt_in_status"] = o.OptInStatus
+	}
 	if !IsNil(o.Company) {
 		toSerialize["company"] = o.Company
 	}
@@ -296,13 +305,12 @@ func (o ECommerceCustomer1) ToMap() (map[string]interface{}, error) {
 	return toSerialize, nil
 }
 
-func (o *ECommerceCustomer1) UnmarshalJSON(data []byte) (err error) {
+func (o *ECommerceCustomer5) UnmarshalJSON(data []byte) (err error) {
 	// This validates that all required properties are included in the JSON object
 	// by unmarshalling the object into a generic map with string keys and checking
 	// that every required field exists as a key in the generic map.
 	requiredProperties := []string{
 		"id",
-		"opt_in_status",
 	}
 
 	allProperties := make(map[string]interface{})
@@ -319,53 +327,53 @@ func (o *ECommerceCustomer1) UnmarshalJSON(data []byte) (err error) {
 		}
 	}
 
-	varECommerceCustomer1 := _ECommerceCustomer1{}
+	varECommerceCustomer5 := _ECommerceCustomer5{}
 
 	decoder := json.NewDecoder(bytes.NewReader(data))
 	decoder.DisallowUnknownFields()
-	err = decoder.Decode(&varECommerceCustomer1)
+	err = decoder.Decode(&varECommerceCustomer5)
 
 	if err != nil {
 		return err
 	}
 
-	*o = ECommerceCustomer1(varECommerceCustomer1)
+	*o = ECommerceCustomer5(varECommerceCustomer5)
 
 	return err
 }
 
-type NullableECommerceCustomer1 struct {
-	value *ECommerceCustomer1
+type NullableECommerceCustomer5 struct {
+	value *ECommerceCustomer5
 	isSet bool
 }
 
-func (v NullableECommerceCustomer1) Get() *ECommerceCustomer1 {
+func (v NullableECommerceCustomer5) Get() *ECommerceCustomer5 {
 	return v.value
 }
 
-func (v *NullableECommerceCustomer1) Set(val *ECommerceCustomer1) {
+func (v *NullableECommerceCustomer5) Set(val *ECommerceCustomer5) {
 	v.value = val
 	v.isSet = true
 }
 
-func (v NullableECommerceCustomer1) IsSet() bool {
+func (v NullableECommerceCustomer5) IsSet() bool {
 	return v.isSet
 }
 
-func (v *NullableECommerceCustomer1) Unset() {
+func (v *NullableECommerceCustomer5) Unset() {
 	v.value = nil
 	v.isSet = false
 }
 
-func NewNullableECommerceCustomer1(val *ECommerceCustomer1) *NullableECommerceCustomer1 {
-	return &NullableECommerceCustomer1{value: val, isSet: true}
+func NewNullableECommerceCustomer5(val *ECommerceCustomer5) *NullableECommerceCustomer5 {
+	return &NullableECommerceCustomer5{value: val, isSet: true}
 }
 
-func (v NullableECommerceCustomer1) MarshalJSON() ([]byte, error) {
+func (v NullableECommerceCustomer5) MarshalJSON() ([]byte, error) {
 	return json.Marshal(v.value)
 }
 
-func (v *NullableECommerceCustomer1) UnmarshalJSON(src []byte) error {
+func (v *NullableECommerceCustomer5) UnmarshalJSON(src []byte) error {
 	v.isSet = true
 	return json.Unmarshal(src, &v.value)
 }

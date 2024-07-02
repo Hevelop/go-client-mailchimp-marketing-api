@@ -3601,7 +3601,7 @@ import (
 
 func main() {
 	storeId := "storeId_example" // string | The store id.
-	body := *openapiclient.NewECommerceCart1("Id_example", *openapiclient.NewECommerceCustomer1("Id_example"), "CurrencyCode_example", float32(123), []openapiclient.ECommerceCartLineItem1{*openapiclient.NewECommerceCartLineItem1("Id_example", "ProductId_example", "ProductVariantId_example", int32(123), float32(123))}) // ECommerceCart1 | 
+	body := *openapiclient.NewECommerceCart1("Id_example", *openapiclient.NewECommerceCustomer1("Id_example", false), "CurrencyCode_example", float32(123), []openapiclient.ECommerceCartLineItem1{*openapiclient.NewECommerceCartLineItem1("Id_example", "ProductId_example", "ProductVariantId_example", int32(123), float32(123))}) // ECommerceCart1 | 
 
 	configuration := openapiclient.NewConfiguration()
 	apiClient := openapiclient.NewAPIClient(configuration)
@@ -3820,7 +3820,7 @@ import (
 
 func main() {
 	storeId := "storeId_example" // string | The store id.
-	body := *openapiclient.NewECommerceOrder1("Id_example", *openapiclient.NewECommerceCustomer1("Id_example"), "CurrencyCode_example", float32(123), []openapiclient.ECommerceOrderLineItem1{*openapiclient.NewECommerceOrderLineItem1("Id_example", "ProductId_example", "ProductVariantId_example", int32(123), float32(123))}) // ECommerceOrder1 | 
+	body := *openapiclient.NewECommerceOrder1("Id_example", *openapiclient.NewECommerceCustomer5("Id_example"), "CurrencyCode_example", float32(123), []openapiclient.ECommerceOrderLineItem1{*openapiclient.NewECommerceOrderLineItem1("Id_example", "ProductId_example", "ProductVariantId_example", int32(123), float32(123))}) // ECommerceOrder1 | 
 
 	configuration := openapiclient.NewConfiguration()
 	apiClient := openapiclient.NewAPIClient(configuration)
