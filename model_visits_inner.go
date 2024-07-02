@@ -59,8 +59,8 @@ func (o *VisitsInner) GetDateOk() (*string, bool) {
 	return o.Date, true
 }
 
-// HasDate returns a boolean if a field has been set.
-func (o *VisitsInner) HasDate() bool {
+// HaveDate returns a boolean if a field has been set.
+func (o *VisitsInner) HaveDate() bool {
 	if o != nil && !IsNil(o.Date) {
 		return true
 	}
@@ -91,8 +91,8 @@ func (o *VisitsInner) GetValOk() (*int32, bool) {
 	return o.Val, true
 }
 
-// HasVal returns a boolean if a field has been set.
-func (o *VisitsInner) HasVal() bool {
+// HaveVal returns a boolean if a field has been set.
+func (o *VisitsInner) HaveVal() bool {
 	if o != nil && !IsNil(o.Val) {
 		return true
 	}

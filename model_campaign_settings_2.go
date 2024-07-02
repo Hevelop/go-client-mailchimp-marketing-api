@@ -91,8 +91,8 @@ func (o *CampaignSettings2) GetSubjectLineOk() (*string, bool) {
 	return o.SubjectLine, true
 }
 
-// HasSubjectLine returns a boolean if a field has been set.
-func (o *CampaignSettings2) HasSubjectLine() bool {
+// HaveSubjectLine returns a boolean if a field has been set.
+func (o *CampaignSettings2) HaveSubjectLine() bool {
 	if o != nil && !IsNil(o.SubjectLine) {
 		return true
 	}
@@ -123,8 +123,8 @@ func (o *CampaignSettings2) GetPreviewTextOk() (*string, bool) {
 	return o.PreviewText, true
 }
 
-// HasPreviewText returns a boolean if a field has been set.
-func (o *CampaignSettings2) HasPreviewText() bool {
+// HavePreviewText returns a boolean if a field has been set.
+func (o *CampaignSettings2) HavePreviewText() bool {
 	if o != nil && !IsNil(o.PreviewText) {
 		return true
 	}
@@ -155,8 +155,8 @@ func (o *CampaignSettings2) GetTitleOk() (*string, bool) {
 	return o.Title, true
 }
 
-// HasTitle returns a boolean if a field has been set.
-func (o *CampaignSettings2) HasTitle() bool {
+// HaveTitle returns a boolean if a field has been set.
+func (o *CampaignSettings2) HaveTitle() bool {
 	if o != nil && !IsNil(o.Title) {
 		return true
 	}
@@ -187,8 +187,8 @@ func (o *CampaignSettings2) GetFromNameOk() (*string, bool) {
 	return o.FromName, true
 }
 
-// HasFromName returns a boolean if a field has been set.
-func (o *CampaignSettings2) HasFromName() bool {
+// HaveFromName returns a boolean if a field has been set.
+func (o *CampaignSettings2) HaveFromName() bool {
 	if o != nil && !IsNil(o.FromName) {
 		return true
 	}
@@ -219,8 +219,8 @@ func (o *CampaignSettings2) GetReplyToOk() (*string, bool) {
 	return o.ReplyTo, true
 }
 
-// HasReplyTo returns a boolean if a field has been set.
-func (o *CampaignSettings2) HasReplyTo() bool {
+// HaveReplyTo returns a boolean if a field has been set.
+func (o *CampaignSettings2) HaveReplyTo() bool {
 	if o != nil && !IsNil(o.ReplyTo) {
 		return true
 	}
@@ -251,8 +251,8 @@ func (o *CampaignSettings2) GetUseConversationOk() (*bool, bool) {
 	return o.UseConversation, true
 }
 
-// HasUseConversation returns a boolean if a field has been set.
-func (o *CampaignSettings2) HasUseConversation() bool {
+// HaveUseConversation returns a boolean if a field has been set.
+func (o *CampaignSettings2) HaveUseConversation() bool {
 	if o != nil && !IsNil(o.UseConversation) {
 		return true
 	}
@@ -283,8 +283,8 @@ func (o *CampaignSettings2) GetToNameOk() (*string, bool) {
 	return o.ToName, true
 }
 
-// HasToName returns a boolean if a field has been set.
-func (o *CampaignSettings2) HasToName() bool {
+// HaveToName returns a boolean if a field has been set.
+func (o *CampaignSettings2) HaveToName() bool {
 	if o != nil && !IsNil(o.ToName) {
 		return true
 	}
@@ -315,8 +315,8 @@ func (o *CampaignSettings2) GetFolderIdOk() (*string, bool) {
 	return o.FolderId, true
 }
 
-// HasFolderId returns a boolean if a field has been set.
-func (o *CampaignSettings2) HasFolderId() bool {
+// HaveFolderId returns a boolean if a field has been set.
+func (o *CampaignSettings2) HaveFolderId() bool {
 	if o != nil && !IsNil(o.FolderId) {
 		return true
 	}
@@ -347,8 +347,8 @@ func (o *CampaignSettings2) GetAuthenticateOk() (*bool, bool) {
 	return o.Authenticate, true
 }
 
-// HasAuthenticate returns a boolean if a field has been set.
-func (o *CampaignSettings2) HasAuthenticate() bool {
+// HaveAuthenticate returns a boolean if a field has been set.
+func (o *CampaignSettings2) HaveAuthenticate() bool {
 	if o != nil && !IsNil(o.Authenticate) {
 		return true
 	}
@@ -379,8 +379,8 @@ func (o *CampaignSettings2) GetAutoFooterOk() (*bool, bool) {
 	return o.AutoFooter, true
 }
 
-// HasAutoFooter returns a boolean if a field has been set.
-func (o *CampaignSettings2) HasAutoFooter() bool {
+// HaveAutoFooter returns a boolean if a field has been set.
+func (o *CampaignSettings2) HaveAutoFooter() bool {
 	if o != nil && !IsNil(o.AutoFooter) {
 		return true
 	}
@@ -411,8 +411,8 @@ func (o *CampaignSettings2) GetInlineCssOk() (*bool, bool) {
 	return o.InlineCss, true
 }
 
-// HasInlineCss returns a boolean if a field has been set.
-func (o *CampaignSettings2) HasInlineCss() bool {
+// HaveInlineCss returns a boolean if a field has been set.
+func (o *CampaignSettings2) HaveInlineCss() bool {
 	if o != nil && !IsNil(o.InlineCss) {
 		return true
 	}
@@ -443,8 +443,8 @@ func (o *CampaignSettings2) GetAutoTweetOk() (*bool, bool) {
 	return o.AutoTweet, true
 }
 
-// HasAutoTweet returns a boolean if a field has been set.
-func (o *CampaignSettings2) HasAutoTweet() bool {
+// HaveAutoTweet returns a boolean if a field has been set.
+func (o *CampaignSettings2) HaveAutoTweet() bool {
 	if o != nil && !IsNil(o.AutoTweet) {
 		return true
 	}
@@ -475,8 +475,8 @@ func (o *CampaignSettings2) GetAutoFbPostOk() ([]string, bool) {
 	return o.AutoFbPost, true
 }
 
-// HasAutoFbPost returns a boolean if a field has been set.
-func (o *CampaignSettings2) HasAutoFbPost() bool {
+// HaveAutoFbPost returns a boolean if a field has been set.
+func (o *CampaignSettings2) HaveAutoFbPost() bool {
 	if o != nil && !IsNil(o.AutoFbPost) {
 		return true
 	}
@@ -507,8 +507,8 @@ func (o *CampaignSettings2) GetFbCommentsOk() (*bool, bool) {
 	return o.FbComments, true
 }
 
-// HasFbComments returns a boolean if a field has been set.
-func (o *CampaignSettings2) HasFbComments() bool {
+// HaveFbComments returns a boolean if a field has been set.
+func (o *CampaignSettings2) HaveFbComments() bool {
 	if o != nil && !IsNil(o.FbComments) {
 		return true
 	}
@@ -539,8 +539,8 @@ func (o *CampaignSettings2) GetTimewarpOk() (*bool, bool) {
 	return o.Timewarp, true
 }
 
-// HasTimewarp returns a boolean if a field has been set.
-func (o *CampaignSettings2) HasTimewarp() bool {
+// HaveTimewarp returns a boolean if a field has been set.
+func (o *CampaignSettings2) HaveTimewarp() bool {
 	if o != nil && !IsNil(o.Timewarp) {
 		return true
 	}
@@ -571,8 +571,8 @@ func (o *CampaignSettings2) GetTemplateIdOk() (*int32, bool) {
 	return o.TemplateId, true
 }
 
-// HasTemplateId returns a boolean if a field has been set.
-func (o *CampaignSettings2) HasTemplateId() bool {
+// HaveTemplateId returns a boolean if a field has been set.
+func (o *CampaignSettings2) HaveTemplateId() bool {
 	if o != nil && !IsNil(o.TemplateId) {
 		return true
 	}
@@ -603,8 +603,8 @@ func (o *CampaignSettings2) GetDragAndDropOk() (*bool, bool) {
 	return o.DragAndDrop, true
 }
 
-// HasDragAndDrop returns a boolean if a field has been set.
-func (o *CampaignSettings2) HasDragAndDrop() bool {
+// HaveDragAndDrop returns a boolean if a field has been set.
+func (o *CampaignSettings2) HaveDragAndDrop() bool {
 	if o != nil && !IsNil(o.DragAndDrop) {
 		return true
 	}

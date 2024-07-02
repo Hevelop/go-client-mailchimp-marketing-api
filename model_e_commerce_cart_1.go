@@ -129,8 +129,8 @@ func (o *ECommerceCart1) GetCampaignIdOk() (*string, bool) {
 	return o.CampaignId, true
 }
 
-// HasCampaignId returns a boolean if a field has been set.
-func (o *ECommerceCart1) HasCampaignId() bool {
+// HaveCampaignId returns a boolean if a field has been set.
+func (o *ECommerceCart1) HaveCampaignId() bool {
 	if o != nil && !IsNil(o.CampaignId) {
 		return true
 	}
@@ -161,8 +161,8 @@ func (o *ECommerceCart1) GetCheckoutUrlOk() (*string, bool) {
 	return o.CheckoutUrl, true
 }
 
-// HasCheckoutUrl returns a boolean if a field has been set.
-func (o *ECommerceCart1) HasCheckoutUrl() bool {
+// HaveCheckoutUrl returns a boolean if a field has been set.
+func (o *ECommerceCart1) HaveCheckoutUrl() bool {
 	if o != nil && !IsNil(o.CheckoutUrl) {
 		return true
 	}
@@ -241,8 +241,8 @@ func (o *ECommerceCart1) GetTaxTotalOk() (*float32, bool) {
 	return o.TaxTotal, true
 }
 
-// HasTaxTotal returns a boolean if a field has been set.
-func (o *ECommerceCart1) HasTaxTotal() bool {
+// HaveTaxTotal returns a boolean if a field has been set.
+func (o *ECommerceCart1) HaveTaxTotal() bool {
 	if o != nil && !IsNil(o.TaxTotal) {
 		return true
 	}

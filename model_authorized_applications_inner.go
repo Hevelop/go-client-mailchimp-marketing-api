@@ -67,8 +67,8 @@ func (o *AuthorizedApplicationsInner) GetIdOk() (*int32, bool) {
 	return o.Id, true
 }
 
-// HasId returns a boolean if a field has been set.
-func (o *AuthorizedApplicationsInner) HasId() bool {
+// HaveId returns a boolean if a field has been set.
+func (o *AuthorizedApplicationsInner) HaveId() bool {
 	if o != nil && !IsNil(o.Id) {
 		return true
 	}
@@ -99,8 +99,8 @@ func (o *AuthorizedApplicationsInner) GetNameOk() (*string, bool) {
 	return o.Name, true
 }
 
-// HasName returns a boolean if a field has been set.
-func (o *AuthorizedApplicationsInner) HasName() bool {
+// HaveName returns a boolean if a field has been set.
+func (o *AuthorizedApplicationsInner) HaveName() bool {
 	if o != nil && !IsNil(o.Name) {
 		return true
 	}
@@ -131,8 +131,8 @@ func (o *AuthorizedApplicationsInner) GetDescriptionOk() (*string, bool) {
 	return o.Description, true
 }
 
-// HasDescription returns a boolean if a field has been set.
-func (o *AuthorizedApplicationsInner) HasDescription() bool {
+// HaveDescription returns a boolean if a field has been set.
+func (o *AuthorizedApplicationsInner) HaveDescription() bool {
 	if o != nil && !IsNil(o.Description) {
 		return true
 	}
@@ -163,8 +163,8 @@ func (o *AuthorizedApplicationsInner) GetUsersOk() ([]string, bool) {
 	return o.Users, true
 }
 
-// HasUsers returns a boolean if a field has been set.
-func (o *AuthorizedApplicationsInner) HasUsers() bool {
+// HaveUsers returns a boolean if a field has been set.
+func (o *AuthorizedApplicationsInner) HaveUsers() bool {
 	if o != nil && !IsNil(o.Users) {
 		return true
 	}
@@ -195,8 +195,8 @@ func (o *AuthorizedApplicationsInner) GetLinksOk() ([]ResourceLink, bool) {
 	return o.Links, true
 }
 
-// HasLinks returns a boolean if a field has been set.
-func (o *AuthorizedApplicationsInner) HasLinks() bool {
+// HaveLinks returns a boolean if a field has been set.
+func (o *AuthorizedApplicationsInner) HaveLinks() bool {
 	if o != nil && !IsNil(o.Links) {
 		return true
 	}

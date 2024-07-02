@@ -64,8 +64,8 @@ func (o *Event) GetOccurredAtOk() (*time.Time, bool) {
 	return o.OccurredAt, true
 }
 
-// HasOccurredAt returns a boolean if a field has been set.
-func (o *Event) HasOccurredAt() bool {
+// HaveOccurredAt returns a boolean if a field has been set.
+func (o *Event) HaveOccurredAt() bool {
 	if o != nil && !IsNil(o.OccurredAt) {
 		return true
 	}
@@ -96,8 +96,8 @@ func (o *Event) GetNameOk() (*string, bool) {
 	return o.Name, true
 }
 
-// HasName returns a boolean if a field has been set.
-func (o *Event) HasName() bool {
+// HaveName returns a boolean if a field has been set.
+func (o *Event) HaveName() bool {
 	if o != nil && !IsNil(o.Name) {
 		return true
 	}
@@ -128,8 +128,8 @@ func (o *Event) GetPropertiesOk() (*map[string]string, bool) {
 	return o.Properties, true
 }
 
-// HasProperties returns a boolean if a field has been set.
-func (o *Event) HasProperties() bool {
+// HaveProperties returns a boolean if a field has been set.
+func (o *Event) HaveProperties() bool {
 	if o != nil && !IsNil(o.Properties) {
 		return true
 	}

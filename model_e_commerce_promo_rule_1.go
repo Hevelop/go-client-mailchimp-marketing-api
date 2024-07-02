@@ -113,8 +113,8 @@ func (o *ECommercePromoRule1) GetTitleOk() (*string, bool) {
 	return o.Title, true
 }
 
-// HasTitle returns a boolean if a field has been set.
-func (o *ECommercePromoRule1) HasTitle() bool {
+// HaveTitle returns a boolean if a field has been set.
+func (o *ECommercePromoRule1) HaveTitle() bool {
 	if o != nil && !IsNil(o.Title) {
 		return true
 	}
@@ -169,8 +169,8 @@ func (o *ECommercePromoRule1) GetStartsAtOk() (*time.Time, bool) {
 	return o.StartsAt, true
 }
 
-// HasStartsAt returns a boolean if a field has been set.
-func (o *ECommercePromoRule1) HasStartsAt() bool {
+// HaveStartsAt returns a boolean if a field has been set.
+func (o *ECommercePromoRule1) HaveStartsAt() bool {
 	if o != nil && !IsNil(o.StartsAt) {
 		return true
 	}
@@ -201,8 +201,8 @@ func (o *ECommercePromoRule1) GetEndsAtOk() (*string, bool) {
 	return o.EndsAt, true
 }
 
-// HasEndsAt returns a boolean if a field has been set.
-func (o *ECommercePromoRule1) HasEndsAt() bool {
+// HaveEndsAt returns a boolean if a field has been set.
+func (o *ECommercePromoRule1) HaveEndsAt() bool {
 	if o != nil && !IsNil(o.EndsAt) {
 		return true
 	}
@@ -305,8 +305,8 @@ func (o *ECommercePromoRule1) GetEnabledOk() (*bool, bool) {
 	return o.Enabled, true
 }
 
-// HasEnabled returns a boolean if a field has been set.
-func (o *ECommercePromoRule1) HasEnabled() bool {
+// HaveEnabled returns a boolean if a field has been set.
+func (o *ECommercePromoRule1) HaveEnabled() bool {
 	if o != nil && !IsNil(o.Enabled) {
 		return true
 	}
@@ -337,8 +337,8 @@ func (o *ECommercePromoRule1) GetCreatedAtForeignOk() (*time.Time, bool) {
 	return o.CreatedAtForeign, true
 }
 
-// HasCreatedAtForeign returns a boolean if a field has been set.
-func (o *ECommercePromoRule1) HasCreatedAtForeign() bool {
+// HaveCreatedAtForeign returns a boolean if a field has been set.
+func (o *ECommercePromoRule1) HaveCreatedAtForeign() bool {
 	if o != nil && !IsNil(o.CreatedAtForeign) {
 		return true
 	}
@@ -369,8 +369,8 @@ func (o *ECommercePromoRule1) GetUpdatedAtForeignOk() (*time.Time, bool) {
 	return o.UpdatedAtForeign, true
 }
 
-// HasUpdatedAtForeign returns a boolean if a field has been set.
-func (o *ECommercePromoRule1) HasUpdatedAtForeign() bool {
+// HaveUpdatedAtForeign returns a boolean if a field has been set.
+func (o *ECommercePromoRule1) HaveUpdatedAtForeign() bool {
 	if o != nil && !IsNil(o.UpdatedAtForeign) {
 		return true
 	}

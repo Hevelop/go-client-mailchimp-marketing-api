@@ -91,8 +91,8 @@ func (o *LandingPage) GetIdOk() (*string, bool) {
 	return o.Id, true
 }
 
-// HasId returns a boolean if a field has been set.
-func (o *LandingPage) HasId() bool {
+// HaveId returns a boolean if a field has been set.
+func (o *LandingPage) HaveId() bool {
 	if o != nil && !IsNil(o.Id) {
 		return true
 	}
@@ -123,8 +123,8 @@ func (o *LandingPage) GetNameOk() (*string, bool) {
 	return o.Name, true
 }
 
-// HasName returns a boolean if a field has been set.
-func (o *LandingPage) HasName() bool {
+// HaveName returns a boolean if a field has been set.
+func (o *LandingPage) HaveName() bool {
 	if o != nil && !IsNil(o.Name) {
 		return true
 	}
@@ -155,8 +155,8 @@ func (o *LandingPage) GetTitleOk() (*string, bool) {
 	return o.Title, true
 }
 
-// HasTitle returns a boolean if a field has been set.
-func (o *LandingPage) HasTitle() bool {
+// HaveTitle returns a boolean if a field has been set.
+func (o *LandingPage) HaveTitle() bool {
 	if o != nil && !IsNil(o.Title) {
 		return true
 	}
@@ -187,8 +187,8 @@ func (o *LandingPage) GetDescriptionOk() (*string, bool) {
 	return o.Description, true
 }
 
-// HasDescription returns a boolean if a field has been set.
-func (o *LandingPage) HasDescription() bool {
+// HaveDescription returns a boolean if a field has been set.
+func (o *LandingPage) HaveDescription() bool {
 	if o != nil && !IsNil(o.Description) {
 		return true
 	}
@@ -219,8 +219,8 @@ func (o *LandingPage) GetTemplateIdOk() (*int32, bool) {
 	return o.TemplateId, true
 }
 
-// HasTemplateId returns a boolean if a field has been set.
-func (o *LandingPage) HasTemplateId() bool {
+// HaveTemplateId returns a boolean if a field has been set.
+func (o *LandingPage) HaveTemplateId() bool {
 	if o != nil && !IsNil(o.TemplateId) {
 		return true
 	}
@@ -251,8 +251,8 @@ func (o *LandingPage) GetStatusOk() (*string, bool) {
 	return o.Status, true
 }
 
-// HasStatus returns a boolean if a field has been set.
-func (o *LandingPage) HasStatus() bool {
+// HaveStatus returns a boolean if a field has been set.
+func (o *LandingPage) HaveStatus() bool {
 	if o != nil && !IsNil(o.Status) {
 		return true
 	}
@@ -283,8 +283,8 @@ func (o *LandingPage) GetListIdOk() (*string, bool) {
 	return o.ListId, true
 }
 
-// HasListId returns a boolean if a field has been set.
-func (o *LandingPage) HasListId() bool {
+// HaveListId returns a boolean if a field has been set.
+func (o *LandingPage) HaveListId() bool {
 	if o != nil && !IsNil(o.ListId) {
 		return true
 	}
@@ -315,8 +315,8 @@ func (o *LandingPage) GetStoreIdOk() (*string, bool) {
 	return o.StoreId, true
 }
 
-// HasStoreId returns a boolean if a field has been set.
-func (o *LandingPage) HasStoreId() bool {
+// HaveStoreId returns a boolean if a field has been set.
+func (o *LandingPage) HaveStoreId() bool {
 	if o != nil && !IsNil(o.StoreId) {
 		return true
 	}
@@ -347,8 +347,8 @@ func (o *LandingPage) GetWebIdOk() (*int32, bool) {
 	return o.WebId, true
 }
 
-// HasWebId returns a boolean if a field has been set.
-func (o *LandingPage) HasWebId() bool {
+// HaveWebId returns a boolean if a field has been set.
+func (o *LandingPage) HaveWebId() bool {
 	if o != nil && !IsNil(o.WebId) {
 		return true
 	}
@@ -379,8 +379,8 @@ func (o *LandingPage) GetCreatedBySourceOk() (*string, bool) {
 	return o.CreatedBySource, true
 }
 
-// HasCreatedBySource returns a boolean if a field has been set.
-func (o *LandingPage) HasCreatedBySource() bool {
+// HaveCreatedBySource returns a boolean if a field has been set.
+func (o *LandingPage) HaveCreatedBySource() bool {
 	if o != nil && !IsNil(o.CreatedBySource) {
 		return true
 	}
@@ -411,8 +411,8 @@ func (o *LandingPage) GetUrlOk() (*string, bool) {
 	return o.Url, true
 }
 
-// HasUrl returns a boolean if a field has been set.
-func (o *LandingPage) HasUrl() bool {
+// HaveUrl returns a boolean if a field has been set.
+func (o *LandingPage) HaveUrl() bool {
 	if o != nil && !IsNil(o.Url) {
 		return true
 	}
@@ -443,8 +443,8 @@ func (o *LandingPage) GetCreatedAtOk() (*time.Time, bool) {
 	return o.CreatedAt, true
 }
 
-// HasCreatedAt returns a boolean if a field has been set.
-func (o *LandingPage) HasCreatedAt() bool {
+// HaveCreatedAt returns a boolean if a field has been set.
+func (o *LandingPage) HaveCreatedAt() bool {
 	if o != nil && !IsNil(o.CreatedAt) {
 		return true
 	}
@@ -475,8 +475,8 @@ func (o *LandingPage) GetPublishedAtOk() (*time.Time, bool) {
 	return o.PublishedAt, true
 }
 
-// HasPublishedAt returns a boolean if a field has been set.
-func (o *LandingPage) HasPublishedAt() bool {
+// HavePublishedAt returns a boolean if a field has been set.
+func (o *LandingPage) HavePublishedAt() bool {
 	if o != nil && !IsNil(o.PublishedAt) {
 		return true
 	}
@@ -507,8 +507,8 @@ func (o *LandingPage) GetUnpublishedAtOk() (*time.Time, bool) {
 	return o.UnpublishedAt, true
 }
 
-// HasUnpublishedAt returns a boolean if a field has been set.
-func (o *LandingPage) HasUnpublishedAt() bool {
+// HaveUnpublishedAt returns a boolean if a field has been set.
+func (o *LandingPage) HaveUnpublishedAt() bool {
 	if o != nil && !IsNil(o.UnpublishedAt) {
 		return true
 	}
@@ -539,8 +539,8 @@ func (o *LandingPage) GetUpdatedAtOk() (*time.Time, bool) {
 	return o.UpdatedAt, true
 }
 
-// HasUpdatedAt returns a boolean if a field has been set.
-func (o *LandingPage) HasUpdatedAt() bool {
+// HaveUpdatedAt returns a boolean if a field has been set.
+func (o *LandingPage) HaveUpdatedAt() bool {
 	if o != nil && !IsNil(o.UpdatedAt) {
 		return true
 	}
@@ -571,8 +571,8 @@ func (o *LandingPage) GetTrackingOk() (*TrackingSettings, bool) {
 	return o.Tracking, true
 }
 
-// HasTracking returns a boolean if a field has been set.
-func (o *LandingPage) HasTracking() bool {
+// HaveTracking returns a boolean if a field has been set.
+func (o *LandingPage) HaveTracking() bool {
 	if o != nil && !IsNil(o.Tracking) {
 		return true
 	}
@@ -603,8 +603,8 @@ func (o *LandingPage) GetLinksOk() ([]ResourceLink, bool) {
 	return o.Links, true
 }
 
-// HasLinks returns a boolean if a field has been set.
-func (o *LandingPage) HasLinks() bool {
+// HaveLinks returns a boolean if a field has been set.
+func (o *LandingPage) HaveLinks() bool {
 	if o != nil && !IsNil(o.Links) {
 		return true
 	}

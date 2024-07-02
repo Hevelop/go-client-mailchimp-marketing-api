@@ -94,8 +94,8 @@ func (o *LandingPageReport) GetIdOk() (*string, bool) {
 	return o.Id, true
 }
 
-// HasId returns a boolean if a field has been set.
-func (o *LandingPageReport) HasId() bool {
+// HaveId returns a boolean if a field has been set.
+func (o *LandingPageReport) HaveId() bool {
 	if o != nil && !IsNil(o.Id) {
 		return true
 	}
@@ -126,8 +126,8 @@ func (o *LandingPageReport) GetNameOk() (*string, bool) {
 	return o.Name, true
 }
 
-// HasName returns a boolean if a field has been set.
-func (o *LandingPageReport) HasName() bool {
+// HaveName returns a boolean if a field has been set.
+func (o *LandingPageReport) HaveName() bool {
 	if o != nil && !IsNil(o.Name) {
 		return true
 	}
@@ -158,8 +158,8 @@ func (o *LandingPageReport) GetTitleOk() (*string, bool) {
 	return o.Title, true
 }
 
-// HasTitle returns a boolean if a field has been set.
-func (o *LandingPageReport) HasTitle() bool {
+// HaveTitle returns a boolean if a field has been set.
+func (o *LandingPageReport) HaveTitle() bool {
 	if o != nil && !IsNil(o.Title) {
 		return true
 	}
@@ -190,8 +190,8 @@ func (o *LandingPageReport) GetUrlOk() (*string, bool) {
 	return o.Url, true
 }
 
-// HasUrl returns a boolean if a field has been set.
-func (o *LandingPageReport) HasUrl() bool {
+// HaveUrl returns a boolean if a field has been set.
+func (o *LandingPageReport) HaveUrl() bool {
 	if o != nil && !IsNil(o.Url) {
 		return true
 	}
@@ -222,8 +222,8 @@ func (o *LandingPageReport) GetPublishedAtOk() (*time.Time, bool) {
 	return o.PublishedAt, true
 }
 
-// HasPublishedAt returns a boolean if a field has been set.
-func (o *LandingPageReport) HasPublishedAt() bool {
+// HavePublishedAt returns a boolean if a field has been set.
+func (o *LandingPageReport) HavePublishedAt() bool {
 	if o != nil && !IsNil(o.PublishedAt) {
 		return true
 	}
@@ -254,8 +254,8 @@ func (o *LandingPageReport) GetUnpublishedAtOk() (*time.Time, bool) {
 	return o.UnpublishedAt, true
 }
 
-// HasUnpublishedAt returns a boolean if a field has been set.
-func (o *LandingPageReport) HasUnpublishedAt() bool {
+// HaveUnpublishedAt returns a boolean if a field has been set.
+func (o *LandingPageReport) HaveUnpublishedAt() bool {
 	if o != nil && !IsNil(o.UnpublishedAt) {
 		return true
 	}
@@ -286,8 +286,8 @@ func (o *LandingPageReport) GetStatusOk() (*string, bool) {
 	return o.Status, true
 }
 
-// HasStatus returns a boolean if a field has been set.
-func (o *LandingPageReport) HasStatus() bool {
+// HaveStatus returns a boolean if a field has been set.
+func (o *LandingPageReport) HaveStatus() bool {
 	if o != nil && !IsNil(o.Status) {
 		return true
 	}
@@ -318,8 +318,8 @@ func (o *LandingPageReport) GetListIdOk() (*string, bool) {
 	return o.ListId, true
 }
 
-// HasListId returns a boolean if a field has been set.
-func (o *LandingPageReport) HasListId() bool {
+// HaveListId returns a boolean if a field has been set.
+func (o *LandingPageReport) HaveListId() bool {
 	if o != nil && !IsNil(o.ListId) {
 		return true
 	}
@@ -350,8 +350,8 @@ func (o *LandingPageReport) GetVisitsOk() (*int32, bool) {
 	return o.Visits, true
 }
 
-// HasVisits returns a boolean if a field has been set.
-func (o *LandingPageReport) HasVisits() bool {
+// HaveVisits returns a boolean if a field has been set.
+func (o *LandingPageReport) HaveVisits() bool {
 	if o != nil && !IsNil(o.Visits) {
 		return true
 	}
@@ -382,8 +382,8 @@ func (o *LandingPageReport) GetUniqueVisitsOk() (*int32, bool) {
 	return o.UniqueVisits, true
 }
 
-// HasUniqueVisits returns a boolean if a field has been set.
-func (o *LandingPageReport) HasUniqueVisits() bool {
+// HaveUniqueVisits returns a boolean if a field has been set.
+func (o *LandingPageReport) HaveUniqueVisits() bool {
 	if o != nil && !IsNil(o.UniqueVisits) {
 		return true
 	}
@@ -414,8 +414,8 @@ func (o *LandingPageReport) GetSubscribesOk() (*int32, bool) {
 	return o.Subscribes, true
 }
 
-// HasSubscribes returns a boolean if a field has been set.
-func (o *LandingPageReport) HasSubscribes() bool {
+// HaveSubscribes returns a boolean if a field has been set.
+func (o *LandingPageReport) HaveSubscribes() bool {
 	if o != nil && !IsNil(o.Subscribes) {
 		return true
 	}
@@ -446,8 +446,8 @@ func (o *LandingPageReport) GetClicksOk() (*int32, bool) {
 	return o.Clicks, true
 }
 
-// HasClicks returns a boolean if a field has been set.
-func (o *LandingPageReport) HasClicks() bool {
+// HaveClicks returns a boolean if a field has been set.
+func (o *LandingPageReport) HaveClicks() bool {
 	if o != nil && !IsNil(o.Clicks) {
 		return true
 	}
@@ -478,8 +478,8 @@ func (o *LandingPageReport) GetConversionRateOk() (*float32, bool) {
 	return o.ConversionRate, true
 }
 
-// HasConversionRate returns a boolean if a field has been set.
-func (o *LandingPageReport) HasConversionRate() bool {
+// HaveConversionRate returns a boolean if a field has been set.
+func (o *LandingPageReport) HaveConversionRate() bool {
 	if o != nil && !IsNil(o.ConversionRate) {
 		return true
 	}
@@ -510,8 +510,8 @@ func (o *LandingPageReport) GetTimeseriesOk() (*LandingPageReportTimeseries, boo
 	return o.Timeseries, true
 }
 
-// HasTimeseries returns a boolean if a field has been set.
-func (o *LandingPageReport) HasTimeseries() bool {
+// HaveTimeseries returns a boolean if a field has been set.
+func (o *LandingPageReport) HaveTimeseries() bool {
 	if o != nil && !IsNil(o.Timeseries) {
 		return true
 	}
@@ -542,8 +542,8 @@ func (o *LandingPageReport) GetEcommerceOk() (*LandingPageReportEcommerce, bool)
 	return o.Ecommerce, true
 }
 
-// HasEcommerce returns a boolean if a field has been set.
-func (o *LandingPageReport) HasEcommerce() bool {
+// HaveEcommerce returns a boolean if a field has been set.
+func (o *LandingPageReport) HaveEcommerce() bool {
 	if o != nil && !IsNil(o.Ecommerce) {
 		return true
 	}
@@ -574,8 +574,8 @@ func (o *LandingPageReport) GetWebIdOk() (*int32, bool) {
 	return o.WebId, true
 }
 
-// HasWebId returns a boolean if a field has been set.
-func (o *LandingPageReport) HasWebId() bool {
+// HaveWebId returns a boolean if a field has been set.
+func (o *LandingPageReport) HaveWebId() bool {
 	if o != nil && !IsNil(o.WebId) {
 		return true
 	}
@@ -606,8 +606,8 @@ func (o *LandingPageReport) GetListNameOk() (*string, bool) {
 	return o.ListName, true
 }
 
-// HasListName returns a boolean if a field has been set.
-func (o *LandingPageReport) HasListName() bool {
+// HaveListName returns a boolean if a field has been set.
+func (o *LandingPageReport) HaveListName() bool {
 	if o != nil && !IsNil(o.ListName) {
 		return true
 	}
@@ -638,8 +638,8 @@ func (o *LandingPageReport) GetSignupTagsOk() ([]Tag, bool) {
 	return o.SignupTags, true
 }
 
-// HasSignupTags returns a boolean if a field has been set.
-func (o *LandingPageReport) HasSignupTags() bool {
+// HaveSignupTags returns a boolean if a field has been set.
+func (o *LandingPageReport) HaveSignupTags() bool {
 	if o != nil && !IsNil(o.SignupTags) {
 		return true
 	}
@@ -670,8 +670,8 @@ func (o *LandingPageReport) GetLinksOk() ([]ResourceLink, bool) {
 	return o.Links, true
 }
 
-// HasLinks returns a boolean if a field has been set.
-func (o *LandingPageReport) HasLinks() bool {
+// HaveLinks returns a boolean if a field has been set.
+func (o *LandingPageReport) HaveLinks() bool {
 	if o != nil && !IsNil(o.Links) {
 		return true
 	}

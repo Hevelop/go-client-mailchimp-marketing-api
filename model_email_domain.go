@@ -81,8 +81,8 @@ func (o *EmailDomain) GetDomainOk() (*string, bool) {
 	return o.Domain, true
 }
 
-// HasDomain returns a boolean if a field has been set.
-func (o *EmailDomain) HasDomain() bool {
+// HaveDomain returns a boolean if a field has been set.
+func (o *EmailDomain) HaveDomain() bool {
 	if o != nil && !IsNil(o.Domain) {
 		return true
 	}
@@ -113,8 +113,8 @@ func (o *EmailDomain) GetEmailsSentOk() (*int32, bool) {
 	return o.EmailsSent, true
 }
 
-// HasEmailsSent returns a boolean if a field has been set.
-func (o *EmailDomain) HasEmailsSent() bool {
+// HaveEmailsSent returns a boolean if a field has been set.
+func (o *EmailDomain) HaveEmailsSent() bool {
 	if o != nil && !IsNil(o.EmailsSent) {
 		return true
 	}
@@ -145,8 +145,8 @@ func (o *EmailDomain) GetBouncesOk() (*int32, bool) {
 	return o.Bounces, true
 }
 
-// HasBounces returns a boolean if a field has been set.
-func (o *EmailDomain) HasBounces() bool {
+// HaveBounces returns a boolean if a field has been set.
+func (o *EmailDomain) HaveBounces() bool {
 	if o != nil && !IsNil(o.Bounces) {
 		return true
 	}
@@ -177,8 +177,8 @@ func (o *EmailDomain) GetOpensOk() (*int32, bool) {
 	return o.Opens, true
 }
 
-// HasOpens returns a boolean if a field has been set.
-func (o *EmailDomain) HasOpens() bool {
+// HaveOpens returns a boolean if a field has been set.
+func (o *EmailDomain) HaveOpens() bool {
 	if o != nil && !IsNil(o.Opens) {
 		return true
 	}
@@ -209,8 +209,8 @@ func (o *EmailDomain) GetClicksOk() (*int32, bool) {
 	return o.Clicks, true
 }
 
-// HasClicks returns a boolean if a field has been set.
-func (o *EmailDomain) HasClicks() bool {
+// HaveClicks returns a boolean if a field has been set.
+func (o *EmailDomain) HaveClicks() bool {
 	if o != nil && !IsNil(o.Clicks) {
 		return true
 	}
@@ -241,8 +241,8 @@ func (o *EmailDomain) GetUnsubsOk() (*int32, bool) {
 	return o.Unsubs, true
 }
 
-// HasUnsubs returns a boolean if a field has been set.
-func (o *EmailDomain) HasUnsubs() bool {
+// HaveUnsubs returns a boolean if a field has been set.
+func (o *EmailDomain) HaveUnsubs() bool {
 	if o != nil && !IsNil(o.Unsubs) {
 		return true
 	}
@@ -273,8 +273,8 @@ func (o *EmailDomain) GetDeliveredOk() (*int32, bool) {
 	return o.Delivered, true
 }
 
-// HasDelivered returns a boolean if a field has been set.
-func (o *EmailDomain) HasDelivered() bool {
+// HaveDelivered returns a boolean if a field has been set.
+func (o *EmailDomain) HaveDelivered() bool {
 	if o != nil && !IsNil(o.Delivered) {
 		return true
 	}
@@ -305,8 +305,8 @@ func (o *EmailDomain) GetEmailsPctOk() (*float32, bool) {
 	return o.EmailsPct, true
 }
 
-// HasEmailsPct returns a boolean if a field has been set.
-func (o *EmailDomain) HasEmailsPct() bool {
+// HaveEmailsPct returns a boolean if a field has been set.
+func (o *EmailDomain) HaveEmailsPct() bool {
 	if o != nil && !IsNil(o.EmailsPct) {
 		return true
 	}
@@ -337,8 +337,8 @@ func (o *EmailDomain) GetBouncesPctOk() (*float32, bool) {
 	return o.BouncesPct, true
 }
 
-// HasBouncesPct returns a boolean if a field has been set.
-func (o *EmailDomain) HasBouncesPct() bool {
+// HaveBouncesPct returns a boolean if a field has been set.
+func (o *EmailDomain) HaveBouncesPct() bool {
 	if o != nil && !IsNil(o.BouncesPct) {
 		return true
 	}
@@ -369,8 +369,8 @@ func (o *EmailDomain) GetOpensPctOk() (*float32, bool) {
 	return o.OpensPct, true
 }
 
-// HasOpensPct returns a boolean if a field has been set.
-func (o *EmailDomain) HasOpensPct() bool {
+// HaveOpensPct returns a boolean if a field has been set.
+func (o *EmailDomain) HaveOpensPct() bool {
 	if o != nil && !IsNil(o.OpensPct) {
 		return true
 	}
@@ -401,8 +401,8 @@ func (o *EmailDomain) GetClicksPctOk() (*float32, bool) {
 	return o.ClicksPct, true
 }
 
-// HasClicksPct returns a boolean if a field has been set.
-func (o *EmailDomain) HasClicksPct() bool {
+// HaveClicksPct returns a boolean if a field has been set.
+func (o *EmailDomain) HaveClicksPct() bool {
 	if o != nil && !IsNil(o.ClicksPct) {
 		return true
 	}
@@ -433,8 +433,8 @@ func (o *EmailDomain) GetUnsubsPctOk() (*float32, bool) {
 	return o.UnsubsPct, true
 }
 
-// HasUnsubsPct returns a boolean if a field has been set.
-func (o *EmailDomain) HasUnsubsPct() bool {
+// HaveUnsubsPct returns a boolean if a field has been set.
+func (o *EmailDomain) HaveUnsubsPct() bool {
 	if o != nil && !IsNil(o.UnsubsPct) {
 		return true
 	}

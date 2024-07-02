@@ -61,8 +61,8 @@ func (o *EmailClient) GetClientOk() (*string, bool) {
 	return o.Client, true
 }
 
-// HasClient returns a boolean if a field has been set.
-func (o *EmailClient) HasClient() bool {
+// HaveClient returns a boolean if a field has been set.
+func (o *EmailClient) HaveClient() bool {
 	if o != nil && !IsNil(o.Client) {
 		return true
 	}
@@ -93,8 +93,8 @@ func (o *EmailClient) GetMembersOk() (*int32, bool) {
 	return o.Members, true
 }
 
-// HasMembers returns a boolean if a field has been set.
-func (o *EmailClient) HasMembers() bool {
+// HaveMembers returns a boolean if a field has been set.
+func (o *EmailClient) HaveMembers() bool {
 	if o != nil && !IsNil(o.Members) {
 		return true
 	}

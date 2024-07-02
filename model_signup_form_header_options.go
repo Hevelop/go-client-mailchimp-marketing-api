@@ -79,8 +79,8 @@ func (o *SignupFormHeaderOptions) GetImageUrlOk() (*string, bool) {
 	return o.ImageUrl, true
 }
 
-// HasImageUrl returns a boolean if a field has been set.
-func (o *SignupFormHeaderOptions) HasImageUrl() bool {
+// HaveImageUrl returns a boolean if a field has been set.
+func (o *SignupFormHeaderOptions) HaveImageUrl() bool {
 	if o != nil && !IsNil(o.ImageUrl) {
 		return true
 	}
@@ -111,8 +111,8 @@ func (o *SignupFormHeaderOptions) GetTextOk() (*string, bool) {
 	return o.Text, true
 }
 
-// HasText returns a boolean if a field has been set.
-func (o *SignupFormHeaderOptions) HasText() bool {
+// HaveText returns a boolean if a field has been set.
+func (o *SignupFormHeaderOptions) HaveText() bool {
 	if o != nil && !IsNil(o.Text) {
 		return true
 	}
@@ -143,8 +143,8 @@ func (o *SignupFormHeaderOptions) GetImageWidthOk() (*string, bool) {
 	return o.ImageWidth, true
 }
 
-// HasImageWidth returns a boolean if a field has been set.
-func (o *SignupFormHeaderOptions) HasImageWidth() bool {
+// HaveImageWidth returns a boolean if a field has been set.
+func (o *SignupFormHeaderOptions) HaveImageWidth() bool {
 	if o != nil && !IsNil(o.ImageWidth) {
 		return true
 	}
@@ -175,8 +175,8 @@ func (o *SignupFormHeaderOptions) GetImageHeightOk() (*string, bool) {
 	return o.ImageHeight, true
 }
 
-// HasImageHeight returns a boolean if a field has been set.
-func (o *SignupFormHeaderOptions) HasImageHeight() bool {
+// HaveImageHeight returns a boolean if a field has been set.
+func (o *SignupFormHeaderOptions) HaveImageHeight() bool {
 	if o != nil && !IsNil(o.ImageHeight) {
 		return true
 	}
@@ -207,8 +207,8 @@ func (o *SignupFormHeaderOptions) GetImageAltOk() (*string, bool) {
 	return o.ImageAlt, true
 }
 
-// HasImageAlt returns a boolean if a field has been set.
-func (o *SignupFormHeaderOptions) HasImageAlt() bool {
+// HaveImageAlt returns a boolean if a field has been set.
+func (o *SignupFormHeaderOptions) HaveImageAlt() bool {
 	if o != nil && !IsNil(o.ImageAlt) {
 		return true
 	}
@@ -239,8 +239,8 @@ func (o *SignupFormHeaderOptions) GetImageLinkOk() (*string, bool) {
 	return o.ImageLink, true
 }
 
-// HasImageLink returns a boolean if a field has been set.
-func (o *SignupFormHeaderOptions) HasImageLink() bool {
+// HaveImageLink returns a boolean if a field has been set.
+func (o *SignupFormHeaderOptions) HaveImageLink() bool {
 	if o != nil && !IsNil(o.ImageLink) {
 		return true
 	}
@@ -271,8 +271,8 @@ func (o *SignupFormHeaderOptions) GetImageAlignOk() (*string, bool) {
 	return o.ImageAlign, true
 }
 
-// HasImageAlign returns a boolean if a field has been set.
-func (o *SignupFormHeaderOptions) HasImageAlign() bool {
+// HaveImageAlign returns a boolean if a field has been set.
+func (o *SignupFormHeaderOptions) HaveImageAlign() bool {
 	if o != nil && !IsNil(o.ImageAlign) {
 		return true
 	}
@@ -303,8 +303,8 @@ func (o *SignupFormHeaderOptions) GetImageBorderWidthOk() (*string, bool) {
 	return o.ImageBorderWidth, true
 }
 
-// HasImageBorderWidth returns a boolean if a field has been set.
-func (o *SignupFormHeaderOptions) HasImageBorderWidth() bool {
+// HaveImageBorderWidth returns a boolean if a field has been set.
+func (o *SignupFormHeaderOptions) HaveImageBorderWidth() bool {
 	if o != nil && !IsNil(o.ImageBorderWidth) {
 		return true
 	}
@@ -335,8 +335,8 @@ func (o *SignupFormHeaderOptions) GetImageBorderStyleOk() (*string, bool) {
 	return o.ImageBorderStyle, true
 }
 
-// HasImageBorderStyle returns a boolean if a field has been set.
-func (o *SignupFormHeaderOptions) HasImageBorderStyle() bool {
+// HaveImageBorderStyle returns a boolean if a field has been set.
+func (o *SignupFormHeaderOptions) HaveImageBorderStyle() bool {
 	if o != nil && !IsNil(o.ImageBorderStyle) {
 		return true
 	}
@@ -367,8 +367,8 @@ func (o *SignupFormHeaderOptions) GetImageBorderColorOk() (*string, bool) {
 	return o.ImageBorderColor, true
 }
 
-// HasImageBorderColor returns a boolean if a field has been set.
-func (o *SignupFormHeaderOptions) HasImageBorderColor() bool {
+// HaveImageBorderColor returns a boolean if a field has been set.
+func (o *SignupFormHeaderOptions) HaveImageBorderColor() bool {
 	if o != nil && !IsNil(o.ImageBorderColor) {
 		return true
 	}
@@ -399,8 +399,8 @@ func (o *SignupFormHeaderOptions) GetImageTargetOk() (*string, bool) {
 	return o.ImageTarget, true
 }
 
-// HasImageTarget returns a boolean if a field has been set.
-func (o *SignupFormHeaderOptions) HasImageTarget() bool {
+// HaveImageTarget returns a boolean if a field has been set.
+func (o *SignupFormHeaderOptions) HaveImageTarget() bool {
 	if o != nil && !IsNil(o.ImageTarget) {
 		return true
 	}

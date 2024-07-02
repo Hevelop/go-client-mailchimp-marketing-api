@@ -65,8 +65,8 @@ func (o *GetReportsIdEcommerceProductActivity200ResponseProductsInner) GetTitleO
 	return o.Title, true
 }
 
-// HasTitle returns a boolean if a field has been set.
-func (o *GetReportsIdEcommerceProductActivity200ResponseProductsInner) HasTitle() bool {
+// HaveTitle returns a boolean if a field has been set.
+func (o *GetReportsIdEcommerceProductActivity200ResponseProductsInner) HaveTitle() bool {
 	if o != nil && !IsNil(o.Title) {
 		return true
 	}
@@ -97,8 +97,8 @@ func (o *GetReportsIdEcommerceProductActivity200ResponseProductsInner) GetSkuOk(
 	return o.Sku, true
 }
 
-// HasSku returns a boolean if a field has been set.
-func (o *GetReportsIdEcommerceProductActivity200ResponseProductsInner) HasSku() bool {
+// HaveSku returns a boolean if a field has been set.
+func (o *GetReportsIdEcommerceProductActivity200ResponseProductsInner) HaveSku() bool {
 	if o != nil && !IsNil(o.Sku) {
 		return true
 	}
@@ -129,8 +129,8 @@ func (o *GetReportsIdEcommerceProductActivity200ResponseProductsInner) GetImageU
 	return o.ImageUrl, true
 }
 
-// HasImageUrl returns a boolean if a field has been set.
-func (o *GetReportsIdEcommerceProductActivity200ResponseProductsInner) HasImageUrl() bool {
+// HaveImageUrl returns a boolean if a field has been set.
+func (o *GetReportsIdEcommerceProductActivity200ResponseProductsInner) HaveImageUrl() bool {
 	if o != nil && !IsNil(o.ImageUrl) {
 		return true
 	}
@@ -161,8 +161,8 @@ func (o *GetReportsIdEcommerceProductActivity200ResponseProductsInner) GetTotalR
 	return o.TotalRevenue, true
 }
 
-// HasTotalRevenue returns a boolean if a field has been set.
-func (o *GetReportsIdEcommerceProductActivity200ResponseProductsInner) HasTotalRevenue() bool {
+// HaveTotalRevenue returns a boolean if a field has been set.
+func (o *GetReportsIdEcommerceProductActivity200ResponseProductsInner) HaveTotalRevenue() bool {
 	if o != nil && !IsNil(o.TotalRevenue) {
 		return true
 	}
@@ -193,8 +193,8 @@ func (o *GetReportsIdEcommerceProductActivity200ResponseProductsInner) GetTotalP
 	return o.TotalPurchased, true
 }
 
-// HasTotalPurchased returns a boolean if a field has been set.
-func (o *GetReportsIdEcommerceProductActivity200ResponseProductsInner) HasTotalPurchased() bool {
+// HaveTotalPurchased returns a boolean if a field has been set.
+func (o *GetReportsIdEcommerceProductActivity200ResponseProductsInner) HaveTotalPurchased() bool {
 	if o != nil && !IsNil(o.TotalPurchased) {
 		return true
 	}
@@ -225,8 +225,8 @@ func (o *GetReportsIdEcommerceProductActivity200ResponseProductsInner) GetCurren
 	return o.CurrencyCode, true
 }
 
-// HasCurrencyCode returns a boolean if a field has been set.
-func (o *GetReportsIdEcommerceProductActivity200ResponseProductsInner) HasCurrencyCode() bool {
+// HaveCurrencyCode returns a boolean if a field has been set.
+func (o *GetReportsIdEcommerceProductActivity200ResponseProductsInner) HaveCurrencyCode() bool {
 	if o != nil && !IsNil(o.CurrencyCode) {
 		return true
 	}
@@ -257,8 +257,8 @@ func (o *GetReportsIdEcommerceProductActivity200ResponseProductsInner) GetRecomm
 	return o.RecommendationTotal, true
 }
 
-// HasRecommendationTotal returns a boolean if a field has been set.
-func (o *GetReportsIdEcommerceProductActivity200ResponseProductsInner) HasRecommendationTotal() bool {
+// HaveRecommendationTotal returns a boolean if a field has been set.
+func (o *GetReportsIdEcommerceProductActivity200ResponseProductsInner) HaveRecommendationTotal() bool {
 	if o != nil && !IsNil(o.RecommendationTotal) {
 		return true
 	}
@@ -289,8 +289,8 @@ func (o *GetReportsIdEcommerceProductActivity200ResponseProductsInner) GetRecomm
 	return o.RecommendationPurchased, true
 }
 
-// HasRecommendationPurchased returns a boolean if a field has been set.
-func (o *GetReportsIdEcommerceProductActivity200ResponseProductsInner) HasRecommendationPurchased() bool {
+// HaveRecommendationPurchased returns a boolean if a field has been set.
+func (o *GetReportsIdEcommerceProductActivity200ResponseProductsInner) HaveRecommendationPurchased() bool {
 	if o != nil && !IsNil(o.RecommendationPurchased) {
 		return true
 	}

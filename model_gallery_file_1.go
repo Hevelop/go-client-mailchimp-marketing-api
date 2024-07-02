@@ -69,8 +69,8 @@ func (o *GalleryFile1) GetFolderIdOk() (*int32, bool) {
 	return o.FolderId, true
 }
 
-// HasFolderId returns a boolean if a field has been set.
-func (o *GalleryFile1) HasFolderId() bool {
+// HaveFolderId returns a boolean if a field has been set.
+func (o *GalleryFile1) HaveFolderId() bool {
 	if o != nil && !IsNil(o.FolderId) {
 		return true
 	}

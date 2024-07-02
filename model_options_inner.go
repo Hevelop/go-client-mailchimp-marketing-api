@@ -63,8 +63,8 @@ func (o *OptionsInner) GetLabelOk() (*string, bool) {
 	return o.Label, true
 }
 
-// HasLabel returns a boolean if a field has been set.
-func (o *OptionsInner) HasLabel() bool {
+// HaveLabel returns a boolean if a field has been set.
+func (o *OptionsInner) HaveLabel() bool {
 	if o != nil && !IsNil(o.Label) {
 		return true
 	}
@@ -95,8 +95,8 @@ func (o *OptionsInner) GetIdOk() (*string, bool) {
 	return o.Id, true
 }
 
-// HasId returns a boolean if a field has been set.
-func (o *OptionsInner) HasId() bool {
+// HaveId returns a boolean if a field has been set.
+func (o *OptionsInner) HaveId() bool {
 	if o != nil && !IsNil(o.Id) {
 		return true
 	}
@@ -127,8 +127,8 @@ func (o *OptionsInner) GetCountOk() (*int32, bool) {
 	return o.Count, true
 }
 
-// HasCount returns a boolean if a field has been set.
-func (o *OptionsInner) HasCount() bool {
+// HaveCount returns a boolean if a field has been set.
+func (o *OptionsInner) HaveCount() bool {
 	if o != nil && !IsNil(o.Count) {
 		return true
 	}

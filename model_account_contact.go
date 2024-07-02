@@ -71,8 +71,8 @@ func (o *AccountContact) GetCompanyOk() (*string, bool) {
 	return o.Company, true
 }
 
-// HasCompany returns a boolean if a field has been set.
-func (o *AccountContact) HasCompany() bool {
+// HaveCompany returns a boolean if a field has been set.
+func (o *AccountContact) HaveCompany() bool {
 	if o != nil && !IsNil(o.Company) {
 		return true
 	}
@@ -103,8 +103,8 @@ func (o *AccountContact) GetAddr1Ok() (*string, bool) {
 	return o.Addr1, true
 }
 
-// HasAddr1 returns a boolean if a field has been set.
-func (o *AccountContact) HasAddr1() bool {
+// HaveAddr1 returns a boolean if a field has been set.
+func (o *AccountContact) HaveAddr1() bool {
 	if o != nil && !IsNil(o.Addr1) {
 		return true
 	}
@@ -135,8 +135,8 @@ func (o *AccountContact) GetAddr2Ok() (*string, bool) {
 	return o.Addr2, true
 }
 
-// HasAddr2 returns a boolean if a field has been set.
-func (o *AccountContact) HasAddr2() bool {
+// HaveAddr2 returns a boolean if a field has been set.
+func (o *AccountContact) HaveAddr2() bool {
 	if o != nil && !IsNil(o.Addr2) {
 		return true
 	}
@@ -167,8 +167,8 @@ func (o *AccountContact) GetCityOk() (*string, bool) {
 	return o.City, true
 }
 
-// HasCity returns a boolean if a field has been set.
-func (o *AccountContact) HasCity() bool {
+// HaveCity returns a boolean if a field has been set.
+func (o *AccountContact) HaveCity() bool {
 	if o != nil && !IsNil(o.City) {
 		return true
 	}
@@ -199,8 +199,8 @@ func (o *AccountContact) GetStateOk() (*string, bool) {
 	return o.State, true
 }
 
-// HasState returns a boolean if a field has been set.
-func (o *AccountContact) HasState() bool {
+// HaveState returns a boolean if a field has been set.
+func (o *AccountContact) HaveState() bool {
 	if o != nil && !IsNil(o.State) {
 		return true
 	}
@@ -231,8 +231,8 @@ func (o *AccountContact) GetZipOk() (*string, bool) {
 	return o.Zip, true
 }
 
-// HasZip returns a boolean if a field has been set.
-func (o *AccountContact) HasZip() bool {
+// HaveZip returns a boolean if a field has been set.
+func (o *AccountContact) HaveZip() bool {
 	if o != nil && !IsNil(o.Zip) {
 		return true
 	}
@@ -263,8 +263,8 @@ func (o *AccountContact) GetCountryOk() (*string, bool) {
 	return o.Country, true
 }
 
-// HasCountry returns a boolean if a field has been set.
-func (o *AccountContact) HasCountry() bool {
+// HaveCountry returns a boolean if a field has been set.
+func (o *AccountContact) HaveCountry() bool {
 	if o != nil && !IsNil(o.Country) {
 		return true
 	}

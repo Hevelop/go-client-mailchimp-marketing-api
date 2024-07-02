@@ -61,8 +61,8 @@ func (o *ToNewSubscribers) GetIsEligibleOk() (*bool, bool) {
 	return o.IsEligible, true
 }
 
-// HasIsEligible returns a boolean if a field has been set.
-func (o *ToNewSubscribers) HasIsEligible() bool {
+// HaveIsEligible returns a boolean if a field has been set.
+func (o *ToNewSubscribers) HaveIsEligible() bool {
 	if o != nil && !IsNil(o.IsEligible) {
 		return true
 	}
@@ -93,8 +93,8 @@ func (o *ToNewSubscribers) GetReasonOk() (*string, bool) {
 	return o.Reason, true
 }
 
-// HasReason returns a boolean if a field has been set.
-func (o *ToNewSubscribers) HasReason() bool {
+// HaveReason returns a boolean if a field has been set.
+func (o *ToNewSubscribers) HaveReason() bool {
 	if o != nil && !IsNil(o.Reason) {
 		return true
 	}

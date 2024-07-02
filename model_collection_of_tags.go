@@ -63,8 +63,8 @@ func (o *CollectionOfTags) GetTagsOk() ([]TagsInner2, bool) {
 	return o.Tags, true
 }
 
-// HasTags returns a boolean if a field has been set.
-func (o *CollectionOfTags) HasTags() bool {
+// HaveTags returns a boolean if a field has been set.
+func (o *CollectionOfTags) HaveTags() bool {
 	if o != nil && !IsNil(o.Tags) {
 		return true
 	}
@@ -95,8 +95,8 @@ func (o *CollectionOfTags) GetTotalItemsOk() (*int32, bool) {
 	return o.TotalItems, true
 }
 
-// HasTotalItems returns a boolean if a field has been set.
-func (o *CollectionOfTags) HasTotalItems() bool {
+// HaveTotalItems returns a boolean if a field has been set.
+func (o *CollectionOfTags) HaveTotalItems() bool {
 	if o != nil && !IsNil(o.TotalItems) {
 		return true
 	}
@@ -127,8 +127,8 @@ func (o *CollectionOfTags) GetLinksOk() ([]ResourceLink, bool) {
 	return o.Links, true
 }
 
-// HasLinks returns a boolean if a field has been set.
-func (o *CollectionOfTags) HasLinks() bool {
+// HaveLinks returns a boolean if a field has been set.
+func (o *CollectionOfTags) HaveLinks() bool {
 	if o != nil && !IsNil(o.Links) {
 		return true
 	}

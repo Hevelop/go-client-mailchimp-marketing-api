@@ -61,8 +61,8 @@ func (o *Forwards) GetForwardsCountOk() (*int32, bool) {
 	return o.ForwardsCount, true
 }
 
-// HasForwardsCount returns a boolean if a field has been set.
-func (o *Forwards) HasForwardsCount() bool {
+// HaveForwardsCount returns a boolean if a field has been set.
+func (o *Forwards) HaveForwardsCount() bool {
 	if o != nil && !IsNil(o.ForwardsCount) {
 		return true
 	}
@@ -93,8 +93,8 @@ func (o *Forwards) GetForwardsOpensOk() (*int32, bool) {
 	return o.ForwardsOpens, true
 }
 
-// HasForwardsOpens returns a boolean if a field has been set.
-func (o *Forwards) HasForwardsOpens() bool {
+// HaveForwardsOpens returns a boolean if a field has been set.
+func (o *Forwards) HaveForwardsOpens() bool {
 	if o != nil && !IsNil(o.ForwardsOpens) {
 		return true
 	}

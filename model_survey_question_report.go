@@ -89,8 +89,8 @@ func (o *SurveyQuestionReport) GetIdOk() (*string, bool) {
 	return o.Id, true
 }
 
-// HasId returns a boolean if a field has been set.
-func (o *SurveyQuestionReport) HasId() bool {
+// HaveId returns a boolean if a field has been set.
+func (o *SurveyQuestionReport) HaveId() bool {
 	if o != nil && !IsNil(o.Id) {
 		return true
 	}
@@ -121,8 +121,8 @@ func (o *SurveyQuestionReport) GetSurveyIdOk() (*string, bool) {
 	return o.SurveyId, true
 }
 
-// HasSurveyId returns a boolean if a field has been set.
-func (o *SurveyQuestionReport) HasSurveyId() bool {
+// HaveSurveyId returns a boolean if a field has been set.
+func (o *SurveyQuestionReport) HaveSurveyId() bool {
 	if o != nil && !IsNil(o.SurveyId) {
 		return true
 	}
@@ -153,8 +153,8 @@ func (o *SurveyQuestionReport) GetQueryOk() (*string, bool) {
 	return o.Query, true
 }
 
-// HasQuery returns a boolean if a field has been set.
-func (o *SurveyQuestionReport) HasQuery() bool {
+// HaveQuery returns a boolean if a field has been set.
+func (o *SurveyQuestionReport) HaveQuery() bool {
 	if o != nil && !IsNil(o.Query) {
 		return true
 	}
@@ -185,8 +185,8 @@ func (o *SurveyQuestionReport) GetTypeOk() (*string, bool) {
 	return o.Type, true
 }
 
-// HasType returns a boolean if a field has been set.
-func (o *SurveyQuestionReport) HasType() bool {
+// HaveType returns a boolean if a field has been set.
+func (o *SurveyQuestionReport) HaveType() bool {
 	if o != nil && !IsNil(o.Type) {
 		return true
 	}
@@ -217,8 +217,8 @@ func (o *SurveyQuestionReport) GetTotalResponsesOk() (*int32, bool) {
 	return o.TotalResponses, true
 }
 
-// HasTotalResponses returns a boolean if a field has been set.
-func (o *SurveyQuestionReport) HasTotalResponses() bool {
+// HaveTotalResponses returns a boolean if a field has been set.
+func (o *SurveyQuestionReport) HaveTotalResponses() bool {
 	if o != nil && !IsNil(o.TotalResponses) {
 		return true
 	}
@@ -249,8 +249,8 @@ func (o *SurveyQuestionReport) GetIsRequiredOk() (*bool, bool) {
 	return o.IsRequired, true
 }
 
-// HasIsRequired returns a boolean if a field has been set.
-func (o *SurveyQuestionReport) HasIsRequired() bool {
+// HaveIsRequired returns a boolean if a field has been set.
+func (o *SurveyQuestionReport) HaveIsRequired() bool {
 	if o != nil && !IsNil(o.IsRequired) {
 		return true
 	}
@@ -281,8 +281,8 @@ func (o *SurveyQuestionReport) GetHasOtherOk() (*bool, bool) {
 	return o.HasOther, true
 }
 
-// HasHasOther returns a boolean if a field has been set.
-func (o *SurveyQuestionReport) HasHasOther() bool {
+// HaveHasOther returns a boolean if a field has been set.
+func (o *SurveyQuestionReport) HaveHasOther() bool {
 	if o != nil && !IsNil(o.HasOther) {
 		return true
 	}
@@ -313,8 +313,8 @@ func (o *SurveyQuestionReport) GetOtherLabelOk() (*string, bool) {
 	return o.OtherLabel, true
 }
 
-// HasOtherLabel returns a boolean if a field has been set.
-func (o *SurveyQuestionReport) HasOtherLabel() bool {
+// HaveOtherLabel returns a boolean if a field has been set.
+func (o *SurveyQuestionReport) HaveOtherLabel() bool {
 	if o != nil && !IsNil(o.OtherLabel) {
 		return true
 	}
@@ -345,8 +345,8 @@ func (o *SurveyQuestionReport) GetAverageRatingOk() (*float32, bool) {
 	return o.AverageRating, true
 }
 
-// HasAverageRating returns a boolean if a field has been set.
-func (o *SurveyQuestionReport) HasAverageRating() bool {
+// HaveAverageRating returns a boolean if a field has been set.
+func (o *SurveyQuestionReport) HaveAverageRating() bool {
 	if o != nil && !IsNil(o.AverageRating) {
 		return true
 	}
@@ -377,8 +377,8 @@ func (o *SurveyQuestionReport) GetRangeLowLabelOk() (*string, bool) {
 	return o.RangeLowLabel, true
 }
 
-// HasRangeLowLabel returns a boolean if a field has been set.
-func (o *SurveyQuestionReport) HasRangeLowLabel() bool {
+// HaveRangeLowLabel returns a boolean if a field has been set.
+func (o *SurveyQuestionReport) HaveRangeLowLabel() bool {
 	if o != nil && !IsNil(o.RangeLowLabel) {
 		return true
 	}
@@ -409,8 +409,8 @@ func (o *SurveyQuestionReport) GetRangeHighLabelOk() (*string, bool) {
 	return o.RangeHighLabel, true
 }
 
-// HasRangeHighLabel returns a boolean if a field has been set.
-func (o *SurveyQuestionReport) HasRangeHighLabel() bool {
+// HaveRangeHighLabel returns a boolean if a field has been set.
+func (o *SurveyQuestionReport) HaveRangeHighLabel() bool {
 	if o != nil && !IsNil(o.RangeHighLabel) {
 		return true
 	}
@@ -441,8 +441,8 @@ func (o *SurveyQuestionReport) GetPlaceholderLabelOk() (*string, bool) {
 	return o.PlaceholderLabel, true
 }
 
-// HasPlaceholderLabel returns a boolean if a field has been set.
-func (o *SurveyQuestionReport) HasPlaceholderLabel() bool {
+// HavePlaceholderLabel returns a boolean if a field has been set.
+func (o *SurveyQuestionReport) HavePlaceholderLabel() bool {
 	if o != nil && !IsNil(o.PlaceholderLabel) {
 		return true
 	}
@@ -473,8 +473,8 @@ func (o *SurveyQuestionReport) GetSubscribeCheckboxEnabledOk() (*bool, bool) {
 	return o.SubscribeCheckboxEnabled, true
 }
 
-// HasSubscribeCheckboxEnabled returns a boolean if a field has been set.
-func (o *SurveyQuestionReport) HasSubscribeCheckboxEnabled() bool {
+// HaveSubscribeCheckboxEnabled returns a boolean if a field has been set.
+func (o *SurveyQuestionReport) HaveSubscribeCheckboxEnabled() bool {
 	if o != nil && !IsNil(o.SubscribeCheckboxEnabled) {
 		return true
 	}
@@ -505,8 +505,8 @@ func (o *SurveyQuestionReport) GetSubscribeCheckboxLabelOk() (*string, bool) {
 	return o.SubscribeCheckboxLabel, true
 }
 
-// HasSubscribeCheckboxLabel returns a boolean if a field has been set.
-func (o *SurveyQuestionReport) HasSubscribeCheckboxLabel() bool {
+// HaveSubscribeCheckboxLabel returns a boolean if a field has been set.
+func (o *SurveyQuestionReport) HaveSubscribeCheckboxLabel() bool {
 	if o != nil && !IsNil(o.SubscribeCheckboxLabel) {
 		return true
 	}
@@ -537,8 +537,8 @@ func (o *SurveyQuestionReport) GetMergeFieldOk() (*MergeField3, bool) {
 	return o.MergeField, true
 }
 
-// HasMergeField returns a boolean if a field has been set.
-func (o *SurveyQuestionReport) HasMergeField() bool {
+// HaveMergeField returns a boolean if a field has been set.
+func (o *SurveyQuestionReport) HaveMergeField() bool {
 	if o != nil && !IsNil(o.MergeField) {
 		return true
 	}
@@ -569,8 +569,8 @@ func (o *SurveyQuestionReport) GetOptionsOk() ([]OptionsInner, bool) {
 	return o.Options, true
 }
 
-// HasOptions returns a boolean if a field has been set.
-func (o *SurveyQuestionReport) HasOptions() bool {
+// HaveOptions returns a boolean if a field has been set.
+func (o *SurveyQuestionReport) HaveOptions() bool {
 	if o != nil && !IsNil(o.Options) {
 		return true
 	}
@@ -601,8 +601,8 @@ func (o *SurveyQuestionReport) GetContactCountsOk() (*ContactCounts, bool) {
 	return o.ContactCounts, true
 }
 
-// HasContactCounts returns a boolean if a field has been set.
-func (o *SurveyQuestionReport) HasContactCounts() bool {
+// HaveContactCounts returns a boolean if a field has been set.
+func (o *SurveyQuestionReport) HaveContactCounts() bool {
 	if o != nil && !IsNil(o.ContactCounts) {
 		return true
 	}

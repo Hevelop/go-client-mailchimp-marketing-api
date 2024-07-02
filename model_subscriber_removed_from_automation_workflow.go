@@ -67,8 +67,8 @@ func (o *SubscriberRemovedFromAutomationWorkflow) GetIdOk() (*string, bool) {
 	return o.Id, true
 }
 
-// HasId returns a boolean if a field has been set.
-func (o *SubscriberRemovedFromAutomationWorkflow) HasId() bool {
+// HaveId returns a boolean if a field has been set.
+func (o *SubscriberRemovedFromAutomationWorkflow) HaveId() bool {
 	if o != nil && !IsNil(o.Id) {
 		return true
 	}
@@ -99,8 +99,8 @@ func (o *SubscriberRemovedFromAutomationWorkflow) GetWorkflowIdOk() (*string, bo
 	return o.WorkflowId, true
 }
 
-// HasWorkflowId returns a boolean if a field has been set.
-func (o *SubscriberRemovedFromAutomationWorkflow) HasWorkflowId() bool {
+// HaveWorkflowId returns a boolean if a field has been set.
+func (o *SubscriberRemovedFromAutomationWorkflow) HaveWorkflowId() bool {
 	if o != nil && !IsNil(o.WorkflowId) {
 		return true
 	}
@@ -131,8 +131,8 @@ func (o *SubscriberRemovedFromAutomationWorkflow) GetListIdOk() (*string, bool) 
 	return o.ListId, true
 }
 
-// HasListId returns a boolean if a field has been set.
-func (o *SubscriberRemovedFromAutomationWorkflow) HasListId() bool {
+// HaveListId returns a boolean if a field has been set.
+func (o *SubscriberRemovedFromAutomationWorkflow) HaveListId() bool {
 	if o != nil && !IsNil(o.ListId) {
 		return true
 	}
@@ -163,8 +163,8 @@ func (o *SubscriberRemovedFromAutomationWorkflow) GetEmailAddressOk() (*string, 
 	return o.EmailAddress, true
 }
 
-// HasEmailAddress returns a boolean if a field has been set.
-func (o *SubscriberRemovedFromAutomationWorkflow) HasEmailAddress() bool {
+// HaveEmailAddress returns a boolean if a field has been set.
+func (o *SubscriberRemovedFromAutomationWorkflow) HaveEmailAddress() bool {
 	if o != nil && !IsNil(o.EmailAddress) {
 		return true
 	}
@@ -195,8 +195,8 @@ func (o *SubscriberRemovedFromAutomationWorkflow) GetLinksOk() ([]ResourceLink, 
 	return o.Links, true
 }
 
-// HasLinks returns a boolean if a field has been set.
-func (o *SubscriberRemovedFromAutomationWorkflow) HasLinks() bool {
+// HaveLinks returns a boolean if a field has been set.
+func (o *SubscriberRemovedFromAutomationWorkflow) HaveLinks() bool {
 	if o != nil && !IsNil(o.Links) {
 		return true
 	}

@@ -63,8 +63,8 @@ func (o *ECommerceReport) GetTotalOrdersOk() (*int32, bool) {
 	return o.TotalOrders, true
 }
 
-// HasTotalOrders returns a boolean if a field has been set.
-func (o *ECommerceReport) HasTotalOrders() bool {
+// HaveTotalOrders returns a boolean if a field has been set.
+func (o *ECommerceReport) HaveTotalOrders() bool {
 	if o != nil && !IsNil(o.TotalOrders) {
 		return true
 	}
@@ -95,8 +95,8 @@ func (o *ECommerceReport) GetTotalSpentOk() (*float32, bool) {
 	return o.TotalSpent, true
 }
 
-// HasTotalSpent returns a boolean if a field has been set.
-func (o *ECommerceReport) HasTotalSpent() bool {
+// HaveTotalSpent returns a boolean if a field has been set.
+func (o *ECommerceReport) HaveTotalSpent() bool {
 	if o != nil && !IsNil(o.TotalSpent) {
 		return true
 	}
@@ -127,8 +127,8 @@ func (o *ECommerceReport) GetTotalRevenueOk() (*float32, bool) {
 	return o.TotalRevenue, true
 }
 
-// HasTotalRevenue returns a boolean if a field has been set.
-func (o *ECommerceReport) HasTotalRevenue() bool {
+// HaveTotalRevenue returns a boolean if a field has been set.
+func (o *ECommerceReport) HaveTotalRevenue() bool {
 	if o != nil && !IsNil(o.TotalRevenue) {
 		return true
 	}

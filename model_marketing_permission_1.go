@@ -61,8 +61,8 @@ func (o *MarketingPermission1) GetMarketingPermissionIdOk() (*string, bool) {
 	return o.MarketingPermissionId, true
 }
 
-// HasMarketingPermissionId returns a boolean if a field has been set.
-func (o *MarketingPermission1) HasMarketingPermissionId() bool {
+// HaveMarketingPermissionId returns a boolean if a field has been set.
+func (o *MarketingPermission1) HaveMarketingPermissionId() bool {
 	if o != nil && !IsNil(o.MarketingPermissionId) {
 		return true
 	}
@@ -93,8 +93,8 @@ func (o *MarketingPermission1) GetEnabledOk() (*bool, bool) {
 	return o.Enabled, true
 }
 
-// HasEnabled returns a boolean if a field has been set.
-func (o *MarketingPermission1) HasEnabled() bool {
+// HaveEnabled returns a boolean if a field has been set.
+func (o *MarketingPermission1) HaveEnabled() bool {
 	if o != nil && !IsNil(o.Enabled) {
 		return true
 	}

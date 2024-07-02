@@ -96,8 +96,8 @@ func (o *VariateContentsInner1) GetPlainTextOk() (*string, bool) {
 	return o.PlainText, true
 }
 
-// HasPlainText returns a boolean if a field has been set.
-func (o *VariateContentsInner1) HasPlainText() bool {
+// HavePlainText returns a boolean if a field has been set.
+func (o *VariateContentsInner1) HavePlainText() bool {
 	if o != nil && !IsNil(o.PlainText) {
 		return true
 	}
@@ -128,8 +128,8 @@ func (o *VariateContentsInner1) GetHtmlOk() (*string, bool) {
 	return o.Html, true
 }
 
-// HasHtml returns a boolean if a field has been set.
-func (o *VariateContentsInner1) HasHtml() bool {
+// HaveHtml returns a boolean if a field has been set.
+func (o *VariateContentsInner1) HaveHtml() bool {
 	if o != nil && !IsNil(o.Html) {
 		return true
 	}
@@ -160,8 +160,8 @@ func (o *VariateContentsInner1) GetUrlOk() (*string, bool) {
 	return o.Url, true
 }
 
-// HasUrl returns a boolean if a field has been set.
-func (o *VariateContentsInner1) HasUrl() bool {
+// HaveUrl returns a boolean if a field has been set.
+func (o *VariateContentsInner1) HaveUrl() bool {
 	if o != nil && !IsNil(o.Url) {
 		return true
 	}
@@ -192,8 +192,8 @@ func (o *VariateContentsInner1) GetTemplateOk() (*TemplateContent1, bool) {
 	return o.Template, true
 }
 
-// HasTemplate returns a boolean if a field has been set.
-func (o *VariateContentsInner1) HasTemplate() bool {
+// HaveTemplate returns a boolean if a field has been set.
+func (o *VariateContentsInner1) HaveTemplate() bool {
 	if o != nil && !IsNil(o.Template) {
 		return true
 	}
@@ -224,8 +224,8 @@ func (o *VariateContentsInner1) GetArchiveOk() (*UploadArchive, bool) {
 	return o.Archive, true
 }
 
-// HasArchive returns a boolean if a field has been set.
-func (o *VariateContentsInner1) HasArchive() bool {
+// HaveArchive returns a boolean if a field has been set.
+func (o *VariateContentsInner1) HaveArchive() bool {
 	if o != nil && !IsNil(o.Archive) {
 		return true
 	}

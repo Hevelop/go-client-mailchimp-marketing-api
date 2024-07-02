@@ -70,8 +70,8 @@ func (o *LastMessage) GetFromLabelOk() (*string, bool) {
 	return o.FromLabel, true
 }
 
-// HasFromLabel returns a boolean if a field has been set.
-func (o *LastMessage) HasFromLabel() bool {
+// HaveFromLabel returns a boolean if a field has been set.
+func (o *LastMessage) HaveFromLabel() bool {
 	if o != nil && !IsNil(o.FromLabel) {
 		return true
 	}
@@ -102,8 +102,8 @@ func (o *LastMessage) GetFromEmailOk() (*string, bool) {
 	return o.FromEmail, true
 }
 
-// HasFromEmail returns a boolean if a field has been set.
-func (o *LastMessage) HasFromEmail() bool {
+// HaveFromEmail returns a boolean if a field has been set.
+func (o *LastMessage) HaveFromEmail() bool {
 	if o != nil && !IsNil(o.FromEmail) {
 		return true
 	}
@@ -134,8 +134,8 @@ func (o *LastMessage) GetSubjectOk() (*string, bool) {
 	return o.Subject, true
 }
 
-// HasSubject returns a boolean if a field has been set.
-func (o *LastMessage) HasSubject() bool {
+// HaveSubject returns a boolean if a field has been set.
+func (o *LastMessage) HaveSubject() bool {
 	if o != nil && !IsNil(o.Subject) {
 		return true
 	}
@@ -166,8 +166,8 @@ func (o *LastMessage) GetMessageOk() (*string, bool) {
 	return o.Message, true
 }
 
-// HasMessage returns a boolean if a field has been set.
-func (o *LastMessage) HasMessage() bool {
+// HaveMessage returns a boolean if a field has been set.
+func (o *LastMessage) HaveMessage() bool {
 	if o != nil && !IsNil(o.Message) {
 		return true
 	}
@@ -198,8 +198,8 @@ func (o *LastMessage) GetReadOk() (*bool, bool) {
 	return o.Read, true
 }
 
-// HasRead returns a boolean if a field has been set.
-func (o *LastMessage) HasRead() bool {
+// HaveRead returns a boolean if a field has been set.
+func (o *LastMessage) HaveRead() bool {
 	if o != nil && !IsNil(o.Read) {
 		return true
 	}
@@ -230,8 +230,8 @@ func (o *LastMessage) GetTimestampOk() (*time.Time, bool) {
 	return o.Timestamp, true
 }
 
-// HasTimestamp returns a boolean if a field has been set.
-func (o *LastMessage) HasTimestamp() bool {
+// HaveTimestamp returns a boolean if a field has been set.
+func (o *LastMessage) HaveTimestamp() bool {
 	if o != nil && !IsNil(o.Timestamp) {
 		return true
 	}

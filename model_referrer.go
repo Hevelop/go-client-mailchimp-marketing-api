@@ -66,8 +66,8 @@ func (o *Referrer) GetReferrerOk() (*string, bool) {
 	return o.Referrer, true
 }
 
-// HasReferrer returns a boolean if a field has been set.
-func (o *Referrer) HasReferrer() bool {
+// HaveReferrer returns a boolean if a field has been set.
+func (o *Referrer) HaveReferrer() bool {
 	if o != nil && !IsNil(o.Referrer) {
 		return true
 	}
@@ -98,8 +98,8 @@ func (o *Referrer) GetClicksOk() (*int32, bool) {
 	return o.Clicks, true
 }
 
-// HasClicks returns a boolean if a field has been set.
-func (o *Referrer) HasClicks() bool {
+// HaveClicks returns a boolean if a field has been set.
+func (o *Referrer) HaveClicks() bool {
 	if o != nil && !IsNil(o.Clicks) {
 		return true
 	}
@@ -130,8 +130,8 @@ func (o *Referrer) GetFirstClickOk() (*time.Time, bool) {
 	return o.FirstClick, true
 }
 
-// HasFirstClick returns a boolean if a field has been set.
-func (o *Referrer) HasFirstClick() bool {
+// HaveFirstClick returns a boolean if a field has been set.
+func (o *Referrer) HaveFirstClick() bool {
 	if o != nil && !IsNil(o.FirstClick) {
 		return true
 	}
@@ -162,8 +162,8 @@ func (o *Referrer) GetLastClickOk() (*time.Time, bool) {
 	return o.LastClick, true
 }
 
-// HasLastClick returns a boolean if a field has been set.
-func (o *Referrer) HasLastClick() bool {
+// HaveLastClick returns a boolean if a field has been set.
+func (o *Referrer) HaveLastClick() bool {
 	if o != nil && !IsNil(o.LastClick) {
 		return true
 	}

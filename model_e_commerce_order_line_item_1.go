@@ -198,8 +198,8 @@ func (o *ECommerceOrderLineItem1) GetDiscountOk() (*float32, bool) {
 	return o.Discount, true
 }
 
-// HasDiscount returns a boolean if a field has been set.
-func (o *ECommerceOrderLineItem1) HasDiscount() bool {
+// HaveDiscount returns a boolean if a field has been set.
+func (o *ECommerceOrderLineItem1) HaveDiscount() bool {
 	if o != nil && !IsNil(o.Discount) {
 		return true
 	}

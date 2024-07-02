@@ -67,8 +67,8 @@ func (o *CampaignContent) GetVariateContentsOk() ([]VariateContentsInner, bool) 
 	return o.VariateContents, true
 }
 
-// HasVariateContents returns a boolean if a field has been set.
-func (o *CampaignContent) HasVariateContents() bool {
+// HaveVariateContents returns a boolean if a field has been set.
+func (o *CampaignContent) HaveVariateContents() bool {
 	if o != nil && !IsNil(o.VariateContents) {
 		return true
 	}
@@ -99,8 +99,8 @@ func (o *CampaignContent) GetPlainTextOk() (*string, bool) {
 	return o.PlainText, true
 }
 
-// HasPlainText returns a boolean if a field has been set.
-func (o *CampaignContent) HasPlainText() bool {
+// HavePlainText returns a boolean if a field has been set.
+func (o *CampaignContent) HavePlainText() bool {
 	if o != nil && !IsNil(o.PlainText) {
 		return true
 	}
@@ -131,8 +131,8 @@ func (o *CampaignContent) GetHtmlOk() (*string, bool) {
 	return o.Html, true
 }
 
-// HasHtml returns a boolean if a field has been set.
-func (o *CampaignContent) HasHtml() bool {
+// HaveHtml returns a boolean if a field has been set.
+func (o *CampaignContent) HaveHtml() bool {
 	if o != nil && !IsNil(o.Html) {
 		return true
 	}
@@ -163,8 +163,8 @@ func (o *CampaignContent) GetArchiveHtmlOk() (*string, bool) {
 	return o.ArchiveHtml, true
 }
 
-// HasArchiveHtml returns a boolean if a field has been set.
-func (o *CampaignContent) HasArchiveHtml() bool {
+// HaveArchiveHtml returns a boolean if a field has been set.
+func (o *CampaignContent) HaveArchiveHtml() bool {
 	if o != nil && !IsNil(o.ArchiveHtml) {
 		return true
 	}
@@ -195,8 +195,8 @@ func (o *CampaignContent) GetLinksOk() ([]ResourceLink, bool) {
 	return o.Links, true
 }
 
-// HasLinks returns a boolean if a field has been set.
-func (o *CampaignContent) HasLinks() bool {
+// HaveLinks returns a boolean if a field has been set.
+func (o *CampaignContent) HaveLinks() bool {
 	if o != nil && !IsNil(o.Links) {
 		return true
 	}

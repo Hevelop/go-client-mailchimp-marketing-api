@@ -68,8 +68,8 @@ func (o *VerifiedDomains) GetDomainOk() (*string, bool) {
 	return o.Domain, true
 }
 
-// HasDomain returns a boolean if a field has been set.
-func (o *VerifiedDomains) HasDomain() bool {
+// HaveDomain returns a boolean if a field has been set.
+func (o *VerifiedDomains) HaveDomain() bool {
 	if o != nil && !IsNil(o.Domain) {
 		return true
 	}
@@ -100,8 +100,8 @@ func (o *VerifiedDomains) GetVerifiedOk() (*bool, bool) {
 	return o.Verified, true
 }
 
-// HasVerified returns a boolean if a field has been set.
-func (o *VerifiedDomains) HasVerified() bool {
+// HaveVerified returns a boolean if a field has been set.
+func (o *VerifiedDomains) HaveVerified() bool {
 	if o != nil && !IsNil(o.Verified) {
 		return true
 	}
@@ -132,8 +132,8 @@ func (o *VerifiedDomains) GetAuthenticatedOk() (*bool, bool) {
 	return o.Authenticated, true
 }
 
-// HasAuthenticated returns a boolean if a field has been set.
-func (o *VerifiedDomains) HasAuthenticated() bool {
+// HaveAuthenticated returns a boolean if a field has been set.
+func (o *VerifiedDomains) HaveAuthenticated() bool {
 	if o != nil && !IsNil(o.Authenticated) {
 		return true
 	}
@@ -164,8 +164,8 @@ func (o *VerifiedDomains) GetVerificationEmailOk() (*string, bool) {
 	return o.VerificationEmail, true
 }
 
-// HasVerificationEmail returns a boolean if a field has been set.
-func (o *VerifiedDomains) HasVerificationEmail() bool {
+// HaveVerificationEmail returns a boolean if a field has been set.
+func (o *VerifiedDomains) HaveVerificationEmail() bool {
 	if o != nil && !IsNil(o.VerificationEmail) {
 		return true
 	}
@@ -196,8 +196,8 @@ func (o *VerifiedDomains) GetVerificationSentOk() (*time.Time, bool) {
 	return o.VerificationSent, true
 }
 
-// HasVerificationSent returns a boolean if a field has been set.
-func (o *VerifiedDomains) HasVerificationSent() bool {
+// HaveVerificationSent returns a boolean if a field has been set.
+func (o *VerifiedDomains) HaveVerificationSent() bool {
 	if o != nil && !IsNil(o.VerificationSent) {
 		return true
 	}

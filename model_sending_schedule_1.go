@@ -64,8 +64,8 @@ func (o *SendingSchedule1) GetHourOk() (*int32, bool) {
 	return o.Hour, true
 }
 
-// HasHour returns a boolean if a field has been set.
-func (o *SendingSchedule1) HasHour() bool {
+// HaveHour returns a boolean if a field has been set.
+func (o *SendingSchedule1) HaveHour() bool {
 	if o != nil && !IsNil(o.Hour) {
 		return true
 	}
@@ -96,8 +96,8 @@ func (o *SendingSchedule1) GetDailySendOk() (*DailySendingDays, bool) {
 	return o.DailySend, true
 }
 
-// HasDailySend returns a boolean if a field has been set.
-func (o *SendingSchedule1) HasDailySend() bool {
+// HaveDailySend returns a boolean if a field has been set.
+func (o *SendingSchedule1) HaveDailySend() bool {
 	if o != nil && !IsNil(o.DailySend) {
 		return true
 	}
@@ -128,8 +128,8 @@ func (o *SendingSchedule1) GetWeeklySendDayOk() (*string, bool) {
 	return o.WeeklySendDay, true
 }
 
-// HasWeeklySendDay returns a boolean if a field has been set.
-func (o *SendingSchedule1) HasWeeklySendDay() bool {
+// HaveWeeklySendDay returns a boolean if a field has been set.
+func (o *SendingSchedule1) HaveWeeklySendDay() bool {
 	if o != nil && !IsNil(o.WeeklySendDay) {
 		return true
 	}
@@ -160,8 +160,8 @@ func (o *SendingSchedule1) GetMonthlySendDateOk() (*float32, bool) {
 	return o.MonthlySendDate, true
 }
 
-// HasMonthlySendDate returns a boolean if a field has been set.
-func (o *SendingSchedule1) HasMonthlySendDate() bool {
+// HaveMonthlySendDate returns a boolean if a field has been set.
+func (o *SendingSchedule1) HaveMonthlySendDate() bool {
 	if o != nil && !IsNil(o.MonthlySendDate) {
 		return true
 	}

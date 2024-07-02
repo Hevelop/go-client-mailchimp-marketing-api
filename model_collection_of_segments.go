@@ -65,8 +65,8 @@ func (o *CollectionOfSegments) GetSegmentsOk() ([]List7, bool) {
 	return o.Segments, true
 }
 
-// HasSegments returns a boolean if a field has been set.
-func (o *CollectionOfSegments) HasSegments() bool {
+// HaveSegments returns a boolean if a field has been set.
+func (o *CollectionOfSegments) HaveSegments() bool {
 	if o != nil && !IsNil(o.Segments) {
 		return true
 	}
@@ -97,8 +97,8 @@ func (o *CollectionOfSegments) GetListIdOk() (*string, bool) {
 	return o.ListId, true
 }
 
-// HasListId returns a boolean if a field has been set.
-func (o *CollectionOfSegments) HasListId() bool {
+// HaveListId returns a boolean if a field has been set.
+func (o *CollectionOfSegments) HaveListId() bool {
 	if o != nil && !IsNil(o.ListId) {
 		return true
 	}
@@ -129,8 +129,8 @@ func (o *CollectionOfSegments) GetTotalItemsOk() (*int32, bool) {
 	return o.TotalItems, true
 }
 
-// HasTotalItems returns a boolean if a field has been set.
-func (o *CollectionOfSegments) HasTotalItems() bool {
+// HaveTotalItems returns a boolean if a field has been set.
+func (o *CollectionOfSegments) HaveTotalItems() bool {
 	if o != nil && !IsNil(o.TotalItems) {
 		return true
 	}
@@ -161,8 +161,8 @@ func (o *CollectionOfSegments) GetLinksOk() ([]ResourceLink, bool) {
 	return o.Links, true
 }
 
-// HasLinks returns a boolean if a field has been set.
-func (o *CollectionOfSegments) HasLinks() bool {
+// HaveLinks returns a boolean if a field has been set.
+func (o *CollectionOfSegments) HaveLinks() bool {
 	if o != nil && !IsNil(o.Links) {
 		return true
 	}

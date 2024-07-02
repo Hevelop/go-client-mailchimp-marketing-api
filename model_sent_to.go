@@ -65,8 +65,8 @@ func (o *SentTo) GetSentToOk() ([]SentTo, bool) {
 	return o.SentTo, true
 }
 
-// HasSentTo returns a boolean if a field has been set.
-func (o *SentTo) HasSentTo() bool {
+// HaveSentTo returns a boolean if a field has been set.
+func (o *SentTo) HaveSentTo() bool {
 	if o != nil && !IsNil(o.SentTo) {
 		return true
 	}
@@ -97,8 +97,8 @@ func (o *SentTo) GetCampaignIdOk() (*string, bool) {
 	return o.CampaignId, true
 }
 
-// HasCampaignId returns a boolean if a field has been set.
-func (o *SentTo) HasCampaignId() bool {
+// HaveCampaignId returns a boolean if a field has been set.
+func (o *SentTo) HaveCampaignId() bool {
 	if o != nil && !IsNil(o.CampaignId) {
 		return true
 	}
@@ -129,8 +129,8 @@ func (o *SentTo) GetTotalItemsOk() (*int32, bool) {
 	return o.TotalItems, true
 }
 
-// HasTotalItems returns a boolean if a field has been set.
-func (o *SentTo) HasTotalItems() bool {
+// HaveTotalItems returns a boolean if a field has been set.
+func (o *SentTo) HaveTotalItems() bool {
 	if o != nil && !IsNil(o.TotalItems) {
 		return true
 	}
@@ -161,8 +161,8 @@ func (o *SentTo) GetLinksOk() ([]ResourceLink, bool) {
 	return o.Links, true
 }
 
-// HasLinks returns a boolean if a field has been set.
-func (o *SentTo) HasLinks() bool {
+// HaveLinks returns a boolean if a field has been set.
+func (o *SentTo) HaveLinks() bool {
 	if o != nil && !IsNil(o.Links) {
 		return true
 	}

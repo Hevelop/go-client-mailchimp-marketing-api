@@ -63,8 +63,8 @@ func (o *BatchWebhooks) GetWebhooksOk() ([]BatchWebhook, bool) {
 	return o.Webhooks, true
 }
 
-// HasWebhooks returns a boolean if a field has been set.
-func (o *BatchWebhooks) HasWebhooks() bool {
+// HaveWebhooks returns a boolean if a field has been set.
+func (o *BatchWebhooks) HaveWebhooks() bool {
 	if o != nil && !IsNil(o.Webhooks) {
 		return true
 	}
@@ -95,8 +95,8 @@ func (o *BatchWebhooks) GetTotalItemsOk() (*int32, bool) {
 	return o.TotalItems, true
 }
 
-// HasTotalItems returns a boolean if a field has been set.
-func (o *BatchWebhooks) HasTotalItems() bool {
+// HaveTotalItems returns a boolean if a field has been set.
+func (o *BatchWebhooks) HaveTotalItems() bool {
 	if o != nil && !IsNil(o.TotalItems) {
 		return true
 	}
@@ -127,8 +127,8 @@ func (o *BatchWebhooks) GetLinksOk() ([]ResourceLink, bool) {
 	return o.Links, true
 }
 
-// HasLinks returns a boolean if a field has been set.
-func (o *BatchWebhooks) HasLinks() bool {
+// HaveLinks returns a boolean if a field has been set.
+func (o *BatchWebhooks) HaveLinks() bool {
 	if o != nil && !IsNil(o.Links) {
 		return true
 	}

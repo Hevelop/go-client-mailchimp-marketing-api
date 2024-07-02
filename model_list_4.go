@@ -89,8 +89,8 @@ func (o *List4) GetSegmentOptsOk() (*SegmentOptions2, bool) {
 	return o.SegmentOpts, true
 }
 
-// HasSegmentOpts returns a boolean if a field has been set.
-func (o *List4) HasSegmentOpts() bool {
+// HaveSegmentOpts returns a boolean if a field has been set.
+func (o *List4) HaveSegmentOpts() bool {
 	if o != nil && !IsNil(o.SegmentOpts) {
 		return true
 	}

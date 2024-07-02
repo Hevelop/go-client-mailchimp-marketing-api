@@ -69,8 +69,8 @@ func (o *EepurlActivity) GetTwitterOk() (*TwitterStats, bool) {
 	return o.Twitter, true
 }
 
-// HasTwitter returns a boolean if a field has been set.
-func (o *EepurlActivity) HasTwitter() bool {
+// HaveTwitter returns a boolean if a field has been set.
+func (o *EepurlActivity) HaveTwitter() bool {
 	if o != nil && !IsNil(o.Twitter) {
 		return true
 	}
@@ -101,8 +101,8 @@ func (o *EepurlActivity) GetClicksOk() (*ClickSummary, bool) {
 	return o.Clicks, true
 }
 
-// HasClicks returns a boolean if a field has been set.
-func (o *EepurlActivity) HasClicks() bool {
+// HaveClicks returns a boolean if a field has been set.
+func (o *EepurlActivity) HaveClicks() bool {
 	if o != nil && !IsNil(o.Clicks) {
 		return true
 	}
@@ -133,8 +133,8 @@ func (o *EepurlActivity) GetReferrersOk() ([]Referrer, bool) {
 	return o.Referrers, true
 }
 
-// HasReferrers returns a boolean if a field has been set.
-func (o *EepurlActivity) HasReferrers() bool {
+// HaveReferrers returns a boolean if a field has been set.
+func (o *EepurlActivity) HaveReferrers() bool {
 	if o != nil && !IsNil(o.Referrers) {
 		return true
 	}
@@ -165,8 +165,8 @@ func (o *EepurlActivity) GetEepurlOk() (*string, bool) {
 	return o.Eepurl, true
 }
 
-// HasEepurl returns a boolean if a field has been set.
-func (o *EepurlActivity) HasEepurl() bool {
+// HaveEepurl returns a boolean if a field has been set.
+func (o *EepurlActivity) HaveEepurl() bool {
 	if o != nil && !IsNil(o.Eepurl) {
 		return true
 	}
@@ -197,8 +197,8 @@ func (o *EepurlActivity) GetCampaignIdOk() (*string, bool) {
 	return o.CampaignId, true
 }
 
-// HasCampaignId returns a boolean if a field has been set.
-func (o *EepurlActivity) HasCampaignId() bool {
+// HaveCampaignId returns a boolean if a field has been set.
+func (o *EepurlActivity) HaveCampaignId() bool {
 	if o != nil && !IsNil(o.CampaignId) {
 		return true
 	}
@@ -229,8 +229,8 @@ func (o *EepurlActivity) GetTotalItemsOk() (*int32, bool) {
 	return o.TotalItems, true
 }
 
-// HasTotalItems returns a boolean if a field has been set.
-func (o *EepurlActivity) HasTotalItems() bool {
+// HaveTotalItems returns a boolean if a field has been set.
+func (o *EepurlActivity) HaveTotalItems() bool {
 	if o != nil && !IsNil(o.TotalItems) {
 		return true
 	}
@@ -261,8 +261,8 @@ func (o *EepurlActivity) GetLinksOk() ([]ResourceLink, bool) {
 	return o.Links, true
 }
 
-// HasLinks returns a boolean if a field has been set.
-func (o *EepurlActivity) HasLinks() bool {
+// HaveLinks returns a boolean if a field has been set.
+func (o *EepurlActivity) HaveLinks() bool {
 	if o != nil && !IsNil(o.Links) {
 		return true
 	}

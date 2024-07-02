@@ -90,8 +90,8 @@ func (o *TemplateInstance) GetIdOk() (*int32, bool) {
 	return o.Id, true
 }
 
-// HasId returns a boolean if a field has been set.
-func (o *TemplateInstance) HasId() bool {
+// HaveId returns a boolean if a field has been set.
+func (o *TemplateInstance) HaveId() bool {
 	if o != nil && !IsNil(o.Id) {
 		return true
 	}
@@ -122,8 +122,8 @@ func (o *TemplateInstance) GetTypeOk() (*string, bool) {
 	return o.Type, true
 }
 
-// HasType returns a boolean if a field has been set.
-func (o *TemplateInstance) HasType() bool {
+// HaveType returns a boolean if a field has been set.
+func (o *TemplateInstance) HaveType() bool {
 	if o != nil && !IsNil(o.Type) {
 		return true
 	}
@@ -154,8 +154,8 @@ func (o *TemplateInstance) GetNameOk() (*string, bool) {
 	return o.Name, true
 }
 
-// HasName returns a boolean if a field has been set.
-func (o *TemplateInstance) HasName() bool {
+// HaveName returns a boolean if a field has been set.
+func (o *TemplateInstance) HaveName() bool {
 	if o != nil && !IsNil(o.Name) {
 		return true
 	}
@@ -186,8 +186,8 @@ func (o *TemplateInstance) GetDragAndDropOk() (*bool, bool) {
 	return o.DragAndDrop, true
 }
 
-// HasDragAndDrop returns a boolean if a field has been set.
-func (o *TemplateInstance) HasDragAndDrop() bool {
+// HaveDragAndDrop returns a boolean if a field has been set.
+func (o *TemplateInstance) HaveDragAndDrop() bool {
 	if o != nil && !IsNil(o.DragAndDrop) {
 		return true
 	}
@@ -218,8 +218,8 @@ func (o *TemplateInstance) GetResponsiveOk() (*bool, bool) {
 	return o.Responsive, true
 }
 
-// HasResponsive returns a boolean if a field has been set.
-func (o *TemplateInstance) HasResponsive() bool {
+// HaveResponsive returns a boolean if a field has been set.
+func (o *TemplateInstance) HaveResponsive() bool {
 	if o != nil && !IsNil(o.Responsive) {
 		return true
 	}
@@ -250,8 +250,8 @@ func (o *TemplateInstance) GetCategoryOk() (*string, bool) {
 	return o.Category, true
 }
 
-// HasCategory returns a boolean if a field has been set.
-func (o *TemplateInstance) HasCategory() bool {
+// HaveCategory returns a boolean if a field has been set.
+func (o *TemplateInstance) HaveCategory() bool {
 	if o != nil && !IsNil(o.Category) {
 		return true
 	}
@@ -282,8 +282,8 @@ func (o *TemplateInstance) GetDateCreatedOk() (*time.Time, bool) {
 	return o.DateCreated, true
 }
 
-// HasDateCreated returns a boolean if a field has been set.
-func (o *TemplateInstance) HasDateCreated() bool {
+// HaveDateCreated returns a boolean if a field has been set.
+func (o *TemplateInstance) HaveDateCreated() bool {
 	if o != nil && !IsNil(o.DateCreated) {
 		return true
 	}
@@ -314,8 +314,8 @@ func (o *TemplateInstance) GetDateEditedOk() (*time.Time, bool) {
 	return o.DateEdited, true
 }
 
-// HasDateEdited returns a boolean if a field has been set.
-func (o *TemplateInstance) HasDateEdited() bool {
+// HaveDateEdited returns a boolean if a field has been set.
+func (o *TemplateInstance) HaveDateEdited() bool {
 	if o != nil && !IsNil(o.DateEdited) {
 		return true
 	}
@@ -346,8 +346,8 @@ func (o *TemplateInstance) GetCreatedByOk() (*string, bool) {
 	return o.CreatedBy, true
 }
 
-// HasCreatedBy returns a boolean if a field has been set.
-func (o *TemplateInstance) HasCreatedBy() bool {
+// HaveCreatedBy returns a boolean if a field has been set.
+func (o *TemplateInstance) HaveCreatedBy() bool {
 	if o != nil && !IsNil(o.CreatedBy) {
 		return true
 	}
@@ -378,8 +378,8 @@ func (o *TemplateInstance) GetEditedByOk() (*string, bool) {
 	return o.EditedBy, true
 }
 
-// HasEditedBy returns a boolean if a field has been set.
-func (o *TemplateInstance) HasEditedBy() bool {
+// HaveEditedBy returns a boolean if a field has been set.
+func (o *TemplateInstance) HaveEditedBy() bool {
 	if o != nil && !IsNil(o.EditedBy) {
 		return true
 	}
@@ -410,8 +410,8 @@ func (o *TemplateInstance) GetActiveOk() (*bool, bool) {
 	return o.Active, true
 }
 
-// HasActive returns a boolean if a field has been set.
-func (o *TemplateInstance) HasActive() bool {
+// HaveActive returns a boolean if a field has been set.
+func (o *TemplateInstance) HaveActive() bool {
 	if o != nil && !IsNil(o.Active) {
 		return true
 	}
@@ -442,8 +442,8 @@ func (o *TemplateInstance) GetFolderIdOk() (*string, bool) {
 	return o.FolderId, true
 }
 
-// HasFolderId returns a boolean if a field has been set.
-func (o *TemplateInstance) HasFolderId() bool {
+// HaveFolderId returns a boolean if a field has been set.
+func (o *TemplateInstance) HaveFolderId() bool {
 	if o != nil && !IsNil(o.FolderId) {
 		return true
 	}
@@ -474,8 +474,8 @@ func (o *TemplateInstance) GetThumbnailOk() (*string, bool) {
 	return o.Thumbnail, true
 }
 
-// HasThumbnail returns a boolean if a field has been set.
-func (o *TemplateInstance) HasThumbnail() bool {
+// HaveThumbnail returns a boolean if a field has been set.
+func (o *TemplateInstance) HaveThumbnail() bool {
 	if o != nil && !IsNil(o.Thumbnail) {
 		return true
 	}
@@ -506,8 +506,8 @@ func (o *TemplateInstance) GetShareUrlOk() (*string, bool) {
 	return o.ShareUrl, true
 }
 
-// HasShareUrl returns a boolean if a field has been set.
-func (o *TemplateInstance) HasShareUrl() bool {
+// HaveShareUrl returns a boolean if a field has been set.
+func (o *TemplateInstance) HaveShareUrl() bool {
 	if o != nil && !IsNil(o.ShareUrl) {
 		return true
 	}
@@ -538,8 +538,8 @@ func (o *TemplateInstance) GetContentTypeOk() (*string, bool) {
 	return o.ContentType, true
 }
 
-// HasContentType returns a boolean if a field has been set.
-func (o *TemplateInstance) HasContentType() bool {
+// HaveContentType returns a boolean if a field has been set.
+func (o *TemplateInstance) HaveContentType() bool {
 	if o != nil && !IsNil(o.ContentType) {
 		return true
 	}
@@ -570,8 +570,8 @@ func (o *TemplateInstance) GetLinksOk() ([]ResourceLink, bool) {
 	return o.Links, true
 }
 
-// HasLinks returns a boolean if a field has been set.
-func (o *TemplateInstance) HasLinks() bool {
+// HaveLinks returns a boolean if a field has been set.
+func (o *TemplateInstance) HaveLinks() bool {
 	if o != nil && !IsNil(o.Links) {
 		return true
 	}

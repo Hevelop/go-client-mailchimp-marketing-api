@@ -65,8 +65,8 @@ func (o *SurveyRespondents) GetResponseIdOk() (*string, bool) {
 	return o.ResponseId, true
 }
 
-// HasResponseId returns a boolean if a field has been set.
-func (o *SurveyRespondents) HasResponseId() bool {
+// HaveResponseId returns a boolean if a field has been set.
+func (o *SurveyRespondents) HaveResponseId() bool {
 	if o != nil && !IsNil(o.ResponseId) {
 		return true
 	}
@@ -97,8 +97,8 @@ func (o *SurveyRespondents) GetSubmittedAtOk() (*time.Time, bool) {
 	return o.SubmittedAt, true
 }
 
-// HasSubmittedAt returns a boolean if a field has been set.
-func (o *SurveyRespondents) HasSubmittedAt() bool {
+// HaveSubmittedAt returns a boolean if a field has been set.
+func (o *SurveyRespondents) HaveSubmittedAt() bool {
 	if o != nil && !IsNil(o.SubmittedAt) {
 		return true
 	}
@@ -129,8 +129,8 @@ func (o *SurveyRespondents) GetContactOk() (*Contact, bool) {
 	return o.Contact, true
 }
 
-// HasContact returns a boolean if a field has been set.
-func (o *SurveyRespondents) HasContact() bool {
+// HaveContact returns a boolean if a field has been set.
+func (o *SurveyRespondents) HaveContact() bool {
 	if o != nil && !IsNil(o.Contact) {
 		return true
 	}
@@ -161,8 +161,8 @@ func (o *SurveyRespondents) GetIsNewContactOk() (*bool, bool) {
 	return o.IsNewContact, true
 }
 
-// HasIsNewContact returns a boolean if a field has been set.
-func (o *SurveyRespondents) HasIsNewContact() bool {
+// HaveIsNewContact returns a boolean if a field has been set.
+func (o *SurveyRespondents) HaveIsNewContact() bool {
 	if o != nil && !IsNil(o.IsNewContact) {
 		return true
 	}

@@ -63,8 +63,8 @@ func (o *TrackedConversations) GetConversationsOk() ([]Conversation, bool) {
 	return o.Conversations, true
 }
 
-// HasConversations returns a boolean if a field has been set.
-func (o *TrackedConversations) HasConversations() bool {
+// HaveConversations returns a boolean if a field has been set.
+func (o *TrackedConversations) HaveConversations() bool {
 	if o != nil && !IsNil(o.Conversations) {
 		return true
 	}
@@ -95,8 +95,8 @@ func (o *TrackedConversations) GetTotalItemsOk() (*int32, bool) {
 	return o.TotalItems, true
 }
 
-// HasTotalItems returns a boolean if a field has been set.
-func (o *TrackedConversations) HasTotalItems() bool {
+// HaveTotalItems returns a boolean if a field has been set.
+func (o *TrackedConversations) HaveTotalItems() bool {
 	if o != nil && !IsNil(o.TotalItems) {
 		return true
 	}
@@ -127,8 +127,8 @@ func (o *TrackedConversations) GetLinksOk() ([]ResourceLink, bool) {
 	return o.Links, true
 }
 
-// HasLinks returns a boolean if a field has been set.
-func (o *TrackedConversations) HasLinks() bool {
+// HaveLinks returns a boolean if a field has been set.
+func (o *TrackedConversations) HaveLinks() bool {
 	if o != nil && !IsNil(o.Links) {
 		return true
 	}

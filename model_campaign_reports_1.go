@@ -63,8 +63,8 @@ func (o *CampaignReports1) GetReportsOk() ([]CampaignReport, bool) {
 	return o.Reports, true
 }
 
-// HasReports returns a boolean if a field has been set.
-func (o *CampaignReports1) HasReports() bool {
+// HaveReports returns a boolean if a field has been set.
+func (o *CampaignReports1) HaveReports() bool {
 	if o != nil && !IsNil(o.Reports) {
 		return true
 	}
@@ -95,8 +95,8 @@ func (o *CampaignReports1) GetTotalItemsOk() (*int32, bool) {
 	return o.TotalItems, true
 }
 
-// HasTotalItems returns a boolean if a field has been set.
-func (o *CampaignReports1) HasTotalItems() bool {
+// HaveTotalItems returns a boolean if a field has been set.
+func (o *CampaignReports1) HaveTotalItems() bool {
 	if o != nil && !IsNil(o.TotalItems) {
 		return true
 	}
@@ -127,8 +127,8 @@ func (o *CampaignReports1) GetLinksOk() ([]ResourceLink, bool) {
 	return o.Links, true
 }
 
-// HasLinks returns a boolean if a field has been set.
-func (o *CampaignReports1) HasLinks() bool {
+// HaveLinks returns a boolean if a field has been set.
+func (o *CampaignReports1) HaveLinks() bool {
 	if o != nil && !IsNil(o.Links) {
 		return true
 	}

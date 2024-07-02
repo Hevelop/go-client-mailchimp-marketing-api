@@ -118,8 +118,8 @@ func (o *RSSOptions1) GetScheduleOk() (*SendingSchedule, bool) {
 	return o.Schedule, true
 }
 
-// HasSchedule returns a boolean if a field has been set.
-func (o *RSSOptions1) HasSchedule() bool {
+// HaveSchedule returns a boolean if a field has been set.
+func (o *RSSOptions1) HaveSchedule() bool {
 	if o != nil && !IsNil(o.Schedule) {
 		return true
 	}
@@ -150,8 +150,8 @@ func (o *RSSOptions1) GetConstrainRssImgOk() (*bool, bool) {
 	return o.ConstrainRssImg, true
 }
 
-// HasConstrainRssImg returns a boolean if a field has been set.
-func (o *RSSOptions1) HasConstrainRssImg() bool {
+// HaveConstrainRssImg returns a boolean if a field has been set.
+func (o *RSSOptions1) HaveConstrainRssImg() bool {
 	if o != nil && !IsNil(o.ConstrainRssImg) {
 		return true
 	}

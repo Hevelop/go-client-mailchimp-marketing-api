@@ -71,8 +71,8 @@ func (o *CombinationsInner) GetIdOk() (*string, bool) {
 	return o.Id, true
 }
 
-// HasId returns a boolean if a field has been set.
-func (o *CombinationsInner) HasId() bool {
+// HaveId returns a boolean if a field has been set.
+func (o *CombinationsInner) HaveId() bool {
 	if o != nil && !IsNil(o.Id) {
 		return true
 	}
@@ -103,8 +103,8 @@ func (o *CombinationsInner) GetSubjectLineOk() (*int32, bool) {
 	return o.SubjectLine, true
 }
 
-// HasSubjectLine returns a boolean if a field has been set.
-func (o *CombinationsInner) HasSubjectLine() bool {
+// HaveSubjectLine returns a boolean if a field has been set.
+func (o *CombinationsInner) HaveSubjectLine() bool {
 	if o != nil && !IsNil(o.SubjectLine) {
 		return true
 	}
@@ -135,8 +135,8 @@ func (o *CombinationsInner) GetSendTimeOk() (*int32, bool) {
 	return o.SendTime, true
 }
 
-// HasSendTime returns a boolean if a field has been set.
-func (o *CombinationsInner) HasSendTime() bool {
+// HaveSendTime returns a boolean if a field has been set.
+func (o *CombinationsInner) HaveSendTime() bool {
 	if o != nil && !IsNil(o.SendTime) {
 		return true
 	}
@@ -167,8 +167,8 @@ func (o *CombinationsInner) GetFromNameOk() (*int32, bool) {
 	return o.FromName, true
 }
 
-// HasFromName returns a boolean if a field has been set.
-func (o *CombinationsInner) HasFromName() bool {
+// HaveFromName returns a boolean if a field has been set.
+func (o *CombinationsInner) HaveFromName() bool {
 	if o != nil && !IsNil(o.FromName) {
 		return true
 	}
@@ -199,8 +199,8 @@ func (o *CombinationsInner) GetReplyToOk() (*int32, bool) {
 	return o.ReplyTo, true
 }
 
-// HasReplyTo returns a boolean if a field has been set.
-func (o *CombinationsInner) HasReplyTo() bool {
+// HaveReplyTo returns a boolean if a field has been set.
+func (o *CombinationsInner) HaveReplyTo() bool {
 	if o != nil && !IsNil(o.ReplyTo) {
 		return true
 	}
@@ -231,8 +231,8 @@ func (o *CombinationsInner) GetContentDescriptionOk() (*int32, bool) {
 	return o.ContentDescription, true
 }
 
-// HasContentDescription returns a boolean if a field has been set.
-func (o *CombinationsInner) HasContentDescription() bool {
+// HaveContentDescription returns a boolean if a field has been set.
+func (o *CombinationsInner) HaveContentDescription() bool {
 	if o != nil && !IsNil(o.ContentDescription) {
 		return true
 	}
@@ -263,8 +263,8 @@ func (o *CombinationsInner) GetRecipientsOk() (*int32, bool) {
 	return o.Recipients, true
 }
 
-// HasRecipients returns a boolean if a field has been set.
-func (o *CombinationsInner) HasRecipients() bool {
+// HaveRecipients returns a boolean if a field has been set.
+func (o *CombinationsInner) HaveRecipients() bool {
 	if o != nil && !IsNil(o.Recipients) {
 		return true
 	}

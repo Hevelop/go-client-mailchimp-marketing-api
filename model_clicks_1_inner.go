@@ -59,8 +59,8 @@ func (o *Clicks1Inner) GetDateOk() (*string, bool) {
 	return o.Date, true
 }
 
-// HasDate returns a boolean if a field has been set.
-func (o *Clicks1Inner) HasDate() bool {
+// HaveDate returns a boolean if a field has been set.
+func (o *Clicks1Inner) HaveDate() bool {
 	if o != nil && !IsNil(o.Date) {
 		return true
 	}
@@ -91,8 +91,8 @@ func (o *Clicks1Inner) GetValOk() (*int32, bool) {
 	return o.Val, true
 }
 
-// HasVal returns a boolean if a field has been set.
-func (o *Clicks1Inner) HasVal() bool {
+// HaveVal returns a boolean if a field has been set.
+func (o *Clicks1Inner) HaveVal() bool {
 	if o != nil && !IsNil(o.Val) {
 		return true
 	}

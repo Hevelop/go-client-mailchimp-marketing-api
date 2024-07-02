@@ -65,8 +65,8 @@ func (o *TemplateFolder) GetNameOk() (*string, bool) {
 	return o.Name, true
 }
 
-// HasName returns a boolean if a field has been set.
-func (o *TemplateFolder) HasName() bool {
+// HaveName returns a boolean if a field has been set.
+func (o *TemplateFolder) HaveName() bool {
 	if o != nil && !IsNil(o.Name) {
 		return true
 	}
@@ -97,8 +97,8 @@ func (o *TemplateFolder) GetIdOk() (*string, bool) {
 	return o.Id, true
 }
 
-// HasId returns a boolean if a field has been set.
-func (o *TemplateFolder) HasId() bool {
+// HaveId returns a boolean if a field has been set.
+func (o *TemplateFolder) HaveId() bool {
 	if o != nil && !IsNil(o.Id) {
 		return true
 	}
@@ -129,8 +129,8 @@ func (o *TemplateFolder) GetCountOk() (*int32, bool) {
 	return o.Count, true
 }
 
-// HasCount returns a boolean if a field has been set.
-func (o *TemplateFolder) HasCount() bool {
+// HaveCount returns a boolean if a field has been set.
+func (o *TemplateFolder) HaveCount() bool {
 	if o != nil && !IsNil(o.Count) {
 		return true
 	}
@@ -161,8 +161,8 @@ func (o *TemplateFolder) GetLinksOk() ([]ResourceLink, bool) {
 	return o.Links, true
 }
 
-// HasLinks returns a boolean if a field has been set.
-func (o *TemplateFolder) HasLinks() bool {
+// HaveLinks returns a boolean if a field has been set.
+func (o *TemplateFolder) HaveLinks() bool {
 	if o != nil && !IsNil(o.Links) {
 		return true
 	}

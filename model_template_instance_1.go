@@ -93,8 +93,8 @@ func (o *TemplateInstance1) GetFolderIdOk() (*string, bool) {
 	return o.FolderId, true
 }
 
-// HasFolderId returns a boolean if a field has been set.
-func (o *TemplateInstance1) HasFolderId() bool {
+// HaveFolderId returns a boolean if a field has been set.
+func (o *TemplateInstance1) HaveFolderId() bool {
 	if o != nil && !IsNil(o.FolderId) {
 		return true
 	}

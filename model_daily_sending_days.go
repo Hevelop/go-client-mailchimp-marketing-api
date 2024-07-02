@@ -71,8 +71,8 @@ func (o *DailySendingDays) GetSundayOk() (*bool, bool) {
 	return o.Sunday, true
 }
 
-// HasSunday returns a boolean if a field has been set.
-func (o *DailySendingDays) HasSunday() bool {
+// HaveSunday returns a boolean if a field has been set.
+func (o *DailySendingDays) HaveSunday() bool {
 	if o != nil && !IsNil(o.Sunday) {
 		return true
 	}
@@ -103,8 +103,8 @@ func (o *DailySendingDays) GetMondayOk() (*bool, bool) {
 	return o.Monday, true
 }
 
-// HasMonday returns a boolean if a field has been set.
-func (o *DailySendingDays) HasMonday() bool {
+// HaveMonday returns a boolean if a field has been set.
+func (o *DailySendingDays) HaveMonday() bool {
 	if o != nil && !IsNil(o.Monday) {
 		return true
 	}
@@ -135,8 +135,8 @@ func (o *DailySendingDays) GetTuesdayOk() (*bool, bool) {
 	return o.Tuesday, true
 }
 
-// HasTuesday returns a boolean if a field has been set.
-func (o *DailySendingDays) HasTuesday() bool {
+// HaveTuesday returns a boolean if a field has been set.
+func (o *DailySendingDays) HaveTuesday() bool {
 	if o != nil && !IsNil(o.Tuesday) {
 		return true
 	}
@@ -167,8 +167,8 @@ func (o *DailySendingDays) GetWednesdayOk() (*bool, bool) {
 	return o.Wednesday, true
 }
 
-// HasWednesday returns a boolean if a field has been set.
-func (o *DailySendingDays) HasWednesday() bool {
+// HaveWednesday returns a boolean if a field has been set.
+func (o *DailySendingDays) HaveWednesday() bool {
 	if o != nil && !IsNil(o.Wednesday) {
 		return true
 	}
@@ -199,8 +199,8 @@ func (o *DailySendingDays) GetThursdayOk() (*bool, bool) {
 	return o.Thursday, true
 }
 
-// HasThursday returns a boolean if a field has been set.
-func (o *DailySendingDays) HasThursday() bool {
+// HaveThursday returns a boolean if a field has been set.
+func (o *DailySendingDays) HaveThursday() bool {
 	if o != nil && !IsNil(o.Thursday) {
 		return true
 	}
@@ -231,8 +231,8 @@ func (o *DailySendingDays) GetFridayOk() (*bool, bool) {
 	return o.Friday, true
 }
 
-// HasFriday returns a boolean if a field has been set.
-func (o *DailySendingDays) HasFriday() bool {
+// HaveFriday returns a boolean if a field has been set.
+func (o *DailySendingDays) HaveFriday() bool {
 	if o != nil && !IsNil(o.Friday) {
 		return true
 	}
@@ -263,8 +263,8 @@ func (o *DailySendingDays) GetSaturdayOk() (*bool, bool) {
 	return o.Saturday, true
 }
 
-// HasSaturday returns a boolean if a field has been set.
-func (o *DailySendingDays) HasSaturday() bool {
+// HaveSaturday returns a boolean if a field has been set.
+func (o *DailySendingDays) HaveSaturday() bool {
 	if o != nil && !IsNil(o.Saturday) {
 		return true
 	}

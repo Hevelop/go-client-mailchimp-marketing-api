@@ -80,8 +80,8 @@ func (o *SurveyReport) GetIdOk() (*string, bool) {
 	return o.Id, true
 }
 
-// HasId returns a boolean if a field has been set.
-func (o *SurveyReport) HasId() bool {
+// HaveId returns a boolean if a field has been set.
+func (o *SurveyReport) HaveId() bool {
 	if o != nil && !IsNil(o.Id) {
 		return true
 	}
@@ -112,8 +112,8 @@ func (o *SurveyReport) GetWebIdOk() (*int32, bool) {
 	return o.WebId, true
 }
 
-// HasWebId returns a boolean if a field has been set.
-func (o *SurveyReport) HasWebId() bool {
+// HaveWebId returns a boolean if a field has been set.
+func (o *SurveyReport) HaveWebId() bool {
 	if o != nil && !IsNil(o.WebId) {
 		return true
 	}
@@ -144,8 +144,8 @@ func (o *SurveyReport) GetListIdOk() (*string, bool) {
 	return o.ListId, true
 }
 
-// HasListId returns a boolean if a field has been set.
-func (o *SurveyReport) HasListId() bool {
+// HaveListId returns a boolean if a field has been set.
+func (o *SurveyReport) HaveListId() bool {
 	if o != nil && !IsNil(o.ListId) {
 		return true
 	}
@@ -176,8 +176,8 @@ func (o *SurveyReport) GetListNameOk() (*string, bool) {
 	return o.ListName, true
 }
 
-// HasListName returns a boolean if a field has been set.
-func (o *SurveyReport) HasListName() bool {
+// HaveListName returns a boolean if a field has been set.
+func (o *SurveyReport) HaveListName() bool {
 	if o != nil && !IsNil(o.ListName) {
 		return true
 	}
@@ -208,8 +208,8 @@ func (o *SurveyReport) GetTitleOk() (*string, bool) {
 	return o.Title, true
 }
 
-// HasTitle returns a boolean if a field has been set.
-func (o *SurveyReport) HasTitle() bool {
+// HaveTitle returns a boolean if a field has been set.
+func (o *SurveyReport) HaveTitle() bool {
 	if o != nil && !IsNil(o.Title) {
 		return true
 	}
@@ -240,8 +240,8 @@ func (o *SurveyReport) GetUrlOk() (*string, bool) {
 	return o.Url, true
 }
 
-// HasUrl returns a boolean if a field has been set.
-func (o *SurveyReport) HasUrl() bool {
+// HaveUrl returns a boolean if a field has been set.
+func (o *SurveyReport) HaveUrl() bool {
 	if o != nil && !IsNil(o.Url) {
 		return true
 	}
@@ -272,8 +272,8 @@ func (o *SurveyReport) GetStatusOk() (*string, bool) {
 	return o.Status, true
 }
 
-// HasStatus returns a boolean if a field has been set.
-func (o *SurveyReport) HasStatus() bool {
+// HaveStatus returns a boolean if a field has been set.
+func (o *SurveyReport) HaveStatus() bool {
 	if o != nil && !IsNil(o.Status) {
 		return true
 	}
@@ -304,8 +304,8 @@ func (o *SurveyReport) GetPublishedAtOk() (*time.Time, bool) {
 	return o.PublishedAt, true
 }
 
-// HasPublishedAt returns a boolean if a field has been set.
-func (o *SurveyReport) HasPublishedAt() bool {
+// HavePublishedAt returns a boolean if a field has been set.
+func (o *SurveyReport) HavePublishedAt() bool {
 	if o != nil && !IsNil(o.PublishedAt) {
 		return true
 	}
@@ -336,8 +336,8 @@ func (o *SurveyReport) GetCreatedAtOk() (*time.Time, bool) {
 	return o.CreatedAt, true
 }
 
-// HasCreatedAt returns a boolean if a field has been set.
-func (o *SurveyReport) HasCreatedAt() bool {
+// HaveCreatedAt returns a boolean if a field has been set.
+func (o *SurveyReport) HaveCreatedAt() bool {
 	if o != nil && !IsNil(o.CreatedAt) {
 		return true
 	}
@@ -368,8 +368,8 @@ func (o *SurveyReport) GetUpdatedAtOk() (*time.Time, bool) {
 	return o.UpdatedAt, true
 }
 
-// HasUpdatedAt returns a boolean if a field has been set.
-func (o *SurveyReport) HasUpdatedAt() bool {
+// HaveUpdatedAt returns a boolean if a field has been set.
+func (o *SurveyReport) HaveUpdatedAt() bool {
 	if o != nil && !IsNil(o.UpdatedAt) {
 		return true
 	}
@@ -400,8 +400,8 @@ func (o *SurveyReport) GetTotalResponsesOk() (*int32, bool) {
 	return o.TotalResponses, true
 }
 
-// HasTotalResponses returns a boolean if a field has been set.
-func (o *SurveyReport) HasTotalResponses() bool {
+// HaveTotalResponses returns a boolean if a field has been set.
+func (o *SurveyReport) HaveTotalResponses() bool {
 	if o != nil && !IsNil(o.TotalResponses) {
 		return true
 	}

@@ -92,8 +92,8 @@ func (o *Statistics) GetMemberCountOk() (*int32, bool) {
 	return o.MemberCount, true
 }
 
-// HasMemberCount returns a boolean if a field has been set.
-func (o *Statistics) HasMemberCount() bool {
+// HaveMemberCount returns a boolean if a field has been set.
+func (o *Statistics) HaveMemberCount() bool {
 	if o != nil && !IsNil(o.MemberCount) {
 		return true
 	}
@@ -124,8 +124,8 @@ func (o *Statistics) GetTotalContactsOk() (*int32, bool) {
 	return o.TotalContacts, true
 }
 
-// HasTotalContacts returns a boolean if a field has been set.
-func (o *Statistics) HasTotalContacts() bool {
+// HaveTotalContacts returns a boolean if a field has been set.
+func (o *Statistics) HaveTotalContacts() bool {
 	if o != nil && !IsNil(o.TotalContacts) {
 		return true
 	}
@@ -156,8 +156,8 @@ func (o *Statistics) GetUnsubscribeCountOk() (*int32, bool) {
 	return o.UnsubscribeCount, true
 }
 
-// HasUnsubscribeCount returns a boolean if a field has been set.
-func (o *Statistics) HasUnsubscribeCount() bool {
+// HaveUnsubscribeCount returns a boolean if a field has been set.
+func (o *Statistics) HaveUnsubscribeCount() bool {
 	if o != nil && !IsNil(o.UnsubscribeCount) {
 		return true
 	}
@@ -188,8 +188,8 @@ func (o *Statistics) GetCleanedCountOk() (*int32, bool) {
 	return o.CleanedCount, true
 }
 
-// HasCleanedCount returns a boolean if a field has been set.
-func (o *Statistics) HasCleanedCount() bool {
+// HaveCleanedCount returns a boolean if a field has been set.
+func (o *Statistics) HaveCleanedCount() bool {
 	if o != nil && !IsNil(o.CleanedCount) {
 		return true
 	}
@@ -220,8 +220,8 @@ func (o *Statistics) GetMemberCountSinceSendOk() (*int32, bool) {
 	return o.MemberCountSinceSend, true
 }
 
-// HasMemberCountSinceSend returns a boolean if a field has been set.
-func (o *Statistics) HasMemberCountSinceSend() bool {
+// HaveMemberCountSinceSend returns a boolean if a field has been set.
+func (o *Statistics) HaveMemberCountSinceSend() bool {
 	if o != nil && !IsNil(o.MemberCountSinceSend) {
 		return true
 	}
@@ -252,8 +252,8 @@ func (o *Statistics) GetUnsubscribeCountSinceSendOk() (*int32, bool) {
 	return o.UnsubscribeCountSinceSend, true
 }
 
-// HasUnsubscribeCountSinceSend returns a boolean if a field has been set.
-func (o *Statistics) HasUnsubscribeCountSinceSend() bool {
+// HaveUnsubscribeCountSinceSend returns a boolean if a field has been set.
+func (o *Statistics) HaveUnsubscribeCountSinceSend() bool {
 	if o != nil && !IsNil(o.UnsubscribeCountSinceSend) {
 		return true
 	}
@@ -284,8 +284,8 @@ func (o *Statistics) GetCleanedCountSinceSendOk() (*int32, bool) {
 	return o.CleanedCountSinceSend, true
 }
 
-// HasCleanedCountSinceSend returns a boolean if a field has been set.
-func (o *Statistics) HasCleanedCountSinceSend() bool {
+// HaveCleanedCountSinceSend returns a boolean if a field has been set.
+func (o *Statistics) HaveCleanedCountSinceSend() bool {
 	if o != nil && !IsNil(o.CleanedCountSinceSend) {
 		return true
 	}
@@ -316,8 +316,8 @@ func (o *Statistics) GetCampaignCountOk() (*int32, bool) {
 	return o.CampaignCount, true
 }
 
-// HasCampaignCount returns a boolean if a field has been set.
-func (o *Statistics) HasCampaignCount() bool {
+// HaveCampaignCount returns a boolean if a field has been set.
+func (o *Statistics) HaveCampaignCount() bool {
 	if o != nil && !IsNil(o.CampaignCount) {
 		return true
 	}
@@ -348,8 +348,8 @@ func (o *Statistics) GetCampaignLastSentOk() (*time.Time, bool) {
 	return o.CampaignLastSent, true
 }
 
-// HasCampaignLastSent returns a boolean if a field has been set.
-func (o *Statistics) HasCampaignLastSent() bool {
+// HaveCampaignLastSent returns a boolean if a field has been set.
+func (o *Statistics) HaveCampaignLastSent() bool {
 	if o != nil && !IsNil(o.CampaignLastSent) {
 		return true
 	}
@@ -380,8 +380,8 @@ func (o *Statistics) GetMergeFieldCountOk() (*int32, bool) {
 	return o.MergeFieldCount, true
 }
 
-// HasMergeFieldCount returns a boolean if a field has been set.
-func (o *Statistics) HasMergeFieldCount() bool {
+// HaveMergeFieldCount returns a boolean if a field has been set.
+func (o *Statistics) HaveMergeFieldCount() bool {
 	if o != nil && !IsNil(o.MergeFieldCount) {
 		return true
 	}
@@ -412,8 +412,8 @@ func (o *Statistics) GetAvgSubRateOk() (*float32, bool) {
 	return o.AvgSubRate, true
 }
 
-// HasAvgSubRate returns a boolean if a field has been set.
-func (o *Statistics) HasAvgSubRate() bool {
+// HaveAvgSubRate returns a boolean if a field has been set.
+func (o *Statistics) HaveAvgSubRate() bool {
 	if o != nil && !IsNil(o.AvgSubRate) {
 		return true
 	}
@@ -444,8 +444,8 @@ func (o *Statistics) GetAvgUnsubRateOk() (*float32, bool) {
 	return o.AvgUnsubRate, true
 }
 
-// HasAvgUnsubRate returns a boolean if a field has been set.
-func (o *Statistics) HasAvgUnsubRate() bool {
+// HaveAvgUnsubRate returns a boolean if a field has been set.
+func (o *Statistics) HaveAvgUnsubRate() bool {
 	if o != nil && !IsNil(o.AvgUnsubRate) {
 		return true
 	}
@@ -476,8 +476,8 @@ func (o *Statistics) GetTargetSubRateOk() (*float32, bool) {
 	return o.TargetSubRate, true
 }
 
-// HasTargetSubRate returns a boolean if a field has been set.
-func (o *Statistics) HasTargetSubRate() bool {
+// HaveTargetSubRate returns a boolean if a field has been set.
+func (o *Statistics) HaveTargetSubRate() bool {
 	if o != nil && !IsNil(o.TargetSubRate) {
 		return true
 	}
@@ -508,8 +508,8 @@ func (o *Statistics) GetOpenRateOk() (*float32, bool) {
 	return o.OpenRate, true
 }
 
-// HasOpenRate returns a boolean if a field has been set.
-func (o *Statistics) HasOpenRate() bool {
+// HaveOpenRate returns a boolean if a field has been set.
+func (o *Statistics) HaveOpenRate() bool {
 	if o != nil && !IsNil(o.OpenRate) {
 		return true
 	}
@@ -540,8 +540,8 @@ func (o *Statistics) GetClickRateOk() (*float32, bool) {
 	return o.ClickRate, true
 }
 
-// HasClickRate returns a boolean if a field has been set.
-func (o *Statistics) HasClickRate() bool {
+// HaveClickRate returns a boolean if a field has been set.
+func (o *Statistics) HaveClickRate() bool {
 	if o != nil && !IsNil(o.ClickRate) {
 		return true
 	}
@@ -572,8 +572,8 @@ func (o *Statistics) GetLastSubDateOk() (*time.Time, bool) {
 	return o.LastSubDate, true
 }
 
-// HasLastSubDate returns a boolean if a field has been set.
-func (o *Statistics) HasLastSubDate() bool {
+// HaveLastSubDate returns a boolean if a field has been set.
+func (o *Statistics) HaveLastSubDate() bool {
 	if o != nil && !IsNil(o.LastSubDate) {
 		return true
 	}
@@ -604,8 +604,8 @@ func (o *Statistics) GetLastUnsubDateOk() (*time.Time, bool) {
 	return o.LastUnsubDate, true
 }
 
-// HasLastUnsubDate returns a boolean if a field has been set.
-func (o *Statistics) HasLastUnsubDate() bool {
+// HaveLastUnsubDate returns a boolean if a field has been set.
+func (o *Statistics) HaveLastUnsubDate() bool {
 	if o != nil && !IsNil(o.LastUnsubDate) {
 		return true
 	}

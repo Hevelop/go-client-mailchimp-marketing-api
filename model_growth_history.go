@@ -65,8 +65,8 @@ func (o *GrowthHistory) GetHistoryOk() ([]GrowthHistory, bool) {
 	return o.History, true
 }
 
-// HasHistory returns a boolean if a field has been set.
-func (o *GrowthHistory) HasHistory() bool {
+// HaveHistory returns a boolean if a field has been set.
+func (o *GrowthHistory) HaveHistory() bool {
 	if o != nil && !IsNil(o.History) {
 		return true
 	}
@@ -97,8 +97,8 @@ func (o *GrowthHistory) GetListIdOk() (*string, bool) {
 	return o.ListId, true
 }
 
-// HasListId returns a boolean if a field has been set.
-func (o *GrowthHistory) HasListId() bool {
+// HaveListId returns a boolean if a field has been set.
+func (o *GrowthHistory) HaveListId() bool {
 	if o != nil && !IsNil(o.ListId) {
 		return true
 	}
@@ -129,8 +129,8 @@ func (o *GrowthHistory) GetTotalItemsOk() (*int32, bool) {
 	return o.TotalItems, true
 }
 
-// HasTotalItems returns a boolean if a field has been set.
-func (o *GrowthHistory) HasTotalItems() bool {
+// HaveTotalItems returns a boolean if a field has been set.
+func (o *GrowthHistory) HaveTotalItems() bool {
 	if o != nil && !IsNil(o.TotalItems) {
 		return true
 	}
@@ -161,8 +161,8 @@ func (o *GrowthHistory) GetLinksOk() ([]ResourceLink, bool) {
 	return o.Links, true
 }
 
-// HasLinks returns a boolean if a field has been set.
-func (o *GrowthHistory) HasLinks() bool {
+// HaveLinks returns a boolean if a field has been set.
+func (o *GrowthHistory) HaveLinks() bool {
 	if o != nil && !IsNil(o.Links) {
 		return true
 	}

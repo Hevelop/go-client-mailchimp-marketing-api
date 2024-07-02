@@ -61,8 +61,8 @@ func (o *Location3) GetCountryOk() (*string, bool) {
 	return o.Country, true
 }
 
-// HasCountry returns a boolean if a field has been set.
-func (o *Location3) HasCountry() bool {
+// HaveCountry returns a boolean if a field has been set.
+func (o *Location3) HaveCountry() bool {
 	if o != nil && !IsNil(o.Country) {
 		return true
 	}
@@ -93,8 +93,8 @@ func (o *Location3) GetRegionOk() (*string, bool) {
 	return o.Region, true
 }
 
-// HasRegion returns a boolean if a field has been set.
-func (o *Location3) HasRegion() bool {
+// HaveRegion returns a boolean if a field has been set.
+func (o *Location3) HaveRegion() bool {
 	if o != nil && !IsNil(o.Region) {
 		return true
 	}

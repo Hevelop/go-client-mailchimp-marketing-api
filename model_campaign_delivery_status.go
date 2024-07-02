@@ -67,8 +67,8 @@ func (o *CampaignDeliveryStatus) GetEnabledOk() (*bool, bool) {
 	return o.Enabled, true
 }
 
-// HasEnabled returns a boolean if a field has been set.
-func (o *CampaignDeliveryStatus) HasEnabled() bool {
+// HaveEnabled returns a boolean if a field has been set.
+func (o *CampaignDeliveryStatus) HaveEnabled() bool {
 	if o != nil && !IsNil(o.Enabled) {
 		return true
 	}
@@ -99,8 +99,8 @@ func (o *CampaignDeliveryStatus) GetCanCancelOk() (*bool, bool) {
 	return o.CanCancel, true
 }
 
-// HasCanCancel returns a boolean if a field has been set.
-func (o *CampaignDeliveryStatus) HasCanCancel() bool {
+// HaveCanCancel returns a boolean if a field has been set.
+func (o *CampaignDeliveryStatus) HaveCanCancel() bool {
 	if o != nil && !IsNil(o.CanCancel) {
 		return true
 	}
@@ -131,8 +131,8 @@ func (o *CampaignDeliveryStatus) GetStatusOk() (*string, bool) {
 	return o.Status, true
 }
 
-// HasStatus returns a boolean if a field has been set.
-func (o *CampaignDeliveryStatus) HasStatus() bool {
+// HaveStatus returns a boolean if a field has been set.
+func (o *CampaignDeliveryStatus) HaveStatus() bool {
 	if o != nil && !IsNil(o.Status) {
 		return true
 	}
@@ -163,8 +163,8 @@ func (o *CampaignDeliveryStatus) GetEmailsSentOk() (*int32, bool) {
 	return o.EmailsSent, true
 }
 
-// HasEmailsSent returns a boolean if a field has been set.
-func (o *CampaignDeliveryStatus) HasEmailsSent() bool {
+// HaveEmailsSent returns a boolean if a field has been set.
+func (o *CampaignDeliveryStatus) HaveEmailsSent() bool {
 	if o != nil && !IsNil(o.EmailsSent) {
 		return true
 	}
@@ -195,8 +195,8 @@ func (o *CampaignDeliveryStatus) GetEmailsCanceledOk() (*int32, bool) {
 	return o.EmailsCanceled, true
 }
 
-// HasEmailsCanceled returns a boolean if a field has been set.
-func (o *CampaignDeliveryStatus) HasEmailsCanceled() bool {
+// HaveEmailsCanceled returns a boolean if a field has been set.
+func (o *CampaignDeliveryStatus) HaveEmailsCanceled() bool {
 	if o != nil && !IsNil(o.EmailsCanceled) {
 		return true
 	}

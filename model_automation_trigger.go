@@ -93,8 +93,8 @@ func (o *AutomationTrigger) GetWorkflowTitleOk() (*string, bool) {
 	return o.WorkflowTitle, true
 }
 
-// HasWorkflowTitle returns a boolean if a field has been set.
-func (o *AutomationTrigger) HasWorkflowTitle() bool {
+// HaveWorkflowTitle returns a boolean if a field has been set.
+func (o *AutomationTrigger) HaveWorkflowTitle() bool {
 	if o != nil && !IsNil(o.WorkflowTitle) {
 		return true
 	}
@@ -125,8 +125,8 @@ func (o *AutomationTrigger) GetRuntimeOk() (*AutomationWorkflowRuntimeSettings, 
 	return o.Runtime, true
 }
 
-// HasRuntime returns a boolean if a field has been set.
-func (o *AutomationTrigger) HasRuntime() bool {
+// HaveRuntime returns a boolean if a field has been set.
+func (o *AutomationTrigger) HaveRuntime() bool {
 	if o != nil && !IsNil(o.Runtime) {
 		return true
 	}
@@ -157,8 +157,8 @@ func (o *AutomationTrigger) GetWorkflowEmailsCountOk() (*int32, bool) {
 	return o.WorkflowEmailsCount, true
 }
 
-// HasWorkflowEmailsCount returns a boolean if a field has been set.
-func (o *AutomationTrigger) HasWorkflowEmailsCount() bool {
+// HaveWorkflowEmailsCount returns a boolean if a field has been set.
+func (o *AutomationTrigger) HaveWorkflowEmailsCount() bool {
 	if o != nil && !IsNil(o.WorkflowEmailsCount) {
 		return true
 	}

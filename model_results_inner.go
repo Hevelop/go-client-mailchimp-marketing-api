@@ -59,8 +59,8 @@ func (o *ResultsInner) GetCampaignOk() (*Campaign, bool) {
 	return o.Campaign, true
 }
 
-// HasCampaign returns a boolean if a field has been set.
-func (o *ResultsInner) HasCampaign() bool {
+// HaveCampaign returns a boolean if a field has been set.
+func (o *ResultsInner) HaveCampaign() bool {
 	if o != nil && !IsNil(o.Campaign) {
 		return true
 	}
@@ -91,8 +91,8 @@ func (o *ResultsInner) GetSnippetOk() (*string, bool) {
 	return o.Snippet, true
 }
 
-// HasSnippet returns a boolean if a field has been set.
-func (o *ResultsInner) HasSnippet() bool {
+// HaveSnippet returns a boolean if a field has been set.
+func (o *ResultsInner) HaveSnippet() bool {
 	if o != nil && !IsNil(o.Snippet) {
 		return true
 	}

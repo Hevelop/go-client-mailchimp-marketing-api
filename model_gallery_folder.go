@@ -70,8 +70,8 @@ func (o *GalleryFolder) GetIdOk() (*int32, bool) {
 	return o.Id, true
 }
 
-// HasId returns a boolean if a field has been set.
-func (o *GalleryFolder) HasId() bool {
+// HaveId returns a boolean if a field has been set.
+func (o *GalleryFolder) HaveId() bool {
 	if o != nil && !IsNil(o.Id) {
 		return true
 	}
@@ -102,8 +102,8 @@ func (o *GalleryFolder) GetNameOk() (*string, bool) {
 	return o.Name, true
 }
 
-// HasName returns a boolean if a field has been set.
-func (o *GalleryFolder) HasName() bool {
+// HaveName returns a boolean if a field has been set.
+func (o *GalleryFolder) HaveName() bool {
 	if o != nil && !IsNil(o.Name) {
 		return true
 	}
@@ -134,8 +134,8 @@ func (o *GalleryFolder) GetFileCountOk() (*int32, bool) {
 	return o.FileCount, true
 }
 
-// HasFileCount returns a boolean if a field has been set.
-func (o *GalleryFolder) HasFileCount() bool {
+// HaveFileCount returns a boolean if a field has been set.
+func (o *GalleryFolder) HaveFileCount() bool {
 	if o != nil && !IsNil(o.FileCount) {
 		return true
 	}
@@ -166,8 +166,8 @@ func (o *GalleryFolder) GetCreatedAtOk() (*time.Time, bool) {
 	return o.CreatedAt, true
 }
 
-// HasCreatedAt returns a boolean if a field has been set.
-func (o *GalleryFolder) HasCreatedAt() bool {
+// HaveCreatedAt returns a boolean if a field has been set.
+func (o *GalleryFolder) HaveCreatedAt() bool {
 	if o != nil && !IsNil(o.CreatedAt) {
 		return true
 	}
@@ -198,8 +198,8 @@ func (o *GalleryFolder) GetCreatedByOk() (*string, bool) {
 	return o.CreatedBy, true
 }
 
-// HasCreatedBy returns a boolean if a field has been set.
-func (o *GalleryFolder) HasCreatedBy() bool {
+// HaveCreatedBy returns a boolean if a field has been set.
+func (o *GalleryFolder) HaveCreatedBy() bool {
 	if o != nil && !IsNil(o.CreatedBy) {
 		return true
 	}
@@ -230,8 +230,8 @@ func (o *GalleryFolder) GetLinksOk() ([]ResourceLink, bool) {
 	return o.Links, true
 }
 
-// HasLinks returns a boolean if a field has been set.
-func (o *GalleryFolder) HasLinks() bool {
+// HaveLinks returns a boolean if a field has been set.
+func (o *GalleryFolder) HaveLinks() bool {
 	if o != nil && !IsNil(o.Links) {
 		return true
 	}

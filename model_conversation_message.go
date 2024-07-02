@@ -78,8 +78,8 @@ func (o *ConversationMessage) GetIdOk() (*string, bool) {
 	return o.Id, true
 }
 
-// HasId returns a boolean if a field has been set.
-func (o *ConversationMessage) HasId() bool {
+// HaveId returns a boolean if a field has been set.
+func (o *ConversationMessage) HaveId() bool {
 	if o != nil && !IsNil(o.Id) {
 		return true
 	}
@@ -110,8 +110,8 @@ func (o *ConversationMessage) GetConversationIdOk() (*string, bool) {
 	return o.ConversationId, true
 }
 
-// HasConversationId returns a boolean if a field has been set.
-func (o *ConversationMessage) HasConversationId() bool {
+// HaveConversationId returns a boolean if a field has been set.
+func (o *ConversationMessage) HaveConversationId() bool {
 	if o != nil && !IsNil(o.ConversationId) {
 		return true
 	}
@@ -142,8 +142,8 @@ func (o *ConversationMessage) GetListIdOk() (*int32, bool) {
 	return o.ListId, true
 }
 
-// HasListId returns a boolean if a field has been set.
-func (o *ConversationMessage) HasListId() bool {
+// HaveListId returns a boolean if a field has been set.
+func (o *ConversationMessage) HaveListId() bool {
 	if o != nil && !IsNil(o.ListId) {
 		return true
 	}
@@ -174,8 +174,8 @@ func (o *ConversationMessage) GetFromLabelOk() (*string, bool) {
 	return o.FromLabel, true
 }
 
-// HasFromLabel returns a boolean if a field has been set.
-func (o *ConversationMessage) HasFromLabel() bool {
+// HaveFromLabel returns a boolean if a field has been set.
+func (o *ConversationMessage) HaveFromLabel() bool {
 	if o != nil && !IsNil(o.FromLabel) {
 		return true
 	}
@@ -206,8 +206,8 @@ func (o *ConversationMessage) GetFromEmailOk() (*string, bool) {
 	return o.FromEmail, true
 }
 
-// HasFromEmail returns a boolean if a field has been set.
-func (o *ConversationMessage) HasFromEmail() bool {
+// HaveFromEmail returns a boolean if a field has been set.
+func (o *ConversationMessage) HaveFromEmail() bool {
 	if o != nil && !IsNil(o.FromEmail) {
 		return true
 	}
@@ -238,8 +238,8 @@ func (o *ConversationMessage) GetSubjectOk() (*string, bool) {
 	return o.Subject, true
 }
 
-// HasSubject returns a boolean if a field has been set.
-func (o *ConversationMessage) HasSubject() bool {
+// HaveSubject returns a boolean if a field has been set.
+func (o *ConversationMessage) HaveSubject() bool {
 	if o != nil && !IsNil(o.Subject) {
 		return true
 	}
@@ -270,8 +270,8 @@ func (o *ConversationMessage) GetMessageOk() (*string, bool) {
 	return o.Message, true
 }
 
-// HasMessage returns a boolean if a field has been set.
-func (o *ConversationMessage) HasMessage() bool {
+// HaveMessage returns a boolean if a field has been set.
+func (o *ConversationMessage) HaveMessage() bool {
 	if o != nil && !IsNil(o.Message) {
 		return true
 	}
@@ -302,8 +302,8 @@ func (o *ConversationMessage) GetReadOk() (*bool, bool) {
 	return o.Read, true
 }
 
-// HasRead returns a boolean if a field has been set.
-func (o *ConversationMessage) HasRead() bool {
+// HaveRead returns a boolean if a field has been set.
+func (o *ConversationMessage) HaveRead() bool {
 	if o != nil && !IsNil(o.Read) {
 		return true
 	}
@@ -334,8 +334,8 @@ func (o *ConversationMessage) GetTimestampOk() (*time.Time, bool) {
 	return o.Timestamp, true
 }
 
-// HasTimestamp returns a boolean if a field has been set.
-func (o *ConversationMessage) HasTimestamp() bool {
+// HaveTimestamp returns a boolean if a field has been set.
+func (o *ConversationMessage) HaveTimestamp() bool {
 	if o != nil && !IsNil(o.Timestamp) {
 		return true
 	}
@@ -366,8 +366,8 @@ func (o *ConversationMessage) GetLinksOk() ([]ResourceLink, bool) {
 	return o.Links, true
 }
 
-// HasLinks returns a boolean if a field has been set.
-func (o *ConversationMessage) HasLinks() bool {
+// HaveLinks returns a boolean if a field has been set.
+func (o *ConversationMessage) HaveLinks() bool {
 	if o != nil && !IsNil(o.Links) {
 		return true
 	}

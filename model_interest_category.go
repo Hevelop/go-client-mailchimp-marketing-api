@@ -69,8 +69,8 @@ func (o *InterestCategory) GetListIdOk() (*string, bool) {
 	return o.ListId, true
 }
 
-// HasListId returns a boolean if a field has been set.
-func (o *InterestCategory) HasListId() bool {
+// HaveListId returns a boolean if a field has been set.
+func (o *InterestCategory) HaveListId() bool {
 	if o != nil && !IsNil(o.ListId) {
 		return true
 	}
@@ -101,8 +101,8 @@ func (o *InterestCategory) GetIdOk() (*string, bool) {
 	return o.Id, true
 }
 
-// HasId returns a boolean if a field has been set.
-func (o *InterestCategory) HasId() bool {
+// HaveId returns a boolean if a field has been set.
+func (o *InterestCategory) HaveId() bool {
 	if o != nil && !IsNil(o.Id) {
 		return true
 	}
@@ -133,8 +133,8 @@ func (o *InterestCategory) GetTitleOk() (*string, bool) {
 	return o.Title, true
 }
 
-// HasTitle returns a boolean if a field has been set.
-func (o *InterestCategory) HasTitle() bool {
+// HaveTitle returns a boolean if a field has been set.
+func (o *InterestCategory) HaveTitle() bool {
 	if o != nil && !IsNil(o.Title) {
 		return true
 	}
@@ -165,8 +165,8 @@ func (o *InterestCategory) GetDisplayOrderOk() (*int32, bool) {
 	return o.DisplayOrder, true
 }
 
-// HasDisplayOrder returns a boolean if a field has been set.
-func (o *InterestCategory) HasDisplayOrder() bool {
+// HaveDisplayOrder returns a boolean if a field has been set.
+func (o *InterestCategory) HaveDisplayOrder() bool {
 	if o != nil && !IsNil(o.DisplayOrder) {
 		return true
 	}
@@ -197,8 +197,8 @@ func (o *InterestCategory) GetTypeOk() (*string, bool) {
 	return o.Type, true
 }
 
-// HasType returns a boolean if a field has been set.
-func (o *InterestCategory) HasType() bool {
+// HaveType returns a boolean if a field has been set.
+func (o *InterestCategory) HaveType() bool {
 	if o != nil && !IsNil(o.Type) {
 		return true
 	}
@@ -229,8 +229,8 @@ func (o *InterestCategory) GetLinksOk() ([]ResourceLink, bool) {
 	return o.Links, true
 }
 
-// HasLinks returns a boolean if a field has been set.
-func (o *InterestCategory) HasLinks() bool {
+// HaveLinks returns a boolean if a field has been set.
+func (o *InterestCategory) HaveLinks() bool {
 	if o != nil && !IsNil(o.Links) {
 		return true
 	}

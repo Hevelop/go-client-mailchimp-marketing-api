@@ -73,8 +73,8 @@ func (o *ConnectedSite) GetForeignIdOk() (*string, bool) {
 	return o.ForeignId, true
 }
 
-// HasForeignId returns a boolean if a field has been set.
-func (o *ConnectedSite) HasForeignId() bool {
+// HaveForeignId returns a boolean if a field has been set.
+func (o *ConnectedSite) HaveForeignId() bool {
 	if o != nil && !IsNil(o.ForeignId) {
 		return true
 	}
@@ -105,8 +105,8 @@ func (o *ConnectedSite) GetStoreIdOk() (*string, bool) {
 	return o.StoreId, true
 }
 
-// HasStoreId returns a boolean if a field has been set.
-func (o *ConnectedSite) HasStoreId() bool {
+// HaveStoreId returns a boolean if a field has been set.
+func (o *ConnectedSite) HaveStoreId() bool {
 	if o != nil && !IsNil(o.StoreId) {
 		return true
 	}
@@ -137,8 +137,8 @@ func (o *ConnectedSite) GetPlatformOk() (*string, bool) {
 	return o.Platform, true
 }
 
-// HasPlatform returns a boolean if a field has been set.
-func (o *ConnectedSite) HasPlatform() bool {
+// HavePlatform returns a boolean if a field has been set.
+func (o *ConnectedSite) HavePlatform() bool {
 	if o != nil && !IsNil(o.Platform) {
 		return true
 	}
@@ -169,8 +169,8 @@ func (o *ConnectedSite) GetDomainOk() (*string, bool) {
 	return o.Domain, true
 }
 
-// HasDomain returns a boolean if a field has been set.
-func (o *ConnectedSite) HasDomain() bool {
+// HaveDomain returns a boolean if a field has been set.
+func (o *ConnectedSite) HaveDomain() bool {
 	if o != nil && !IsNil(o.Domain) {
 		return true
 	}
@@ -201,8 +201,8 @@ func (o *ConnectedSite) GetSiteScriptOk() (*Script, bool) {
 	return o.SiteScript, true
 }
 
-// HasSiteScript returns a boolean if a field has been set.
-func (o *ConnectedSite) HasSiteScript() bool {
+// HaveSiteScript returns a boolean if a field has been set.
+func (o *ConnectedSite) HaveSiteScript() bool {
 	if o != nil && !IsNil(o.SiteScript) {
 		return true
 	}
@@ -233,8 +233,8 @@ func (o *ConnectedSite) GetCreatedAtOk() (*time.Time, bool) {
 	return o.CreatedAt, true
 }
 
-// HasCreatedAt returns a boolean if a field has been set.
-func (o *ConnectedSite) HasCreatedAt() bool {
+// HaveCreatedAt returns a boolean if a field has been set.
+func (o *ConnectedSite) HaveCreatedAt() bool {
 	if o != nil && !IsNil(o.CreatedAt) {
 		return true
 	}
@@ -265,8 +265,8 @@ func (o *ConnectedSite) GetUpdatedAtOk() (*time.Time, bool) {
 	return o.UpdatedAt, true
 }
 
-// HasUpdatedAt returns a boolean if a field has been set.
-func (o *ConnectedSite) HasUpdatedAt() bool {
+// HaveUpdatedAt returns a boolean if a field has been set.
+func (o *ConnectedSite) HaveUpdatedAt() bool {
 	if o != nil && !IsNil(o.UpdatedAt) {
 		return true
 	}
@@ -297,8 +297,8 @@ func (o *ConnectedSite) GetLinksOk() ([]ResourceLink, bool) {
 	return o.Links, true
 }
 
-// HasLinks returns a boolean if a field has been set.
-func (o *ConnectedSite) HasLinks() bool {
+// HaveLinks returns a boolean if a field has been set.
+func (o *ConnectedSite) HaveLinks() bool {
 	if o != nil && !IsNil(o.Links) {
 		return true
 	}

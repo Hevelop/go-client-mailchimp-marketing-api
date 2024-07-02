@@ -61,8 +61,8 @@ func (o *CollectionOfElementStyleForListSignupForms) GetSelectorOk() (*string, b
 	return o.Selector, true
 }
 
-// HasSelector returns a boolean if a field has been set.
-func (o *CollectionOfElementStyleForListSignupForms) HasSelector() bool {
+// HaveSelector returns a boolean if a field has been set.
+func (o *CollectionOfElementStyleForListSignupForms) HaveSelector() bool {
 	if o != nil && !IsNil(o.Selector) {
 		return true
 	}
@@ -93,8 +93,8 @@ func (o *CollectionOfElementStyleForListSignupForms) GetOptionsOk() ([]AnOptionF
 	return o.Options, true
 }
 
-// HasOptions returns a boolean if a field has been set.
-func (o *CollectionOfElementStyleForListSignupForms) HasOptions() bool {
+// HaveOptions returns a boolean if a field has been set.
+func (o *CollectionOfElementStyleForListSignupForms) HaveOptions() bool {
 	if o != nil && !IsNil(o.Options) {
 		return true
 	}

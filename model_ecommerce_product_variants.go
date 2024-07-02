@@ -67,8 +67,8 @@ func (o *EcommerceProductVariants) GetStoreIdOk() (*string, bool) {
 	return o.StoreId, true
 }
 
-// HasStoreId returns a boolean if a field has been set.
-func (o *EcommerceProductVariants) HasStoreId() bool {
+// HaveStoreId returns a boolean if a field has been set.
+func (o *EcommerceProductVariants) HaveStoreId() bool {
 	if o != nil && !IsNil(o.StoreId) {
 		return true
 	}
@@ -99,8 +99,8 @@ func (o *EcommerceProductVariants) GetProductIdOk() (*string, bool) {
 	return o.ProductId, true
 }
 
-// HasProductId returns a boolean if a field has been set.
-func (o *EcommerceProductVariants) HasProductId() bool {
+// HaveProductId returns a boolean if a field has been set.
+func (o *EcommerceProductVariants) HaveProductId() bool {
 	if o != nil && !IsNil(o.ProductId) {
 		return true
 	}
@@ -131,8 +131,8 @@ func (o *EcommerceProductVariants) GetVariantsOk() ([]ECommerceProductVariant, b
 	return o.Variants, true
 }
 
-// HasVariants returns a boolean if a field has been set.
-func (o *EcommerceProductVariants) HasVariants() bool {
+// HaveVariants returns a boolean if a field has been set.
+func (o *EcommerceProductVariants) HaveVariants() bool {
 	if o != nil && !IsNil(o.Variants) {
 		return true
 	}
@@ -163,8 +163,8 @@ func (o *EcommerceProductVariants) GetTotalItemsOk() (*int32, bool) {
 	return o.TotalItems, true
 }
 
-// HasTotalItems returns a boolean if a field has been set.
-func (o *EcommerceProductVariants) HasTotalItems() bool {
+// HaveTotalItems returns a boolean if a field has been set.
+func (o *EcommerceProductVariants) HaveTotalItems() bool {
 	if o != nil && !IsNil(o.TotalItems) {
 		return true
 	}
@@ -195,8 +195,8 @@ func (o *EcommerceProductVariants) GetLinksOk() ([]ResourceLink, bool) {
 	return o.Links, true
 }
 
-// HasLinks returns a boolean if a field has been set.
-func (o *EcommerceProductVariants) HasLinks() bool {
+// HaveLinks returns a boolean if a field has been set.
+func (o *EcommerceProductVariants) HaveLinks() bool {
 	if o != nil && !IsNil(o.Links) {
 		return true
 	}

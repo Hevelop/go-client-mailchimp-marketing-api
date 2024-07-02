@@ -67,8 +67,8 @@ func (o *CampaignSettings1) GetSubjectLineOk() (*string, bool) {
 	return o.SubjectLine, true
 }
 
-// HasSubjectLine returns a boolean if a field has been set.
-func (o *CampaignSettings1) HasSubjectLine() bool {
+// HaveSubjectLine returns a boolean if a field has been set.
+func (o *CampaignSettings1) HaveSubjectLine() bool {
 	if o != nil && !IsNil(o.SubjectLine) {
 		return true
 	}
@@ -99,8 +99,8 @@ func (o *CampaignSettings1) GetPreviewTextOk() (*string, bool) {
 	return o.PreviewText, true
 }
 
-// HasPreviewText returns a boolean if a field has been set.
-func (o *CampaignSettings1) HasPreviewText() bool {
+// HavePreviewText returns a boolean if a field has been set.
+func (o *CampaignSettings1) HavePreviewText() bool {
 	if o != nil && !IsNil(o.PreviewText) {
 		return true
 	}
@@ -131,8 +131,8 @@ func (o *CampaignSettings1) GetTitleOk() (*string, bool) {
 	return o.Title, true
 }
 
-// HasTitle returns a boolean if a field has been set.
-func (o *CampaignSettings1) HasTitle() bool {
+// HaveTitle returns a boolean if a field has been set.
+func (o *CampaignSettings1) HaveTitle() bool {
 	if o != nil && !IsNil(o.Title) {
 		return true
 	}
@@ -163,8 +163,8 @@ func (o *CampaignSettings1) GetFromNameOk() (*string, bool) {
 	return o.FromName, true
 }
 
-// HasFromName returns a boolean if a field has been set.
-func (o *CampaignSettings1) HasFromName() bool {
+// HaveFromName returns a boolean if a field has been set.
+func (o *CampaignSettings1) HaveFromName() bool {
 	if o != nil && !IsNil(o.FromName) {
 		return true
 	}
@@ -195,8 +195,8 @@ func (o *CampaignSettings1) GetReplyToOk() (*string, bool) {
 	return o.ReplyTo, true
 }
 
-// HasReplyTo returns a boolean if a field has been set.
-func (o *CampaignSettings1) HasReplyTo() bool {
+// HaveReplyTo returns a boolean if a field has been set.
+func (o *CampaignSettings1) HaveReplyTo() bool {
 	if o != nil && !IsNil(o.ReplyTo) {
 		return true
 	}

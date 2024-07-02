@@ -63,8 +63,8 @@ func (o *SendChecklist) GetIsReadyOk() (*bool, bool) {
 	return o.IsReady, true
 }
 
-// HasIsReady returns a boolean if a field has been set.
-func (o *SendChecklist) HasIsReady() bool {
+// HaveIsReady returns a boolean if a field has been set.
+func (o *SendChecklist) HaveIsReady() bool {
 	if o != nil && !IsNil(o.IsReady) {
 		return true
 	}
@@ -95,8 +95,8 @@ func (o *SendChecklist) GetItemsOk() ([]ItemsInner, bool) {
 	return o.Items, true
 }
 
-// HasItems returns a boolean if a field has been set.
-func (o *SendChecklist) HasItems() bool {
+// HaveItems returns a boolean if a field has been set.
+func (o *SendChecklist) HaveItems() bool {
 	if o != nil && !IsNil(o.Items) {
 		return true
 	}
@@ -127,8 +127,8 @@ func (o *SendChecklist) GetLinksOk() ([]ResourceLink, bool) {
 	return o.Links, true
 }
 
-// HasLinks returns a boolean if a field has been set.
-func (o *SendChecklist) HasLinks() bool {
+// HaveLinks returns a boolean if a field has been set.
+func (o *SendChecklist) HaveLinks() bool {
 	if o != nil && !IsNil(o.Links) {
 		return true
 	}

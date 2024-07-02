@@ -61,8 +61,8 @@ func (o *ErrorsInner1) GetEmailAddressesOk() ([]string, bool) {
 	return o.EmailAddresses, true
 }
 
-// HasEmailAddresses returns a boolean if a field has been set.
-func (o *ErrorsInner1) HasEmailAddresses() bool {
+// HaveEmailAddresses returns a boolean if a field has been set.
+func (o *ErrorsInner1) HaveEmailAddresses() bool {
 	if o != nil && !IsNil(o.EmailAddresses) {
 		return true
 	}
@@ -93,8 +93,8 @@ func (o *ErrorsInner1) GetErrorOk() (*string, bool) {
 	return o.Error, true
 }
 
-// HasError returns a boolean if a field has been set.
-func (o *ErrorsInner1) HasError() bool {
+// HaveError returns a boolean if a field has been set.
+func (o *ErrorsInner1) HaveError() bool {
 	if o != nil && !IsNil(o.Error) {
 		return true
 	}

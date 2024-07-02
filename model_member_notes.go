@@ -76,8 +76,8 @@ func (o *MemberNotes) GetIdOk() (*int32, bool) {
 	return o.Id, true
 }
 
-// HasId returns a boolean if a field has been set.
-func (o *MemberNotes) HasId() bool {
+// HaveId returns a boolean if a field has been set.
+func (o *MemberNotes) HaveId() bool {
 	if o != nil && !IsNil(o.Id) {
 		return true
 	}
@@ -108,8 +108,8 @@ func (o *MemberNotes) GetCreatedAtOk() (*time.Time, bool) {
 	return o.CreatedAt, true
 }
 
-// HasCreatedAt returns a boolean if a field has been set.
-func (o *MemberNotes) HasCreatedAt() bool {
+// HaveCreatedAt returns a boolean if a field has been set.
+func (o *MemberNotes) HaveCreatedAt() bool {
 	if o != nil && !IsNil(o.CreatedAt) {
 		return true
 	}
@@ -140,8 +140,8 @@ func (o *MemberNotes) GetCreatedByOk() (*string, bool) {
 	return o.CreatedBy, true
 }
 
-// HasCreatedBy returns a boolean if a field has been set.
-func (o *MemberNotes) HasCreatedBy() bool {
+// HaveCreatedBy returns a boolean if a field has been set.
+func (o *MemberNotes) HaveCreatedBy() bool {
 	if o != nil && !IsNil(o.CreatedBy) {
 		return true
 	}
@@ -172,8 +172,8 @@ func (o *MemberNotes) GetUpdatedAtOk() (*time.Time, bool) {
 	return o.UpdatedAt, true
 }
 
-// HasUpdatedAt returns a boolean if a field has been set.
-func (o *MemberNotes) HasUpdatedAt() bool {
+// HaveUpdatedAt returns a boolean if a field has been set.
+func (o *MemberNotes) HaveUpdatedAt() bool {
 	if o != nil && !IsNil(o.UpdatedAt) {
 		return true
 	}
@@ -204,8 +204,8 @@ func (o *MemberNotes) GetNoteOk() (*string, bool) {
 	return o.Note, true
 }
 
-// HasNote returns a boolean if a field has been set.
-func (o *MemberNotes) HasNote() bool {
+// HaveNote returns a boolean if a field has been set.
+func (o *MemberNotes) HaveNote() bool {
 	if o != nil && !IsNil(o.Note) {
 		return true
 	}
@@ -236,8 +236,8 @@ func (o *MemberNotes) GetListIdOk() (*string, bool) {
 	return o.ListId, true
 }
 
-// HasListId returns a boolean if a field has been set.
-func (o *MemberNotes) HasListId() bool {
+// HaveListId returns a boolean if a field has been set.
+func (o *MemberNotes) HaveListId() bool {
 	if o != nil && !IsNil(o.ListId) {
 		return true
 	}
@@ -268,8 +268,8 @@ func (o *MemberNotes) GetEmailIdOk() (*string, bool) {
 	return o.EmailId, true
 }
 
-// HasEmailId returns a boolean if a field has been set.
-func (o *MemberNotes) HasEmailId() bool {
+// HaveEmailId returns a boolean if a field has been set.
+func (o *MemberNotes) HaveEmailId() bool {
 	if o != nil && !IsNil(o.EmailId) {
 		return true
 	}
@@ -300,8 +300,8 @@ func (o *MemberNotes) GetContactIdOk() (*string, bool) {
 	return o.ContactId, true
 }
 
-// HasContactId returns a boolean if a field has been set.
-func (o *MemberNotes) HasContactId() bool {
+// HaveContactId returns a boolean if a field has been set.
+func (o *MemberNotes) HaveContactId() bool {
 	if o != nil && !IsNil(o.ContactId) {
 		return true
 	}
@@ -332,8 +332,8 @@ func (o *MemberNotes) GetLinksOk() ([]ResourceLink, bool) {
 	return o.Links, true
 }
 
-// HasLinks returns a boolean if a field has been set.
-func (o *MemberNotes) HasLinks() bool {
+// HaveLinks returns a boolean if a field has been set.
+func (o *MemberNotes) HaveLinks() bool {
 	if o != nil && !IsNil(o.Links) {
 		return true
 	}

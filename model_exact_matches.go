@@ -61,8 +61,8 @@ func (o *ExactMatches) GetMembersOk() ([]ListMembers2, bool) {
 	return o.Members, true
 }
 
-// HasMembers returns a boolean if a field has been set.
-func (o *ExactMatches) HasMembers() bool {
+// HaveMembers returns a boolean if a field has been set.
+func (o *ExactMatches) HaveMembers() bool {
 	if o != nil && !IsNil(o.Members) {
 		return true
 	}
@@ -93,8 +93,8 @@ func (o *ExactMatches) GetTotalItemsOk() (*int32, bool) {
 	return o.TotalItems, true
 }
 
-// HasTotalItems returns a boolean if a field has been set.
-func (o *ExactMatches) HasTotalItems() bool {
+// HaveTotalItems returns a boolean if a field has been set.
+func (o *ExactMatches) HaveTotalItems() bool {
 	if o != nil && !IsNil(o.TotalItems) {
 		return true
 	}

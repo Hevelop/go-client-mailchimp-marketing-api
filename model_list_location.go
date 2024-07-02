@@ -65,8 +65,8 @@ func (o *ListLocation) GetCountryOk() (*string, bool) {
 	return o.Country, true
 }
 
-// HasCountry returns a boolean if a field has been set.
-func (o *ListLocation) HasCountry() bool {
+// HaveCountry returns a boolean if a field has been set.
+func (o *ListLocation) HaveCountry() bool {
 	if o != nil && !IsNil(o.Country) {
 		return true
 	}
@@ -97,8 +97,8 @@ func (o *ListLocation) GetCcOk() (*string, bool) {
 	return o.Cc, true
 }
 
-// HasCc returns a boolean if a field has been set.
-func (o *ListLocation) HasCc() bool {
+// HaveCc returns a boolean if a field has been set.
+func (o *ListLocation) HaveCc() bool {
 	if o != nil && !IsNil(o.Cc) {
 		return true
 	}
@@ -129,8 +129,8 @@ func (o *ListLocation) GetPercentOk() (*float32, bool) {
 	return o.Percent, true
 }
 
-// HasPercent returns a boolean if a field has been set.
-func (o *ListLocation) HasPercent() bool {
+// HavePercent returns a boolean if a field has been set.
+func (o *ListLocation) HavePercent() bool {
 	if o != nil && !IsNil(o.Percent) {
 		return true
 	}
@@ -161,8 +161,8 @@ func (o *ListLocation) GetTotalOk() (*int32, bool) {
 	return o.Total, true
 }
 
-// HasTotal returns a boolean if a field has been set.
-func (o *ListLocation) HasTotal() bool {
+// HaveTotal returns a boolean if a field has been set.
+func (o *ListLocation) HaveTotal() bool {
 	if o != nil && !IsNil(o.Total) {
 		return true
 	}

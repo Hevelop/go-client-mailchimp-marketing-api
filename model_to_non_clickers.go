@@ -61,8 +61,8 @@ func (o *ToNonClickers) GetIsEligibleOk() (*bool, bool) {
 	return o.IsEligible, true
 }
 
-// HasIsEligible returns a boolean if a field has been set.
-func (o *ToNonClickers) HasIsEligible() bool {
+// HaveIsEligible returns a boolean if a field has been set.
+func (o *ToNonClickers) HaveIsEligible() bool {
 	if o != nil && !IsNil(o.IsEligible) {
 		return true
 	}
@@ -93,8 +93,8 @@ func (o *ToNonClickers) GetReasonOk() (*string, bool) {
 	return o.Reason, true
 }
 
-// HasReason returns a boolean if a field has been set.
-func (o *ToNonClickers) HasReason() bool {
+// HaveReason returns a boolean if a field has been set.
+func (o *ToNonClickers) HaveReason() bool {
 	if o != nil && !IsNil(o.Reason) {
 		return true
 	}

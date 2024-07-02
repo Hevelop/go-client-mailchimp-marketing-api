@@ -77,8 +77,8 @@ func (o *ECommerceOrderLineItem) GetIdOk() (*string, bool) {
 	return o.Id, true
 }
 
-// HasId returns a boolean if a field has been set.
-func (o *ECommerceOrderLineItem) HasId() bool {
+// HaveId returns a boolean if a field has been set.
+func (o *ECommerceOrderLineItem) HaveId() bool {
 	if o != nil && !IsNil(o.Id) {
 		return true
 	}
@@ -109,8 +109,8 @@ func (o *ECommerceOrderLineItem) GetProductIdOk() (*string, bool) {
 	return o.ProductId, true
 }
 
-// HasProductId returns a boolean if a field has been set.
-func (o *ECommerceOrderLineItem) HasProductId() bool {
+// HaveProductId returns a boolean if a field has been set.
+func (o *ECommerceOrderLineItem) HaveProductId() bool {
 	if o != nil && !IsNil(o.ProductId) {
 		return true
 	}
@@ -141,8 +141,8 @@ func (o *ECommerceOrderLineItem) GetProductTitleOk() (*string, bool) {
 	return o.ProductTitle, true
 }
 
-// HasProductTitle returns a boolean if a field has been set.
-func (o *ECommerceOrderLineItem) HasProductTitle() bool {
+// HaveProductTitle returns a boolean if a field has been set.
+func (o *ECommerceOrderLineItem) HaveProductTitle() bool {
 	if o != nil && !IsNil(o.ProductTitle) {
 		return true
 	}
@@ -173,8 +173,8 @@ func (o *ECommerceOrderLineItem) GetProductVariantIdOk() (*string, bool) {
 	return o.ProductVariantId, true
 }
 
-// HasProductVariantId returns a boolean if a field has been set.
-func (o *ECommerceOrderLineItem) HasProductVariantId() bool {
+// HaveProductVariantId returns a boolean if a field has been set.
+func (o *ECommerceOrderLineItem) HaveProductVariantId() bool {
 	if o != nil && !IsNil(o.ProductVariantId) {
 		return true
 	}
@@ -205,8 +205,8 @@ func (o *ECommerceOrderLineItem) GetProductVariantTitleOk() (*string, bool) {
 	return o.ProductVariantTitle, true
 }
 
-// HasProductVariantTitle returns a boolean if a field has been set.
-func (o *ECommerceOrderLineItem) HasProductVariantTitle() bool {
+// HaveProductVariantTitle returns a boolean if a field has been set.
+func (o *ECommerceOrderLineItem) HaveProductVariantTitle() bool {
 	if o != nil && !IsNil(o.ProductVariantTitle) {
 		return true
 	}
@@ -237,8 +237,8 @@ func (o *ECommerceOrderLineItem) GetImageUrlOk() (*string, bool) {
 	return o.ImageUrl, true
 }
 
-// HasImageUrl returns a boolean if a field has been set.
-func (o *ECommerceOrderLineItem) HasImageUrl() bool {
+// HaveImageUrl returns a boolean if a field has been set.
+func (o *ECommerceOrderLineItem) HaveImageUrl() bool {
 	if o != nil && !IsNil(o.ImageUrl) {
 		return true
 	}
@@ -269,8 +269,8 @@ func (o *ECommerceOrderLineItem) GetQuantityOk() (*int32, bool) {
 	return o.Quantity, true
 }
 
-// HasQuantity returns a boolean if a field has been set.
-func (o *ECommerceOrderLineItem) HasQuantity() bool {
+// HaveQuantity returns a boolean if a field has been set.
+func (o *ECommerceOrderLineItem) HaveQuantity() bool {
 	if o != nil && !IsNil(o.Quantity) {
 		return true
 	}
@@ -301,8 +301,8 @@ func (o *ECommerceOrderLineItem) GetPriceOk() (*float32, bool) {
 	return o.Price, true
 }
 
-// HasPrice returns a boolean if a field has been set.
-func (o *ECommerceOrderLineItem) HasPrice() bool {
+// HavePrice returns a boolean if a field has been set.
+func (o *ECommerceOrderLineItem) HavePrice() bool {
 	if o != nil && !IsNil(o.Price) {
 		return true
 	}
@@ -333,8 +333,8 @@ func (o *ECommerceOrderLineItem) GetDiscountOk() (*float32, bool) {
 	return o.Discount, true
 }
 
-// HasDiscount returns a boolean if a field has been set.
-func (o *ECommerceOrderLineItem) HasDiscount() bool {
+// HaveDiscount returns a boolean if a field has been set.
+func (o *ECommerceOrderLineItem) HaveDiscount() bool {
 	if o != nil && !IsNil(o.Discount) {
 		return true
 	}
@@ -365,8 +365,8 @@ func (o *ECommerceOrderLineItem) GetLinksOk() ([]ResourceLink, bool) {
 	return o.Links, true
 }
 
-// HasLinks returns a boolean if a field has been set.
-func (o *ECommerceOrderLineItem) HasLinks() bool {
+// HaveLinks returns a boolean if a field has been set.
+func (o *ECommerceOrderLineItem) HaveLinks() bool {
 	if o != nil && !IsNil(o.Links) {
 		return true
 	}
