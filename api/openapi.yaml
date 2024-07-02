@@ -50224,7 +50224,6 @@ x-doc-structure:
       description: Reporting for various campaign types.
       paths: []
       subResources:
-      - reporting-facebook-ads
       - reporting-google-ads
       - reporting-landing-pages
       - reporting-postcards
