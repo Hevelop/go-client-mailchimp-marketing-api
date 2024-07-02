@@ -59,8 +59,8 @@ func (o *ABSplit) GetAOk() (*GroupA, bool) {
 	return o.A, true
 }
 
-// HaveA returns a boolean if a field has been set.
-func (o *ABSplit) HaveA() bool {
+// HasA returns a boolean if a field has been set.
+func (o *ABSplit) HasA() bool {
 	if o != nil && !IsNil(o.A) {
 		return true
 	}
@@ -91,8 +91,8 @@ func (o *ABSplit) GetBOk() (*GroupB, bool) {
 	return o.B, true
 }
 
-// HaveB returns a boolean if a field has been set.
-func (o *ABSplit) HaveB() bool {
+// HasB returns a boolean if a field has been set.
+func (o *ABSplit) HasB() bool {
 	if o != nil && !IsNil(o.B) {
 		return true
 	}

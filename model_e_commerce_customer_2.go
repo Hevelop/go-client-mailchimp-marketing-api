@@ -66,8 +66,8 @@ func (o *ECommerceCustomer2) GetOptInStatusOk() (*bool, bool) {
 	return o.OptInStatus, true
 }
 
-// HaveOptInStatus returns a boolean if a field has been set.
-func (o *ECommerceCustomer2) HaveOptInStatus() bool {
+// HasOptInStatus returns a boolean if a field has been set.
+func (o *ECommerceCustomer2) HasOptInStatus() bool {
 	if o != nil && !IsNil(o.OptInStatus) {
 		return true
 	}
@@ -98,8 +98,8 @@ func (o *ECommerceCustomer2) GetCompanyOk() (*string, bool) {
 	return o.Company, true
 }
 
-// HaveCompany returns a boolean if a field has been set.
-func (o *ECommerceCustomer2) HaveCompany() bool {
+// HasCompany returns a boolean if a field has been set.
+func (o *ECommerceCustomer2) HasCompany() bool {
 	if o != nil && !IsNil(o.Company) {
 		return true
 	}
@@ -130,8 +130,8 @@ func (o *ECommerceCustomer2) GetFirstNameOk() (*string, bool) {
 	return o.FirstName, true
 }
 
-// HaveFirstName returns a boolean if a field has been set.
-func (o *ECommerceCustomer2) HaveFirstName() bool {
+// HasFirstName returns a boolean if a field has been set.
+func (o *ECommerceCustomer2) HasFirstName() bool {
 	if o != nil && !IsNil(o.FirstName) {
 		return true
 	}
@@ -162,8 +162,8 @@ func (o *ECommerceCustomer2) GetLastNameOk() (*string, bool) {
 	return o.LastName, true
 }
 
-// HaveLastName returns a boolean if a field has been set.
-func (o *ECommerceCustomer2) HaveLastName() bool {
+// HasLastName returns a boolean if a field has been set.
+func (o *ECommerceCustomer2) HasLastName() bool {
 	if o != nil && !IsNil(o.LastName) {
 		return true
 	}
@@ -194,8 +194,8 @@ func (o *ECommerceCustomer2) GetAddressOk() (*Address, bool) {
 	return o.Address, true
 }
 
-// HaveAddress returns a boolean if a field has been set.
-func (o *ECommerceCustomer2) HaveAddress() bool {
+// HasAddress returns a boolean if a field has been set.
+func (o *ECommerceCustomer2) HasAddress() bool {
 	if o != nil && !IsNil(o.Address) {
 		return true
 	}

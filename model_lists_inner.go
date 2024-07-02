@@ -65,8 +65,8 @@ func (o *ListsInner) GetCountryCodeOk() (*string, bool) {
 	return o.CountryCode, true
 }
 
-// HaveCountryCode returns a boolean if a field has been set.
-func (o *ListsInner) HaveCountryCode() bool {
+// HasCountryCode returns a boolean if a field has been set.
+func (o *ListsInner) HasCountryCode() bool {
 	if o != nil && !IsNil(o.CountryCode) {
 		return true
 	}
@@ -97,8 +97,8 @@ func (o *ListsInner) GetRegionOk() (*string, bool) {
 	return o.Region, true
 }
 
-// HaveRegion returns a boolean if a field has been set.
-func (o *ListsInner) HaveRegion() bool {
+// HasRegion returns a boolean if a field has been set.
+func (o *ListsInner) HasRegion() bool {
 	if o != nil && !IsNil(o.Region) {
 		return true
 	}
@@ -129,8 +129,8 @@ func (o *ListsInner) GetRegionNameOk() (*string, bool) {
 	return o.RegionName, true
 }
 
-// HaveRegionName returns a boolean if a field has been set.
-func (o *ListsInner) HaveRegionName() bool {
+// HasRegionName returns a boolean if a field has been set.
+func (o *ListsInner) HasRegionName() bool {
 	if o != nil && !IsNil(o.RegionName) {
 		return true
 	}
@@ -161,8 +161,8 @@ func (o *ListsInner) GetOpensOk() (*int32, bool) {
 	return o.Opens, true
 }
 
-// HaveOpens returns a boolean if a field has been set.
-func (o *ListsInner) HaveOpens() bool {
+// HasOpens returns a boolean if a field has been set.
+func (o *ListsInner) HasOpens() bool {
 	if o != nil && !IsNil(o.Opens) {
 		return true
 	}

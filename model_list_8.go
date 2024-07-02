@@ -91,8 +91,8 @@ func (o *List8) GetStaticSegmentOk() ([]string, bool) {
 	return o.StaticSegment, true
 }
 
-// HaveStaticSegment returns a boolean if a field has been set.
-func (o *List8) HaveStaticSegment() bool {
+// HasStaticSegment returns a boolean if a field has been set.
+func (o *List8) HasStaticSegment() bool {
 	if o != nil && !IsNil(o.StaticSegment) {
 		return true
 	}
@@ -123,8 +123,8 @@ func (o *List8) GetOptionsOk() (*Conditions1, bool) {
 	return o.Options, true
 }
 
-// HaveOptions returns a boolean if a field has been set.
-func (o *List8) HaveOptions() bool {
+// HasOptions returns a boolean if a field has been set.
+func (o *List8) HasOptions() bool {
 	if o != nil && !IsNil(o.Options) {
 		return true
 	}

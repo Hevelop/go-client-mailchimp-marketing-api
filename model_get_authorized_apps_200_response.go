@@ -63,8 +63,8 @@ func (o *GetAuthorizedApps200Response) GetAppsOk() ([]AuthorizedApplicationsInne
 	return o.Apps, true
 }
 
-// HaveApps returns a boolean if a field has been set.
-func (o *GetAuthorizedApps200Response) HaveApps() bool {
+// HasApps returns a boolean if a field has been set.
+func (o *GetAuthorizedApps200Response) HasApps() bool {
 	if o != nil && !IsNil(o.Apps) {
 		return true
 	}
@@ -95,8 +95,8 @@ func (o *GetAuthorizedApps200Response) GetTotalItemsOk() (*int32, bool) {
 	return o.TotalItems, true
 }
 
-// HaveTotalItems returns a boolean if a field has been set.
-func (o *GetAuthorizedApps200Response) HaveTotalItems() bool {
+// HasTotalItems returns a boolean if a field has been set.
+func (o *GetAuthorizedApps200Response) HasTotalItems() bool {
 	if o != nil && !IsNil(o.TotalItems) {
 		return true
 	}
@@ -127,8 +127,8 @@ func (o *GetAuthorizedApps200Response) GetLinksOk() ([]ResourceLink, bool) {
 	return o.Links, true
 }
 
-// HaveLinks returns a boolean if a field has been set.
-func (o *GetAuthorizedApps200Response) HaveLinks() bool {
+// HasLinks returns a boolean if a field has been set.
+func (o *GetAuthorizedApps200Response) HasLinks() bool {
 	if o != nil && !IsNil(o.Links) {
 		return true
 	}

@@ -72,8 +72,8 @@ func (o *MemberActivity) GetActionOk() (*string, bool) {
 	return o.Action, true
 }
 
-// HaveAction returns a boolean if a field has been set.
-func (o *MemberActivity) HaveAction() bool {
+// HasAction returns a boolean if a field has been set.
+func (o *MemberActivity) HasAction() bool {
 	if o != nil && !IsNil(o.Action) {
 		return true
 	}
@@ -104,8 +104,8 @@ func (o *MemberActivity) GetTimestampOk() (*time.Time, bool) {
 	return o.Timestamp, true
 }
 
-// HaveTimestamp returns a boolean if a field has been set.
-func (o *MemberActivity) HaveTimestamp() bool {
+// HasTimestamp returns a boolean if a field has been set.
+func (o *MemberActivity) HasTimestamp() bool {
 	if o != nil && !IsNil(o.Timestamp) {
 		return true
 	}
@@ -136,8 +136,8 @@ func (o *MemberActivity) GetUrlOk() (*string, bool) {
 	return o.Url, true
 }
 
-// HaveUrl returns a boolean if a field has been set.
-func (o *MemberActivity) HaveUrl() bool {
+// HasUrl returns a boolean if a field has been set.
+func (o *MemberActivity) HasUrl() bool {
 	if o != nil && !IsNil(o.Url) {
 		return true
 	}
@@ -168,8 +168,8 @@ func (o *MemberActivity) GetTypeOk() (*string, bool) {
 	return o.Type, true
 }
 
-// HaveType returns a boolean if a field has been set.
-func (o *MemberActivity) HaveType() bool {
+// HasType returns a boolean if a field has been set.
+func (o *MemberActivity) HasType() bool {
 	if o != nil && !IsNil(o.Type) {
 		return true
 	}
@@ -200,8 +200,8 @@ func (o *MemberActivity) GetCampaignIdOk() (*string, bool) {
 	return o.CampaignId, true
 }
 
-// HaveCampaignId returns a boolean if a field has been set.
-func (o *MemberActivity) HaveCampaignId() bool {
+// HasCampaignId returns a boolean if a field has been set.
+func (o *MemberActivity) HasCampaignId() bool {
 	if o != nil && !IsNil(o.CampaignId) {
 		return true
 	}
@@ -232,8 +232,8 @@ func (o *MemberActivity) GetTitleOk() (*string, bool) {
 	return o.Title, true
 }
 
-// HaveTitle returns a boolean if a field has been set.
-func (o *MemberActivity) HaveTitle() bool {
+// HasTitle returns a boolean if a field has been set.
+func (o *MemberActivity) HasTitle() bool {
 	if o != nil && !IsNil(o.Title) {
 		return true
 	}
@@ -264,8 +264,8 @@ func (o *MemberActivity) GetParentCampaignOk() (*string, bool) {
 	return o.ParentCampaign, true
 }
 
-// HaveParentCampaign returns a boolean if a field has been set.
-func (o *MemberActivity) HaveParentCampaign() bool {
+// HasParentCampaign returns a boolean if a field has been set.
+func (o *MemberActivity) HasParentCampaign() bool {
 	if o != nil && !IsNil(o.ParentCampaign) {
 		return true
 	}

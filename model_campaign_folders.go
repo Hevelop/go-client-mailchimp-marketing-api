@@ -63,8 +63,8 @@ func (o *CampaignFolders) GetFoldersOk() ([]CampaignFolder, bool) {
 	return o.Folders, true
 }
 
-// HaveFolders returns a boolean if a field has been set.
-func (o *CampaignFolders) HaveFolders() bool {
+// HasFolders returns a boolean if a field has been set.
+func (o *CampaignFolders) HasFolders() bool {
 	if o != nil && !IsNil(o.Folders) {
 		return true
 	}
@@ -95,8 +95,8 @@ func (o *CampaignFolders) GetTotalItemsOk() (*int32, bool) {
 	return o.TotalItems, true
 }
 
-// HaveTotalItems returns a boolean if a field has been set.
-func (o *CampaignFolders) HaveTotalItems() bool {
+// HasTotalItems returns a boolean if a field has been set.
+func (o *CampaignFolders) HasTotalItems() bool {
 	if o != nil && !IsNil(o.TotalItems) {
 		return true
 	}
@@ -127,8 +127,8 @@ func (o *CampaignFolders) GetLinksOk() ([]ResourceLink, bool) {
 	return o.Links, true
 }
 
-// HaveLinks returns a boolean if a field has been set.
-func (o *CampaignFolders) HaveLinks() bool {
+// HasLinks returns a boolean if a field has been set.
+func (o *CampaignFolders) HasLinks() bool {
 	if o != nil && !IsNil(o.Links) {
 		return true
 	}

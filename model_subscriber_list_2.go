@@ -176,8 +176,8 @@ func (o *SubscriberList2) GetUseArchiveBarOk() (*bool, bool) {
 	return o.UseArchiveBar, true
 }
 
-// HaveUseArchiveBar returns a boolean if a field has been set.
-func (o *SubscriberList2) HaveUseArchiveBar() bool {
+// HasUseArchiveBar returns a boolean if a field has been set.
+func (o *SubscriberList2) HasUseArchiveBar() bool {
 	if o != nil && !IsNil(o.UseArchiveBar) {
 		return true
 	}
@@ -232,8 +232,8 @@ func (o *SubscriberList2) GetNotifyOnSubscribeOk() (*string, bool) {
 	return o.NotifyOnSubscribe, true
 }
 
-// HaveNotifyOnSubscribe returns a boolean if a field has been set.
-func (o *SubscriberList2) HaveNotifyOnSubscribe() bool {
+// HasNotifyOnSubscribe returns a boolean if a field has been set.
+func (o *SubscriberList2) HasNotifyOnSubscribe() bool {
 	if o != nil && !IsNil(o.NotifyOnSubscribe) {
 		return true
 	}
@@ -264,8 +264,8 @@ func (o *SubscriberList2) GetNotifyOnUnsubscribeOk() (*string, bool) {
 	return o.NotifyOnUnsubscribe, true
 }
 
-// HaveNotifyOnUnsubscribe returns a boolean if a field has been set.
-func (o *SubscriberList2) HaveNotifyOnUnsubscribe() bool {
+// HasNotifyOnUnsubscribe returns a boolean if a field has been set.
+func (o *SubscriberList2) HasNotifyOnUnsubscribe() bool {
 	if o != nil && !IsNil(o.NotifyOnUnsubscribe) {
 		return true
 	}
@@ -320,8 +320,8 @@ func (o *SubscriberList2) GetDoubleOptinOk() (*bool, bool) {
 	return o.DoubleOptin, true
 }
 
-// HaveDoubleOptin returns a boolean if a field has been set.
-func (o *SubscriberList2) HaveDoubleOptin() bool {
+// HasDoubleOptin returns a boolean if a field has been set.
+func (o *SubscriberList2) HasDoubleOptin() bool {
 	if o != nil && !IsNil(o.DoubleOptin) {
 		return true
 	}
@@ -352,8 +352,8 @@ func (o *SubscriberList2) GetMarketingPermissionsOk() (*bool, bool) {
 	return o.MarketingPermissions, true
 }
 
-// HaveMarketingPermissions returns a boolean if a field has been set.
-func (o *SubscriberList2) HaveMarketingPermissions() bool {
+// HasMarketingPermissions returns a boolean if a field has been set.
+func (o *SubscriberList2) HasMarketingPermissions() bool {
 	if o != nil && !IsNil(o.MarketingPermissions) {
 		return true
 	}

@@ -67,8 +67,8 @@ func (o *CollectionOfMemberActivityEvents) GetGoalsOk() ([]Goal, bool) {
 	return o.Goals, true
 }
 
-// HaveGoals returns a boolean if a field has been set.
-func (o *CollectionOfMemberActivityEvents) HaveGoals() bool {
+// HasGoals returns a boolean if a field has been set.
+func (o *CollectionOfMemberActivityEvents) HasGoals() bool {
 	if o != nil && !IsNil(o.Goals) {
 		return true
 	}
@@ -99,8 +99,8 @@ func (o *CollectionOfMemberActivityEvents) GetListIdOk() (*string, bool) {
 	return o.ListId, true
 }
 
-// HaveListId returns a boolean if a field has been set.
-func (o *CollectionOfMemberActivityEvents) HaveListId() bool {
+// HasListId returns a boolean if a field has been set.
+func (o *CollectionOfMemberActivityEvents) HasListId() bool {
 	if o != nil && !IsNil(o.ListId) {
 		return true
 	}
@@ -131,8 +131,8 @@ func (o *CollectionOfMemberActivityEvents) GetEmailIdOk() (*string, bool) {
 	return o.EmailId, true
 }
 
-// HaveEmailId returns a boolean if a field has been set.
-func (o *CollectionOfMemberActivityEvents) HaveEmailId() bool {
+// HasEmailId returns a boolean if a field has been set.
+func (o *CollectionOfMemberActivityEvents) HasEmailId() bool {
 	if o != nil && !IsNil(o.EmailId) {
 		return true
 	}
@@ -163,8 +163,8 @@ func (o *CollectionOfMemberActivityEvents) GetTotalItemsOk() (*int32, bool) {
 	return o.TotalItems, true
 }
 
-// HaveTotalItems returns a boolean if a field has been set.
-func (o *CollectionOfMemberActivityEvents) HaveTotalItems() bool {
+// HasTotalItems returns a boolean if a field has been set.
+func (o *CollectionOfMemberActivityEvents) HasTotalItems() bool {
 	if o != nil && !IsNil(o.TotalItems) {
 		return true
 	}
@@ -195,8 +195,8 @@ func (o *CollectionOfMemberActivityEvents) GetLinksOk() ([]ResourceLink, bool) {
 	return o.Links, true
 }
 
-// HaveLinks returns a boolean if a field has been set.
-func (o *CollectionOfMemberActivityEvents) HaveLinks() bool {
+// HasLinks returns a boolean if a field has been set.
+func (o *CollectionOfMemberActivityEvents) HasLinks() bool {
 	if o != nil && !IsNil(o.Links) {
 		return true
 	}

@@ -63,8 +63,8 @@ func (o *AbandonedCartAutomation) GetIsSupportedOk() (*bool, bool) {
 	return o.IsSupported, true
 }
 
-// HaveIsSupported returns a boolean if a field has been set.
-func (o *AbandonedCartAutomation) HaveIsSupported() bool {
+// HasIsSupported returns a boolean if a field has been set.
+func (o *AbandonedCartAutomation) HasIsSupported() bool {
 	if o != nil && !IsNil(o.IsSupported) {
 		return true
 	}
@@ -95,8 +95,8 @@ func (o *AbandonedCartAutomation) GetIdOk() (*string, bool) {
 	return o.Id, true
 }
 
-// HaveId returns a boolean if a field has been set.
-func (o *AbandonedCartAutomation) HaveId() bool {
+// HasId returns a boolean if a field has been set.
+func (o *AbandonedCartAutomation) HasId() bool {
 	if o != nil && !IsNil(o.Id) {
 		return true
 	}
@@ -127,8 +127,8 @@ func (o *AbandonedCartAutomation) GetStatusOk() (*string, bool) {
 	return o.Status, true
 }
 
-// HaveStatus returns a boolean if a field has been set.
-func (o *AbandonedCartAutomation) HaveStatus() bool {
+// HasStatus returns a boolean if a field has been set.
+func (o *AbandonedCartAutomation) HasStatus() bool {
 	if o != nil && !IsNil(o.Status) {
 		return true
 	}

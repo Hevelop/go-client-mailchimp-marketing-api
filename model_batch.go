@@ -76,8 +76,8 @@ func (o *Batch) GetIdOk() (*string, bool) {
 	return o.Id, true
 }
 
-// HaveId returns a boolean if a field has been set.
-func (o *Batch) HaveId() bool {
+// HasId returns a boolean if a field has been set.
+func (o *Batch) HasId() bool {
 	if o != nil && !IsNil(o.Id) {
 		return true
 	}
@@ -108,8 +108,8 @@ func (o *Batch) GetStatusOk() (*string, bool) {
 	return o.Status, true
 }
 
-// HaveStatus returns a boolean if a field has been set.
-func (o *Batch) HaveStatus() bool {
+// HasStatus returns a boolean if a field has been set.
+func (o *Batch) HasStatus() bool {
 	if o != nil && !IsNil(o.Status) {
 		return true
 	}
@@ -140,8 +140,8 @@ func (o *Batch) GetTotalOperationsOk() (*int32, bool) {
 	return o.TotalOperations, true
 }
 
-// HaveTotalOperations returns a boolean if a field has been set.
-func (o *Batch) HaveTotalOperations() bool {
+// HasTotalOperations returns a boolean if a field has been set.
+func (o *Batch) HasTotalOperations() bool {
 	if o != nil && !IsNil(o.TotalOperations) {
 		return true
 	}
@@ -172,8 +172,8 @@ func (o *Batch) GetFinishedOperationsOk() (*int32, bool) {
 	return o.FinishedOperations, true
 }
 
-// HaveFinishedOperations returns a boolean if a field has been set.
-func (o *Batch) HaveFinishedOperations() bool {
+// HasFinishedOperations returns a boolean if a field has been set.
+func (o *Batch) HasFinishedOperations() bool {
 	if o != nil && !IsNil(o.FinishedOperations) {
 		return true
 	}
@@ -204,8 +204,8 @@ func (o *Batch) GetErroredOperationsOk() (*int32, bool) {
 	return o.ErroredOperations, true
 }
 
-// HaveErroredOperations returns a boolean if a field has been set.
-func (o *Batch) HaveErroredOperations() bool {
+// HasErroredOperations returns a boolean if a field has been set.
+func (o *Batch) HasErroredOperations() bool {
 	if o != nil && !IsNil(o.ErroredOperations) {
 		return true
 	}
@@ -236,8 +236,8 @@ func (o *Batch) GetSubmittedAtOk() (*time.Time, bool) {
 	return o.SubmittedAt, true
 }
 
-// HaveSubmittedAt returns a boolean if a field has been set.
-func (o *Batch) HaveSubmittedAt() bool {
+// HasSubmittedAt returns a boolean if a field has been set.
+func (o *Batch) HasSubmittedAt() bool {
 	if o != nil && !IsNil(o.SubmittedAt) {
 		return true
 	}
@@ -268,8 +268,8 @@ func (o *Batch) GetCompletedAtOk() (*time.Time, bool) {
 	return o.CompletedAt, true
 }
 
-// HaveCompletedAt returns a boolean if a field has been set.
-func (o *Batch) HaveCompletedAt() bool {
+// HasCompletedAt returns a boolean if a field has been set.
+func (o *Batch) HasCompletedAt() bool {
 	if o != nil && !IsNil(o.CompletedAt) {
 		return true
 	}
@@ -300,8 +300,8 @@ func (o *Batch) GetResponseBodyUrlOk() (*string, bool) {
 	return o.ResponseBodyUrl, true
 }
 
-// HaveResponseBodyUrl returns a boolean if a field has been set.
-func (o *Batch) HaveResponseBodyUrl() bool {
+// HasResponseBodyUrl returns a boolean if a field has been set.
+func (o *Batch) HasResponseBodyUrl() bool {
 	if o != nil && !IsNil(o.ResponseBodyUrl) {
 		return true
 	}
@@ -332,8 +332,8 @@ func (o *Batch) GetLinksOk() ([]ResourceLink, bool) {
 	return o.Links, true
 }
 
-// HaveLinks returns a boolean if a field has been set.
-func (o *Batch) HaveLinks() bool {
+// HasLinks returns a boolean if a field has been set.
+func (o *Batch) HasLinks() bool {
 	if o != nil && !IsNil(o.Links) {
 		return true
 	}

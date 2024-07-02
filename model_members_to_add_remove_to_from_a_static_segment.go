@@ -61,8 +61,8 @@ func (o *MembersToAddRemoveToFromAStaticSegment) GetMembersToAddOk() ([]string, 
 	return o.MembersToAdd, true
 }
 
-// HaveMembersToAdd returns a boolean if a field has been set.
-func (o *MembersToAddRemoveToFromAStaticSegment) HaveMembersToAdd() bool {
+// HasMembersToAdd returns a boolean if a field has been set.
+func (o *MembersToAddRemoveToFromAStaticSegment) HasMembersToAdd() bool {
 	if o != nil && !IsNil(o.MembersToAdd) {
 		return true
 	}
@@ -93,8 +93,8 @@ func (o *MembersToAddRemoveToFromAStaticSegment) GetMembersToRemoveOk() ([]strin
 	return o.MembersToRemove, true
 }
 
-// HaveMembersToRemove returns a boolean if a field has been set.
-func (o *MembersToAddRemoveToFromAStaticSegment) HaveMembersToRemove() bool {
+// HasMembersToRemove returns a boolean if a field has been set.
+func (o *MembersToAddRemoveToFromAStaticSegment) HasMembersToRemove() bool {
 	if o != nil && !IsNil(o.MembersToRemove) {
 		return true
 	}

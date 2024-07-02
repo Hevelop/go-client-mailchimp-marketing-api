@@ -74,8 +74,8 @@ func (o *TimewarpStatsInner) GetGmtOffsetOk() (*int32, bool) {
 	return o.GmtOffset, true
 }
 
-// HaveGmtOffset returns a boolean if a field has been set.
-func (o *TimewarpStatsInner) HaveGmtOffset() bool {
+// HasGmtOffset returns a boolean if a field has been set.
+func (o *TimewarpStatsInner) HasGmtOffset() bool {
 	if o != nil && !IsNil(o.GmtOffset) {
 		return true
 	}
@@ -106,8 +106,8 @@ func (o *TimewarpStatsInner) GetOpensOk() (*int32, bool) {
 	return o.Opens, true
 }
 
-// HaveOpens returns a boolean if a field has been set.
-func (o *TimewarpStatsInner) HaveOpens() bool {
+// HasOpens returns a boolean if a field has been set.
+func (o *TimewarpStatsInner) HasOpens() bool {
 	if o != nil && !IsNil(o.Opens) {
 		return true
 	}
@@ -138,8 +138,8 @@ func (o *TimewarpStatsInner) GetLastOpenOk() (*time.Time, bool) {
 	return o.LastOpen, true
 }
 
-// HaveLastOpen returns a boolean if a field has been set.
-func (o *TimewarpStatsInner) HaveLastOpen() bool {
+// HasLastOpen returns a boolean if a field has been set.
+func (o *TimewarpStatsInner) HasLastOpen() bool {
 	if o != nil && !IsNil(o.LastOpen) {
 		return true
 	}
@@ -170,8 +170,8 @@ func (o *TimewarpStatsInner) GetUniqueOpensOk() (*int32, bool) {
 	return o.UniqueOpens, true
 }
 
-// HaveUniqueOpens returns a boolean if a field has been set.
-func (o *TimewarpStatsInner) HaveUniqueOpens() bool {
+// HasUniqueOpens returns a boolean if a field has been set.
+func (o *TimewarpStatsInner) HasUniqueOpens() bool {
 	if o != nil && !IsNil(o.UniqueOpens) {
 		return true
 	}
@@ -202,8 +202,8 @@ func (o *TimewarpStatsInner) GetClicksOk() (*int32, bool) {
 	return o.Clicks, true
 }
 
-// HaveClicks returns a boolean if a field has been set.
-func (o *TimewarpStatsInner) HaveClicks() bool {
+// HasClicks returns a boolean if a field has been set.
+func (o *TimewarpStatsInner) HasClicks() bool {
 	if o != nil && !IsNil(o.Clicks) {
 		return true
 	}
@@ -234,8 +234,8 @@ func (o *TimewarpStatsInner) GetLastClickOk() (*time.Time, bool) {
 	return o.LastClick, true
 }
 
-// HaveLastClick returns a boolean if a field has been set.
-func (o *TimewarpStatsInner) HaveLastClick() bool {
+// HasLastClick returns a boolean if a field has been set.
+func (o *TimewarpStatsInner) HasLastClick() bool {
 	if o != nil && !IsNil(o.LastClick) {
 		return true
 	}
@@ -266,8 +266,8 @@ func (o *TimewarpStatsInner) GetUniqueClicksOk() (*int32, bool) {
 	return o.UniqueClicks, true
 }
 
-// HaveUniqueClicks returns a boolean if a field has been set.
-func (o *TimewarpStatsInner) HaveUniqueClicks() bool {
+// HasUniqueClicks returns a boolean if a field has been set.
+func (o *TimewarpStatsInner) HasUniqueClicks() bool {
 	if o != nil && !IsNil(o.UniqueClicks) {
 		return true
 	}
@@ -298,8 +298,8 @@ func (o *TimewarpStatsInner) GetBouncesOk() (*int32, bool) {
 	return o.Bounces, true
 }
 
-// HaveBounces returns a boolean if a field has been set.
-func (o *TimewarpStatsInner) HaveBounces() bool {
+// HasBounces returns a boolean if a field has been set.
+func (o *TimewarpStatsInner) HasBounces() bool {
 	if o != nil && !IsNil(o.Bounces) {
 		return true
 	}

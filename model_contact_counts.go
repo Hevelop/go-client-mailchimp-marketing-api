@@ -63,8 +63,8 @@ func (o *ContactCounts) GetKnownOk() (*int32, bool) {
 	return o.Known, true
 }
 
-// HaveKnown returns a boolean if a field has been set.
-func (o *ContactCounts) HaveKnown() bool {
+// HasKnown returns a boolean if a field has been set.
+func (o *ContactCounts) HasKnown() bool {
 	if o != nil && !IsNil(o.Known) {
 		return true
 	}
@@ -95,8 +95,8 @@ func (o *ContactCounts) GetUnknownOk() (*int32, bool) {
 	return o.Unknown, true
 }
 
-// HaveUnknown returns a boolean if a field has been set.
-func (o *ContactCounts) HaveUnknown() bool {
+// HasUnknown returns a boolean if a field has been set.
+func (o *ContactCounts) HasUnknown() bool {
 	if o != nil && !IsNil(o.Unknown) {
 		return true
 	}
@@ -127,8 +127,8 @@ func (o *ContactCounts) GetNewOk() (*int32, bool) {
 	return o.New, true
 }
 
-// HaveNew returns a boolean if a field has been set.
-func (o *ContactCounts) HaveNew() bool {
+// HasNew returns a boolean if a field has been set.
+func (o *ContactCounts) HasNew() bool {
 	if o != nil && !IsNil(o.New) {
 		return true
 	}

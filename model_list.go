@@ -66,8 +66,8 @@ func (o *List) GetListIdOk() (*string, bool) {
 	return o.ListId, true
 }
 
-// HaveListId returns a boolean if a field has been set.
-func (o *List) HaveListId() bool {
+// HasListId returns a boolean if a field has been set.
+func (o *List) HasListId() bool {
 	if o != nil && !IsNil(o.ListId) {
 		return true
 	}
@@ -98,8 +98,8 @@ func (o *List) GetListIsActiveOk() (*bool, bool) {
 	return o.ListIsActive, true
 }
 
-// HaveListIsActive returns a boolean if a field has been set.
-func (o *List) HaveListIsActive() bool {
+// HasListIsActive returns a boolean if a field has been set.
+func (o *List) HasListIsActive() bool {
 	if o != nil && !IsNil(o.ListIsActive) {
 		return true
 	}
@@ -130,8 +130,8 @@ func (o *List) GetListNameOk() (*string, bool) {
 	return o.ListName, true
 }
 
-// HaveListName returns a boolean if a field has been set.
-func (o *List) HaveListName() bool {
+// HasListName returns a boolean if a field has been set.
+func (o *List) HasListName() bool {
 	if o != nil && !IsNil(o.ListName) {
 		return true
 	}
@@ -162,8 +162,8 @@ func (o *List) GetSegmentOptsOk() (*SegmentOptions, bool) {
 	return o.SegmentOpts, true
 }
 
-// HaveSegmentOpts returns a boolean if a field has been set.
-func (o *List) HaveSegmentOpts() bool {
+// HasSegmentOpts returns a boolean if a field has been set.
+func (o *List) HasSegmentOpts() bool {
 	if o != nil && !IsNil(o.SegmentOpts) {
 		return true
 	}
@@ -194,8 +194,8 @@ func (o *List) GetStoreIdOk() (*string, bool) {
 	return o.StoreId, true
 }
 
-// HaveStoreId returns a boolean if a field has been set.
-func (o *List) HaveStoreId() bool {
+// HasStoreId returns a boolean if a field has been set.
+func (o *List) HasStoreId() bool {
 	if o != nil && !IsNil(o.StoreId) {
 		return true
 	}

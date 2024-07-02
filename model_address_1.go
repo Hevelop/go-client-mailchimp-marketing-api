@@ -77,8 +77,8 @@ func (o *Address1) GetAddress1Ok() (*string, bool) {
 	return o.Address1, true
 }
 
-// HaveAddress1 returns a boolean if a field has been set.
-func (o *Address1) HaveAddress1() bool {
+// HasAddress1 returns a boolean if a field has been set.
+func (o *Address1) HasAddress1() bool {
 	if o != nil && !IsNil(o.Address1) {
 		return true
 	}
@@ -109,8 +109,8 @@ func (o *Address1) GetAddress2Ok() (*string, bool) {
 	return o.Address2, true
 }
 
-// HaveAddress2 returns a boolean if a field has been set.
-func (o *Address1) HaveAddress2() bool {
+// HasAddress2 returns a boolean if a field has been set.
+func (o *Address1) HasAddress2() bool {
 	if o != nil && !IsNil(o.Address2) {
 		return true
 	}
@@ -141,8 +141,8 @@ func (o *Address1) GetCityOk() (*string, bool) {
 	return o.City, true
 }
 
-// HaveCity returns a boolean if a field has been set.
-func (o *Address1) HaveCity() bool {
+// HasCity returns a boolean if a field has been set.
+func (o *Address1) HasCity() bool {
 	if o != nil && !IsNil(o.City) {
 		return true
 	}
@@ -173,8 +173,8 @@ func (o *Address1) GetProvinceOk() (*string, bool) {
 	return o.Province, true
 }
 
-// HaveProvince returns a boolean if a field has been set.
-func (o *Address1) HaveProvince() bool {
+// HasProvince returns a boolean if a field has been set.
+func (o *Address1) HasProvince() bool {
 	if o != nil && !IsNil(o.Province) {
 		return true
 	}
@@ -205,8 +205,8 @@ func (o *Address1) GetProvinceCodeOk() (*string, bool) {
 	return o.ProvinceCode, true
 }
 
-// HaveProvinceCode returns a boolean if a field has been set.
-func (o *Address1) HaveProvinceCode() bool {
+// HasProvinceCode returns a boolean if a field has been set.
+func (o *Address1) HasProvinceCode() bool {
 	if o != nil && !IsNil(o.ProvinceCode) {
 		return true
 	}
@@ -237,8 +237,8 @@ func (o *Address1) GetPostalCodeOk() (*string, bool) {
 	return o.PostalCode, true
 }
 
-// HavePostalCode returns a boolean if a field has been set.
-func (o *Address1) HavePostalCode() bool {
+// HasPostalCode returns a boolean if a field has been set.
+func (o *Address1) HasPostalCode() bool {
 	if o != nil && !IsNil(o.PostalCode) {
 		return true
 	}
@@ -269,8 +269,8 @@ func (o *Address1) GetCountryOk() (*string, bool) {
 	return o.Country, true
 }
 
-// HaveCountry returns a boolean if a field has been set.
-func (o *Address1) HaveCountry() bool {
+// HasCountry returns a boolean if a field has been set.
+func (o *Address1) HasCountry() bool {
 	if o != nil && !IsNil(o.Country) {
 		return true
 	}
@@ -301,8 +301,8 @@ func (o *Address1) GetCountryCodeOk() (*string, bool) {
 	return o.CountryCode, true
 }
 
-// HaveCountryCode returns a boolean if a field has been set.
-func (o *Address1) HaveCountryCode() bool {
+// HasCountryCode returns a boolean if a field has been set.
+func (o *Address1) HasCountryCode() bool {
 	if o != nil && !IsNil(o.CountryCode) {
 		return true
 	}
@@ -333,8 +333,8 @@ func (o *Address1) GetLongitudeOk() (*float32, bool) {
 	return o.Longitude, true
 }
 
-// HaveLongitude returns a boolean if a field has been set.
-func (o *Address1) HaveLongitude() bool {
+// HasLongitude returns a boolean if a field has been set.
+func (o *Address1) HasLongitude() bool {
 	if o != nil && !IsNil(o.Longitude) {
 		return true
 	}
@@ -365,8 +365,8 @@ func (o *Address1) GetLatitudeOk() (*float32, bool) {
 	return o.Latitude, true
 }
 
-// HaveLatitude returns a boolean if a field has been set.
-func (o *Address1) HaveLatitude() bool {
+// HasLatitude returns a boolean if a field has been set.
+func (o *Address1) HasLatitude() bool {
 	if o != nil && !IsNil(o.Latitude) {
 		return true
 	}

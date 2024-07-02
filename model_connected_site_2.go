@@ -60,8 +60,8 @@ func (o *ConnectedSite2) GetSiteForeignIdOk() (*string, bool) {
 	return o.SiteForeignId, true
 }
 
-// HaveSiteForeignId returns a boolean if a field has been set.
-func (o *ConnectedSite2) HaveSiteForeignId() bool {
+// HasSiteForeignId returns a boolean if a field has been set.
+func (o *ConnectedSite2) HasSiteForeignId() bool {
 	if o != nil && !IsNil(o.SiteForeignId) {
 		return true
 	}
@@ -92,8 +92,8 @@ func (o *ConnectedSite2) GetSiteScriptOk() (*Script1, bool) {
 	return o.SiteScript, true
 }
 
-// HaveSiteScript returns a boolean if a field has been set.
-func (o *ConnectedSite2) HaveSiteScript() bool {
+// HasSiteScript returns a boolean if a field has been set.
+func (o *ConnectedSite2) HasSiteScript() bool {
 	if o != nil && !IsNil(o.SiteScript) {
 		return true
 	}

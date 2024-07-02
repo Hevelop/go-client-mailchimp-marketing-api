@@ -78,8 +78,8 @@ func (o *AbuseComplaint1) GetIdOk() (*int32, bool) {
 	return o.Id, true
 }
 
-// HaveId returns a boolean if a field has been set.
-func (o *AbuseComplaint1) HaveId() bool {
+// HasId returns a boolean if a field has been set.
+func (o *AbuseComplaint1) HasId() bool {
 	if o != nil && !IsNil(o.Id) {
 		return true
 	}
@@ -110,8 +110,8 @@ func (o *AbuseComplaint1) GetCampaignIdOk() (*string, bool) {
 	return o.CampaignId, true
 }
 
-// HaveCampaignId returns a boolean if a field has been set.
-func (o *AbuseComplaint1) HaveCampaignId() bool {
+// HasCampaignId returns a boolean if a field has been set.
+func (o *AbuseComplaint1) HasCampaignId() bool {
 	if o != nil && !IsNil(o.CampaignId) {
 		return true
 	}
@@ -142,8 +142,8 @@ func (o *AbuseComplaint1) GetListIdOk() (*string, bool) {
 	return o.ListId, true
 }
 
-// HaveListId returns a boolean if a field has been set.
-func (o *AbuseComplaint1) HaveListId() bool {
+// HasListId returns a boolean if a field has been set.
+func (o *AbuseComplaint1) HasListId() bool {
 	if o != nil && !IsNil(o.ListId) {
 		return true
 	}
@@ -174,8 +174,8 @@ func (o *AbuseComplaint1) GetListIsActiveOk() (*bool, bool) {
 	return o.ListIsActive, true
 }
 
-// HaveListIsActive returns a boolean if a field has been set.
-func (o *AbuseComplaint1) HaveListIsActive() bool {
+// HasListIsActive returns a boolean if a field has been set.
+func (o *AbuseComplaint1) HasListIsActive() bool {
 	if o != nil && !IsNil(o.ListIsActive) {
 		return true
 	}
@@ -206,8 +206,8 @@ func (o *AbuseComplaint1) GetEmailIdOk() (*string, bool) {
 	return o.EmailId, true
 }
 
-// HaveEmailId returns a boolean if a field has been set.
-func (o *AbuseComplaint1) HaveEmailId() bool {
+// HasEmailId returns a boolean if a field has been set.
+func (o *AbuseComplaint1) HasEmailId() bool {
 	if o != nil && !IsNil(o.EmailId) {
 		return true
 	}
@@ -238,8 +238,8 @@ func (o *AbuseComplaint1) GetEmailAddressOk() (*string, bool) {
 	return o.EmailAddress, true
 }
 
-// HaveEmailAddress returns a boolean if a field has been set.
-func (o *AbuseComplaint1) HaveEmailAddress() bool {
+// HasEmailAddress returns a boolean if a field has been set.
+func (o *AbuseComplaint1) HasEmailAddress() bool {
 	if o != nil && !IsNil(o.EmailAddress) {
 		return true
 	}
@@ -270,8 +270,8 @@ func (o *AbuseComplaint1) GetMergeFieldsOk() (map[string]map[string]interface{},
 	return o.MergeFields, true
 }
 
-// HaveMergeFields returns a boolean if a field has been set.
-func (o *AbuseComplaint1) HaveMergeFields() bool {
+// HasMergeFields returns a boolean if a field has been set.
+func (o *AbuseComplaint1) HasMergeFields() bool {
 	if o != nil && !IsNil(o.MergeFields) {
 		return true
 	}
@@ -302,8 +302,8 @@ func (o *AbuseComplaint1) GetVipOk() (*bool, bool) {
 	return o.Vip, true
 }
 
-// HaveVip returns a boolean if a field has been set.
-func (o *AbuseComplaint1) HaveVip() bool {
+// HasVip returns a boolean if a field has been set.
+func (o *AbuseComplaint1) HasVip() bool {
 	if o != nil && !IsNil(o.Vip) {
 		return true
 	}
@@ -334,8 +334,8 @@ func (o *AbuseComplaint1) GetDateOk() (*time.Time, bool) {
 	return o.Date, true
 }
 
-// HaveDate returns a boolean if a field has been set.
-func (o *AbuseComplaint1) HaveDate() bool {
+// HasDate returns a boolean if a field has been set.
+func (o *AbuseComplaint1) HasDate() bool {
 	if o != nil && !IsNil(o.Date) {
 		return true
 	}
@@ -366,8 +366,8 @@ func (o *AbuseComplaint1) GetLinksOk() ([]ResourceLink, bool) {
 	return o.Links, true
 }
 
-// HaveLinks returns a boolean if a field has been set.
-func (o *AbuseComplaint1) HaveLinks() bool {
+// HasLinks returns a boolean if a field has been set.
+func (o *AbuseComplaint1) HasLinks() bool {
 	if o != nil && !IsNil(o.Links) {
 		return true
 	}

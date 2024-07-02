@@ -63,8 +63,8 @@ func (o *CollectionOfEvents) GetEventsOk() ([]Event, bool) {
 	return o.Events, true
 }
 
-// HaveEvents returns a boolean if a field has been set.
-func (o *CollectionOfEvents) HaveEvents() bool {
+// HasEvents returns a boolean if a field has been set.
+func (o *CollectionOfEvents) HasEvents() bool {
 	if o != nil && !IsNil(o.Events) {
 		return true
 	}
@@ -95,8 +95,8 @@ func (o *CollectionOfEvents) GetTotalItemsOk() (*int32, bool) {
 	return o.TotalItems, true
 }
 
-// HaveTotalItems returns a boolean if a field has been set.
-func (o *CollectionOfEvents) HaveTotalItems() bool {
+// HasTotalItems returns a boolean if a field has been set.
+func (o *CollectionOfEvents) HasTotalItems() bool {
 	if o != nil && !IsNil(o.TotalItems) {
 		return true
 	}
@@ -127,8 +127,8 @@ func (o *CollectionOfEvents) GetLinksOk() ([]ResourceLink, bool) {
 	return o.Links, true
 }
 
-// HaveLinks returns a boolean if a field has been set.
-func (o *CollectionOfEvents) HaveLinks() bool {
+// HasLinks returns a boolean if a field has been set.
+func (o *CollectionOfEvents) HasLinks() bool {
 	if o != nil && !IsNil(o.Links) {
 		return true
 	}

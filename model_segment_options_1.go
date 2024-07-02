@@ -65,8 +65,8 @@ func (o *SegmentOptions1) GetSavedSegmentIdOk() (*int32, bool) {
 	return o.SavedSegmentId, true
 }
 
-// HaveSavedSegmentId returns a boolean if a field has been set.
-func (o *SegmentOptions1) HaveSavedSegmentId() bool {
+// HasSavedSegmentId returns a boolean if a field has been set.
+func (o *SegmentOptions1) HasSavedSegmentId() bool {
 	if o != nil && !IsNil(o.SavedSegmentId) {
 		return true
 	}
@@ -97,8 +97,8 @@ func (o *SegmentOptions1) GetPrebuiltSegmentIdOk() (*string, bool) {
 	return o.PrebuiltSegmentId, true
 }
 
-// HavePrebuiltSegmentId returns a boolean if a field has been set.
-func (o *SegmentOptions1) HavePrebuiltSegmentId() bool {
+// HasPrebuiltSegmentId returns a boolean if a field has been set.
+func (o *SegmentOptions1) HasPrebuiltSegmentId() bool {
 	if o != nil && !IsNil(o.PrebuiltSegmentId) {
 		return true
 	}
@@ -129,8 +129,8 @@ func (o *SegmentOptions1) GetMatchOk() (*string, bool) {
 	return o.Match, true
 }
 
-// HaveMatch returns a boolean if a field has been set.
-func (o *SegmentOptions1) HaveMatch() bool {
+// HasMatch returns a boolean if a field has been set.
+func (o *SegmentOptions1) HasMatch() bool {
 	if o != nil && !IsNil(o.Match) {
 		return true
 	}
@@ -161,8 +161,8 @@ func (o *SegmentOptions1) GetConditionsOk() ([]map[string]interface{}, bool) {
 	return o.Conditions, true
 }
 
-// HaveConditions returns a boolean if a field has been set.
-func (o *SegmentOptions1) HaveConditions() bool {
+// HasConditions returns a boolean if a field has been set.
+func (o *SegmentOptions1) HasConditions() bool {
 	if o != nil && !IsNil(o.Conditions) {
 		return true
 	}

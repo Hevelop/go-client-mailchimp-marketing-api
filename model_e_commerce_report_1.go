@@ -64,8 +64,8 @@ func (o *ECommerceReport1) GetTotalOrdersOk() (*int32, bool) {
 	return o.TotalOrders, true
 }
 
-// HaveTotalOrders returns a boolean if a field has been set.
-func (o *ECommerceReport1) HaveTotalOrders() bool {
+// HasTotalOrders returns a boolean if a field has been set.
+func (o *ECommerceReport1) HasTotalOrders() bool {
 	if o != nil && !IsNil(o.TotalOrders) {
 		return true
 	}
@@ -96,8 +96,8 @@ func (o *ECommerceReport1) GetTotalSpentOk() (*float32, bool) {
 	return o.TotalSpent, true
 }
 
-// HaveTotalSpent returns a boolean if a field has been set.
-func (o *ECommerceReport1) HaveTotalSpent() bool {
+// HasTotalSpent returns a boolean if a field has been set.
+func (o *ECommerceReport1) HasTotalSpent() bool {
 	if o != nil && !IsNil(o.TotalSpent) {
 		return true
 	}
@@ -128,8 +128,8 @@ func (o *ECommerceReport1) GetTotalRevenueOk() (*float32, bool) {
 	return o.TotalRevenue, true
 }
 
-// HaveTotalRevenue returns a boolean if a field has been set.
-func (o *ECommerceReport1) HaveTotalRevenue() bool {
+// HasTotalRevenue returns a boolean if a field has been set.
+func (o *ECommerceReport1) HasTotalRevenue() bool {
 	if o != nil && !IsNil(o.TotalRevenue) {
 		return true
 	}
@@ -160,8 +160,8 @@ func (o *ECommerceReport1) GetCurrencyCodeOk() (*string, bool) {
 	return o.CurrencyCode, true
 }
 
-// HaveCurrencyCode returns a boolean if a field has been set.
-func (o *ECommerceReport1) HaveCurrencyCode() bool {
+// HasCurrencyCode returns a boolean if a field has been set.
+func (o *ECommerceReport1) HasCurrencyCode() bool {
 	if o != nil && !IsNil(o.CurrencyCode) {
 		return true
 	}

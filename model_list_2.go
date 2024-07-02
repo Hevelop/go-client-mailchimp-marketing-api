@@ -68,8 +68,8 @@ func (o *List2) GetListIdOk() (*string, bool) {
 	return o.ListId, true
 }
 
-// HaveListId returns a boolean if a field has been set.
-func (o *List2) HaveListId() bool {
+// HasListId returns a boolean if a field has been set.
+func (o *List2) HasListId() bool {
 	if o != nil && !IsNil(o.ListId) {
 		return true
 	}
@@ -100,8 +100,8 @@ func (o *List2) GetListIsActiveOk() (*bool, bool) {
 	return o.ListIsActive, true
 }
 
-// HaveListIsActive returns a boolean if a field has been set.
-func (o *List2) HaveListIsActive() bool {
+// HasListIsActive returns a boolean if a field has been set.
+func (o *List2) HasListIsActive() bool {
 	if o != nil && !IsNil(o.ListIsActive) {
 		return true
 	}
@@ -132,8 +132,8 @@ func (o *List2) GetListNameOk() (*string, bool) {
 	return o.ListName, true
 }
 
-// HaveListName returns a boolean if a field has been set.
-func (o *List2) HaveListName() bool {
+// HasListName returns a boolean if a field has been set.
+func (o *List2) HasListName() bool {
 	if o != nil && !IsNil(o.ListName) {
 		return true
 	}
@@ -164,8 +164,8 @@ func (o *List2) GetSegmentTextOk() (*string, bool) {
 	return o.SegmentText, true
 }
 
-// HaveSegmentText returns a boolean if a field has been set.
-func (o *List2) HaveSegmentText() bool {
+// HasSegmentText returns a boolean if a field has been set.
+func (o *List2) HasSegmentText() bool {
 	if o != nil && !IsNil(o.SegmentText) {
 		return true
 	}
@@ -196,8 +196,8 @@ func (o *List2) GetRecipientCountOk() (*int32, bool) {
 	return o.RecipientCount, true
 }
 
-// HaveRecipientCount returns a boolean if a field has been set.
-func (o *List2) HaveRecipientCount() bool {
+// HasRecipientCount returns a boolean if a field has been set.
+func (o *List2) HasRecipientCount() bool {
 	if o != nil && !IsNil(o.RecipientCount) {
 		return true
 	}
@@ -228,8 +228,8 @@ func (o *List2) GetSegmentOptsOk() (*SegmentOptions1, bool) {
 	return o.SegmentOpts, true
 }
 
-// HaveSegmentOpts returns a boolean if a field has been set.
-func (o *List2) HaveSegmentOpts() bool {
+// HasSegmentOpts returns a boolean if a field has been set.
+func (o *List2) HasSegmentOpts() bool {
 	if o != nil && !IsNil(o.SegmentOpts) {
 		return true
 	}

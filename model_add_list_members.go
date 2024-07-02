@@ -81,8 +81,8 @@ func (o *AddListMembers) GetEmailAddressOk() (*string, bool) {
 	return o.EmailAddress, true
 }
 
-// HaveEmailAddress returns a boolean if a field has been set.
-func (o *AddListMembers) HaveEmailAddress() bool {
+// HasEmailAddress returns a boolean if a field has been set.
+func (o *AddListMembers) HasEmailAddress() bool {
 	if o != nil && !IsNil(o.EmailAddress) {
 		return true
 	}
@@ -113,8 +113,8 @@ func (o *AddListMembers) GetEmailTypeOk() (*string, bool) {
 	return o.EmailType, true
 }
 
-// HaveEmailType returns a boolean if a field has been set.
-func (o *AddListMembers) HaveEmailType() bool {
+// HasEmailType returns a boolean if a field has been set.
+func (o *AddListMembers) HasEmailType() bool {
 	if o != nil && !IsNil(o.EmailType) {
 		return true
 	}
@@ -145,8 +145,8 @@ func (o *AddListMembers) GetStatusOk() (*string, bool) {
 	return o.Status, true
 }
 
-// HaveStatus returns a boolean if a field has been set.
-func (o *AddListMembers) HaveStatus() bool {
+// HasStatus returns a boolean if a field has been set.
+func (o *AddListMembers) HasStatus() bool {
 	if o != nil && !IsNil(o.Status) {
 		return true
 	}
@@ -177,8 +177,8 @@ func (o *AddListMembers) GetMergeFieldsOk() (map[string]map[string]interface{}, 
 	return o.MergeFields, true
 }
 
-// HaveMergeFields returns a boolean if a field has been set.
-func (o *AddListMembers) HaveMergeFields() bool {
+// HasMergeFields returns a boolean if a field has been set.
+func (o *AddListMembers) HasMergeFields() bool {
 	if o != nil && !IsNil(o.MergeFields) {
 		return true
 	}
@@ -209,8 +209,8 @@ func (o *AddListMembers) GetInterestsOk() (*map[string]bool, bool) {
 	return o.Interests, true
 }
 
-// HaveInterests returns a boolean if a field has been set.
-func (o *AddListMembers) HaveInterests() bool {
+// HasInterests returns a boolean if a field has been set.
+func (o *AddListMembers) HasInterests() bool {
 	if o != nil && !IsNil(o.Interests) {
 		return true
 	}
@@ -241,8 +241,8 @@ func (o *AddListMembers) GetLanguageOk() (*string, bool) {
 	return o.Language, true
 }
 
-// HaveLanguage returns a boolean if a field has been set.
-func (o *AddListMembers) HaveLanguage() bool {
+// HasLanguage returns a boolean if a field has been set.
+func (o *AddListMembers) HasLanguage() bool {
 	if o != nil && !IsNil(o.Language) {
 		return true
 	}
@@ -273,8 +273,8 @@ func (o *AddListMembers) GetVipOk() (*bool, bool) {
 	return o.Vip, true
 }
 
-// HaveVip returns a boolean if a field has been set.
-func (o *AddListMembers) HaveVip() bool {
+// HasVip returns a boolean if a field has been set.
+func (o *AddListMembers) HasVip() bool {
 	if o != nil && !IsNil(o.Vip) {
 		return true
 	}
@@ -305,8 +305,8 @@ func (o *AddListMembers) GetLocationOk() (*Location, bool) {
 	return o.Location, true
 }
 
-// HaveLocation returns a boolean if a field has been set.
-func (o *AddListMembers) HaveLocation() bool {
+// HasLocation returns a boolean if a field has been set.
+func (o *AddListMembers) HasLocation() bool {
 	if o != nil && !IsNil(o.Location) {
 		return true
 	}
@@ -337,8 +337,8 @@ func (o *AddListMembers) GetIpSignupOk() (*string, bool) {
 	return o.IpSignup, true
 }
 
-// HaveIpSignup returns a boolean if a field has been set.
-func (o *AddListMembers) HaveIpSignup() bool {
+// HasIpSignup returns a boolean if a field has been set.
+func (o *AddListMembers) HasIpSignup() bool {
 	if o != nil && !IsNil(o.IpSignup) {
 		return true
 	}
@@ -369,8 +369,8 @@ func (o *AddListMembers) GetTimestampSignupOk() (*time.Time, bool) {
 	return o.TimestampSignup, true
 }
 
-// HaveTimestampSignup returns a boolean if a field has been set.
-func (o *AddListMembers) HaveTimestampSignup() bool {
+// HasTimestampSignup returns a boolean if a field has been set.
+func (o *AddListMembers) HasTimestampSignup() bool {
 	if o != nil && !IsNil(o.TimestampSignup) {
 		return true
 	}
@@ -401,8 +401,8 @@ func (o *AddListMembers) GetIpOptOk() (*string, bool) {
 	return o.IpOpt, true
 }
 
-// HaveIpOpt returns a boolean if a field has been set.
-func (o *AddListMembers) HaveIpOpt() bool {
+// HasIpOpt returns a boolean if a field has been set.
+func (o *AddListMembers) HasIpOpt() bool {
 	if o != nil && !IsNil(o.IpOpt) {
 		return true
 	}
@@ -433,8 +433,8 @@ func (o *AddListMembers) GetTimestampOptOk() (*time.Time, bool) {
 	return o.TimestampOpt, true
 }
 
-// HaveTimestampOpt returns a boolean if a field has been set.
-func (o *AddListMembers) HaveTimestampOpt() bool {
+// HasTimestampOpt returns a boolean if a field has been set.
+func (o *AddListMembers) HasTimestampOpt() bool {
 	if o != nil && !IsNil(o.TimestampOpt) {
 		return true
 	}

@@ -65,8 +65,8 @@ func (o *EmailClients) GetClientsOk() ([]EmailClient, bool) {
 	return o.Clients, true
 }
 
-// HaveClients returns a boolean if a field has been set.
-func (o *EmailClients) HaveClients() bool {
+// HasClients returns a boolean if a field has been set.
+func (o *EmailClients) HasClients() bool {
 	if o != nil && !IsNil(o.Clients) {
 		return true
 	}
@@ -97,8 +97,8 @@ func (o *EmailClients) GetListIdOk() (*string, bool) {
 	return o.ListId, true
 }
 
-// HaveListId returns a boolean if a field has been set.
-func (o *EmailClients) HaveListId() bool {
+// HasListId returns a boolean if a field has been set.
+func (o *EmailClients) HasListId() bool {
 	if o != nil && !IsNil(o.ListId) {
 		return true
 	}
@@ -129,8 +129,8 @@ func (o *EmailClients) GetTotalItemsOk() (*int32, bool) {
 	return o.TotalItems, true
 }
 
-// HaveTotalItems returns a boolean if a field has been set.
-func (o *EmailClients) HaveTotalItems() bool {
+// HasTotalItems returns a boolean if a field has been set.
+func (o *EmailClients) HasTotalItems() bool {
 	if o != nil && !IsNil(o.TotalItems) {
 		return true
 	}
@@ -161,8 +161,8 @@ func (o *EmailClients) GetLinksOk() ([]ResourceLink, bool) {
 	return o.Links, true
 }
 
-// HaveLinks returns a boolean if a field has been set.
-func (o *EmailClients) HaveLinks() bool {
+// HasLinks returns a boolean if a field has been set.
+func (o *EmailClients) HasLinks() bool {
 	if o != nil && !IsNil(o.Links) {
 		return true
 	}

@@ -63,8 +63,8 @@ func (o *GetCampaigns200Response) GetCampaignsOk() ([]Campaign, bool) {
 	return o.Campaigns, true
 }
 
-// HaveCampaigns returns a boolean if a field has been set.
-func (o *GetCampaigns200Response) HaveCampaigns() bool {
+// HasCampaigns returns a boolean if a field has been set.
+func (o *GetCampaigns200Response) HasCampaigns() bool {
 	if o != nil && !IsNil(o.Campaigns) {
 		return true
 	}
@@ -95,8 +95,8 @@ func (o *GetCampaigns200Response) GetTotalItemsOk() (*int32, bool) {
 	return o.TotalItems, true
 }
 
-// HaveTotalItems returns a boolean if a field has been set.
-func (o *GetCampaigns200Response) HaveTotalItems() bool {
+// HasTotalItems returns a boolean if a field has been set.
+func (o *GetCampaigns200Response) HasTotalItems() bool {
 	if o != nil && !IsNil(o.TotalItems) {
 		return true
 	}
@@ -127,8 +127,8 @@ func (o *GetCampaigns200Response) GetLinksOk() ([]ResourceLink, bool) {
 	return o.Links, true
 }
 
-// HaveLinks returns a boolean if a field has been set.
-func (o *GetCampaigns200Response) HaveLinks() bool {
+// HasLinks returns a boolean if a field has been set.
+func (o *GetCampaigns200Response) HasLinks() bool {
 	if o != nil && !IsNil(o.Links) {
 		return true
 	}

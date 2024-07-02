@@ -62,8 +62,8 @@ func (o *GetReportingLandingPages200Response) GetLandingPagesOk() ([]LandingPage
 	return o.LandingPages, true
 }
 
-// HaveLandingPages returns a boolean if a field has been set.
-func (o *GetReportingLandingPages200Response) HaveLandingPages() bool {
+// HasLandingPages returns a boolean if a field has been set.
+func (o *GetReportingLandingPages200Response) HasLandingPages() bool {
 	if o != nil && !IsNil(o.LandingPages) {
 		return true
 	}
@@ -94,8 +94,8 @@ func (o *GetReportingLandingPages200Response) GetTotalItemsOk() (*int32, bool) {
 	return o.TotalItems, true
 }
 
-// HaveTotalItems returns a boolean if a field has been set.
-func (o *GetReportingLandingPages200Response) HaveTotalItems() bool {
+// HasTotalItems returns a boolean if a field has been set.
+func (o *GetReportingLandingPages200Response) HasTotalItems() bool {
 	if o != nil && !IsNil(o.TotalItems) {
 		return true
 	}
@@ -126,8 +126,8 @@ func (o *GetReportingLandingPages200Response) GetLinksOk() ([]ResourceLink, bool
 	return o.Links, true
 }
 
-// HaveLinks returns a boolean if a field has been set.
-func (o *GetReportingLandingPages200Response) HaveLinks() bool {
+// HasLinks returns a boolean if a field has been set.
+func (o *GetReportingLandingPages200Response) HasLinks() bool {
 	if o != nil && !IsNil(o.Links) {
 		return true
 	}

@@ -62,8 +62,8 @@ func (o *SignupForm1) GetHeaderOk() (*SignupFormHeaderOptions, bool) {
 	return o.Header, true
 }
 
-// HaveHeader returns a boolean if a field has been set.
-func (o *SignupForm1) HaveHeader() bool {
+// HasHeader returns a boolean if a field has been set.
+func (o *SignupForm1) HasHeader() bool {
 	if o != nil && !IsNil(o.Header) {
 		return true
 	}
@@ -94,8 +94,8 @@ func (o *SignupForm1) GetContentsOk() ([]CollectionOfContentForListSignupForms, 
 	return o.Contents, true
 }
 
-// HaveContents returns a boolean if a field has been set.
-func (o *SignupForm1) HaveContents() bool {
+// HasContents returns a boolean if a field has been set.
+func (o *SignupForm1) HasContents() bool {
 	if o != nil && !IsNil(o.Contents) {
 		return true
 	}
@@ -126,8 +126,8 @@ func (o *SignupForm1) GetStylesOk() ([]CollectionOfElementStyleForListSignupForm
 	return o.Styles, true
 }
 
-// HaveStyles returns a boolean if a field has been set.
-func (o *SignupForm1) HaveStyles() bool {
+// HasStyles returns a boolean if a field has been set.
+func (o *SignupForm1) HasStyles() bool {
 	if o != nil && !IsNil(o.Styles) {
 		return true
 	}

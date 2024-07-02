@@ -61,8 +61,8 @@ func (o *TemplateDefaultContent) GetSectionsOk() (map[string]map[string]interfac
 	return o.Sections, true
 }
 
-// HaveSections returns a boolean if a field has been set.
-func (o *TemplateDefaultContent) HaveSections() bool {
+// HasSections returns a boolean if a field has been set.
+func (o *TemplateDefaultContent) HasSections() bool {
 	if o != nil && !IsNil(o.Sections) {
 		return true
 	}
@@ -93,8 +93,8 @@ func (o *TemplateDefaultContent) GetLinksOk() ([]ResourceLink, bool) {
 	return o.Links, true
 }
 
-// HaveLinks returns a boolean if a field has been set.
-func (o *TemplateDefaultContent) HaveLinks() bool {
+// HasLinks returns a boolean if a field has been set.
+func (o *TemplateDefaultContent) HasLinks() bool {
 	if o != nil && !IsNil(o.Links) {
 		return true
 	}

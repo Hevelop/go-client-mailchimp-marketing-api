@@ -82,8 +82,8 @@ func (o *ECommerceProductVariant) GetIdOk() (*string, bool) {
 	return o.Id, true
 }
 
-// HaveId returns a boolean if a field has been set.
-func (o *ECommerceProductVariant) HaveId() bool {
+// HasId returns a boolean if a field has been set.
+func (o *ECommerceProductVariant) HasId() bool {
 	if o != nil && !IsNil(o.Id) {
 		return true
 	}
@@ -114,8 +114,8 @@ func (o *ECommerceProductVariant) GetTitleOk() (*string, bool) {
 	return o.Title, true
 }
 
-// HaveTitle returns a boolean if a field has been set.
-func (o *ECommerceProductVariant) HaveTitle() bool {
+// HasTitle returns a boolean if a field has been set.
+func (o *ECommerceProductVariant) HasTitle() bool {
 	if o != nil && !IsNil(o.Title) {
 		return true
 	}
@@ -146,8 +146,8 @@ func (o *ECommerceProductVariant) GetUrlOk() (*string, bool) {
 	return o.Url, true
 }
 
-// HaveUrl returns a boolean if a field has been set.
-func (o *ECommerceProductVariant) HaveUrl() bool {
+// HasUrl returns a boolean if a field has been set.
+func (o *ECommerceProductVariant) HasUrl() bool {
 	if o != nil && !IsNil(o.Url) {
 		return true
 	}
@@ -178,8 +178,8 @@ func (o *ECommerceProductVariant) GetSkuOk() (*string, bool) {
 	return o.Sku, true
 }
 
-// HaveSku returns a boolean if a field has been set.
-func (o *ECommerceProductVariant) HaveSku() bool {
+// HasSku returns a boolean if a field has been set.
+func (o *ECommerceProductVariant) HasSku() bool {
 	if o != nil && !IsNil(o.Sku) {
 		return true
 	}
@@ -210,8 +210,8 @@ func (o *ECommerceProductVariant) GetPriceOk() (*float32, bool) {
 	return o.Price, true
 }
 
-// HavePrice returns a boolean if a field has been set.
-func (o *ECommerceProductVariant) HavePrice() bool {
+// HasPrice returns a boolean if a field has been set.
+func (o *ECommerceProductVariant) HasPrice() bool {
 	if o != nil && !IsNil(o.Price) {
 		return true
 	}
@@ -242,8 +242,8 @@ func (o *ECommerceProductVariant) GetInventoryQuantityOk() (*int32, bool) {
 	return o.InventoryQuantity, true
 }
 
-// HaveInventoryQuantity returns a boolean if a field has been set.
-func (o *ECommerceProductVariant) HaveInventoryQuantity() bool {
+// HasInventoryQuantity returns a boolean if a field has been set.
+func (o *ECommerceProductVariant) HasInventoryQuantity() bool {
 	if o != nil && !IsNil(o.InventoryQuantity) {
 		return true
 	}
@@ -274,8 +274,8 @@ func (o *ECommerceProductVariant) GetImageUrlOk() (*string, bool) {
 	return o.ImageUrl, true
 }
 
-// HaveImageUrl returns a boolean if a field has been set.
-func (o *ECommerceProductVariant) HaveImageUrl() bool {
+// HasImageUrl returns a boolean if a field has been set.
+func (o *ECommerceProductVariant) HasImageUrl() bool {
 	if o != nil && !IsNil(o.ImageUrl) {
 		return true
 	}
@@ -306,8 +306,8 @@ func (o *ECommerceProductVariant) GetBackordersOk() (*string, bool) {
 	return o.Backorders, true
 }
 
-// HaveBackorders returns a boolean if a field has been set.
-func (o *ECommerceProductVariant) HaveBackorders() bool {
+// HasBackorders returns a boolean if a field has been set.
+func (o *ECommerceProductVariant) HasBackorders() bool {
 	if o != nil && !IsNil(o.Backorders) {
 		return true
 	}
@@ -338,8 +338,8 @@ func (o *ECommerceProductVariant) GetVisibilityOk() (*string, bool) {
 	return o.Visibility, true
 }
 
-// HaveVisibility returns a boolean if a field has been set.
-func (o *ECommerceProductVariant) HaveVisibility() bool {
+// HasVisibility returns a boolean if a field has been set.
+func (o *ECommerceProductVariant) HasVisibility() bool {
 	if o != nil && !IsNil(o.Visibility) {
 		return true
 	}
@@ -370,8 +370,8 @@ func (o *ECommerceProductVariant) GetCreatedAtOk() (*time.Time, bool) {
 	return o.CreatedAt, true
 }
 
-// HaveCreatedAt returns a boolean if a field has been set.
-func (o *ECommerceProductVariant) HaveCreatedAt() bool {
+// HasCreatedAt returns a boolean if a field has been set.
+func (o *ECommerceProductVariant) HasCreatedAt() bool {
 	if o != nil && !IsNil(o.CreatedAt) {
 		return true
 	}
@@ -402,8 +402,8 @@ func (o *ECommerceProductVariant) GetUpdatedAtOk() (*time.Time, bool) {
 	return o.UpdatedAt, true
 }
 
-// HaveUpdatedAt returns a boolean if a field has been set.
-func (o *ECommerceProductVariant) HaveUpdatedAt() bool {
+// HasUpdatedAt returns a boolean if a field has been set.
+func (o *ECommerceProductVariant) HasUpdatedAt() bool {
 	if o != nil && !IsNil(o.UpdatedAt) {
 		return true
 	}
@@ -434,8 +434,8 @@ func (o *ECommerceProductVariant) GetLinksOk() ([]ResourceLink, bool) {
 	return o.Links, true
 }
 
-// HaveLinks returns a boolean if a field has been set.
-func (o *ECommerceProductVariant) HaveLinks() bool {
+// HasLinks returns a boolean if a field has been set.
+func (o *ECommerceProductVariant) HasLinks() bool {
 	if o != nil && !IsNil(o.Links) {
 		return true
 	}

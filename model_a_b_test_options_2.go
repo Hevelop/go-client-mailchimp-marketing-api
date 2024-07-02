@@ -85,8 +85,8 @@ func (o *ABTestOptions2) GetWinningCombinationIdOk() (*string, bool) {
 	return o.WinningCombinationId, true
 }
 
-// HaveWinningCombinationId returns a boolean if a field has been set.
-func (o *ABTestOptions2) HaveWinningCombinationId() bool {
+// HasWinningCombinationId returns a boolean if a field has been set.
+func (o *ABTestOptions2) HasWinningCombinationId() bool {
 	if o != nil && !IsNil(o.WinningCombinationId) {
 		return true
 	}
@@ -117,8 +117,8 @@ func (o *ABTestOptions2) GetWinningCampaignIdOk() (*string, bool) {
 	return o.WinningCampaignId, true
 }
 
-// HaveWinningCampaignId returns a boolean if a field has been set.
-func (o *ABTestOptions2) HaveWinningCampaignId() bool {
+// HasWinningCampaignId returns a boolean if a field has been set.
+func (o *ABTestOptions2) HasWinningCampaignId() bool {
 	if o != nil && !IsNil(o.WinningCampaignId) {
 		return true
 	}
@@ -173,8 +173,8 @@ func (o *ABTestOptions2) GetWaitTimeOk() (*int32, bool) {
 	return o.WaitTime, true
 }
 
-// HaveWaitTime returns a boolean if a field has been set.
-func (o *ABTestOptions2) HaveWaitTime() bool {
+// HasWaitTime returns a boolean if a field has been set.
+func (o *ABTestOptions2) HasWaitTime() bool {
 	if o != nil && !IsNil(o.WaitTime) {
 		return true
 	}
@@ -205,8 +205,8 @@ func (o *ABTestOptions2) GetTestSizeOk() (*int32, bool) {
 	return o.TestSize, true
 }
 
-// HaveTestSize returns a boolean if a field has been set.
-func (o *ABTestOptions2) HaveTestSize() bool {
+// HasTestSize returns a boolean if a field has been set.
+func (o *ABTestOptions2) HasTestSize() bool {
 	if o != nil && !IsNil(o.TestSize) {
 		return true
 	}
@@ -237,8 +237,8 @@ func (o *ABTestOptions2) GetSubjectLinesOk() ([]string, bool) {
 	return o.SubjectLines, true
 }
 
-// HaveSubjectLines returns a boolean if a field has been set.
-func (o *ABTestOptions2) HaveSubjectLines() bool {
+// HasSubjectLines returns a boolean if a field has been set.
+func (o *ABTestOptions2) HasSubjectLines() bool {
 	if o != nil && !IsNil(o.SubjectLines) {
 		return true
 	}
@@ -269,8 +269,8 @@ func (o *ABTestOptions2) GetSendTimesOk() ([]time.Time, bool) {
 	return o.SendTimes, true
 }
 
-// HaveSendTimes returns a boolean if a field has been set.
-func (o *ABTestOptions2) HaveSendTimes() bool {
+// HasSendTimes returns a boolean if a field has been set.
+func (o *ABTestOptions2) HasSendTimes() bool {
 	if o != nil && !IsNil(o.SendTimes) {
 		return true
 	}
@@ -301,8 +301,8 @@ func (o *ABTestOptions2) GetFromNamesOk() ([]string, bool) {
 	return o.FromNames, true
 }
 
-// HaveFromNames returns a boolean if a field has been set.
-func (o *ABTestOptions2) HaveFromNames() bool {
+// HasFromNames returns a boolean if a field has been set.
+func (o *ABTestOptions2) HasFromNames() bool {
 	if o != nil && !IsNil(o.FromNames) {
 		return true
 	}
@@ -333,8 +333,8 @@ func (o *ABTestOptions2) GetReplyToAddressesOk() ([]string, bool) {
 	return o.ReplyToAddresses, true
 }
 
-// HaveReplyToAddresses returns a boolean if a field has been set.
-func (o *ABTestOptions2) HaveReplyToAddresses() bool {
+// HasReplyToAddresses returns a boolean if a field has been set.
+func (o *ABTestOptions2) HasReplyToAddresses() bool {
 	if o != nil && !IsNil(o.ReplyToAddresses) {
 		return true
 	}
@@ -365,8 +365,8 @@ func (o *ABTestOptions2) GetContentsOk() ([]string, bool) {
 	return o.Contents, true
 }
 
-// HaveContents returns a boolean if a field has been set.
-func (o *ABTestOptions2) HaveContents() bool {
+// HasContents returns a boolean if a field has been set.
+func (o *ABTestOptions2) HasContents() bool {
 	if o != nil && !IsNil(o.Contents) {
 		return true
 	}
@@ -397,8 +397,8 @@ func (o *ABTestOptions2) GetCombinationsOk() ([]CombinationsInner, bool) {
 	return o.Combinations, true
 }
 
-// HaveCombinations returns a boolean if a field has been set.
-func (o *ABTestOptions2) HaveCombinations() bool {
+// HasCombinations returns a boolean if a field has been set.
+func (o *ABTestOptions2) HasCombinations() bool {
 	if o != nil && !IsNil(o.Combinations) {
 		return true
 	}

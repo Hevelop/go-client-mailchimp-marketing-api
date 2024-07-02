@@ -71,8 +71,8 @@ func (o *Location2) GetLatitudeOk() (*float32, bool) {
 	return o.Latitude, true
 }
 
-// HaveLatitude returns a boolean if a field has been set.
-func (o *Location2) HaveLatitude() bool {
+// HasLatitude returns a boolean if a field has been set.
+func (o *Location2) HasLatitude() bool {
 	if o != nil && !IsNil(o.Latitude) {
 		return true
 	}
@@ -103,8 +103,8 @@ func (o *Location2) GetLongitudeOk() (*float32, bool) {
 	return o.Longitude, true
 }
 
-// HaveLongitude returns a boolean if a field has been set.
-func (o *Location2) HaveLongitude() bool {
+// HasLongitude returns a boolean if a field has been set.
+func (o *Location2) HasLongitude() bool {
 	if o != nil && !IsNil(o.Longitude) {
 		return true
 	}
@@ -135,8 +135,8 @@ func (o *Location2) GetGmtoffOk() (*int32, bool) {
 	return o.Gmtoff, true
 }
 
-// HaveGmtoff returns a boolean if a field has been set.
-func (o *Location2) HaveGmtoff() bool {
+// HasGmtoff returns a boolean if a field has been set.
+func (o *Location2) HasGmtoff() bool {
 	if o != nil && !IsNil(o.Gmtoff) {
 		return true
 	}
@@ -167,8 +167,8 @@ func (o *Location2) GetDstoffOk() (*int32, bool) {
 	return o.Dstoff, true
 }
 
-// HaveDstoff returns a boolean if a field has been set.
-func (o *Location2) HaveDstoff() bool {
+// HasDstoff returns a boolean if a field has been set.
+func (o *Location2) HasDstoff() bool {
 	if o != nil && !IsNil(o.Dstoff) {
 		return true
 	}
@@ -199,8 +199,8 @@ func (o *Location2) GetCountryCodeOk() (*string, bool) {
 	return o.CountryCode, true
 }
 
-// HaveCountryCode returns a boolean if a field has been set.
-func (o *Location2) HaveCountryCode() bool {
+// HasCountryCode returns a boolean if a field has been set.
+func (o *Location2) HasCountryCode() bool {
 	if o != nil && !IsNil(o.CountryCode) {
 		return true
 	}
@@ -231,8 +231,8 @@ func (o *Location2) GetTimezoneOk() (*string, bool) {
 	return o.Timezone, true
 }
 
-// HaveTimezone returns a boolean if a field has been set.
-func (o *Location2) HaveTimezone() bool {
+// HasTimezone returns a boolean if a field has been set.
+func (o *Location2) HasTimezone() bool {
 	if o != nil && !IsNil(o.Timezone) {
 		return true
 	}
@@ -263,8 +263,8 @@ func (o *Location2) GetRegionOk() (*string, bool) {
 	return o.Region, true
 }
 
-// HaveRegion returns a boolean if a field has been set.
-func (o *Location2) HaveRegion() bool {
+// HasRegion returns a boolean if a field has been set.
+func (o *Location2) HasRegion() bool {
 	if o != nil && !IsNil(o.Region) {
 		return true
 	}

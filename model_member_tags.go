@@ -90,8 +90,8 @@ func (o *MemberTags) GetIsSyncingOk() (*bool, bool) {
 	return o.IsSyncing, true
 }
 
-// HaveIsSyncing returns a boolean if a field has been set.
-func (o *MemberTags) HaveIsSyncing() bool {
+// HasIsSyncing returns a boolean if a field has been set.
+func (o *MemberTags) HasIsSyncing() bool {
 	if o != nil && !IsNil(o.IsSyncing) {
 		return true
 	}

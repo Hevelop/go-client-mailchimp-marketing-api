@@ -66,8 +66,8 @@ func (o *Notes) GetNoteIdOk() (*int32, bool) {
 	return o.NoteId, true
 }
 
-// HaveNoteId returns a boolean if a field has been set.
-func (o *Notes) HaveNoteId() bool {
+// HasNoteId returns a boolean if a field has been set.
+func (o *Notes) HasNoteId() bool {
 	if o != nil && !IsNil(o.NoteId) {
 		return true
 	}
@@ -98,8 +98,8 @@ func (o *Notes) GetCreatedAtOk() (*time.Time, bool) {
 	return o.CreatedAt, true
 }
 
-// HaveCreatedAt returns a boolean if a field has been set.
-func (o *Notes) HaveCreatedAt() bool {
+// HasCreatedAt returns a boolean if a field has been set.
+func (o *Notes) HasCreatedAt() bool {
 	if o != nil && !IsNil(o.CreatedAt) {
 		return true
 	}
@@ -130,8 +130,8 @@ func (o *Notes) GetCreatedByOk() (*string, bool) {
 	return o.CreatedBy, true
 }
 
-// HaveCreatedBy returns a boolean if a field has been set.
-func (o *Notes) HaveCreatedBy() bool {
+// HasCreatedBy returns a boolean if a field has been set.
+func (o *Notes) HasCreatedBy() bool {
 	if o != nil && !IsNil(o.CreatedBy) {
 		return true
 	}
@@ -162,8 +162,8 @@ func (o *Notes) GetNoteOk() (*string, bool) {
 	return o.Note, true
 }
 
-// HaveNote returns a boolean if a field has been set.
-func (o *Notes) HaveNote() bool {
+// HasNote returns a boolean if a field has been set.
+func (o *Notes) HasNote() bool {
 	if o != nil && !IsNil(o.Note) {
 		return true
 	}

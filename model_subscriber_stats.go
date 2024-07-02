@@ -61,8 +61,8 @@ func (o *SubscriberStats) GetAvgOpenRateOk() (*float32, bool) {
 	return o.AvgOpenRate, true
 }
 
-// HaveAvgOpenRate returns a boolean if a field has been set.
-func (o *SubscriberStats) HaveAvgOpenRate() bool {
+// HasAvgOpenRate returns a boolean if a field has been set.
+func (o *SubscriberStats) HasAvgOpenRate() bool {
 	if o != nil && !IsNil(o.AvgOpenRate) {
 		return true
 	}
@@ -93,8 +93,8 @@ func (o *SubscriberStats) GetAvgClickRateOk() (*float32, bool) {
 	return o.AvgClickRate, true
 }
 
-// HaveAvgClickRate returns a boolean if a field has been set.
-func (o *SubscriberStats) HaveAvgClickRate() bool {
+// HasAvgClickRate returns a boolean if a field has been set.
+func (o *SubscriberStats) HasAvgClickRate() bool {
 	if o != nil && !IsNil(o.AvgClickRate) {
 		return true
 	}

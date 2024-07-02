@@ -61,8 +61,8 @@ func (o *Members) GetExactMatchesOk() (*ExactMatches, bool) {
 	return o.ExactMatches, true
 }
 
-// HaveExactMatches returns a boolean if a field has been set.
-func (o *Members) HaveExactMatches() bool {
+// HasExactMatches returns a boolean if a field has been set.
+func (o *Members) HasExactMatches() bool {
 	if o != nil && !IsNil(o.ExactMatches) {
 		return true
 	}
@@ -93,8 +93,8 @@ func (o *Members) GetFullSearchOk() (*PartialMatches, bool) {
 	return o.FullSearch, true
 }
 
-// HaveFullSearch returns a boolean if a field has been set.
-func (o *Members) HaveFullSearch() bool {
+// HasFullSearch returns a boolean if a field has been set.
+func (o *Members) HasFullSearch() bool {
 	if o != nil && !IsNil(o.FullSearch) {
 		return true
 	}
@@ -125,8 +125,8 @@ func (o *Members) GetLinksOk() ([]ResourceLink, bool) {
 	return o.Links, true
 }
 
-// HaveLinks returns a boolean if a field has been set.
-func (o *Members) HaveLinks() bool {
+// HasLinks returns a boolean if a field has been set.
+func (o *Members) HasLinks() bool {
 	if o != nil && !IsNil(o.Links) {
 		return true
 	}

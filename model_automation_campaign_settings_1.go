@@ -61,8 +61,8 @@ func (o *AutomationCampaignSettings1) GetFromNameOk() (*string, bool) {
 	return o.FromName, true
 }
 
-// HaveFromName returns a boolean if a field has been set.
-func (o *AutomationCampaignSettings1) HaveFromName() bool {
+// HasFromName returns a boolean if a field has been set.
+func (o *AutomationCampaignSettings1) HasFromName() bool {
 	if o != nil && !IsNil(o.FromName) {
 		return true
 	}
@@ -93,8 +93,8 @@ func (o *AutomationCampaignSettings1) GetReplyToOk() (*string, bool) {
 	return o.ReplyTo, true
 }
 
-// HaveReplyTo returns a boolean if a field has been set.
-func (o *AutomationCampaignSettings1) HaveReplyTo() bool {
+// HasReplyTo returns a boolean if a field has been set.
+func (o *AutomationCampaignSettings1) HasReplyTo() bool {
 	if o != nil && !IsNil(o.ReplyTo) {
 		return true
 	}

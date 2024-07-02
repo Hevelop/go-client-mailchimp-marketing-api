@@ -70,8 +70,8 @@ func (o *AccountExportsInner) GetExportIdOk() (*int32, bool) {
 	return o.ExportId, true
 }
 
-// HaveExportId returns a boolean if a field has been set.
-func (o *AccountExportsInner) HaveExportId() bool {
+// HasExportId returns a boolean if a field has been set.
+func (o *AccountExportsInner) HasExportId() bool {
 	if o != nil && !IsNil(o.ExportId) {
 		return true
 	}
@@ -102,8 +102,8 @@ func (o *AccountExportsInner) GetStartedOk() (*time.Time, bool) {
 	return o.Started, true
 }
 
-// HaveStarted returns a boolean if a field has been set.
-func (o *AccountExportsInner) HaveStarted() bool {
+// HasStarted returns a boolean if a field has been set.
+func (o *AccountExportsInner) HasStarted() bool {
 	if o != nil && !IsNil(o.Started) {
 		return true
 	}
@@ -134,8 +134,8 @@ func (o *AccountExportsInner) GetFinishedOk() (*time.Time, bool) {
 	return o.Finished, true
 }
 
-// HaveFinished returns a boolean if a field has been set.
-func (o *AccountExportsInner) HaveFinished() bool {
+// HasFinished returns a boolean if a field has been set.
+func (o *AccountExportsInner) HasFinished() bool {
 	if o != nil && !IsNil(o.Finished) {
 		return true
 	}
@@ -166,8 +166,8 @@ func (o *AccountExportsInner) GetSizeInBytesOk() (*int32, bool) {
 	return o.SizeInBytes, true
 }
 
-// HaveSizeInBytes returns a boolean if a field has been set.
-func (o *AccountExportsInner) HaveSizeInBytes() bool {
+// HasSizeInBytes returns a boolean if a field has been set.
+func (o *AccountExportsInner) HasSizeInBytes() bool {
 	if o != nil && !IsNil(o.SizeInBytes) {
 		return true
 	}
@@ -198,8 +198,8 @@ func (o *AccountExportsInner) GetDownloadUrlOk() (*string, bool) {
 	return o.DownloadUrl, true
 }
 
-// HaveDownloadUrl returns a boolean if a field has been set.
-func (o *AccountExportsInner) HaveDownloadUrl() bool {
+// HasDownloadUrl returns a boolean if a field has been set.
+func (o *AccountExportsInner) HasDownloadUrl() bool {
 	if o != nil && !IsNil(o.DownloadUrl) {
 		return true
 	}
@@ -230,8 +230,8 @@ func (o *AccountExportsInner) GetLinksOk() ([]ResourceLink, bool) {
 	return o.Links, true
 }
 
-// HaveLinks returns a boolean if a field has been set.
-func (o *AccountExportsInner) HaveLinks() bool {
+// HasLinks returns a boolean if a field has been set.
+func (o *AccountExportsInner) HasLinks() bool {
 	if o != nil && !IsNil(o.Links) {
 		return true
 	}

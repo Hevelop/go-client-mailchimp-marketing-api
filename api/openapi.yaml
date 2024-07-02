@@ -50214,12 +50214,6 @@ x-doc-structure:
       paths:
       - "/ecommerce/stores/{store_id}/carts/{cart_id}/lines"
       - "/ecommerce/stores/{store_id}/carts/{cart_id}/lines/{line_id}"
-    facebook-ads:
-      title: Facebook Ads
-      description: Get information about Facebook Ads.
-      paths:
-      - /facebook-ads
-      - "/facebook-ads/{outreach_id}"
     ping:
       title: Ping
       description: A health check endpoint for Mailchimp API 3.0.
@@ -50237,13 +50231,6 @@ x-doc-structure:
       - reporting-social-posts
       - reporting-surveys
       - reporting-websites
-    reporting-facebook-ads:
-      title: Facebook Ads
-      description: 'Get information about Facebook Ad reports. '
-      paths:
-      - /reporting/facebook-ads
-      - "/reporting/facebook-ads/{outreach_id}"
-      - "/reporting/facebook-ads/{outreach_id}/ecommerce-product-activity"
     reporting-landing-pages:
       title: Landing Pages
       description: Get information about Landing Page reports.

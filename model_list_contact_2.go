@@ -131,8 +131,8 @@ func (o *ListContact2) GetAddress2Ok() (*string, bool) {
 	return o.Address2, true
 }
 
-// HaveAddress2 returns a boolean if a field has been set.
-func (o *ListContact2) HaveAddress2() bool {
+// HasAddress2 returns a boolean if a field has been set.
+func (o *ListContact2) HasAddress2() bool {
 	if o != nil && !IsNil(o.Address2) {
 		return true
 	}
@@ -259,8 +259,8 @@ func (o *ListContact2) GetPhoneOk() (*string, bool) {
 	return o.Phone, true
 }
 
-// HavePhone returns a boolean if a field has been set.
-func (o *ListContact2) HavePhone() bool {
+// HasPhone returns a boolean if a field has been set.
+func (o *ListContact2) HasPhone() bool {
 	if o != nil && !IsNil(o.Phone) {
 		return true
 	}

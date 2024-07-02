@@ -61,8 +61,8 @@ func (o *CollectionOfContentForListSignupForms) GetSectionOk() (*string, bool) {
 	return o.Section, true
 }
 
-// HaveSection returns a boolean if a field has been set.
-func (o *CollectionOfContentForListSignupForms) HaveSection() bool {
+// HasSection returns a boolean if a field has been set.
+func (o *CollectionOfContentForListSignupForms) HasSection() bool {
 	if o != nil && !IsNil(o.Section) {
 		return true
 	}
@@ -93,8 +93,8 @@ func (o *CollectionOfContentForListSignupForms) GetValueOk() (*string, bool) {
 	return o.Value, true
 }
 
-// HaveValue returns a boolean if a field has been set.
-func (o *CollectionOfContentForListSignupForms) HaveValue() bool {
+// HasValue returns a boolean if a field has been set.
+func (o *CollectionOfContentForListSignupForms) HasValue() bool {
 	if o != nil && !IsNil(o.Value) {
 		return true
 	}

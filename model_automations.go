@@ -59,8 +59,8 @@ func (o *Automations) GetAbandonedCartOk() (*AbandonedCartAutomation, bool) {
 	return o.AbandonedCart, true
 }
 
-// HaveAbandonedCart returns a boolean if a field has been set.
-func (o *Automations) HaveAbandonedCart() bool {
+// HasAbandonedCart returns a boolean if a field has been set.
+func (o *Automations) HasAbandonedCart() bool {
 	if o != nil && !IsNil(o.AbandonedCart) {
 		return true
 	}
@@ -91,8 +91,8 @@ func (o *Automations) GetAbandonedBrowseOk() (*AbandonedBrowseAutomation, bool) 
 	return o.AbandonedBrowse, true
 }
 
-// HaveAbandonedBrowse returns a boolean if a field has been set.
-func (o *Automations) HaveAbandonedBrowse() bool {
+// HasAbandonedBrowse returns a boolean if a field has been set.
+func (o *Automations) HasAbandonedBrowse() bool {
 	if o != nil && !IsNil(o.AbandonedBrowse) {
 		return true
 	}

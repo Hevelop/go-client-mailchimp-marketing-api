@@ -68,8 +68,8 @@ func (o *Clicks) GetClicksTotalOk() (*int32, bool) {
 	return o.ClicksTotal, true
 }
 
-// HaveClicksTotal returns a boolean if a field has been set.
-func (o *Clicks) HaveClicksTotal() bool {
+// HasClicksTotal returns a boolean if a field has been set.
+func (o *Clicks) HasClicksTotal() bool {
 	if o != nil && !IsNil(o.ClicksTotal) {
 		return true
 	}
@@ -100,8 +100,8 @@ func (o *Clicks) GetUniqueClicksOk() (*int32, bool) {
 	return o.UniqueClicks, true
 }
 
-// HaveUniqueClicks returns a boolean if a field has been set.
-func (o *Clicks) HaveUniqueClicks() bool {
+// HasUniqueClicks returns a boolean if a field has been set.
+func (o *Clicks) HasUniqueClicks() bool {
 	if o != nil && !IsNil(o.UniqueClicks) {
 		return true
 	}
@@ -132,8 +132,8 @@ func (o *Clicks) GetUniqueSubscriberClicksOk() (*int32, bool) {
 	return o.UniqueSubscriberClicks, true
 }
 
-// HaveUniqueSubscriberClicks returns a boolean if a field has been set.
-func (o *Clicks) HaveUniqueSubscriberClicks() bool {
+// HasUniqueSubscriberClicks returns a boolean if a field has been set.
+func (o *Clicks) HasUniqueSubscriberClicks() bool {
 	if o != nil && !IsNil(o.UniqueSubscriberClicks) {
 		return true
 	}
@@ -164,8 +164,8 @@ func (o *Clicks) GetClickRateOk() (*float32, bool) {
 	return o.ClickRate, true
 }
 
-// HaveClickRate returns a boolean if a field has been set.
-func (o *Clicks) HaveClickRate() bool {
+// HasClickRate returns a boolean if a field has been set.
+func (o *Clicks) HasClickRate() bool {
 	if o != nil && !IsNil(o.ClickRate) {
 		return true
 	}
@@ -196,8 +196,8 @@ func (o *Clicks) GetLastClickOk() (*time.Time, bool) {
 	return o.LastClick, true
 }
 
-// HaveLastClick returns a boolean if a field has been set.
-func (o *Clicks) HaveLastClick() bool {
+// HasLastClick returns a boolean if a field has been set.
+func (o *Clicks) HasLastClick() bool {
 	if o != nil && !IsNil(o.LastClick) {
 		return true
 	}

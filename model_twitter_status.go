@@ -68,8 +68,8 @@ func (o *TwitterStatus) GetStatusOk() (*string, bool) {
 	return o.Status, true
 }
 
-// HaveStatus returns a boolean if a field has been set.
-func (o *TwitterStatus) HaveStatus() bool {
+// HasStatus returns a boolean if a field has been set.
+func (o *TwitterStatus) HasStatus() bool {
 	if o != nil && !IsNil(o.Status) {
 		return true
 	}
@@ -100,8 +100,8 @@ func (o *TwitterStatus) GetScreenNameOk() (*string, bool) {
 	return o.ScreenName, true
 }
 
-// HaveScreenName returns a boolean if a field has been set.
-func (o *TwitterStatus) HaveScreenName() bool {
+// HasScreenName returns a boolean if a field has been set.
+func (o *TwitterStatus) HasScreenName() bool {
 	if o != nil && !IsNil(o.ScreenName) {
 		return true
 	}
@@ -132,8 +132,8 @@ func (o *TwitterStatus) GetStatusIdOk() (*string, bool) {
 	return o.StatusId, true
 }
 
-// HaveStatusId returns a boolean if a field has been set.
-func (o *TwitterStatus) HaveStatusId() bool {
+// HasStatusId returns a boolean if a field has been set.
+func (o *TwitterStatus) HasStatusId() bool {
 	if o != nil && !IsNil(o.StatusId) {
 		return true
 	}
@@ -164,8 +164,8 @@ func (o *TwitterStatus) GetDatetimeOk() (*time.Time, bool) {
 	return o.Datetime, true
 }
 
-// HaveDatetime returns a boolean if a field has been set.
-func (o *TwitterStatus) HaveDatetime() bool {
+// HasDatetime returns a boolean if a field has been set.
+func (o *TwitterStatus) HasDatetime() bool {
 	if o != nil && !IsNil(o.Datetime) {
 		return true
 	}
@@ -196,8 +196,8 @@ func (o *TwitterStatus) GetIsRetweetOk() (*bool, bool) {
 	return o.IsRetweet, true
 }
 
-// HaveIsRetweet returns a boolean if a field has been set.
-func (o *TwitterStatus) HaveIsRetweet() bool {
+// HasIsRetweet returns a boolean if a field has been set.
+func (o *TwitterStatus) HasIsRetweet() bool {
 	if o != nil && !IsNil(o.IsRetweet) {
 		return true
 	}

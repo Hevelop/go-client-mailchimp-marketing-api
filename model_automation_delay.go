@@ -69,8 +69,8 @@ func (o *AutomationDelay) GetAmountOk() (*int32, bool) {
 	return o.Amount, true
 }
 
-// HaveAmount returns a boolean if a field has been set.
-func (o *AutomationDelay) HaveAmount() bool {
+// HasAmount returns a boolean if a field has been set.
+func (o *AutomationDelay) HasAmount() bool {
 	if o != nil && !IsNil(o.Amount) {
 		return true
 	}
@@ -101,8 +101,8 @@ func (o *AutomationDelay) GetTypeOk() (*string, bool) {
 	return o.Type, true
 }
 
-// HaveType returns a boolean if a field has been set.
-func (o *AutomationDelay) HaveType() bool {
+// HasType returns a boolean if a field has been set.
+func (o *AutomationDelay) HasType() bool {
 	if o != nil && !IsNil(o.Type) {
 		return true
 	}
@@ -133,8 +133,8 @@ func (o *AutomationDelay) GetDirectionOk() (*string, bool) {
 	return o.Direction, true
 }
 
-// HaveDirection returns a boolean if a field has been set.
-func (o *AutomationDelay) HaveDirection() bool {
+// HasDirection returns a boolean if a field has been set.
+func (o *AutomationDelay) HasDirection() bool {
 	if o != nil && !IsNil(o.Direction) {
 		return true
 	}
@@ -165,8 +165,8 @@ func (o *AutomationDelay) GetActionOk() (*string, bool) {
 	return o.Action, true
 }
 
-// HaveAction returns a boolean if a field has been set.
-func (o *AutomationDelay) HaveAction() bool {
+// HasAction returns a boolean if a field has been set.
+func (o *AutomationDelay) HasAction() bool {
 	if o != nil && !IsNil(o.Action) {
 		return true
 	}
@@ -197,8 +197,8 @@ func (o *AutomationDelay) GetActionDescriptionOk() (*string, bool) {
 	return o.ActionDescription, true
 }
 
-// HaveActionDescription returns a boolean if a field has been set.
-func (o *AutomationDelay) HaveActionDescription() bool {
+// HasActionDescription returns a boolean if a field has been set.
+func (o *AutomationDelay) HasActionDescription() bool {
 	if o != nil && !IsNil(o.ActionDescription) {
 		return true
 	}
@@ -229,8 +229,8 @@ func (o *AutomationDelay) GetFullDescriptionOk() (*string, bool) {
 	return o.FullDescription, true
 }
 
-// HaveFullDescription returns a boolean if a field has been set.
-func (o *AutomationDelay) HaveFullDescription() bool {
+// HasFullDescription returns a boolean if a field has been set.
+func (o *AutomationDelay) HasFullDescription() bool {
 	if o != nil && !IsNil(o.FullDescription) {
 		return true
 	}

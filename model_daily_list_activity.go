@@ -79,8 +79,8 @@ func (o *DailyListActivity) GetDayOk() (*string, bool) {
 	return o.Day, true
 }
 
-// HaveDay returns a boolean if a field has been set.
-func (o *DailyListActivity) HaveDay() bool {
+// HasDay returns a boolean if a field has been set.
+func (o *DailyListActivity) HasDay() bool {
 	if o != nil && !IsNil(o.Day) {
 		return true
 	}
@@ -111,8 +111,8 @@ func (o *DailyListActivity) GetEmailsSentOk() (*int32, bool) {
 	return o.EmailsSent, true
 }
 
-// HaveEmailsSent returns a boolean if a field has been set.
-func (o *DailyListActivity) HaveEmailsSent() bool {
+// HasEmailsSent returns a boolean if a field has been set.
+func (o *DailyListActivity) HasEmailsSent() bool {
 	if o != nil && !IsNil(o.EmailsSent) {
 		return true
 	}
@@ -143,8 +143,8 @@ func (o *DailyListActivity) GetUniqueOpensOk() (*int32, bool) {
 	return o.UniqueOpens, true
 }
 
-// HaveUniqueOpens returns a boolean if a field has been set.
-func (o *DailyListActivity) HaveUniqueOpens() bool {
+// HasUniqueOpens returns a boolean if a field has been set.
+func (o *DailyListActivity) HasUniqueOpens() bool {
 	if o != nil && !IsNil(o.UniqueOpens) {
 		return true
 	}
@@ -175,8 +175,8 @@ func (o *DailyListActivity) GetRecipientClicksOk() (*int32, bool) {
 	return o.RecipientClicks, true
 }
 
-// HaveRecipientClicks returns a boolean if a field has been set.
-func (o *DailyListActivity) HaveRecipientClicks() bool {
+// HasRecipientClicks returns a boolean if a field has been set.
+func (o *DailyListActivity) HasRecipientClicks() bool {
 	if o != nil && !IsNil(o.RecipientClicks) {
 		return true
 	}
@@ -207,8 +207,8 @@ func (o *DailyListActivity) GetHardBounceOk() (*int32, bool) {
 	return o.HardBounce, true
 }
 
-// HaveHardBounce returns a boolean if a field has been set.
-func (o *DailyListActivity) HaveHardBounce() bool {
+// HasHardBounce returns a boolean if a field has been set.
+func (o *DailyListActivity) HasHardBounce() bool {
 	if o != nil && !IsNil(o.HardBounce) {
 		return true
 	}
@@ -239,8 +239,8 @@ func (o *DailyListActivity) GetSoftBounceOk() (*int32, bool) {
 	return o.SoftBounce, true
 }
 
-// HaveSoftBounce returns a boolean if a field has been set.
-func (o *DailyListActivity) HaveSoftBounce() bool {
+// HasSoftBounce returns a boolean if a field has been set.
+func (o *DailyListActivity) HasSoftBounce() bool {
 	if o != nil && !IsNil(o.SoftBounce) {
 		return true
 	}
@@ -271,8 +271,8 @@ func (o *DailyListActivity) GetSubsOk() (*int32, bool) {
 	return o.Subs, true
 }
 
-// HaveSubs returns a boolean if a field has been set.
-func (o *DailyListActivity) HaveSubs() bool {
+// HasSubs returns a boolean if a field has been set.
+func (o *DailyListActivity) HasSubs() bool {
 	if o != nil && !IsNil(o.Subs) {
 		return true
 	}
@@ -303,8 +303,8 @@ func (o *DailyListActivity) GetUnsubsOk() (*int32, bool) {
 	return o.Unsubs, true
 }
 
-// HaveUnsubs returns a boolean if a field has been set.
-func (o *DailyListActivity) HaveUnsubs() bool {
+// HasUnsubs returns a boolean if a field has been set.
+func (o *DailyListActivity) HasUnsubs() bool {
 	if o != nil && !IsNil(o.Unsubs) {
 		return true
 	}
@@ -335,8 +335,8 @@ func (o *DailyListActivity) GetOtherAddsOk() (*int32, bool) {
 	return o.OtherAdds, true
 }
 
-// HaveOtherAdds returns a boolean if a field has been set.
-func (o *DailyListActivity) HaveOtherAdds() bool {
+// HasOtherAdds returns a boolean if a field has been set.
+func (o *DailyListActivity) HasOtherAdds() bool {
 	if o != nil && !IsNil(o.OtherAdds) {
 		return true
 	}
@@ -367,8 +367,8 @@ func (o *DailyListActivity) GetOtherRemovesOk() (*int32, bool) {
 	return o.OtherRemoves, true
 }
 
-// HaveOtherRemoves returns a boolean if a field has been set.
-func (o *DailyListActivity) HaveOtherRemoves() bool {
+// HasOtherRemoves returns a boolean if a field has been set.
+func (o *DailyListActivity) HasOtherRemoves() bool {
 	if o != nil && !IsNil(o.OtherRemoves) {
 		return true
 	}
@@ -399,8 +399,8 @@ func (o *DailyListActivity) GetLinksOk() ([]ResourceLink, bool) {
 	return o.Links, true
 }
 
-// HaveLinks returns a boolean if a field has been set.
-func (o *DailyListActivity) HaveLinks() bool {
+// HasLinks returns a boolean if a field has been set.
+func (o *DailyListActivity) HasLinks() bool {
 	if o != nil && !IsNil(o.Links) {
 		return true
 	}

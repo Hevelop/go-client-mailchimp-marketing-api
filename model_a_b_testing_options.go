@@ -86,8 +86,8 @@ func (o *ABTestingOptions) GetSplitTestOk() (*string, bool) {
 	return o.SplitTest, true
 }
 
-// HaveSplitTest returns a boolean if a field has been set.
-func (o *ABTestingOptions) HaveSplitTest() bool {
+// HasSplitTest returns a boolean if a field has been set.
+func (o *ABTestingOptions) HasSplitTest() bool {
 	if o != nil && !IsNil(o.SplitTest) {
 		return true
 	}
@@ -118,8 +118,8 @@ func (o *ABTestingOptions) GetPickWinnerOk() (*string, bool) {
 	return o.PickWinner, true
 }
 
-// HavePickWinner returns a boolean if a field has been set.
-func (o *ABTestingOptions) HavePickWinner() bool {
+// HasPickWinner returns a boolean if a field has been set.
+func (o *ABTestingOptions) HasPickWinner() bool {
 	if o != nil && !IsNil(o.PickWinner) {
 		return true
 	}
@@ -150,8 +150,8 @@ func (o *ABTestingOptions) GetWaitUnitsOk() (*string, bool) {
 	return o.WaitUnits, true
 }
 
-// HaveWaitUnits returns a boolean if a field has been set.
-func (o *ABTestingOptions) HaveWaitUnits() bool {
+// HasWaitUnits returns a boolean if a field has been set.
+func (o *ABTestingOptions) HasWaitUnits() bool {
 	if o != nil && !IsNil(o.WaitUnits) {
 		return true
 	}
@@ -182,8 +182,8 @@ func (o *ABTestingOptions) GetWaitTimeOk() (*int32, bool) {
 	return o.WaitTime, true
 }
 
-// HaveWaitTime returns a boolean if a field has been set.
-func (o *ABTestingOptions) HaveWaitTime() bool {
+// HasWaitTime returns a boolean if a field has been set.
+func (o *ABTestingOptions) HasWaitTime() bool {
 	if o != nil && !IsNil(o.WaitTime) {
 		return true
 	}
@@ -214,8 +214,8 @@ func (o *ABTestingOptions) GetSplitSizeOk() (*int32, bool) {
 	return o.SplitSize, true
 }
 
-// HaveSplitSize returns a boolean if a field has been set.
-func (o *ABTestingOptions) HaveSplitSize() bool {
+// HasSplitSize returns a boolean if a field has been set.
+func (o *ABTestingOptions) HasSplitSize() bool {
 	if o != nil && !IsNil(o.SplitSize) {
 		return true
 	}
@@ -246,8 +246,8 @@ func (o *ABTestingOptions) GetFromNameAOk() (*string, bool) {
 	return o.FromNameA, true
 }
 
-// HaveFromNameA returns a boolean if a field has been set.
-func (o *ABTestingOptions) HaveFromNameA() bool {
+// HasFromNameA returns a boolean if a field has been set.
+func (o *ABTestingOptions) HasFromNameA() bool {
 	if o != nil && !IsNil(o.FromNameA) {
 		return true
 	}
@@ -278,8 +278,8 @@ func (o *ABTestingOptions) GetFromNameBOk() (*string, bool) {
 	return o.FromNameB, true
 }
 
-// HaveFromNameB returns a boolean if a field has been set.
-func (o *ABTestingOptions) HaveFromNameB() bool {
+// HasFromNameB returns a boolean if a field has been set.
+func (o *ABTestingOptions) HasFromNameB() bool {
 	if o != nil && !IsNil(o.FromNameB) {
 		return true
 	}
@@ -310,8 +310,8 @@ func (o *ABTestingOptions) GetReplyEmailAOk() (*string, bool) {
 	return o.ReplyEmailA, true
 }
 
-// HaveReplyEmailA returns a boolean if a field has been set.
-func (o *ABTestingOptions) HaveReplyEmailA() bool {
+// HasReplyEmailA returns a boolean if a field has been set.
+func (o *ABTestingOptions) HasReplyEmailA() bool {
 	if o != nil && !IsNil(o.ReplyEmailA) {
 		return true
 	}
@@ -342,8 +342,8 @@ func (o *ABTestingOptions) GetReplyEmailBOk() (*string, bool) {
 	return o.ReplyEmailB, true
 }
 
-// HaveReplyEmailB returns a boolean if a field has been set.
-func (o *ABTestingOptions) HaveReplyEmailB() bool {
+// HasReplyEmailB returns a boolean if a field has been set.
+func (o *ABTestingOptions) HasReplyEmailB() bool {
 	if o != nil && !IsNil(o.ReplyEmailB) {
 		return true
 	}
@@ -374,8 +374,8 @@ func (o *ABTestingOptions) GetSubjectAOk() (*string, bool) {
 	return o.SubjectA, true
 }
 
-// HaveSubjectA returns a boolean if a field has been set.
-func (o *ABTestingOptions) HaveSubjectA() bool {
+// HasSubjectA returns a boolean if a field has been set.
+func (o *ABTestingOptions) HasSubjectA() bool {
 	if o != nil && !IsNil(o.SubjectA) {
 		return true
 	}
@@ -406,8 +406,8 @@ func (o *ABTestingOptions) GetSubjectBOk() (*string, bool) {
 	return o.SubjectB, true
 }
 
-// HaveSubjectB returns a boolean if a field has been set.
-func (o *ABTestingOptions) HaveSubjectB() bool {
+// HasSubjectB returns a boolean if a field has been set.
+func (o *ABTestingOptions) HasSubjectB() bool {
 	if o != nil && !IsNil(o.SubjectB) {
 		return true
 	}
@@ -438,8 +438,8 @@ func (o *ABTestingOptions) GetSendTimeAOk() (*time.Time, bool) {
 	return o.SendTimeA, true
 }
 
-// HaveSendTimeA returns a boolean if a field has been set.
-func (o *ABTestingOptions) HaveSendTimeA() bool {
+// HasSendTimeA returns a boolean if a field has been set.
+func (o *ABTestingOptions) HasSendTimeA() bool {
 	if o != nil && !IsNil(o.SendTimeA) {
 		return true
 	}
@@ -470,8 +470,8 @@ func (o *ABTestingOptions) GetSendTimeBOk() (*time.Time, bool) {
 	return o.SendTimeB, true
 }
 
-// HaveSendTimeB returns a boolean if a field has been set.
-func (o *ABTestingOptions) HaveSendTimeB() bool {
+// HasSendTimeB returns a boolean if a field has been set.
+func (o *ABTestingOptions) HasSendTimeB() bool {
 	if o != nil && !IsNil(o.SendTimeB) {
 		return true
 	}
@@ -502,8 +502,8 @@ func (o *ABTestingOptions) GetSendTimeWinnerOk() (*string, bool) {
 	return o.SendTimeWinner, true
 }
 
-// HaveSendTimeWinner returns a boolean if a field has been set.
-func (o *ABTestingOptions) HaveSendTimeWinner() bool {
+// HasSendTimeWinner returns a boolean if a field has been set.
+func (o *ABTestingOptions) HasSendTimeWinner() bool {
 	if o != nil && !IsNil(o.SendTimeWinner) {
 		return true
 	}

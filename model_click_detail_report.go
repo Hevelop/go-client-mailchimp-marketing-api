@@ -65,8 +65,8 @@ func (o *ClickDetailReport) GetUrlsClickedOk() ([]ClickDetailReport, bool) {
 	return o.UrlsClicked, true
 }
 
-// HaveUrlsClicked returns a boolean if a field has been set.
-func (o *ClickDetailReport) HaveUrlsClicked() bool {
+// HasUrlsClicked returns a boolean if a field has been set.
+func (o *ClickDetailReport) HasUrlsClicked() bool {
 	if o != nil && !IsNil(o.UrlsClicked) {
 		return true
 	}
@@ -97,8 +97,8 @@ func (o *ClickDetailReport) GetCampaignIdOk() (*string, bool) {
 	return o.CampaignId, true
 }
 
-// HaveCampaignId returns a boolean if a field has been set.
-func (o *ClickDetailReport) HaveCampaignId() bool {
+// HasCampaignId returns a boolean if a field has been set.
+func (o *ClickDetailReport) HasCampaignId() bool {
 	if o != nil && !IsNil(o.CampaignId) {
 		return true
 	}
@@ -129,8 +129,8 @@ func (o *ClickDetailReport) GetTotalItemsOk() (*int32, bool) {
 	return o.TotalItems, true
 }
 
-// HaveTotalItems returns a boolean if a field has been set.
-func (o *ClickDetailReport) HaveTotalItems() bool {
+// HasTotalItems returns a boolean if a field has been set.
+func (o *ClickDetailReport) HasTotalItems() bool {
 	if o != nil && !IsNil(o.TotalItems) {
 		return true
 	}
@@ -161,8 +161,8 @@ func (o *ClickDetailReport) GetLinksOk() ([]ResourceLink, bool) {
 	return o.Links, true
 }
 
-// HaveLinks returns a boolean if a field has been set.
-func (o *ClickDetailReport) HaveLinks() bool {
+// HasLinks returns a boolean if a field has been set.
+func (o *ClickDetailReport) HasLinks() bool {
 	if o != nil && !IsNil(o.Links) {
 		return true
 	}

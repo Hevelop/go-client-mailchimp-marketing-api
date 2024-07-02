@@ -90,8 +90,8 @@ func (o *UploadArchive) GetArchiveTypeOk() (*string, bool) {
 	return o.ArchiveType, true
 }
 
-// HaveArchiveType returns a boolean if a field has been set.
-func (o *UploadArchive) HaveArchiveType() bool {
+// HasArchiveType returns a boolean if a field has been set.
+func (o *UploadArchive) HasArchiveType() bool {
 	if o != nil && !IsNil(o.ArchiveType) {
 		return true
 	}

@@ -63,8 +63,8 @@ func (o *BatchOperations) GetBatchesOk() ([]Batch, bool) {
 	return o.Batches, true
 }
 
-// HaveBatches returns a boolean if a field has been set.
-func (o *BatchOperations) HaveBatches() bool {
+// HasBatches returns a boolean if a field has been set.
+func (o *BatchOperations) HasBatches() bool {
 	if o != nil && !IsNil(o.Batches) {
 		return true
 	}
@@ -95,8 +95,8 @@ func (o *BatchOperations) GetTotalItemsOk() (*int32, bool) {
 	return o.TotalItems, true
 }
 
-// HaveTotalItems returns a boolean if a field has been set.
-func (o *BatchOperations) HaveTotalItems() bool {
+// HasTotalItems returns a boolean if a field has been set.
+func (o *BatchOperations) HasTotalItems() bool {
 	if o != nil && !IsNil(o.TotalItems) {
 		return true
 	}
@@ -127,8 +127,8 @@ func (o *BatchOperations) GetLinksOk() ([]ResourceLink, bool) {
 	return o.Links, true
 }
 
-// HaveLinks returns a boolean if a field has been set.
-func (o *BatchOperations) HaveLinks() bool {
+// HasLinks returns a boolean if a field has been set.
+func (o *BatchOperations) HasLinks() bool {
 	if o != nil && !IsNil(o.Links) {
 		return true
 	}

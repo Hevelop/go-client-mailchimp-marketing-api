@@ -61,8 +61,8 @@ func (o *Script) GetUrlOk() (*string, bool) {
 	return o.Url, true
 }
 
-// HaveUrl returns a boolean if a field has been set.
-func (o *Script) HaveUrl() bool {
+// HasUrl returns a boolean if a field has been set.
+func (o *Script) HasUrl() bool {
 	if o != nil && !IsNil(o.Url) {
 		return true
 	}
@@ -93,8 +93,8 @@ func (o *Script) GetFragmentOk() (*string, bool) {
 	return o.Fragment, true
 }
 
-// HaveFragment returns a boolean if a field has been set.
-func (o *Script) HaveFragment() bool {
+// HasFragment returns a boolean if a field has been set.
+func (o *Script) HasFragment() bool {
 	if o != nil && !IsNil(o.Fragment) {
 		return true
 	}

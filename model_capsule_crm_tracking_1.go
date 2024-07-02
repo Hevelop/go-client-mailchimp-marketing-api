@@ -59,8 +59,8 @@ func (o *CapsuleCRMTracking1) GetNotesOk() (*bool, bool) {
 	return o.Notes, true
 }
 
-// HaveNotes returns a boolean if a field has been set.
-func (o *CapsuleCRMTracking1) HaveNotes() bool {
+// HasNotes returns a boolean if a field has been set.
+func (o *CapsuleCRMTracking1) HasNotes() bool {
 	if o != nil && !IsNil(o.Notes) {
 		return true
 	}

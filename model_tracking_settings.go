@@ -61,8 +61,8 @@ func (o *TrackingSettings) GetTrackWithMailchimpOk() (*bool, bool) {
 	return o.TrackWithMailchimp, true
 }
 
-// HaveTrackWithMailchimp returns a boolean if a field has been set.
-func (o *TrackingSettings) HaveTrackWithMailchimp() bool {
+// HasTrackWithMailchimp returns a boolean if a field has been set.
+func (o *TrackingSettings) HasTrackWithMailchimp() bool {
 	if o != nil && !IsNil(o.TrackWithMailchimp) {
 		return true
 	}
@@ -93,8 +93,8 @@ func (o *TrackingSettings) GetEnableRestrictedDataProcessingOk() (*bool, bool) {
 	return o.EnableRestrictedDataProcessing, true
 }
 
-// HaveEnableRestrictedDataProcessing returns a boolean if a field has been set.
-func (o *TrackingSettings) HaveEnableRestrictedDataProcessing() bool {
+// HasEnableRestrictedDataProcessing returns a boolean if a field has been set.
+func (o *TrackingSettings) HasEnableRestrictedDataProcessing() bool {
 	if o != nil && !IsNil(o.EnableRestrictedDataProcessing) {
 		return true
 	}

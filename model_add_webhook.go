@@ -61,8 +61,8 @@ func (o *AddWebhook) GetUrlOk() (*string, bool) {
 	return o.Url, true
 }
 
-// HaveUrl returns a boolean if a field has been set.
-func (o *AddWebhook) HaveUrl() bool {
+// HasUrl returns a boolean if a field has been set.
+func (o *AddWebhook) HasUrl() bool {
 	if o != nil && !IsNil(o.Url) {
 		return true
 	}
@@ -93,8 +93,8 @@ func (o *AddWebhook) GetEventsOk() (*Events2, bool) {
 	return o.Events, true
 }
 
-// HaveEvents returns a boolean if a field has been set.
-func (o *AddWebhook) HaveEvents() bool {
+// HasEvents returns a boolean if a field has been set.
+func (o *AddWebhook) HasEvents() bool {
 	if o != nil && !IsNil(o.Events) {
 		return true
 	}
@@ -125,8 +125,8 @@ func (o *AddWebhook) GetSourcesOk() (*Sources1, bool) {
 	return o.Sources, true
 }
 
-// HaveSources returns a boolean if a field has been set.
-func (o *AddWebhook) HaveSources() bool {
+// HasSources returns a boolean if a field has been set.
+func (o *AddWebhook) HasSources() bool {
 	if o != nil && !IsNil(o.Sources) {
 		return true
 	}

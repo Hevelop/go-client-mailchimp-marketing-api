@@ -60,8 +60,8 @@ func (o *AutomationWorkflowRuntimeSettings) GetDaysOk() ([]string, bool) {
 	return o.Days, true
 }
 
-// HaveDays returns a boolean if a field has been set.
-func (o *AutomationWorkflowRuntimeSettings) HaveDays() bool {
+// HasDays returns a boolean if a field has been set.
+func (o *AutomationWorkflowRuntimeSettings) HasDays() bool {
 	if o != nil && !IsNil(o.Days) {
 		return true
 	}
@@ -92,8 +92,8 @@ func (o *AutomationWorkflowRuntimeSettings) GetHoursOk() (*Hours, bool) {
 	return o.Hours, true
 }
 
-// HaveHours returns a boolean if a field has been set.
-func (o *AutomationWorkflowRuntimeSettings) HaveHours() bool {
+// HasHours returns a boolean if a field has been set.
+func (o *AutomationWorkflowRuntimeSettings) HasHours() bool {
 	if o != nil && !IsNil(o.Hours) {
 		return true
 	}

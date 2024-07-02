@@ -68,8 +68,8 @@ func (o *SignupForm) GetHeaderOk() (*SignupFormHeaderOptions, bool) {
 	return o.Header, true
 }
 
-// HaveHeader returns a boolean if a field has been set.
-func (o *SignupForm) HaveHeader() bool {
+// HasHeader returns a boolean if a field has been set.
+func (o *SignupForm) HasHeader() bool {
 	if o != nil && !IsNil(o.Header) {
 		return true
 	}
@@ -100,8 +100,8 @@ func (o *SignupForm) GetContentsOk() ([]CollectionOfContentForListSignupForms, b
 	return o.Contents, true
 }
 
-// HaveContents returns a boolean if a field has been set.
-func (o *SignupForm) HaveContents() bool {
+// HasContents returns a boolean if a field has been set.
+func (o *SignupForm) HasContents() bool {
 	if o != nil && !IsNil(o.Contents) {
 		return true
 	}
@@ -132,8 +132,8 @@ func (o *SignupForm) GetStylesOk() ([]CollectionOfElementStyleForListSignupForms
 	return o.Styles, true
 }
 
-// HaveStyles returns a boolean if a field has been set.
-func (o *SignupForm) HaveStyles() bool {
+// HasStyles returns a boolean if a field has been set.
+func (o *SignupForm) HasStyles() bool {
 	if o != nil && !IsNil(o.Styles) {
 		return true
 	}
@@ -164,8 +164,8 @@ func (o *SignupForm) GetSignupFormUrlOk() (*string, bool) {
 	return o.SignupFormUrl, true
 }
 
-// HaveSignupFormUrl returns a boolean if a field has been set.
-func (o *SignupForm) HaveSignupFormUrl() bool {
+// HasSignupFormUrl returns a boolean if a field has been set.
+func (o *SignupForm) HasSignupFormUrl() bool {
 	if o != nil && !IsNil(o.SignupFormUrl) {
 		return true
 	}
@@ -196,8 +196,8 @@ func (o *SignupForm) GetListIdOk() (*string, bool) {
 	return o.ListId, true
 }
 
-// HaveListId returns a boolean if a field has been set.
-func (o *SignupForm) HaveListId() bool {
+// HasListId returns a boolean if a field has been set.
+func (o *SignupForm) HasListId() bool {
 	if o != nil && !IsNil(o.ListId) {
 		return true
 	}
@@ -228,8 +228,8 @@ func (o *SignupForm) GetLinksOk() ([]ResourceLink, bool) {
 	return o.Links, true
 }
 
-// HaveLinks returns a boolean if a field has been set.
-func (o *SignupForm) HaveLinks() bool {
+// HasLinks returns a boolean if a field has been set.
+func (o *SignupForm) HasLinks() bool {
 	if o != nil && !IsNil(o.Links) {
 		return true
 	}

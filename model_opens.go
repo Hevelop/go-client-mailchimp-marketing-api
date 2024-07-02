@@ -66,8 +66,8 @@ func (o *Opens) GetOpensTotalOk() (*int32, bool) {
 	return o.OpensTotal, true
 }
 
-// HaveOpensTotal returns a boolean if a field has been set.
-func (o *Opens) HaveOpensTotal() bool {
+// HasOpensTotal returns a boolean if a field has been set.
+func (o *Opens) HasOpensTotal() bool {
 	if o != nil && !IsNil(o.OpensTotal) {
 		return true
 	}
@@ -98,8 +98,8 @@ func (o *Opens) GetUniqueOpensOk() (*int32, bool) {
 	return o.UniqueOpens, true
 }
 
-// HaveUniqueOpens returns a boolean if a field has been set.
-func (o *Opens) HaveUniqueOpens() bool {
+// HasUniqueOpens returns a boolean if a field has been set.
+func (o *Opens) HasUniqueOpens() bool {
 	if o != nil && !IsNil(o.UniqueOpens) {
 		return true
 	}
@@ -130,8 +130,8 @@ func (o *Opens) GetOpenRateOk() (*float32, bool) {
 	return o.OpenRate, true
 }
 
-// HaveOpenRate returns a boolean if a field has been set.
-func (o *Opens) HaveOpenRate() bool {
+// HasOpenRate returns a boolean if a field has been set.
+func (o *Opens) HasOpenRate() bool {
 	if o != nil && !IsNil(o.OpenRate) {
 		return true
 	}
@@ -162,8 +162,8 @@ func (o *Opens) GetLastOpenOk() (*time.Time, bool) {
 	return o.LastOpen, true
 }
 
-// HaveLastOpen returns a boolean if a field has been set.
-func (o *Opens) HaveLastOpen() bool {
+// HasLastOpen returns a boolean if a field has been set.
+func (o *Opens) HasLastOpen() bool {
 	if o != nil && !IsNil(o.LastOpen) {
 		return true
 	}

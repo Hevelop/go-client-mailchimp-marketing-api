@@ -63,8 +63,8 @@ func (o *AutomationEmails) GetEmailsOk() ([]AutomationWorkflowEmail, bool) {
 	return o.Emails, true
 }
 
-// HaveEmails returns a boolean if a field has been set.
-func (o *AutomationEmails) HaveEmails() bool {
+// HasEmails returns a boolean if a field has been set.
+func (o *AutomationEmails) HasEmails() bool {
 	if o != nil && !IsNil(o.Emails) {
 		return true
 	}
@@ -95,8 +95,8 @@ func (o *AutomationEmails) GetTotalItemsOk() (*int32, bool) {
 	return o.TotalItems, true
 }
 
-// HaveTotalItems returns a boolean if a field has been set.
-func (o *AutomationEmails) HaveTotalItems() bool {
+// HasTotalItems returns a boolean if a field has been set.
+func (o *AutomationEmails) HasTotalItems() bool {
 	if o != nil && !IsNil(o.TotalItems) {
 		return true
 	}
@@ -127,8 +127,8 @@ func (o *AutomationEmails) GetLinksOk() ([]ResourceLink, bool) {
 	return o.Links, true
 }
 
-// HaveLinks returns a boolean if a field has been set.
-func (o *AutomationEmails) HaveLinks() bool {
+// HasLinks returns a boolean if a field has been set.
+func (o *AutomationEmails) HasLinks() bool {
 	if o != nil && !IsNil(o.Links) {
 		return true
 	}

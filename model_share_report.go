@@ -61,8 +61,8 @@ func (o *ShareReport) GetShareUrlOk() (*string, bool) {
 	return o.ShareUrl, true
 }
 
-// HaveShareUrl returns a boolean if a field has been set.
-func (o *ShareReport) HaveShareUrl() bool {
+// HasShareUrl returns a boolean if a field has been set.
+func (o *ShareReport) HasShareUrl() bool {
 	if o != nil && !IsNil(o.ShareUrl) {
 		return true
 	}
@@ -93,8 +93,8 @@ func (o *ShareReport) GetSharePasswordOk() (*string, bool) {
 	return o.SharePassword, true
 }
 
-// HaveSharePassword returns a boolean if a field has been set.
-func (o *ShareReport) HaveSharePassword() bool {
+// HasSharePassword returns a boolean if a field has been set.
+func (o *ShareReport) HasSharePassword() bool {
 	if o != nil && !IsNil(o.SharePassword) {
 		return true
 	}

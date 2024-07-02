@@ -73,8 +73,8 @@ func (o *AutomationTrackingOptions) GetOpensOk() (*bool, bool) {
 	return o.Opens, true
 }
 
-// HaveOpens returns a boolean if a field has been set.
-func (o *AutomationTrackingOptions) HaveOpens() bool {
+// HasOpens returns a boolean if a field has been set.
+func (o *AutomationTrackingOptions) HasOpens() bool {
 	if o != nil && !IsNil(o.Opens) {
 		return true
 	}
@@ -105,8 +105,8 @@ func (o *AutomationTrackingOptions) GetHtmlClicksOk() (*bool, bool) {
 	return o.HtmlClicks, true
 }
 
-// HaveHtmlClicks returns a boolean if a field has been set.
-func (o *AutomationTrackingOptions) HaveHtmlClicks() bool {
+// HasHtmlClicks returns a boolean if a field has been set.
+func (o *AutomationTrackingOptions) HasHtmlClicks() bool {
 	if o != nil && !IsNil(o.HtmlClicks) {
 		return true
 	}
@@ -137,8 +137,8 @@ func (o *AutomationTrackingOptions) GetTextClicksOk() (*bool, bool) {
 	return o.TextClicks, true
 }
 
-// HaveTextClicks returns a boolean if a field has been set.
-func (o *AutomationTrackingOptions) HaveTextClicks() bool {
+// HasTextClicks returns a boolean if a field has been set.
+func (o *AutomationTrackingOptions) HasTextClicks() bool {
 	if o != nil && !IsNil(o.TextClicks) {
 		return true
 	}
@@ -169,8 +169,8 @@ func (o *AutomationTrackingOptions) GetGoalTrackingOk() (*bool, bool) {
 	return o.GoalTracking, true
 }
 
-// HaveGoalTracking returns a boolean if a field has been set.
-func (o *AutomationTrackingOptions) HaveGoalTracking() bool {
+// HasGoalTracking returns a boolean if a field has been set.
+func (o *AutomationTrackingOptions) HasGoalTracking() bool {
 	if o != nil && !IsNil(o.GoalTracking) {
 		return true
 	}
@@ -201,8 +201,8 @@ func (o *AutomationTrackingOptions) GetEcomm360Ok() (*bool, bool) {
 	return o.Ecomm360, true
 }
 
-// HaveEcomm360 returns a boolean if a field has been set.
-func (o *AutomationTrackingOptions) HaveEcomm360() bool {
+// HasEcomm360 returns a boolean if a field has been set.
+func (o *AutomationTrackingOptions) HasEcomm360() bool {
 	if o != nil && !IsNil(o.Ecomm360) {
 		return true
 	}
@@ -233,8 +233,8 @@ func (o *AutomationTrackingOptions) GetGoogleAnalyticsOk() (*string, bool) {
 	return o.GoogleAnalytics, true
 }
 
-// HaveGoogleAnalytics returns a boolean if a field has been set.
-func (o *AutomationTrackingOptions) HaveGoogleAnalytics() bool {
+// HasGoogleAnalytics returns a boolean if a field has been set.
+func (o *AutomationTrackingOptions) HasGoogleAnalytics() bool {
 	if o != nil && !IsNil(o.GoogleAnalytics) {
 		return true
 	}
@@ -265,8 +265,8 @@ func (o *AutomationTrackingOptions) GetClicktaleOk() (*string, bool) {
 	return o.Clicktale, true
 }
 
-// HaveClicktale returns a boolean if a field has been set.
-func (o *AutomationTrackingOptions) HaveClicktale() bool {
+// HasClicktale returns a boolean if a field has been set.
+func (o *AutomationTrackingOptions) HasClicktale() bool {
 	if o != nil && !IsNil(o.Clicktale) {
 		return true
 	}
@@ -297,8 +297,8 @@ func (o *AutomationTrackingOptions) GetSalesforceOk() (*SalesforceCRMTracking, b
 	return o.Salesforce, true
 }
 
-// HaveSalesforce returns a boolean if a field has been set.
-func (o *AutomationTrackingOptions) HaveSalesforce() bool {
+// HasSalesforce returns a boolean if a field has been set.
+func (o *AutomationTrackingOptions) HasSalesforce() bool {
 	if o != nil && !IsNil(o.Salesforce) {
 		return true
 	}
@@ -329,8 +329,8 @@ func (o *AutomationTrackingOptions) GetCapsuleOk() (*CapsuleCRMTracking, bool) {
 	return o.Capsule, true
 }
 
-// HaveCapsule returns a boolean if a field has been set.
-func (o *AutomationTrackingOptions) HaveCapsule() bool {
+// HasCapsule returns a boolean if a field has been set.
+func (o *AutomationTrackingOptions) HasCapsule() bool {
 	if o != nil && !IsNil(o.Capsule) {
 		return true
 	}

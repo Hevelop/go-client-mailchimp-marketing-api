@@ -67,8 +67,8 @@ func (o *CartLines) GetStoreIdOk() (*string, bool) {
 	return o.StoreId, true
 }
 
-// HaveStoreId returns a boolean if a field has been set.
-func (o *CartLines) HaveStoreId() bool {
+// HasStoreId returns a boolean if a field has been set.
+func (o *CartLines) HasStoreId() bool {
 	if o != nil && !IsNil(o.StoreId) {
 		return true
 	}
@@ -99,8 +99,8 @@ func (o *CartLines) GetCartIdOk() (*string, bool) {
 	return o.CartId, true
 }
 
-// HaveCartId returns a boolean if a field has been set.
-func (o *CartLines) HaveCartId() bool {
+// HasCartId returns a boolean if a field has been set.
+func (o *CartLines) HasCartId() bool {
 	if o != nil && !IsNil(o.CartId) {
 		return true
 	}
@@ -131,8 +131,8 @@ func (o *CartLines) GetLinesOk() ([]ECommerceCartLineItem, bool) {
 	return o.Lines, true
 }
 
-// HaveLines returns a boolean if a field has been set.
-func (o *CartLines) HaveLines() bool {
+// HasLines returns a boolean if a field has been set.
+func (o *CartLines) HasLines() bool {
 	if o != nil && !IsNil(o.Lines) {
 		return true
 	}
@@ -163,8 +163,8 @@ func (o *CartLines) GetTotalItemsOk() (*int32, bool) {
 	return o.TotalItems, true
 }
 
-// HaveTotalItems returns a boolean if a field has been set.
-func (o *CartLines) HaveTotalItems() bool {
+// HasTotalItems returns a boolean if a field has been set.
+func (o *CartLines) HasTotalItems() bool {
 	if o != nil && !IsNil(o.TotalItems) {
 		return true
 	}
@@ -195,8 +195,8 @@ func (o *CartLines) GetLinksOk() ([]ResourceLink, bool) {
 	return o.Links, true
 }
 
-// HaveLinks returns a boolean if a field has been set.
-func (o *CartLines) HaveLinks() bool {
+// HasLinks returns a boolean if a field has been set.
+func (o *CartLines) HasLinks() bool {
 	if o != nil && !IsNil(o.Links) {
 		return true
 	}

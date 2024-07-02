@@ -78,8 +78,8 @@ func (o *ECommercePromoRule2) GetTitleOk() (*string, bool) {
 	return o.Title, true
 }
 
-// HaveTitle returns a boolean if a field has been set.
-func (o *ECommercePromoRule2) HaveTitle() bool {
+// HasTitle returns a boolean if a field has been set.
+func (o *ECommercePromoRule2) HasTitle() bool {
 	if o != nil && !IsNil(o.Title) {
 		return true
 	}
@@ -110,8 +110,8 @@ func (o *ECommercePromoRule2) GetDescriptionOk() (*string, bool) {
 	return o.Description, true
 }
 
-// HaveDescription returns a boolean if a field has been set.
-func (o *ECommercePromoRule2) HaveDescription() bool {
+// HasDescription returns a boolean if a field has been set.
+func (o *ECommercePromoRule2) HasDescription() bool {
 	if o != nil && !IsNil(o.Description) {
 		return true
 	}
@@ -142,8 +142,8 @@ func (o *ECommercePromoRule2) GetStartsAtOk() (*time.Time, bool) {
 	return o.StartsAt, true
 }
 
-// HaveStartsAt returns a boolean if a field has been set.
-func (o *ECommercePromoRule2) HaveStartsAt() bool {
+// HasStartsAt returns a boolean if a field has been set.
+func (o *ECommercePromoRule2) HasStartsAt() bool {
 	if o != nil && !IsNil(o.StartsAt) {
 		return true
 	}
@@ -174,8 +174,8 @@ func (o *ECommercePromoRule2) GetEndsAtOk() (*string, bool) {
 	return o.EndsAt, true
 }
 
-// HaveEndsAt returns a boolean if a field has been set.
-func (o *ECommercePromoRule2) HaveEndsAt() bool {
+// HasEndsAt returns a boolean if a field has been set.
+func (o *ECommercePromoRule2) HasEndsAt() bool {
 	if o != nil && !IsNil(o.EndsAt) {
 		return true
 	}
@@ -206,8 +206,8 @@ func (o *ECommercePromoRule2) GetAmountOk() (*float32, bool) {
 	return o.Amount, true
 }
 
-// HaveAmount returns a boolean if a field has been set.
-func (o *ECommercePromoRule2) HaveAmount() bool {
+// HasAmount returns a boolean if a field has been set.
+func (o *ECommercePromoRule2) HasAmount() bool {
 	if o != nil && !IsNil(o.Amount) {
 		return true
 	}
@@ -238,8 +238,8 @@ func (o *ECommercePromoRule2) GetTypeOk() (*string, bool) {
 	return o.Type, true
 }
 
-// HaveType returns a boolean if a field has been set.
-func (o *ECommercePromoRule2) HaveType() bool {
+// HasType returns a boolean if a field has been set.
+func (o *ECommercePromoRule2) HasType() bool {
 	if o != nil && !IsNil(o.Type) {
 		return true
 	}
@@ -270,8 +270,8 @@ func (o *ECommercePromoRule2) GetTargetOk() (*string, bool) {
 	return o.Target, true
 }
 
-// HaveTarget returns a boolean if a field has been set.
-func (o *ECommercePromoRule2) HaveTarget() bool {
+// HasTarget returns a boolean if a field has been set.
+func (o *ECommercePromoRule2) HasTarget() bool {
 	if o != nil && !IsNil(o.Target) {
 		return true
 	}
@@ -302,8 +302,8 @@ func (o *ECommercePromoRule2) GetEnabledOk() (*bool, bool) {
 	return o.Enabled, true
 }
 
-// HaveEnabled returns a boolean if a field has been set.
-func (o *ECommercePromoRule2) HaveEnabled() bool {
+// HasEnabled returns a boolean if a field has been set.
+func (o *ECommercePromoRule2) HasEnabled() bool {
 	if o != nil && !IsNil(o.Enabled) {
 		return true
 	}
@@ -334,8 +334,8 @@ func (o *ECommercePromoRule2) GetCreatedAtForeignOk() (*time.Time, bool) {
 	return o.CreatedAtForeign, true
 }
 
-// HaveCreatedAtForeign returns a boolean if a field has been set.
-func (o *ECommercePromoRule2) HaveCreatedAtForeign() bool {
+// HasCreatedAtForeign returns a boolean if a field has been set.
+func (o *ECommercePromoRule2) HasCreatedAtForeign() bool {
 	if o != nil && !IsNil(o.CreatedAtForeign) {
 		return true
 	}
@@ -366,8 +366,8 @@ func (o *ECommercePromoRule2) GetUpdatedAtForeignOk() (*time.Time, bool) {
 	return o.UpdatedAtForeign, true
 }
 
-// HaveUpdatedAtForeign returns a boolean if a field has been set.
-func (o *ECommercePromoRule2) HaveUpdatedAtForeign() bool {
+// HasUpdatedAtForeign returns a boolean if a field has been set.
+func (o *ECommercePromoRule2) HasUpdatedAtForeign() bool {
 	if o != nil && !IsNil(o.UpdatedAtForeign) {
 		return true
 	}

@@ -75,8 +75,8 @@ func (o *List7) GetIdOk() (*int32, bool) {
 	return o.Id, true
 }
 
-// HaveId returns a boolean if a field has been set.
-func (o *List7) HaveId() bool {
+// HasId returns a boolean if a field has been set.
+func (o *List7) HasId() bool {
 	if o != nil && !IsNil(o.Id) {
 		return true
 	}
@@ -107,8 +107,8 @@ func (o *List7) GetNameOk() (*string, bool) {
 	return o.Name, true
 }
 
-// HaveName returns a boolean if a field has been set.
-func (o *List7) HaveName() bool {
+// HasName returns a boolean if a field has been set.
+func (o *List7) HasName() bool {
 	if o != nil && !IsNil(o.Name) {
 		return true
 	}
@@ -139,8 +139,8 @@ func (o *List7) GetMemberCountOk() (*int32, bool) {
 	return o.MemberCount, true
 }
 
-// HaveMemberCount returns a boolean if a field has been set.
-func (o *List7) HaveMemberCount() bool {
+// HasMemberCount returns a boolean if a field has been set.
+func (o *List7) HasMemberCount() bool {
 	if o != nil && !IsNil(o.MemberCount) {
 		return true
 	}
@@ -171,8 +171,8 @@ func (o *List7) GetTypeOk() (*string, bool) {
 	return o.Type, true
 }
 
-// HaveType returns a boolean if a field has been set.
-func (o *List7) HaveType() bool {
+// HasType returns a boolean if a field has been set.
+func (o *List7) HasType() bool {
 	if o != nil && !IsNil(o.Type) {
 		return true
 	}
@@ -203,8 +203,8 @@ func (o *List7) GetCreatedAtOk() (*time.Time, bool) {
 	return o.CreatedAt, true
 }
 
-// HaveCreatedAt returns a boolean if a field has been set.
-func (o *List7) HaveCreatedAt() bool {
+// HasCreatedAt returns a boolean if a field has been set.
+func (o *List7) HasCreatedAt() bool {
 	if o != nil && !IsNil(o.CreatedAt) {
 		return true
 	}
@@ -235,8 +235,8 @@ func (o *List7) GetUpdatedAtOk() (*time.Time, bool) {
 	return o.UpdatedAt, true
 }
 
-// HaveUpdatedAt returns a boolean if a field has been set.
-func (o *List7) HaveUpdatedAt() bool {
+// HasUpdatedAt returns a boolean if a field has been set.
+func (o *List7) HasUpdatedAt() bool {
 	if o != nil && !IsNil(o.UpdatedAt) {
 		return true
 	}
@@ -267,8 +267,8 @@ func (o *List7) GetOptionsOk() (*Conditions, bool) {
 	return o.Options, true
 }
 
-// HaveOptions returns a boolean if a field has been set.
-func (o *List7) HaveOptions() bool {
+// HasOptions returns a boolean if a field has been set.
+func (o *List7) HasOptions() bool {
 	if o != nil && !IsNil(o.Options) {
 		return true
 	}
@@ -299,8 +299,8 @@ func (o *List7) GetListIdOk() (*string, bool) {
 	return o.ListId, true
 }
 
-// HaveListId returns a boolean if a field has been set.
-func (o *List7) HaveListId() bool {
+// HasListId returns a boolean if a field has been set.
+func (o *List7) HasListId() bool {
 	if o != nil && !IsNil(o.ListId) {
 		return true
 	}
@@ -331,8 +331,8 @@ func (o *List7) GetLinksOk() ([]ResourceLink, bool) {
 	return o.Links, true
 }
 
-// HaveLinks returns a boolean if a field has been set.
-func (o *List7) HaveLinks() bool {
+// HasLinks returns a boolean if a field has been set.
+func (o *List7) HasLinks() bool {
 	if o != nil && !IsNil(o.Links) {
 		return true
 	}

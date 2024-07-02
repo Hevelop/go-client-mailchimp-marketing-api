@@ -63,8 +63,8 @@ func (o *GetAutomations200Response) GetAutomationsOk() ([]AutomationWorkflow, bo
 	return o.Automations, true
 }
 
-// HaveAutomations returns a boolean if a field has been set.
-func (o *GetAutomations200Response) HaveAutomations() bool {
+// HasAutomations returns a boolean if a field has been set.
+func (o *GetAutomations200Response) HasAutomations() bool {
 	if o != nil && !IsNil(o.Automations) {
 		return true
 	}
@@ -95,8 +95,8 @@ func (o *GetAutomations200Response) GetTotalItemsOk() (*int32, bool) {
 	return o.TotalItems, true
 }
 
-// HaveTotalItems returns a boolean if a field has been set.
-func (o *GetAutomations200Response) HaveTotalItems() bool {
+// HasTotalItems returns a boolean if a field has been set.
+func (o *GetAutomations200Response) HasTotalItems() bool {
 	if o != nil && !IsNil(o.TotalItems) {
 		return true
 	}
@@ -127,8 +127,8 @@ func (o *GetAutomations200Response) GetLinksOk() ([]ResourceLink, bool) {
 	return o.Links, true
 }
 
-// HaveLinks returns a boolean if a field has been set.
-func (o *GetAutomations200Response) HaveLinks() bool {
+// HasLinks returns a boolean if a field has been set.
+func (o *GetAutomations200Response) HasLinks() bool {
 	if o != nil && !IsNil(o.Links) {
 		return true
 	}

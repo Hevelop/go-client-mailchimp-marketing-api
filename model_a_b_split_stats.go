@@ -59,8 +59,8 @@ func (o *ABSplitStats) GetAOk() (*CampaignA, bool) {
 	return o.A, true
 }
 
-// HaveA returns a boolean if a field has been set.
-func (o *ABSplitStats) HaveA() bool {
+// HasA returns a boolean if a field has been set.
+func (o *ABSplitStats) HasA() bool {
 	if o != nil && !IsNil(o.A) {
 		return true
 	}
@@ -91,8 +91,8 @@ func (o *ABSplitStats) GetBOk() (*CampaignB, bool) {
 	return o.B, true
 }
 
-// HaveB returns a boolean if a field has been set.
-func (o *ABSplitStats) HaveB() bool {
+// HasB returns a boolean if a field has been set.
+func (o *ABSplitStats) HasB() bool {
 	if o != nil && !IsNil(o.B) {
 		return true
 	}

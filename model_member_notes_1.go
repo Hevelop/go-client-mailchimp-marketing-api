@@ -59,8 +59,8 @@ func (o *MemberNotes1) GetNoteOk() (*string, bool) {
 	return o.Note, true
 }
 
-// HaveNote returns a boolean if a field has been set.
-func (o *MemberNotes1) HaveNote() bool {
+// HasNote returns a boolean if a field has been set.
+func (o *MemberNotes1) HasNote() bool {
 	if o != nil && !IsNil(o.Note) {
 		return true
 	}

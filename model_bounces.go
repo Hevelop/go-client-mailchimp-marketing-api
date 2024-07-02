@@ -63,8 +63,8 @@ func (o *Bounces) GetHardBouncesOk() (*int32, bool) {
 	return o.HardBounces, true
 }
 
-// HaveHardBounces returns a boolean if a field has been set.
-func (o *Bounces) HaveHardBounces() bool {
+// HasHardBounces returns a boolean if a field has been set.
+func (o *Bounces) HasHardBounces() bool {
 	if o != nil && !IsNil(o.HardBounces) {
 		return true
 	}
@@ -95,8 +95,8 @@ func (o *Bounces) GetSoftBouncesOk() (*int32, bool) {
 	return o.SoftBounces, true
 }
 
-// HaveSoftBounces returns a boolean if a field has been set.
-func (o *Bounces) HaveSoftBounces() bool {
+// HasSoftBounces returns a boolean if a field has been set.
+func (o *Bounces) HasSoftBounces() bool {
 	if o != nil && !IsNil(o.SoftBounces) {
 		return true
 	}
@@ -127,8 +127,8 @@ func (o *Bounces) GetSyntaxErrorsOk() (*int32, bool) {
 	return o.SyntaxErrors, true
 }
 
-// HaveSyntaxErrors returns a boolean if a field has been set.
-func (o *Bounces) HaveSyntaxErrors() bool {
+// HasSyntaxErrors returns a boolean if a field has been set.
+func (o *Bounces) HasSyntaxErrors() bool {
 	if o != nil && !IsNil(o.SyntaxErrors) {
 		return true
 	}

@@ -62,8 +62,8 @@ func (o *WeeklyClicksAndVisitsData) GetClicksOk() ([]Clicks1Inner1, bool) {
 	return o.Clicks, true
 }
 
-// HaveClicks returns a boolean if a field has been set.
-func (o *WeeklyClicksAndVisitsData) HaveClicks() bool {
+// HasClicks returns a boolean if a field has been set.
+func (o *WeeklyClicksAndVisitsData) HasClicks() bool {
 	if o != nil && !IsNil(o.Clicks) {
 		return true
 	}
@@ -94,8 +94,8 @@ func (o *WeeklyClicksAndVisitsData) GetVisitsOk() ([]VisitsInner1, bool) {
 	return o.Visits, true
 }
 
-// HaveVisits returns a boolean if a field has been set.
-func (o *WeeklyClicksAndVisitsData) HaveVisits() bool {
+// HasVisits returns a boolean if a field has been set.
+func (o *WeeklyClicksAndVisitsData) HasVisits() bool {
 	if o != nil && !IsNil(o.Visits) {
 		return true
 	}
@@ -126,8 +126,8 @@ func (o *WeeklyClicksAndVisitsData) GetUniqueVisitsOk() ([]UniqueVisitsInner, bo
 	return o.UniqueVisits, true
 }
 
-// HaveUniqueVisits returns a boolean if a field has been set.
-func (o *WeeklyClicksAndVisitsData) HaveUniqueVisits() bool {
+// HasUniqueVisits returns a boolean if a field has been set.
+func (o *WeeklyClicksAndVisitsData) HasUniqueVisits() bool {
 	if o != nil && !IsNil(o.UniqueVisits) {
 		return true
 	}

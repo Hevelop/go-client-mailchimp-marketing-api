@@ -96,8 +96,8 @@ func (o *Campaign) GetIdOk() (*string, bool) {
 	return o.Id, true
 }
 
-// HaveId returns a boolean if a field has been set.
-func (o *Campaign) HaveId() bool {
+// HasId returns a boolean if a field has been set.
+func (o *Campaign) HasId() bool {
 	if o != nil && !IsNil(o.Id) {
 		return true
 	}
@@ -128,8 +128,8 @@ func (o *Campaign) GetWebIdOk() (*int32, bool) {
 	return o.WebId, true
 }
 
-// HaveWebId returns a boolean if a field has been set.
-func (o *Campaign) HaveWebId() bool {
+// HasWebId returns a boolean if a field has been set.
+func (o *Campaign) HasWebId() bool {
 	if o != nil && !IsNil(o.WebId) {
 		return true
 	}
@@ -160,8 +160,8 @@ func (o *Campaign) GetParentCampaignIdOk() (*string, bool) {
 	return o.ParentCampaignId, true
 }
 
-// HaveParentCampaignId returns a boolean if a field has been set.
-func (o *Campaign) HaveParentCampaignId() bool {
+// HasParentCampaignId returns a boolean if a field has been set.
+func (o *Campaign) HasParentCampaignId() bool {
 	if o != nil && !IsNil(o.ParentCampaignId) {
 		return true
 	}
@@ -192,8 +192,8 @@ func (o *Campaign) GetTypeOk() (*string, bool) {
 	return o.Type, true
 }
 
-// HaveType returns a boolean if a field has been set.
-func (o *Campaign) HaveType() bool {
+// HasType returns a boolean if a field has been set.
+func (o *Campaign) HasType() bool {
 	if o != nil && !IsNil(o.Type) {
 		return true
 	}
@@ -224,8 +224,8 @@ func (o *Campaign) GetCreateTimeOk() (*time.Time, bool) {
 	return o.CreateTime, true
 }
 
-// HaveCreateTime returns a boolean if a field has been set.
-func (o *Campaign) HaveCreateTime() bool {
+// HasCreateTime returns a boolean if a field has been set.
+func (o *Campaign) HasCreateTime() bool {
 	if o != nil && !IsNil(o.CreateTime) {
 		return true
 	}
@@ -256,8 +256,8 @@ func (o *Campaign) GetArchiveUrlOk() (*string, bool) {
 	return o.ArchiveUrl, true
 }
 
-// HaveArchiveUrl returns a boolean if a field has been set.
-func (o *Campaign) HaveArchiveUrl() bool {
+// HasArchiveUrl returns a boolean if a field has been set.
+func (o *Campaign) HasArchiveUrl() bool {
 	if o != nil && !IsNil(o.ArchiveUrl) {
 		return true
 	}
@@ -288,8 +288,8 @@ func (o *Campaign) GetLongArchiveUrlOk() (*string, bool) {
 	return o.LongArchiveUrl, true
 }
 
-// HaveLongArchiveUrl returns a boolean if a field has been set.
-func (o *Campaign) HaveLongArchiveUrl() bool {
+// HasLongArchiveUrl returns a boolean if a field has been set.
+func (o *Campaign) HasLongArchiveUrl() bool {
 	if o != nil && !IsNil(o.LongArchiveUrl) {
 		return true
 	}
@@ -320,8 +320,8 @@ func (o *Campaign) GetStatusOk() (*string, bool) {
 	return o.Status, true
 }
 
-// HaveStatus returns a boolean if a field has been set.
-func (o *Campaign) HaveStatus() bool {
+// HasStatus returns a boolean if a field has been set.
+func (o *Campaign) HasStatus() bool {
 	if o != nil && !IsNil(o.Status) {
 		return true
 	}
@@ -352,8 +352,8 @@ func (o *Campaign) GetEmailsSentOk() (*int32, bool) {
 	return o.EmailsSent, true
 }
 
-// HaveEmailsSent returns a boolean if a field has been set.
-func (o *Campaign) HaveEmailsSent() bool {
+// HasEmailsSent returns a boolean if a field has been set.
+func (o *Campaign) HasEmailsSent() bool {
 	if o != nil && !IsNil(o.EmailsSent) {
 		return true
 	}
@@ -384,8 +384,8 @@ func (o *Campaign) GetSendTimeOk() (*time.Time, bool) {
 	return o.SendTime, true
 }
 
-// HaveSendTime returns a boolean if a field has been set.
-func (o *Campaign) HaveSendTime() bool {
+// HasSendTime returns a boolean if a field has been set.
+func (o *Campaign) HasSendTime() bool {
 	if o != nil && !IsNil(o.SendTime) {
 		return true
 	}
@@ -416,8 +416,8 @@ func (o *Campaign) GetContentTypeOk() (*string, bool) {
 	return o.ContentType, true
 }
 
-// HaveContentType returns a boolean if a field has been set.
-func (o *Campaign) HaveContentType() bool {
+// HasContentType returns a boolean if a field has been set.
+func (o *Campaign) HasContentType() bool {
 	if o != nil && !IsNil(o.ContentType) {
 		return true
 	}
@@ -448,8 +448,8 @@ func (o *Campaign) GetNeedsBlockRefreshOk() (*bool, bool) {
 	return o.NeedsBlockRefresh, true
 }
 
-// HaveNeedsBlockRefresh returns a boolean if a field has been set.
-func (o *Campaign) HaveNeedsBlockRefresh() bool {
+// HasNeedsBlockRefresh returns a boolean if a field has been set.
+func (o *Campaign) HasNeedsBlockRefresh() bool {
 	if o != nil && !IsNil(o.NeedsBlockRefresh) {
 		return true
 	}
@@ -480,8 +480,8 @@ func (o *Campaign) GetResendableOk() (*bool, bool) {
 	return o.Resendable, true
 }
 
-// HaveResendable returns a boolean if a field has been set.
-func (o *Campaign) HaveResendable() bool {
+// HasResendable returns a boolean if a field has been set.
+func (o *Campaign) HasResendable() bool {
 	if o != nil && !IsNil(o.Resendable) {
 		return true
 	}
@@ -512,8 +512,8 @@ func (o *Campaign) GetRecipientsOk() (*List3, bool) {
 	return o.Recipients, true
 }
 
-// HaveRecipients returns a boolean if a field has been set.
-func (o *Campaign) HaveRecipients() bool {
+// HasRecipients returns a boolean if a field has been set.
+func (o *Campaign) HasRecipients() bool {
 	if o != nil && !IsNil(o.Recipients) {
 		return true
 	}
@@ -544,8 +544,8 @@ func (o *Campaign) GetSettingsOk() (*CampaignSettings2, bool) {
 	return o.Settings, true
 }
 
-// HaveSettings returns a boolean if a field has been set.
-func (o *Campaign) HaveSettings() bool {
+// HasSettings returns a boolean if a field has been set.
+func (o *Campaign) HasSettings() bool {
 	if o != nil && !IsNil(o.Settings) {
 		return true
 	}
@@ -576,8 +576,8 @@ func (o *Campaign) GetVariateSettingsOk() (*ABTestOptions, bool) {
 	return o.VariateSettings, true
 }
 
-// HaveVariateSettings returns a boolean if a field has been set.
-func (o *Campaign) HaveVariateSettings() bool {
+// HasVariateSettings returns a boolean if a field has been set.
+func (o *Campaign) HasVariateSettings() bool {
 	if o != nil && !IsNil(o.VariateSettings) {
 		return true
 	}
@@ -608,8 +608,8 @@ func (o *Campaign) GetTrackingOk() (*CampaignTrackingOptions1, bool) {
 	return o.Tracking, true
 }
 
-// HaveTracking returns a boolean if a field has been set.
-func (o *Campaign) HaveTracking() bool {
+// HasTracking returns a boolean if a field has been set.
+func (o *Campaign) HasTracking() bool {
 	if o != nil && !IsNil(o.Tracking) {
 		return true
 	}
@@ -640,8 +640,8 @@ func (o *Campaign) GetRssOptsOk() (*RSSOptions, bool) {
 	return o.RssOpts, true
 }
 
-// HaveRssOpts returns a boolean if a field has been set.
-func (o *Campaign) HaveRssOpts() bool {
+// HasRssOpts returns a boolean if a field has been set.
+func (o *Campaign) HasRssOpts() bool {
 	if o != nil && !IsNil(o.RssOpts) {
 		return true
 	}
@@ -672,8 +672,8 @@ func (o *Campaign) GetAbSplitOptsOk() (*ABTestingOptions, bool) {
 	return o.AbSplitOpts, true
 }
 
-// HaveAbSplitOpts returns a boolean if a field has been set.
-func (o *Campaign) HaveAbSplitOpts() bool {
+// HasAbSplitOpts returns a boolean if a field has been set.
+func (o *Campaign) HasAbSplitOpts() bool {
 	if o != nil && !IsNil(o.AbSplitOpts) {
 		return true
 	}
@@ -704,8 +704,8 @@ func (o *Campaign) GetSocialCardOk() (*CampaignSocialCard, bool) {
 	return o.SocialCard, true
 }
 
-// HaveSocialCard returns a boolean if a field has been set.
-func (o *Campaign) HaveSocialCard() bool {
+// HasSocialCard returns a boolean if a field has been set.
+func (o *Campaign) HasSocialCard() bool {
 	if o != nil && !IsNil(o.SocialCard) {
 		return true
 	}
@@ -736,8 +736,8 @@ func (o *Campaign) GetReportSummaryOk() (*CampaignReportSummary2, bool) {
 	return o.ReportSummary, true
 }
 
-// HaveReportSummary returns a boolean if a field has been set.
-func (o *Campaign) HaveReportSummary() bool {
+// HasReportSummary returns a boolean if a field has been set.
+func (o *Campaign) HasReportSummary() bool {
 	if o != nil && !IsNil(o.ReportSummary) {
 		return true
 	}
@@ -768,8 +768,8 @@ func (o *Campaign) GetDeliveryStatusOk() (*CampaignDeliveryStatus, bool) {
 	return o.DeliveryStatus, true
 }
 
-// HaveDeliveryStatus returns a boolean if a field has been set.
-func (o *Campaign) HaveDeliveryStatus() bool {
+// HasDeliveryStatus returns a boolean if a field has been set.
+func (o *Campaign) HasDeliveryStatus() bool {
 	if o != nil && !IsNil(o.DeliveryStatus) {
 		return true
 	}
@@ -800,8 +800,8 @@ func (o *Campaign) GetResendShortcutEligibilityOk() (*ResendShortcutEligibility,
 	return o.ResendShortcutEligibility, true
 }
 
-// HaveResendShortcutEligibility returns a boolean if a field has been set.
-func (o *Campaign) HaveResendShortcutEligibility() bool {
+// HasResendShortcutEligibility returns a boolean if a field has been set.
+func (o *Campaign) HasResendShortcutEligibility() bool {
 	if o != nil && !IsNil(o.ResendShortcutEligibility) {
 		return true
 	}
@@ -832,8 +832,8 @@ func (o *Campaign) GetLinksOk() ([]ResourceLink, bool) {
 	return o.Links, true
 }
 
-// HaveLinks returns a boolean if a field has been set.
-func (o *Campaign) HaveLinks() bool {
+// HasLinks returns a boolean if a field has been set.
+func (o *Campaign) HasLinks() bool {
 	if o != nil && !IsNil(o.Links) {
 		return true
 	}

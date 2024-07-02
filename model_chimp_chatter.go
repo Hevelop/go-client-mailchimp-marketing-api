@@ -70,8 +70,8 @@ func (o *ChimpChatter) GetTitleOk() (*string, bool) {
 	return o.Title, true
 }
 
-// HaveTitle returns a boolean if a field has been set.
-func (o *ChimpChatter) HaveTitle() bool {
+// HasTitle returns a boolean if a field has been set.
+func (o *ChimpChatter) HasTitle() bool {
 	if o != nil && !IsNil(o.Title) {
 		return true
 	}
@@ -102,8 +102,8 @@ func (o *ChimpChatter) GetMessageOk() (*string, bool) {
 	return o.Message, true
 }
 
-// HaveMessage returns a boolean if a field has been set.
-func (o *ChimpChatter) HaveMessage() bool {
+// HasMessage returns a boolean if a field has been set.
+func (o *ChimpChatter) HasMessage() bool {
 	if o != nil && !IsNil(o.Message) {
 		return true
 	}
@@ -134,8 +134,8 @@ func (o *ChimpChatter) GetTypeOk() (*string, bool) {
 	return o.Type, true
 }
 
-// HaveType returns a boolean if a field has been set.
-func (o *ChimpChatter) HaveType() bool {
+// HasType returns a boolean if a field has been set.
+func (o *ChimpChatter) HasType() bool {
 	if o != nil && !IsNil(o.Type) {
 		return true
 	}
@@ -166,8 +166,8 @@ func (o *ChimpChatter) GetUpdateTimeOk() (*time.Time, bool) {
 	return o.UpdateTime, true
 }
 
-// HaveUpdateTime returns a boolean if a field has been set.
-func (o *ChimpChatter) HaveUpdateTime() bool {
+// HasUpdateTime returns a boolean if a field has been set.
+func (o *ChimpChatter) HasUpdateTime() bool {
 	if o != nil && !IsNil(o.UpdateTime) {
 		return true
 	}
@@ -198,8 +198,8 @@ func (o *ChimpChatter) GetUrlOk() (*string, bool) {
 	return o.Url, true
 }
 
-// HaveUrl returns a boolean if a field has been set.
-func (o *ChimpChatter) HaveUrl() bool {
+// HasUrl returns a boolean if a field has been set.
+func (o *ChimpChatter) HasUrl() bool {
 	if o != nil && !IsNil(o.Url) {
 		return true
 	}
@@ -230,8 +230,8 @@ func (o *ChimpChatter) GetListIdOk() (*string, bool) {
 	return o.ListId, true
 }
 
-// HaveListId returns a boolean if a field has been set.
-func (o *ChimpChatter) HaveListId() bool {
+// HasListId returns a boolean if a field has been set.
+func (o *ChimpChatter) HasListId() bool {
 	if o != nil && !IsNil(o.ListId) {
 		return true
 	}
@@ -262,8 +262,8 @@ func (o *ChimpChatter) GetCampaignIdOk() (*string, bool) {
 	return o.CampaignId, true
 }
 
-// HaveCampaignId returns a boolean if a field has been set.
-func (o *ChimpChatter) HaveCampaignId() bool {
+// HasCampaignId returns a boolean if a field has been set.
+func (o *ChimpChatter) HasCampaignId() bool {
 	if o != nil && !IsNil(o.CampaignId) {
 		return true
 	}
