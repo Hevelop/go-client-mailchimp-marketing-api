@@ -71,8 +71,8 @@ func (o *IndustryStats1) GetTypeOk() (*string, bool) {
 	return o.Type, true
 }
 
-// HasType returns a boolean if a field has been set.
-func (o *IndustryStats1) HasType() bool {
+// ContainsType returns a boolean if a field has been set.
+func (o *IndustryStats1) ContainsType() bool {
 	if o != nil && !IsNil(o.Type) {
 		return true
 	}
@@ -103,8 +103,8 @@ func (o *IndustryStats1) GetOpenRateOk() (*float32, bool) {
 	return o.OpenRate, true
 }
 
-// HasOpenRate returns a boolean if a field has been set.
-func (o *IndustryStats1) HasOpenRate() bool {
+// ContainsOpenRate returns a boolean if a field has been set.
+func (o *IndustryStats1) ContainsOpenRate() bool {
 	if o != nil && !IsNil(o.OpenRate) {
 		return true
 	}
@@ -135,8 +135,8 @@ func (o *IndustryStats1) GetClickRateOk() (*float32, bool) {
 	return o.ClickRate, true
 }
 
-// HasClickRate returns a boolean if a field has been set.
-func (o *IndustryStats1) HasClickRate() bool {
+// ContainsClickRate returns a boolean if a field has been set.
+func (o *IndustryStats1) ContainsClickRate() bool {
 	if o != nil && !IsNil(o.ClickRate) {
 		return true
 	}
@@ -167,8 +167,8 @@ func (o *IndustryStats1) GetBounceRateOk() (*float32, bool) {
 	return o.BounceRate, true
 }
 
-// HasBounceRate returns a boolean if a field has been set.
-func (o *IndustryStats1) HasBounceRate() bool {
+// ContainsBounceRate returns a boolean if a field has been set.
+func (o *IndustryStats1) ContainsBounceRate() bool {
 	if o != nil && !IsNil(o.BounceRate) {
 		return true
 	}
@@ -199,8 +199,8 @@ func (o *IndustryStats1) GetUnopenRateOk() (*float32, bool) {
 	return o.UnopenRate, true
 }
 
-// HasUnopenRate returns a boolean if a field has been set.
-func (o *IndustryStats1) HasUnopenRate() bool {
+// ContainsUnopenRate returns a boolean if a field has been set.
+func (o *IndustryStats1) ContainsUnopenRate() bool {
 	if o != nil && !IsNil(o.UnopenRate) {
 		return true
 	}
@@ -231,8 +231,8 @@ func (o *IndustryStats1) GetUnsubRateOk() (*float32, bool) {
 	return o.UnsubRate, true
 }
 
-// HasUnsubRate returns a boolean if a field has been set.
-func (o *IndustryStats1) HasUnsubRate() bool {
+// ContainsUnsubRate returns a boolean if a field has been set.
+func (o *IndustryStats1) ContainsUnsubRate() bool {
 	if o != nil && !IsNil(o.UnsubRate) {
 		return true
 	}
@@ -263,8 +263,8 @@ func (o *IndustryStats1) GetAbuseRateOk() (*float32, bool) {
 	return o.AbuseRate, true
 }
 
-// HasAbuseRate returns a boolean if a field has been set.
-func (o *IndustryStats1) HasAbuseRate() bool {
+// ContainsAbuseRate returns a boolean if a field has been set.
+func (o *IndustryStats1) ContainsAbuseRate() bool {
 	if o != nil && !IsNil(o.AbuseRate) {
 		return true
 	}

@@ -82,8 +82,8 @@ func (o *GalleryFile) GetIdOk() (*int32, bool) {
 	return o.Id, true
 }
 
-// HasId returns a boolean if a field has been set.
-func (o *GalleryFile) HasId() bool {
+// ContainsId returns a boolean if a field has been set.
+func (o *GalleryFile) ContainsId() bool {
 	if o != nil && !IsNil(o.Id) {
 		return true
 	}
@@ -114,8 +114,8 @@ func (o *GalleryFile) GetFolderIdOk() (*int32, bool) {
 	return o.FolderId, true
 }
 
-// HasFolderId returns a boolean if a field has been set.
-func (o *GalleryFile) HasFolderId() bool {
+// ContainsFolderId returns a boolean if a field has been set.
+func (o *GalleryFile) ContainsFolderId() bool {
 	if o != nil && !IsNil(o.FolderId) {
 		return true
 	}
@@ -146,8 +146,8 @@ func (o *GalleryFile) GetTypeOk() (*string, bool) {
 	return o.Type, true
 }
 
-// HasType returns a boolean if a field has been set.
-func (o *GalleryFile) HasType() bool {
+// ContainsType returns a boolean if a field has been set.
+func (o *GalleryFile) ContainsType() bool {
 	if o != nil && !IsNil(o.Type) {
 		return true
 	}
@@ -178,8 +178,8 @@ func (o *GalleryFile) GetNameOk() (*string, bool) {
 	return o.Name, true
 }
 
-// HasName returns a boolean if a field has been set.
-func (o *GalleryFile) HasName() bool {
+// ContainsName returns a boolean if a field has been set.
+func (o *GalleryFile) ContainsName() bool {
 	if o != nil && !IsNil(o.Name) {
 		return true
 	}
@@ -210,8 +210,8 @@ func (o *GalleryFile) GetFullSizeUrlOk() (*string, bool) {
 	return o.FullSizeUrl, true
 }
 
-// HasFullSizeUrl returns a boolean if a field has been set.
-func (o *GalleryFile) HasFullSizeUrl() bool {
+// ContainsFullSizeUrl returns a boolean if a field has been set.
+func (o *GalleryFile) ContainsFullSizeUrl() bool {
 	if o != nil && !IsNil(o.FullSizeUrl) {
 		return true
 	}
@@ -242,8 +242,8 @@ func (o *GalleryFile) GetThumbnailUrlOk() (*string, bool) {
 	return o.ThumbnailUrl, true
 }
 
-// HasThumbnailUrl returns a boolean if a field has been set.
-func (o *GalleryFile) HasThumbnailUrl() bool {
+// ContainsThumbnailUrl returns a boolean if a field has been set.
+func (o *GalleryFile) ContainsThumbnailUrl() bool {
 	if o != nil && !IsNil(o.ThumbnailUrl) {
 		return true
 	}
@@ -274,8 +274,8 @@ func (o *GalleryFile) GetSizeOk() (*int32, bool) {
 	return o.Size, true
 }
 
-// HasSize returns a boolean if a field has been set.
-func (o *GalleryFile) HasSize() bool {
+// ContainsSize returns a boolean if a field has been set.
+func (o *GalleryFile) ContainsSize() bool {
 	if o != nil && !IsNil(o.Size) {
 		return true
 	}
@@ -306,8 +306,8 @@ func (o *GalleryFile) GetCreatedAtOk() (*time.Time, bool) {
 	return o.CreatedAt, true
 }
 
-// HasCreatedAt returns a boolean if a field has been set.
-func (o *GalleryFile) HasCreatedAt() bool {
+// ContainsCreatedAt returns a boolean if a field has been set.
+func (o *GalleryFile) ContainsCreatedAt() bool {
 	if o != nil && !IsNil(o.CreatedAt) {
 		return true
 	}
@@ -338,8 +338,8 @@ func (o *GalleryFile) GetCreatedByOk() (*string, bool) {
 	return o.CreatedBy, true
 }
 
-// HasCreatedBy returns a boolean if a field has been set.
-func (o *GalleryFile) HasCreatedBy() bool {
+// ContainsCreatedBy returns a boolean if a field has been set.
+func (o *GalleryFile) ContainsCreatedBy() bool {
 	if o != nil && !IsNil(o.CreatedBy) {
 		return true
 	}
@@ -370,8 +370,8 @@ func (o *GalleryFile) GetWidthOk() (*int32, bool) {
 	return o.Width, true
 }
 
-// HasWidth returns a boolean if a field has been set.
-func (o *GalleryFile) HasWidth() bool {
+// ContainsWidth returns a boolean if a field has been set.
+func (o *GalleryFile) ContainsWidth() bool {
 	if o != nil && !IsNil(o.Width) {
 		return true
 	}
@@ -402,8 +402,8 @@ func (o *GalleryFile) GetHeightOk() (*int32, bool) {
 	return o.Height, true
 }
 
-// HasHeight returns a boolean if a field has been set.
-func (o *GalleryFile) HasHeight() bool {
+// ContainsHeight returns a boolean if a field has been set.
+func (o *GalleryFile) ContainsHeight() bool {
 	if o != nil && !IsNil(o.Height) {
 		return true
 	}
@@ -434,8 +434,8 @@ func (o *GalleryFile) GetLinksOk() ([]ResourceLink, bool) {
 	return o.Links, true
 }
 
-// HasLinks returns a boolean if a field has been set.
-func (o *GalleryFile) HasLinks() bool {
+// ContainsLinks returns a boolean if a field has been set.
+func (o *GalleryFile) ContainsLinks() bool {
 	if o != nil && !IsNil(o.Links) {
 		return true
 	}

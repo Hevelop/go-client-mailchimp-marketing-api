@@ -60,8 +60,8 @@ func (o *MemberActivity1) GetTimestampOk() (*time.Time, bool) {
 	return o.Timestamp, true
 }
 
-// HasTimestamp returns a boolean if a field has been set.
-func (o *MemberActivity1) HasTimestamp() bool {
+// ContainsTimestamp returns a boolean if a field has been set.
+func (o *MemberActivity1) ContainsTimestamp() bool {
 	if o != nil && !IsNil(o.Timestamp) {
 		return true
 	}

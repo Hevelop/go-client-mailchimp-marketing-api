@@ -96,8 +96,8 @@ func (o *Campaign1) GetRecipientsOk() (*List4, bool) {
 	return o.Recipients, true
 }
 
-// HasRecipients returns a boolean if a field has been set.
-func (o *Campaign1) HasRecipients() bool {
+// ContainsRecipients returns a boolean if a field has been set.
+func (o *Campaign1) ContainsRecipients() bool {
 	if o != nil && !IsNil(o.Recipients) {
 		return true
 	}
@@ -128,8 +128,8 @@ func (o *Campaign1) GetSettingsOk() (*CampaignSettings3, bool) {
 	return o.Settings, true
 }
 
-// HasSettings returns a boolean if a field has been set.
-func (o *Campaign1) HasSettings() bool {
+// ContainsSettings returns a boolean if a field has been set.
+func (o *Campaign1) ContainsSettings() bool {
 	if o != nil && !IsNil(o.Settings) {
 		return true
 	}
@@ -160,8 +160,8 @@ func (o *Campaign1) GetVariateSettingsOk() (*ABTestOptions1, bool) {
 	return o.VariateSettings, true
 }
 
-// HasVariateSettings returns a boolean if a field has been set.
-func (o *Campaign1) HasVariateSettings() bool {
+// ContainsVariateSettings returns a boolean if a field has been set.
+func (o *Campaign1) ContainsVariateSettings() bool {
 	if o != nil && !IsNil(o.VariateSettings) {
 		return true
 	}
@@ -192,8 +192,8 @@ func (o *Campaign1) GetTrackingOk() (*CampaignTrackingOptions1, bool) {
 	return o.Tracking, true
 }
 
-// HasTracking returns a boolean if a field has been set.
-func (o *Campaign1) HasTracking() bool {
+// ContainsTracking returns a boolean if a field has been set.
+func (o *Campaign1) ContainsTracking() bool {
 	if o != nil && !IsNil(o.Tracking) {
 		return true
 	}
@@ -224,8 +224,8 @@ func (o *Campaign1) GetRssOptsOk() (*RSSOptions1, bool) {
 	return o.RssOpts, true
 }
 
-// HasRssOpts returns a boolean if a field has been set.
-func (o *Campaign1) HasRssOpts() bool {
+// ContainsRssOpts returns a boolean if a field has been set.
+func (o *Campaign1) ContainsRssOpts() bool {
 	if o != nil && !IsNil(o.RssOpts) {
 		return true
 	}
@@ -256,8 +256,8 @@ func (o *Campaign1) GetSocialCardOk() (*CampaignSocialCard, bool) {
 	return o.SocialCard, true
 }
 
-// HasSocialCard returns a boolean if a field has been set.
-func (o *Campaign1) HasSocialCard() bool {
+// ContainsSocialCard returns a boolean if a field has been set.
+func (o *Campaign1) ContainsSocialCard() bool {
 	if o != nil && !IsNil(o.SocialCard) {
 		return true
 	}
@@ -288,8 +288,8 @@ func (o *Campaign1) GetContentTypeOk() (*string, bool) {
 	return o.ContentType, true
 }
 
-// HasContentType returns a boolean if a field has been set.
-func (o *Campaign1) HasContentType() bool {
+// ContainsContentType returns a boolean if a field has been set.
+func (o *Campaign1) ContainsContentType() bool {
 	if o != nil && !IsNil(o.ContentType) {
 		return true
 	}

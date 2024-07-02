@@ -162,8 +162,8 @@ func (o *ECommerceStore1) GetPlatformOk() (*string, bool) {
 	return o.Platform, true
 }
 
-// HasPlatform returns a boolean if a field has been set.
-func (o *ECommerceStore1) HasPlatform() bool {
+// ContainsPlatform returns a boolean if a field has been set.
+func (o *ECommerceStore1) ContainsPlatform() bool {
 	if o != nil && !IsNil(o.Platform) {
 		return true
 	}
@@ -194,8 +194,8 @@ func (o *ECommerceStore1) GetDomainOk() (*string, bool) {
 	return o.Domain, true
 }
 
-// HasDomain returns a boolean if a field has been set.
-func (o *ECommerceStore1) HasDomain() bool {
+// ContainsDomain returns a boolean if a field has been set.
+func (o *ECommerceStore1) ContainsDomain() bool {
 	if o != nil && !IsNil(o.Domain) {
 		return true
 	}
@@ -226,8 +226,8 @@ func (o *ECommerceStore1) GetIsSyncingOk() (*bool, bool) {
 	return o.IsSyncing, true
 }
 
-// HasIsSyncing returns a boolean if a field has been set.
-func (o *ECommerceStore1) HasIsSyncing() bool {
+// ContainsIsSyncing returns a boolean if a field has been set.
+func (o *ECommerceStore1) ContainsIsSyncing() bool {
 	if o != nil && !IsNil(o.IsSyncing) {
 		return true
 	}
@@ -258,8 +258,8 @@ func (o *ECommerceStore1) GetEmailAddressOk() (*string, bool) {
 	return o.EmailAddress, true
 }
 
-// HasEmailAddress returns a boolean if a field has been set.
-func (o *ECommerceStore1) HasEmailAddress() bool {
+// ContainsEmailAddress returns a boolean if a field has been set.
+func (o *ECommerceStore1) ContainsEmailAddress() bool {
 	if o != nil && !IsNil(o.EmailAddress) {
 		return true
 	}
@@ -314,8 +314,8 @@ func (o *ECommerceStore1) GetMoneyFormatOk() (*string, bool) {
 	return o.MoneyFormat, true
 }
 
-// HasMoneyFormat returns a boolean if a field has been set.
-func (o *ECommerceStore1) HasMoneyFormat() bool {
+// ContainsMoneyFormat returns a boolean if a field has been set.
+func (o *ECommerceStore1) ContainsMoneyFormat() bool {
 	if o != nil && !IsNil(o.MoneyFormat) {
 		return true
 	}
@@ -346,8 +346,8 @@ func (o *ECommerceStore1) GetPrimaryLocaleOk() (*string, bool) {
 	return o.PrimaryLocale, true
 }
 
-// HasPrimaryLocale returns a boolean if a field has been set.
-func (o *ECommerceStore1) HasPrimaryLocale() bool {
+// ContainsPrimaryLocale returns a boolean if a field has been set.
+func (o *ECommerceStore1) ContainsPrimaryLocale() bool {
 	if o != nil && !IsNil(o.PrimaryLocale) {
 		return true
 	}
@@ -378,8 +378,8 @@ func (o *ECommerceStore1) GetTimezoneOk() (*string, bool) {
 	return o.Timezone, true
 }
 
-// HasTimezone returns a boolean if a field has been set.
-func (o *ECommerceStore1) HasTimezone() bool {
+// ContainsTimezone returns a boolean if a field has been set.
+func (o *ECommerceStore1) ContainsTimezone() bool {
 	if o != nil && !IsNil(o.Timezone) {
 		return true
 	}
@@ -410,8 +410,8 @@ func (o *ECommerceStore1) GetPhoneOk() (*string, bool) {
 	return o.Phone, true
 }
 
-// HasPhone returns a boolean if a field has been set.
-func (o *ECommerceStore1) HasPhone() bool {
+// ContainsPhone returns a boolean if a field has been set.
+func (o *ECommerceStore1) ContainsPhone() bool {
 	if o != nil && !IsNil(o.Phone) {
 		return true
 	}
@@ -442,8 +442,8 @@ func (o *ECommerceStore1) GetAddressOk() (*Address1, bool) {
 	return o.Address, true
 }
 
-// HasAddress returns a boolean if a field has been set.
-func (o *ECommerceStore1) HasAddress() bool {
+// ContainsAddress returns a boolean if a field has been set.
+func (o *ECommerceStore1) ContainsAddress() bool {
 	if o != nil && !IsNil(o.Address) {
 		return true
 	}

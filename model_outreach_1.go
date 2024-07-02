@@ -59,8 +59,8 @@ func (o *Outreach1) GetIdOk() (*string, bool) {
 	return o.Id, true
 }
 
-// HasId returns a boolean if a field has been set.
-func (o *Outreach1) HasId() bool {
+// ContainsId returns a boolean if a field has been set.
+func (o *Outreach1) ContainsId() bool {
 	if o != nil && !IsNil(o.Id) {
 		return true
 	}

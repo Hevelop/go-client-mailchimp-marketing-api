@@ -117,8 +117,8 @@ func (o *ECommerceProductImage1) GetVariantIdsOk() ([]string, bool) {
 	return o.VariantIds, true
 }
 
-// HasVariantIds returns a boolean if a field has been set.
-func (o *ECommerceProductImage1) HasVariantIds() bool {
+// ContainsVariantIds returns a boolean if a field has been set.
+func (o *ECommerceProductImage1) ContainsVariantIds() bool {
 	if o != nil && !IsNil(o.VariantIds) {
 		return true
 	}

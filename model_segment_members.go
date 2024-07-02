@@ -63,8 +63,8 @@ func (o *SegmentMembers) GetMembersOk() ([]ListMembers1, bool) {
 	return o.Members, true
 }
 
-// HasMembers returns a boolean if a field has been set.
-func (o *SegmentMembers) HasMembers() bool {
+// ContainsMembers returns a boolean if a field has been set.
+func (o *SegmentMembers) ContainsMembers() bool {
 	if o != nil && !IsNil(o.Members) {
 		return true
 	}
@@ -95,8 +95,8 @@ func (o *SegmentMembers) GetTotalItemsOk() (*int32, bool) {
 	return o.TotalItems, true
 }
 
-// HasTotalItems returns a boolean if a field has been set.
-func (o *SegmentMembers) HasTotalItems() bool {
+// ContainsTotalItems returns a boolean if a field has been set.
+func (o *SegmentMembers) ContainsTotalItems() bool {
 	if o != nil && !IsNil(o.TotalItems) {
 		return true
 	}
@@ -127,8 +127,8 @@ func (o *SegmentMembers) GetLinksOk() ([]ResourceLink, bool) {
 	return o.Links, true
 }
 
-// HasLinks returns a boolean if a field has been set.
-func (o *SegmentMembers) HasLinks() bool {
+// ContainsLinks returns a boolean if a field has been set.
+func (o *SegmentMembers) ContainsLinks() bool {
 	if o != nil && !IsNil(o.Links) {
 		return true
 	}

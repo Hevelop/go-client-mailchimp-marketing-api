@@ -68,8 +68,8 @@ func (o *CampaignFeedback1) GetBlockIdOk() (*int32, bool) {
 	return o.BlockId, true
 }
 
-// HasBlockId returns a boolean if a field has been set.
-func (o *CampaignFeedback1) HasBlockId() bool {
+// ContainsBlockId returns a boolean if a field has been set.
+func (o *CampaignFeedback1) ContainsBlockId() bool {
 	if o != nil && !IsNil(o.BlockId) {
 		return true
 	}
@@ -124,8 +124,8 @@ func (o *CampaignFeedback1) GetIsCompleteOk() (*bool, bool) {
 	return o.IsComplete, true
 }
 
-// HasIsComplete returns a boolean if a field has been set.
-func (o *CampaignFeedback1) HasIsComplete() bool {
+// ContainsIsComplete returns a boolean if a field has been set.
+func (o *CampaignFeedback1) ContainsIsComplete() bool {
 	if o != nil && !IsNil(o.IsComplete) {
 		return true
 	}

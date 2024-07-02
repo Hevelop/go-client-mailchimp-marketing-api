@@ -121,8 +121,8 @@ func (o *Operations) GetParamsOk() (map[string]interface{}, bool) {
 	return o.Params, true
 }
 
-// HasParams returns a boolean if a field has been set.
-func (o *Operations) HasParams() bool {
+// ContainsParams returns a boolean if a field has been set.
+func (o *Operations) ContainsParams() bool {
 	if o != nil && !IsNil(o.Params) {
 		return true
 	}
@@ -153,8 +153,8 @@ func (o *Operations) GetBodyOk() (*string, bool) {
 	return o.Body, true
 }
 
-// HasBody returns a boolean if a field has been set.
-func (o *Operations) HasBody() bool {
+// ContainsBody returns a boolean if a field has been set.
+func (o *Operations) ContainsBody() bool {
 	if o != nil && !IsNil(o.Body) {
 		return true
 	}
@@ -185,8 +185,8 @@ func (o *Operations) GetOperationIdOk() (*string, bool) {
 	return o.OperationId, true
 }
 
-// HasOperationId returns a boolean if a field has been set.
-func (o *Operations) HasOperationId() bool {
+// ContainsOperationId returns a boolean if a field has been set.
+func (o *Operations) ContainsOperationId() bool {
 	if o != nil && !IsNil(o.OperationId) {
 		return true
 	}

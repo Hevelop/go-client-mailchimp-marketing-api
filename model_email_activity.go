@@ -65,8 +65,8 @@ func (o *EmailActivity) GetEmailsOk() ([]EmailActivity, bool) {
 	return o.Emails, true
 }
 
-// HasEmails returns a boolean if a field has been set.
-func (o *EmailActivity) HasEmails() bool {
+// ContainsEmails returns a boolean if a field has been set.
+func (o *EmailActivity) ContainsEmails() bool {
 	if o != nil && !IsNil(o.Emails) {
 		return true
 	}
@@ -97,8 +97,8 @@ func (o *EmailActivity) GetCampaignIdOk() (*string, bool) {
 	return o.CampaignId, true
 }
 
-// HasCampaignId returns a boolean if a field has been set.
-func (o *EmailActivity) HasCampaignId() bool {
+// ContainsCampaignId returns a boolean if a field has been set.
+func (o *EmailActivity) ContainsCampaignId() bool {
 	if o != nil && !IsNil(o.CampaignId) {
 		return true
 	}
@@ -129,8 +129,8 @@ func (o *EmailActivity) GetTotalItemsOk() (*int32, bool) {
 	return o.TotalItems, true
 }
 
-// HasTotalItems returns a boolean if a field has been set.
-func (o *EmailActivity) HasTotalItems() bool {
+// ContainsTotalItems returns a boolean if a field has been set.
+func (o *EmailActivity) ContainsTotalItems() bool {
 	if o != nil && !IsNil(o.TotalItems) {
 		return true
 	}
@@ -161,8 +161,8 @@ func (o *EmailActivity) GetLinksOk() ([]ResourceLink, bool) {
 	return o.Links, true
 }
 
-// HasLinks returns a boolean if a field has been set.
-func (o *EmailActivity) HasLinks() bool {
+// ContainsLinks returns a boolean if a field has been set.
+func (o *EmailActivity) ContainsLinks() bool {
 	if o != nil && !IsNil(o.Links) {
 		return true
 	}

@@ -95,8 +95,8 @@ func (o *List6) GetListNameOk() (*string, bool) {
 	return o.ListName, true
 }
 
-// HasListName returns a boolean if a field has been set.
-func (o *List6) HasListName() bool {
+// ContainsListName returns a boolean if a field has been set.
+func (o *List6) ContainsListName() bool {
 	if o != nil && !IsNil(o.ListName) {
 		return true
 	}
@@ -127,8 +127,8 @@ func (o *List6) GetSegmentTextOk() (*string, bool) {
 	return o.SegmentText, true
 }
 
-// HasSegmentText returns a boolean if a field has been set.
-func (o *List6) HasSegmentText() bool {
+// ContainsSegmentText returns a boolean if a field has been set.
+func (o *List6) ContainsSegmentText() bool {
 	if o != nil && !IsNil(o.SegmentText) {
 		return true
 	}
@@ -159,8 +159,8 @@ func (o *List6) GetRecipientCountOk() (*int32, bool) {
 	return o.RecipientCount, true
 }
 
-// HasRecipientCount returns a boolean if a field has been set.
-func (o *List6) HasRecipientCount() bool {
+// ContainsRecipientCount returns a boolean if a field has been set.
+func (o *List6) ContainsRecipientCount() bool {
 	if o != nil && !IsNil(o.RecipientCount) {
 		return true
 	}
@@ -191,8 +191,8 @@ func (o *List6) GetSegmentOptsOk() (*SegmentOptions1, bool) {
 	return o.SegmentOpts, true
 }
 
-// HasSegmentOpts returns a boolean if a field has been set.
-func (o *List6) HasSegmentOpts() bool {
+// ContainsSegmentOpts returns a boolean if a field has been set.
+func (o *List6) ContainsSegmentOpts() bool {
 	if o != nil && !IsNil(o.SegmentOpts) {
 		return true
 	}

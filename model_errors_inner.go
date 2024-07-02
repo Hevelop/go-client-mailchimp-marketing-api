@@ -67,8 +67,8 @@ func (o *ErrorsInner) GetEmailAddressOk() (*string, bool) {
 	return o.EmailAddress, true
 }
 
-// HasEmailAddress returns a boolean if a field has been set.
-func (o *ErrorsInner) HasEmailAddress() bool {
+// ContainsEmailAddress returns a boolean if a field has been set.
+func (o *ErrorsInner) ContainsEmailAddress() bool {
 	if o != nil && !IsNil(o.EmailAddress) {
 		return true
 	}
@@ -99,8 +99,8 @@ func (o *ErrorsInner) GetErrorOk() (*string, bool) {
 	return o.Error, true
 }
 
-// HasError returns a boolean if a field has been set.
-func (o *ErrorsInner) HasError() bool {
+// ContainsError returns a boolean if a field has been set.
+func (o *ErrorsInner) ContainsError() bool {
 	if o != nil && !IsNil(o.Error) {
 		return true
 	}
@@ -131,8 +131,8 @@ func (o *ErrorsInner) GetErrorCodeOk() (*string, bool) {
 	return o.ErrorCode, true
 }
 
-// HasErrorCode returns a boolean if a field has been set.
-func (o *ErrorsInner) HasErrorCode() bool {
+// ContainsErrorCode returns a boolean if a field has been set.
+func (o *ErrorsInner) ContainsErrorCode() bool {
 	if o != nil && !IsNil(o.ErrorCode) {
 		return true
 	}
@@ -163,8 +163,8 @@ func (o *ErrorsInner) GetFieldOk() (*string, bool) {
 	return o.Field, true
 }
 
-// HasField returns a boolean if a field has been set.
-func (o *ErrorsInner) HasField() bool {
+// ContainsField returns a boolean if a field has been set.
+func (o *ErrorsInner) ContainsField() bool {
 	if o != nil && !IsNil(o.Field) {
 		return true
 	}
@@ -195,8 +195,8 @@ func (o *ErrorsInner) GetFieldMessageOk() (*string, bool) {
 	return o.FieldMessage, true
 }
 
-// HasFieldMessage returns a boolean if a field has been set.
-func (o *ErrorsInner) HasFieldMessage() bool {
+// ContainsFieldMessage returns a boolean if a field has been set.
+func (o *ErrorsInner) ContainsFieldMessage() bool {
 	if o != nil && !IsNil(o.FieldMessage) {
 		return true
 	}

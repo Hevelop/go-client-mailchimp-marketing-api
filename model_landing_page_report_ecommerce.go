@@ -65,8 +65,8 @@ func (o *LandingPageReportEcommerce) GetTotalRevenueOk() (*float32, bool) {
 	return o.TotalRevenue, true
 }
 
-// HasTotalRevenue returns a boolean if a field has been set.
-func (o *LandingPageReportEcommerce) HasTotalRevenue() bool {
+// ContainsTotalRevenue returns a boolean if a field has been set.
+func (o *LandingPageReportEcommerce) ContainsTotalRevenue() bool {
 	if o != nil && !IsNil(o.TotalRevenue) {
 		return true
 	}
@@ -97,8 +97,8 @@ func (o *LandingPageReportEcommerce) GetCurrencyCodeOk() (*string, bool) {
 	return o.CurrencyCode, true
 }
 
-// HasCurrencyCode returns a boolean if a field has been set.
-func (o *LandingPageReportEcommerce) HasCurrencyCode() bool {
+// ContainsCurrencyCode returns a boolean if a field has been set.
+func (o *LandingPageReportEcommerce) ContainsCurrencyCode() bool {
 	if o != nil && !IsNil(o.CurrencyCode) {
 		return true
 	}
@@ -129,8 +129,8 @@ func (o *LandingPageReportEcommerce) GetTotalOrdersOk() (*int32, bool) {
 	return o.TotalOrders, true
 }
 
-// HasTotalOrders returns a boolean if a field has been set.
-func (o *LandingPageReportEcommerce) HasTotalOrders() bool {
+// ContainsTotalOrders returns a boolean if a field has been set.
+func (o *LandingPageReportEcommerce) ContainsTotalOrders() bool {
 	if o != nil && !IsNil(o.TotalOrders) {
 		return true
 	}
@@ -161,8 +161,8 @@ func (o *LandingPageReportEcommerce) GetAverageOrderRevenueOk() (*float32, bool)
 	return o.AverageOrderRevenue, true
 }
 
-// HasAverageOrderRevenue returns a boolean if a field has been set.
-func (o *LandingPageReportEcommerce) HasAverageOrderRevenue() bool {
+// ContainsAverageOrderRevenue returns a boolean if a field has been set.
+func (o *LandingPageReportEcommerce) ContainsAverageOrderRevenue() bool {
 	if o != nil && !IsNil(o.AverageOrderRevenue) {
 		return true
 	}

@@ -101,8 +101,8 @@ func (o *ABTestOptions1) GetWaitTimeOk() (*int32, bool) {
 	return o.WaitTime, true
 }
 
-// HasWaitTime returns a boolean if a field has been set.
-func (o *ABTestOptions1) HasWaitTime() bool {
+// ContainsWaitTime returns a boolean if a field has been set.
+func (o *ABTestOptions1) ContainsWaitTime() bool {
 	if o != nil && !IsNil(o.WaitTime) {
 		return true
 	}
@@ -133,8 +133,8 @@ func (o *ABTestOptions1) GetTestSizeOk() (*int32, bool) {
 	return o.TestSize, true
 }
 
-// HasTestSize returns a boolean if a field has been set.
-func (o *ABTestOptions1) HasTestSize() bool {
+// ContainsTestSize returns a boolean if a field has been set.
+func (o *ABTestOptions1) ContainsTestSize() bool {
 	if o != nil && !IsNil(o.TestSize) {
 		return true
 	}
@@ -165,8 +165,8 @@ func (o *ABTestOptions1) GetSubjectLinesOk() ([]string, bool) {
 	return o.SubjectLines, true
 }
 
-// HasSubjectLines returns a boolean if a field has been set.
-func (o *ABTestOptions1) HasSubjectLines() bool {
+// ContainsSubjectLines returns a boolean if a field has been set.
+func (o *ABTestOptions1) ContainsSubjectLines() bool {
 	if o != nil && !IsNil(o.SubjectLines) {
 		return true
 	}
@@ -197,8 +197,8 @@ func (o *ABTestOptions1) GetSendTimesOk() ([]time.Time, bool) {
 	return o.SendTimes, true
 }
 
-// HasSendTimes returns a boolean if a field has been set.
-func (o *ABTestOptions1) HasSendTimes() bool {
+// ContainsSendTimes returns a boolean if a field has been set.
+func (o *ABTestOptions1) ContainsSendTimes() bool {
 	if o != nil && !IsNil(o.SendTimes) {
 		return true
 	}
@@ -229,8 +229,8 @@ func (o *ABTestOptions1) GetFromNamesOk() ([]string, bool) {
 	return o.FromNames, true
 }
 
-// HasFromNames returns a boolean if a field has been set.
-func (o *ABTestOptions1) HasFromNames() bool {
+// ContainsFromNames returns a boolean if a field has been set.
+func (o *ABTestOptions1) ContainsFromNames() bool {
 	if o != nil && !IsNil(o.FromNames) {
 		return true
 	}
@@ -261,8 +261,8 @@ func (o *ABTestOptions1) GetReplyToAddressesOk() ([]string, bool) {
 	return o.ReplyToAddresses, true
 }
 
-// HasReplyToAddresses returns a boolean if a field has been set.
-func (o *ABTestOptions1) HasReplyToAddresses() bool {
+// ContainsReplyToAddresses returns a boolean if a field has been set.
+func (o *ABTestOptions1) ContainsReplyToAddresses() bool {
 	if o != nil && !IsNil(o.ReplyToAddresses) {
 		return true
 	}

@@ -67,8 +67,8 @@ func (o *CollectionOfMemberActivityEvents) GetGoalsOk() ([]Goal, bool) {
 	return o.Goals, true
 }
 
-// HasGoals returns a boolean if a field has been set.
-func (o *CollectionOfMemberActivityEvents) HasGoals() bool {
+// ContainsGoals returns a boolean if a field has been set.
+func (o *CollectionOfMemberActivityEvents) ContainsGoals() bool {
 	if o != nil && !IsNil(o.Goals) {
 		return true
 	}
@@ -99,8 +99,8 @@ func (o *CollectionOfMemberActivityEvents) GetListIdOk() (*string, bool) {
 	return o.ListId, true
 }
 
-// HasListId returns a boolean if a field has been set.
-func (o *CollectionOfMemberActivityEvents) HasListId() bool {
+// ContainsListId returns a boolean if a field has been set.
+func (o *CollectionOfMemberActivityEvents) ContainsListId() bool {
 	if o != nil && !IsNil(o.ListId) {
 		return true
 	}
@@ -131,8 +131,8 @@ func (o *CollectionOfMemberActivityEvents) GetEmailIdOk() (*string, bool) {
 	return o.EmailId, true
 }
 
-// HasEmailId returns a boolean if a field has been set.
-func (o *CollectionOfMemberActivityEvents) HasEmailId() bool {
+// ContainsEmailId returns a boolean if a field has been set.
+func (o *CollectionOfMemberActivityEvents) ContainsEmailId() bool {
 	if o != nil && !IsNil(o.EmailId) {
 		return true
 	}
@@ -163,8 +163,8 @@ func (o *CollectionOfMemberActivityEvents) GetTotalItemsOk() (*int32, bool) {
 	return o.TotalItems, true
 }
 
-// HasTotalItems returns a boolean if a field has been set.
-func (o *CollectionOfMemberActivityEvents) HasTotalItems() bool {
+// ContainsTotalItems returns a boolean if a field has been set.
+func (o *CollectionOfMemberActivityEvents) ContainsTotalItems() bool {
 	if o != nil && !IsNil(o.TotalItems) {
 		return true
 	}
@@ -195,8 +195,8 @@ func (o *CollectionOfMemberActivityEvents) GetLinksOk() ([]ResourceLink, bool) {
 	return o.Links, true
 }
 
-// HasLinks returns a boolean if a field has been set.
-func (o *CollectionOfMemberActivityEvents) HasLinks() bool {
+// ContainsLinks returns a boolean if a field has been set.
+func (o *CollectionOfMemberActivityEvents) ContainsLinks() bool {
 	if o != nil && !IsNil(o.Links) {
 		return true
 	}

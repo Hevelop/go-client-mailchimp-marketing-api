@@ -85,8 +85,8 @@ func (o *ABTestOptions2) GetWinningCombinationIdOk() (*string, bool) {
 	return o.WinningCombinationId, true
 }
 
-// HasWinningCombinationId returns a boolean if a field has been set.
-func (o *ABTestOptions2) HasWinningCombinationId() bool {
+// ContainsWinningCombinationId returns a boolean if a field has been set.
+func (o *ABTestOptions2) ContainsWinningCombinationId() bool {
 	if o != nil && !IsNil(o.WinningCombinationId) {
 		return true
 	}
@@ -117,8 +117,8 @@ func (o *ABTestOptions2) GetWinningCampaignIdOk() (*string, bool) {
 	return o.WinningCampaignId, true
 }
 
-// HasWinningCampaignId returns a boolean if a field has been set.
-func (o *ABTestOptions2) HasWinningCampaignId() bool {
+// ContainsWinningCampaignId returns a boolean if a field has been set.
+func (o *ABTestOptions2) ContainsWinningCampaignId() bool {
 	if o != nil && !IsNil(o.WinningCampaignId) {
 		return true
 	}
@@ -173,8 +173,8 @@ func (o *ABTestOptions2) GetWaitTimeOk() (*int32, bool) {
 	return o.WaitTime, true
 }
 
-// HasWaitTime returns a boolean if a field has been set.
-func (o *ABTestOptions2) HasWaitTime() bool {
+// ContainsWaitTime returns a boolean if a field has been set.
+func (o *ABTestOptions2) ContainsWaitTime() bool {
 	if o != nil && !IsNil(o.WaitTime) {
 		return true
 	}
@@ -205,8 +205,8 @@ func (o *ABTestOptions2) GetTestSizeOk() (*int32, bool) {
 	return o.TestSize, true
 }
 
-// HasTestSize returns a boolean if a field has been set.
-func (o *ABTestOptions2) HasTestSize() bool {
+// ContainsTestSize returns a boolean if a field has been set.
+func (o *ABTestOptions2) ContainsTestSize() bool {
 	if o != nil && !IsNil(o.TestSize) {
 		return true
 	}
@@ -237,8 +237,8 @@ func (o *ABTestOptions2) GetSubjectLinesOk() ([]string, bool) {
 	return o.SubjectLines, true
 }
 
-// HasSubjectLines returns a boolean if a field has been set.
-func (o *ABTestOptions2) HasSubjectLines() bool {
+// ContainsSubjectLines returns a boolean if a field has been set.
+func (o *ABTestOptions2) ContainsSubjectLines() bool {
 	if o != nil && !IsNil(o.SubjectLines) {
 		return true
 	}
@@ -269,8 +269,8 @@ func (o *ABTestOptions2) GetSendTimesOk() ([]time.Time, bool) {
 	return o.SendTimes, true
 }
 
-// HasSendTimes returns a boolean if a field has been set.
-func (o *ABTestOptions2) HasSendTimes() bool {
+// ContainsSendTimes returns a boolean if a field has been set.
+func (o *ABTestOptions2) ContainsSendTimes() bool {
 	if o != nil && !IsNil(o.SendTimes) {
 		return true
 	}
@@ -301,8 +301,8 @@ func (o *ABTestOptions2) GetFromNamesOk() ([]string, bool) {
 	return o.FromNames, true
 }
 
-// HasFromNames returns a boolean if a field has been set.
-func (o *ABTestOptions2) HasFromNames() bool {
+// ContainsFromNames returns a boolean if a field has been set.
+func (o *ABTestOptions2) ContainsFromNames() bool {
 	if o != nil && !IsNil(o.FromNames) {
 		return true
 	}
@@ -333,8 +333,8 @@ func (o *ABTestOptions2) GetReplyToAddressesOk() ([]string, bool) {
 	return o.ReplyToAddresses, true
 }
 
-// HasReplyToAddresses returns a boolean if a field has been set.
-func (o *ABTestOptions2) HasReplyToAddresses() bool {
+// ContainsReplyToAddresses returns a boolean if a field has been set.
+func (o *ABTestOptions2) ContainsReplyToAddresses() bool {
 	if o != nil && !IsNil(o.ReplyToAddresses) {
 		return true
 	}
@@ -365,8 +365,8 @@ func (o *ABTestOptions2) GetContentsOk() ([]string, bool) {
 	return o.Contents, true
 }
 
-// HasContents returns a boolean if a field has been set.
-func (o *ABTestOptions2) HasContents() bool {
+// ContainsContents returns a boolean if a field has been set.
+func (o *ABTestOptions2) ContainsContents() bool {
 	if o != nil && !IsNil(o.Contents) {
 		return true
 	}
@@ -397,8 +397,8 @@ func (o *ABTestOptions2) GetCombinationsOk() ([]CombinationsInner, bool) {
 	return o.Combinations, true
 }
 
-// HasCombinations returns a boolean if a field has been set.
-func (o *ABTestOptions2) HasCombinations() bool {
+// ContainsCombinations returns a boolean if a field has been set.
+func (o *ABTestOptions2) ContainsCombinations() bool {
 	if o != nil && !IsNil(o.Combinations) {
 		return true
 	}

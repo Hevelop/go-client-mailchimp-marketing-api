@@ -100,8 +100,8 @@ func (o *ECommerceOrder2) GetCustomerOk() (*ECommerceCustomer2, bool) {
 	return o.Customer, true
 }
 
-// HasCustomer returns a boolean if a field has been set.
-func (o *ECommerceOrder2) HasCustomer() bool {
+// ContainsCustomer returns a boolean if a field has been set.
+func (o *ECommerceOrder2) ContainsCustomer() bool {
 	if o != nil && !IsNil(o.Customer) {
 		return true
 	}
@@ -132,8 +132,8 @@ func (o *ECommerceOrder2) GetCampaignIdOk() (*string, bool) {
 	return o.CampaignId, true
 }
 
-// HasCampaignId returns a boolean if a field has been set.
-func (o *ECommerceOrder2) HasCampaignId() bool {
+// ContainsCampaignId returns a boolean if a field has been set.
+func (o *ECommerceOrder2) ContainsCampaignId() bool {
 	if o != nil && !IsNil(o.CampaignId) {
 		return true
 	}
@@ -164,8 +164,8 @@ func (o *ECommerceOrder2) GetLandingSiteOk() (*string, bool) {
 	return o.LandingSite, true
 }
 
-// HasLandingSite returns a boolean if a field has been set.
-func (o *ECommerceOrder2) HasLandingSite() bool {
+// ContainsLandingSite returns a boolean if a field has been set.
+func (o *ECommerceOrder2) ContainsLandingSite() bool {
 	if o != nil && !IsNil(o.LandingSite) {
 		return true
 	}
@@ -196,8 +196,8 @@ func (o *ECommerceOrder2) GetFinancialStatusOk() (*string, bool) {
 	return o.FinancialStatus, true
 }
 
-// HasFinancialStatus returns a boolean if a field has been set.
-func (o *ECommerceOrder2) HasFinancialStatus() bool {
+// ContainsFinancialStatus returns a boolean if a field has been set.
+func (o *ECommerceOrder2) ContainsFinancialStatus() bool {
 	if o != nil && !IsNil(o.FinancialStatus) {
 		return true
 	}
@@ -228,8 +228,8 @@ func (o *ECommerceOrder2) GetFulfillmentStatusOk() (*string, bool) {
 	return o.FulfillmentStatus, true
 }
 
-// HasFulfillmentStatus returns a boolean if a field has been set.
-func (o *ECommerceOrder2) HasFulfillmentStatus() bool {
+// ContainsFulfillmentStatus returns a boolean if a field has been set.
+func (o *ECommerceOrder2) ContainsFulfillmentStatus() bool {
 	if o != nil && !IsNil(o.FulfillmentStatus) {
 		return true
 	}
@@ -260,8 +260,8 @@ func (o *ECommerceOrder2) GetCurrencyCodeOk() (*string, bool) {
 	return o.CurrencyCode, true
 }
 
-// HasCurrencyCode returns a boolean if a field has been set.
-func (o *ECommerceOrder2) HasCurrencyCode() bool {
+// ContainsCurrencyCode returns a boolean if a field has been set.
+func (o *ECommerceOrder2) ContainsCurrencyCode() bool {
 	if o != nil && !IsNil(o.CurrencyCode) {
 		return true
 	}
@@ -292,8 +292,8 @@ func (o *ECommerceOrder2) GetOrderTotalOk() (*float32, bool) {
 	return o.OrderTotal, true
 }
 
-// HasOrderTotal returns a boolean if a field has been set.
-func (o *ECommerceOrder2) HasOrderTotal() bool {
+// ContainsOrderTotal returns a boolean if a field has been set.
+func (o *ECommerceOrder2) ContainsOrderTotal() bool {
 	if o != nil && !IsNil(o.OrderTotal) {
 		return true
 	}
@@ -324,8 +324,8 @@ func (o *ECommerceOrder2) GetOrderUrlOk() (*string, bool) {
 	return o.OrderUrl, true
 }
 
-// HasOrderUrl returns a boolean if a field has been set.
-func (o *ECommerceOrder2) HasOrderUrl() bool {
+// ContainsOrderUrl returns a boolean if a field has been set.
+func (o *ECommerceOrder2) ContainsOrderUrl() bool {
 	if o != nil && !IsNil(o.OrderUrl) {
 		return true
 	}
@@ -356,8 +356,8 @@ func (o *ECommerceOrder2) GetDiscountTotalOk() (*float32, bool) {
 	return o.DiscountTotal, true
 }
 
-// HasDiscountTotal returns a boolean if a field has been set.
-func (o *ECommerceOrder2) HasDiscountTotal() bool {
+// ContainsDiscountTotal returns a boolean if a field has been set.
+func (o *ECommerceOrder2) ContainsDiscountTotal() bool {
 	if o != nil && !IsNil(o.DiscountTotal) {
 		return true
 	}
@@ -388,8 +388,8 @@ func (o *ECommerceOrder2) GetTaxTotalOk() (*float32, bool) {
 	return o.TaxTotal, true
 }
 
-// HasTaxTotal returns a boolean if a field has been set.
-func (o *ECommerceOrder2) HasTaxTotal() bool {
+// ContainsTaxTotal returns a boolean if a field has been set.
+func (o *ECommerceOrder2) ContainsTaxTotal() bool {
 	if o != nil && !IsNil(o.TaxTotal) {
 		return true
 	}
@@ -420,8 +420,8 @@ func (o *ECommerceOrder2) GetShippingTotalOk() (*float32, bool) {
 	return o.ShippingTotal, true
 }
 
-// HasShippingTotal returns a boolean if a field has been set.
-func (o *ECommerceOrder2) HasShippingTotal() bool {
+// ContainsShippingTotal returns a boolean if a field has been set.
+func (o *ECommerceOrder2) ContainsShippingTotal() bool {
 	if o != nil && !IsNil(o.ShippingTotal) {
 		return true
 	}
@@ -452,8 +452,8 @@ func (o *ECommerceOrder2) GetTrackingCodeOk() (*string, bool) {
 	return o.TrackingCode, true
 }
 
-// HasTrackingCode returns a boolean if a field has been set.
-func (o *ECommerceOrder2) HasTrackingCode() bool {
+// ContainsTrackingCode returns a boolean if a field has been set.
+func (o *ECommerceOrder2) ContainsTrackingCode() bool {
 	if o != nil && !IsNil(o.TrackingCode) {
 		return true
 	}
@@ -484,8 +484,8 @@ func (o *ECommerceOrder2) GetProcessedAtForeignOk() (*time.Time, bool) {
 	return o.ProcessedAtForeign, true
 }
 
-// HasProcessedAtForeign returns a boolean if a field has been set.
-func (o *ECommerceOrder2) HasProcessedAtForeign() bool {
+// ContainsProcessedAtForeign returns a boolean if a field has been set.
+func (o *ECommerceOrder2) ContainsProcessedAtForeign() bool {
 	if o != nil && !IsNil(o.ProcessedAtForeign) {
 		return true
 	}
@@ -516,8 +516,8 @@ func (o *ECommerceOrder2) GetCancelledAtForeignOk() (*time.Time, bool) {
 	return o.CancelledAtForeign, true
 }
 
-// HasCancelledAtForeign returns a boolean if a field has been set.
-func (o *ECommerceOrder2) HasCancelledAtForeign() bool {
+// ContainsCancelledAtForeign returns a boolean if a field has been set.
+func (o *ECommerceOrder2) ContainsCancelledAtForeign() bool {
 	if o != nil && !IsNil(o.CancelledAtForeign) {
 		return true
 	}
@@ -548,8 +548,8 @@ func (o *ECommerceOrder2) GetUpdatedAtForeignOk() (*time.Time, bool) {
 	return o.UpdatedAtForeign, true
 }
 
-// HasUpdatedAtForeign returns a boolean if a field has been set.
-func (o *ECommerceOrder2) HasUpdatedAtForeign() bool {
+// ContainsUpdatedAtForeign returns a boolean if a field has been set.
+func (o *ECommerceOrder2) ContainsUpdatedAtForeign() bool {
 	if o != nil && !IsNil(o.UpdatedAtForeign) {
 		return true
 	}
@@ -580,8 +580,8 @@ func (o *ECommerceOrder2) GetShippingAddressOk() (*ShippingAddress, bool) {
 	return o.ShippingAddress, true
 }
 
-// HasShippingAddress returns a boolean if a field has been set.
-func (o *ECommerceOrder2) HasShippingAddress() bool {
+// ContainsShippingAddress returns a boolean if a field has been set.
+func (o *ECommerceOrder2) ContainsShippingAddress() bool {
 	if o != nil && !IsNil(o.ShippingAddress) {
 		return true
 	}
@@ -612,8 +612,8 @@ func (o *ECommerceOrder2) GetBillingAddressOk() (*BillingAddress, bool) {
 	return o.BillingAddress, true
 }
 
-// HasBillingAddress returns a boolean if a field has been set.
-func (o *ECommerceOrder2) HasBillingAddress() bool {
+// ContainsBillingAddress returns a boolean if a field has been set.
+func (o *ECommerceOrder2) ContainsBillingAddress() bool {
 	if o != nil && !IsNil(o.BillingAddress) {
 		return true
 	}
@@ -644,8 +644,8 @@ func (o *ECommerceOrder2) GetPromosOk() ([]PromosInner1, bool) {
 	return o.Promos, true
 }
 
-// HasPromos returns a boolean if a field has been set.
-func (o *ECommerceOrder2) HasPromos() bool {
+// ContainsPromos returns a boolean if a field has been set.
+func (o *ECommerceOrder2) ContainsPromos() bool {
 	if o != nil && !IsNil(o.Promos) {
 		return true
 	}
@@ -676,8 +676,8 @@ func (o *ECommerceOrder2) GetLinesOk() ([]ECommerceOrderLineItem2, bool) {
 	return o.Lines, true
 }
 
-// HasLines returns a boolean if a field has been set.
-func (o *ECommerceOrder2) HasLines() bool {
+// ContainsLines returns a boolean if a field has been set.
+func (o *ECommerceOrder2) ContainsLines() bool {
 	if o != nil && !IsNil(o.Lines) {
 		return true
 	}
@@ -708,8 +708,8 @@ func (o *ECommerceOrder2) GetOutreachOk() (*Outreach1, bool) {
 	return o.Outreach, true
 }
 
-// HasOutreach returns a boolean if a field has been set.
-func (o *ECommerceOrder2) HasOutreach() bool {
+// ContainsOutreach returns a boolean if a field has been set.
+func (o *ECommerceOrder2) ContainsOutreach() bool {
 	if o != nil && !IsNil(o.Outreach) {
 		return true
 	}
@@ -740,8 +740,8 @@ func (o *ECommerceOrder2) GetTrackingNumberOk() (*string, bool) {
 	return o.TrackingNumber, true
 }
 
-// HasTrackingNumber returns a boolean if a field has been set.
-func (o *ECommerceOrder2) HasTrackingNumber() bool {
+// ContainsTrackingNumber returns a boolean if a field has been set.
+func (o *ECommerceOrder2) ContainsTrackingNumber() bool {
 	if o != nil && !IsNil(o.TrackingNumber) {
 		return true
 	}
@@ -772,8 +772,8 @@ func (o *ECommerceOrder2) GetTrackingCarrierOk() (*string, bool) {
 	return o.TrackingCarrier, true
 }
 
-// HasTrackingCarrier returns a boolean if a field has been set.
-func (o *ECommerceOrder2) HasTrackingCarrier() bool {
+// ContainsTrackingCarrier returns a boolean if a field has been set.
+func (o *ECommerceOrder2) ContainsTrackingCarrier() bool {
 	if o != nil && !IsNil(o.TrackingCarrier) {
 		return true
 	}
@@ -804,8 +804,8 @@ func (o *ECommerceOrder2) GetTrackingUrlOk() (*string, bool) {
 	return o.TrackingUrl, true
 }
 
-// HasTrackingUrl returns a boolean if a field has been set.
-func (o *ECommerceOrder2) HasTrackingUrl() bool {
+// ContainsTrackingUrl returns a boolean if a field has been set.
+func (o *ECommerceOrder2) ContainsTrackingUrl() bool {
 	if o != nil && !IsNil(o.TrackingUrl) {
 		return true
 	}

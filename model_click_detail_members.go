@@ -65,8 +65,8 @@ func (o *ClickDetailMembers) GetMembersOk() ([]ClickDetailMember, bool) {
 	return o.Members, true
 }
 
-// HasMembers returns a boolean if a field has been set.
-func (o *ClickDetailMembers) HasMembers() bool {
+// ContainsMembers returns a boolean if a field has been set.
+func (o *ClickDetailMembers) ContainsMembers() bool {
 	if o != nil && !IsNil(o.Members) {
 		return true
 	}
@@ -97,8 +97,8 @@ func (o *ClickDetailMembers) GetCampaignIdOk() (*string, bool) {
 	return o.CampaignId, true
 }
 
-// HasCampaignId returns a boolean if a field has been set.
-func (o *ClickDetailMembers) HasCampaignId() bool {
+// ContainsCampaignId returns a boolean if a field has been set.
+func (o *ClickDetailMembers) ContainsCampaignId() bool {
 	if o != nil && !IsNil(o.CampaignId) {
 		return true
 	}
@@ -129,8 +129,8 @@ func (o *ClickDetailMembers) GetTotalItemsOk() (*int32, bool) {
 	return o.TotalItems, true
 }
 
-// HasTotalItems returns a boolean if a field has been set.
-func (o *ClickDetailMembers) HasTotalItems() bool {
+// ContainsTotalItems returns a boolean if a field has been set.
+func (o *ClickDetailMembers) ContainsTotalItems() bool {
 	if o != nil && !IsNil(o.TotalItems) {
 		return true
 	}
@@ -161,8 +161,8 @@ func (o *ClickDetailMembers) GetLinksOk() ([]ResourceLink, bool) {
 	return o.Links, true
 }
 
-// HasLinks returns a boolean if a field has been set.
-func (o *ClickDetailMembers) HasLinks() bool {
+// ContainsLinks returns a boolean if a field has been set.
+func (o *ClickDetailMembers) ContainsLinks() bool {
 	if o != nil && !IsNil(o.Links) {
 		return true
 	}

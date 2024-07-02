@@ -65,8 +65,8 @@ func (o *Response) GetQuestionIdOk() (*string, bool) {
 	return o.QuestionId, true
 }
 
-// HasQuestionId returns a boolean if a field has been set.
-func (o *Response) HasQuestionId() bool {
+// ContainsQuestionId returns a boolean if a field has been set.
+func (o *Response) ContainsQuestionId() bool {
 	if o != nil && !IsNil(o.QuestionId) {
 		return true
 	}
@@ -97,8 +97,8 @@ func (o *Response) GetQuestionTypeOk() (*string, bool) {
 	return o.QuestionType, true
 }
 
-// HasQuestionType returns a boolean if a field has been set.
-func (o *Response) HasQuestionType() bool {
+// ContainsQuestionType returns a boolean if a field has been set.
+func (o *Response) ContainsQuestionType() bool {
 	if o != nil && !IsNil(o.QuestionType) {
 		return true
 	}
@@ -129,8 +129,8 @@ func (o *Response) GetQueryOk() (*string, bool) {
 	return o.Query, true
 }
 
-// HasQuery returns a boolean if a field has been set.
-func (o *Response) HasQuery() bool {
+// ContainsQuery returns a boolean if a field has been set.
+func (o *Response) ContainsQuery() bool {
 	if o != nil && !IsNil(o.Query) {
 		return true
 	}
@@ -161,8 +161,8 @@ func (o *Response) GetAnswerOk() (*string, bool) {
 	return o.Answer, true
 }
 
-// HasAnswer returns a boolean if a field has been set.
-func (o *Response) HasAnswer() bool {
+// ContainsAnswer returns a boolean if a field has been set.
+func (o *Response) ContainsAnswer() bool {
 	if o != nil && !IsNil(o.Answer) {
 		return true
 	}

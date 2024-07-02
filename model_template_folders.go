@@ -63,8 +63,8 @@ func (o *TemplateFolders) GetFoldersOk() ([]TemplateFolder, bool) {
 	return o.Folders, true
 }
 
-// HasFolders returns a boolean if a field has been set.
-func (o *TemplateFolders) HasFolders() bool {
+// ContainsFolders returns a boolean if a field has been set.
+func (o *TemplateFolders) ContainsFolders() bool {
 	if o != nil && !IsNil(o.Folders) {
 		return true
 	}
@@ -95,8 +95,8 @@ func (o *TemplateFolders) GetTotalItemsOk() (*int32, bool) {
 	return o.TotalItems, true
 }
 
-// HasTotalItems returns a boolean if a field has been set.
-func (o *TemplateFolders) HasTotalItems() bool {
+// ContainsTotalItems returns a boolean if a field has been set.
+func (o *TemplateFolders) ContainsTotalItems() bool {
 	if o != nil && !IsNil(o.TotalItems) {
 		return true
 	}
@@ -127,8 +127,8 @@ func (o *TemplateFolders) GetLinksOk() ([]ResourceLink, bool) {
 	return o.Links, true
 }
 
-// HasLinks returns a boolean if a field has been set.
-func (o *TemplateFolders) HasLinks() bool {
+// ContainsLinks returns a boolean if a field has been set.
+func (o *TemplateFolders) ContainsLinks() bool {
 	if o != nil && !IsNil(o.Links) {
 		return true
 	}

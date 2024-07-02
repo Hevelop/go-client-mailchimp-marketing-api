@@ -61,8 +61,8 @@ func (o *VerifiedDomains1) GetDomainsOk() ([]VerifiedDomains, bool) {
 	return o.Domains, true
 }
 
-// HasDomains returns a boolean if a field has been set.
-func (o *VerifiedDomains1) HasDomains() bool {
+// ContainsDomains returns a boolean if a field has been set.
+func (o *VerifiedDomains1) ContainsDomains() bool {
 	if o != nil && !IsNil(o.Domains) {
 		return true
 	}
@@ -93,8 +93,8 @@ func (o *VerifiedDomains1) GetTotalItemsOk() (*int32, bool) {
 	return o.TotalItems, true
 }
 
-// HasTotalItems returns a boolean if a field has been set.
-func (o *VerifiedDomains1) HasTotalItems() bool {
+// ContainsTotalItems returns a boolean if a field has been set.
+func (o *VerifiedDomains1) ContainsTotalItems() bool {
 	if o != nil && !IsNil(o.TotalItems) {
 		return true
 	}

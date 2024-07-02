@@ -75,8 +75,8 @@ func (o *CampaignB) GetBouncesOk() (*int32, bool) {
 	return o.Bounces, true
 }
 
-// HasBounces returns a boolean if a field has been set.
-func (o *CampaignB) HasBounces() bool {
+// ContainsBounces returns a boolean if a field has been set.
+func (o *CampaignB) ContainsBounces() bool {
 	if o != nil && !IsNil(o.Bounces) {
 		return true
 	}
@@ -107,8 +107,8 @@ func (o *CampaignB) GetAbuseReportsOk() (*int32, bool) {
 	return o.AbuseReports, true
 }
 
-// HasAbuseReports returns a boolean if a field has been set.
-func (o *CampaignB) HasAbuseReports() bool {
+// ContainsAbuseReports returns a boolean if a field has been set.
+func (o *CampaignB) ContainsAbuseReports() bool {
 	if o != nil && !IsNil(o.AbuseReports) {
 		return true
 	}
@@ -139,8 +139,8 @@ func (o *CampaignB) GetUnsubsOk() (*int32, bool) {
 	return o.Unsubs, true
 }
 
-// HasUnsubs returns a boolean if a field has been set.
-func (o *CampaignB) HasUnsubs() bool {
+// ContainsUnsubs returns a boolean if a field has been set.
+func (o *CampaignB) ContainsUnsubs() bool {
 	if o != nil && !IsNil(o.Unsubs) {
 		return true
 	}
@@ -171,8 +171,8 @@ func (o *CampaignB) GetRecipientClicksOk() (*int32, bool) {
 	return o.RecipientClicks, true
 }
 
-// HasRecipientClicks returns a boolean if a field has been set.
-func (o *CampaignB) HasRecipientClicks() bool {
+// ContainsRecipientClicks returns a boolean if a field has been set.
+func (o *CampaignB) ContainsRecipientClicks() bool {
 	if o != nil && !IsNil(o.RecipientClicks) {
 		return true
 	}
@@ -203,8 +203,8 @@ func (o *CampaignB) GetForwardsOk() (*int32, bool) {
 	return o.Forwards, true
 }
 
-// HasForwards returns a boolean if a field has been set.
-func (o *CampaignB) HasForwards() bool {
+// ContainsForwards returns a boolean if a field has been set.
+func (o *CampaignB) ContainsForwards() bool {
 	if o != nil && !IsNil(o.Forwards) {
 		return true
 	}
@@ -235,8 +235,8 @@ func (o *CampaignB) GetForwardsOpensOk() (*int32, bool) {
 	return o.ForwardsOpens, true
 }
 
-// HasForwardsOpens returns a boolean if a field has been set.
-func (o *CampaignB) HasForwardsOpens() bool {
+// ContainsForwardsOpens returns a boolean if a field has been set.
+func (o *CampaignB) ContainsForwardsOpens() bool {
 	if o != nil && !IsNil(o.ForwardsOpens) {
 		return true
 	}
@@ -267,8 +267,8 @@ func (o *CampaignB) GetOpensOk() (*int32, bool) {
 	return o.Opens, true
 }
 
-// HasOpens returns a boolean if a field has been set.
-func (o *CampaignB) HasOpens() bool {
+// ContainsOpens returns a boolean if a field has been set.
+func (o *CampaignB) ContainsOpens() bool {
 	if o != nil && !IsNil(o.Opens) {
 		return true
 	}
@@ -299,8 +299,8 @@ func (o *CampaignB) GetLastOpenOk() (*string, bool) {
 	return o.LastOpen, true
 }
 
-// HasLastOpen returns a boolean if a field has been set.
-func (o *CampaignB) HasLastOpen() bool {
+// ContainsLastOpen returns a boolean if a field has been set.
+func (o *CampaignB) ContainsLastOpen() bool {
 	if o != nil && !IsNil(o.LastOpen) {
 		return true
 	}
@@ -331,8 +331,8 @@ func (o *CampaignB) GetUniqueOpensOk() (*int32, bool) {
 	return o.UniqueOpens, true
 }
 
-// HasUniqueOpens returns a boolean if a field has been set.
-func (o *CampaignB) HasUniqueOpens() bool {
+// ContainsUniqueOpens returns a boolean if a field has been set.
+func (o *CampaignB) ContainsUniqueOpens() bool {
 	if o != nil && !IsNil(o.UniqueOpens) {
 		return true
 	}

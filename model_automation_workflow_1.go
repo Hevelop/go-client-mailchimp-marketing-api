@@ -90,8 +90,8 @@ func (o *AutomationWorkflow1) GetSettingsOk() (*AutomationCampaignSettings1, boo
 	return o.Settings, true
 }
 
-// HasSettings returns a boolean if a field has been set.
-func (o *AutomationWorkflow1) HasSettings() bool {
+// ContainsSettings returns a boolean if a field has been set.
+func (o *AutomationWorkflow1) ContainsSettings() bool {
 	if o != nil && !IsNil(o.Settings) {
 		return true
 	}

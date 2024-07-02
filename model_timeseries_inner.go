@@ -66,8 +66,8 @@ func (o *TimeseriesInner) GetTimestampOk() (*time.Time, bool) {
 	return o.Timestamp, true
 }
 
-// HasTimestamp returns a boolean if a field has been set.
-func (o *TimeseriesInner) HasTimestamp() bool {
+// ContainsTimestamp returns a boolean if a field has been set.
+func (o *TimeseriesInner) ContainsTimestamp() bool {
 	if o != nil && !IsNil(o.Timestamp) {
 		return true
 	}
@@ -98,8 +98,8 @@ func (o *TimeseriesInner) GetEmailsSentOk() (*int32, bool) {
 	return o.EmailsSent, true
 }
 
-// HasEmailsSent returns a boolean if a field has been set.
-func (o *TimeseriesInner) HasEmailsSent() bool {
+// ContainsEmailsSent returns a boolean if a field has been set.
+func (o *TimeseriesInner) ContainsEmailsSent() bool {
 	if o != nil && !IsNil(o.EmailsSent) {
 		return true
 	}
@@ -130,8 +130,8 @@ func (o *TimeseriesInner) GetUniqueOpensOk() (*int32, bool) {
 	return o.UniqueOpens, true
 }
 
-// HasUniqueOpens returns a boolean if a field has been set.
-func (o *TimeseriesInner) HasUniqueOpens() bool {
+// ContainsUniqueOpens returns a boolean if a field has been set.
+func (o *TimeseriesInner) ContainsUniqueOpens() bool {
 	if o != nil && !IsNil(o.UniqueOpens) {
 		return true
 	}
@@ -162,8 +162,8 @@ func (o *TimeseriesInner) GetRecipientsClicksOk() (*int32, bool) {
 	return o.RecipientsClicks, true
 }
 
-// HasRecipientsClicks returns a boolean if a field has been set.
-func (o *TimeseriesInner) HasRecipientsClicks() bool {
+// ContainsRecipientsClicks returns a boolean if a field has been set.
+func (o *TimeseriesInner) ContainsRecipientsClicks() bool {
 	if o != nil && !IsNil(o.RecipientsClicks) {
 		return true
 	}

@@ -99,8 +99,8 @@ func (o *ListMembers1) GetIdOk() (*string, bool) {
 	return o.Id, true
 }
 
-// HasId returns a boolean if a field has been set.
-func (o *ListMembers1) HasId() bool {
+// ContainsId returns a boolean if a field has been set.
+func (o *ListMembers1) ContainsId() bool {
 	if o != nil && !IsNil(o.Id) {
 		return true
 	}
@@ -131,8 +131,8 @@ func (o *ListMembers1) GetEmailAddressOk() (*string, bool) {
 	return o.EmailAddress, true
 }
 
-// HasEmailAddress returns a boolean if a field has been set.
-func (o *ListMembers1) HasEmailAddress() bool {
+// ContainsEmailAddress returns a boolean if a field has been set.
+func (o *ListMembers1) ContainsEmailAddress() bool {
 	if o != nil && !IsNil(o.EmailAddress) {
 		return true
 	}
@@ -163,8 +163,8 @@ func (o *ListMembers1) GetFullNameOk() (*string, bool) {
 	return o.FullName, true
 }
 
-// HasFullName returns a boolean if a field has been set.
-func (o *ListMembers1) HasFullName() bool {
+// ContainsFullName returns a boolean if a field has been set.
+func (o *ListMembers1) ContainsFullName() bool {
 	if o != nil && !IsNil(o.FullName) {
 		return true
 	}
@@ -195,8 +195,8 @@ func (o *ListMembers1) GetUniqueEmailIdOk() (*string, bool) {
 	return o.UniqueEmailId, true
 }
 
-// HasUniqueEmailId returns a boolean if a field has been set.
-func (o *ListMembers1) HasUniqueEmailId() bool {
+// ContainsUniqueEmailId returns a boolean if a field has been set.
+func (o *ListMembers1) ContainsUniqueEmailId() bool {
 	if o != nil && !IsNil(o.UniqueEmailId) {
 		return true
 	}
@@ -227,8 +227,8 @@ func (o *ListMembers1) GetEmailTypeOk() (*string, bool) {
 	return o.EmailType, true
 }
 
-// HasEmailType returns a boolean if a field has been set.
-func (o *ListMembers1) HasEmailType() bool {
+// ContainsEmailType returns a boolean if a field has been set.
+func (o *ListMembers1) ContainsEmailType() bool {
 	if o != nil && !IsNil(o.EmailType) {
 		return true
 	}
@@ -259,8 +259,8 @@ func (o *ListMembers1) GetStatusOk() (*string, bool) {
 	return o.Status, true
 }
 
-// HasStatus returns a boolean if a field has been set.
-func (o *ListMembers1) HasStatus() bool {
+// ContainsStatus returns a boolean if a field has been set.
+func (o *ListMembers1) ContainsStatus() bool {
 	if o != nil && !IsNil(o.Status) {
 		return true
 	}
@@ -291,8 +291,8 @@ func (o *ListMembers1) GetMergeFieldsOk() (map[string]map[string]interface{}, bo
 	return o.MergeFields, true
 }
 
-// HasMergeFields returns a boolean if a field has been set.
-func (o *ListMembers1) HasMergeFields() bool {
+// ContainsMergeFields returns a boolean if a field has been set.
+func (o *ListMembers1) ContainsMergeFields() bool {
 	if o != nil && !IsNil(o.MergeFields) {
 		return true
 	}
@@ -323,8 +323,8 @@ func (o *ListMembers1) GetInterestsOk() (*map[string]bool, bool) {
 	return o.Interests, true
 }
 
-// HasInterests returns a boolean if a field has been set.
-func (o *ListMembers1) HasInterests() bool {
+// ContainsInterests returns a boolean if a field has been set.
+func (o *ListMembers1) ContainsInterests() bool {
 	if o != nil && !IsNil(o.Interests) {
 		return true
 	}
@@ -355,8 +355,8 @@ func (o *ListMembers1) GetStatsOk() (*SubscriberStats, bool) {
 	return o.Stats, true
 }
 
-// HasStats returns a boolean if a field has been set.
-func (o *ListMembers1) HasStats() bool {
+// ContainsStats returns a boolean if a field has been set.
+func (o *ListMembers1) ContainsStats() bool {
 	if o != nil && !IsNil(o.Stats) {
 		return true
 	}
@@ -387,8 +387,8 @@ func (o *ListMembers1) GetIpSignupOk() (*string, bool) {
 	return o.IpSignup, true
 }
 
-// HasIpSignup returns a boolean if a field has been set.
-func (o *ListMembers1) HasIpSignup() bool {
+// ContainsIpSignup returns a boolean if a field has been set.
+func (o *ListMembers1) ContainsIpSignup() bool {
 	if o != nil && !IsNil(o.IpSignup) {
 		return true
 	}
@@ -419,8 +419,8 @@ func (o *ListMembers1) GetTimestampSignupOk() (*time.Time, bool) {
 	return o.TimestampSignup, true
 }
 
-// HasTimestampSignup returns a boolean if a field has been set.
-func (o *ListMembers1) HasTimestampSignup() bool {
+// ContainsTimestampSignup returns a boolean if a field has been set.
+func (o *ListMembers1) ContainsTimestampSignup() bool {
 	if o != nil && !IsNil(o.TimestampSignup) {
 		return true
 	}
@@ -451,8 +451,8 @@ func (o *ListMembers1) GetIpOptOk() (*string, bool) {
 	return o.IpOpt, true
 }
 
-// HasIpOpt returns a boolean if a field has been set.
-func (o *ListMembers1) HasIpOpt() bool {
+// ContainsIpOpt returns a boolean if a field has been set.
+func (o *ListMembers1) ContainsIpOpt() bool {
 	if o != nil && !IsNil(o.IpOpt) {
 		return true
 	}
@@ -483,8 +483,8 @@ func (o *ListMembers1) GetTimestampOptOk() (*time.Time, bool) {
 	return o.TimestampOpt, true
 }
 
-// HasTimestampOpt returns a boolean if a field has been set.
-func (o *ListMembers1) HasTimestampOpt() bool {
+// ContainsTimestampOpt returns a boolean if a field has been set.
+func (o *ListMembers1) ContainsTimestampOpt() bool {
 	if o != nil && !IsNil(o.TimestampOpt) {
 		return true
 	}
@@ -515,8 +515,8 @@ func (o *ListMembers1) GetMemberRatingOk() (*int32, bool) {
 	return o.MemberRating, true
 }
 
-// HasMemberRating returns a boolean if a field has been set.
-func (o *ListMembers1) HasMemberRating() bool {
+// ContainsMemberRating returns a boolean if a field has been set.
+func (o *ListMembers1) ContainsMemberRating() bool {
 	if o != nil && !IsNil(o.MemberRating) {
 		return true
 	}
@@ -547,8 +547,8 @@ func (o *ListMembers1) GetLastChangedOk() (*time.Time, bool) {
 	return o.LastChanged, true
 }
 
-// HasLastChanged returns a boolean if a field has been set.
-func (o *ListMembers1) HasLastChanged() bool {
+// ContainsLastChanged returns a boolean if a field has been set.
+func (o *ListMembers1) ContainsLastChanged() bool {
 	if o != nil && !IsNil(o.LastChanged) {
 		return true
 	}
@@ -579,8 +579,8 @@ func (o *ListMembers1) GetLanguageOk() (*string, bool) {
 	return o.Language, true
 }
 
-// HasLanguage returns a boolean if a field has been set.
-func (o *ListMembers1) HasLanguage() bool {
+// ContainsLanguage returns a boolean if a field has been set.
+func (o *ListMembers1) ContainsLanguage() bool {
 	if o != nil && !IsNil(o.Language) {
 		return true
 	}
@@ -611,8 +611,8 @@ func (o *ListMembers1) GetVipOk() (*bool, bool) {
 	return o.Vip, true
 }
 
-// HasVip returns a boolean if a field has been set.
-func (o *ListMembers1) HasVip() bool {
+// ContainsVip returns a boolean if a field has been set.
+func (o *ListMembers1) ContainsVip() bool {
 	if o != nil && !IsNil(o.Vip) {
 		return true
 	}
@@ -643,8 +643,8 @@ func (o *ListMembers1) GetEmailClientOk() (*string, bool) {
 	return o.EmailClient, true
 }
 
-// HasEmailClient returns a boolean if a field has been set.
-func (o *ListMembers1) HasEmailClient() bool {
+// ContainsEmailClient returns a boolean if a field has been set.
+func (o *ListMembers1) ContainsEmailClient() bool {
 	if o != nil && !IsNil(o.EmailClient) {
 		return true
 	}
@@ -675,8 +675,8 @@ func (o *ListMembers1) GetLocationOk() (*Location1, bool) {
 	return o.Location, true
 }
 
-// HasLocation returns a boolean if a field has been set.
-func (o *ListMembers1) HasLocation() bool {
+// ContainsLocation returns a boolean if a field has been set.
+func (o *ListMembers1) ContainsLocation() bool {
 	if o != nil && !IsNil(o.Location) {
 		return true
 	}
@@ -707,8 +707,8 @@ func (o *ListMembers1) GetLastNoteOk() (*Notes, bool) {
 	return o.LastNote, true
 }
 
-// HasLastNote returns a boolean if a field has been set.
-func (o *ListMembers1) HasLastNote() bool {
+// ContainsLastNote returns a boolean if a field has been set.
+func (o *ListMembers1) ContainsLastNote() bool {
 	if o != nil && !IsNil(o.LastNote) {
 		return true
 	}
@@ -739,8 +739,8 @@ func (o *ListMembers1) GetListIdOk() (*string, bool) {
 	return o.ListId, true
 }
 
-// HasListId returns a boolean if a field has been set.
-func (o *ListMembers1) HasListId() bool {
+// ContainsListId returns a boolean if a field has been set.
+func (o *ListMembers1) ContainsListId() bool {
 	if o != nil && !IsNil(o.ListId) {
 		return true
 	}
@@ -771,8 +771,8 @@ func (o *ListMembers1) GetLinksOk() ([]ResourceLink, bool) {
 	return o.Links, true
 }
 
-// HasLinks returns a boolean if a field has been set.
-func (o *ListMembers1) HasLinks() bool {
+// ContainsLinks returns a boolean if a field has been set.
+func (o *ListMembers1) ContainsLinks() bool {
 	if o != nil && !IsNil(o.Links) {
 		return true
 	}

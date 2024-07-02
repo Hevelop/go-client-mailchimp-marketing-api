@@ -63,8 +63,8 @@ func (o *CampaignSocialCard) GetImageUrlOk() (*string, bool) {
 	return o.ImageUrl, true
 }
 
-// HasImageUrl returns a boolean if a field has been set.
-func (o *CampaignSocialCard) HasImageUrl() bool {
+// ContainsImageUrl returns a boolean if a field has been set.
+func (o *CampaignSocialCard) ContainsImageUrl() bool {
 	if o != nil && !IsNil(o.ImageUrl) {
 		return true
 	}
@@ -95,8 +95,8 @@ func (o *CampaignSocialCard) GetDescriptionOk() (*string, bool) {
 	return o.Description, true
 }
 
-// HasDescription returns a boolean if a field has been set.
-func (o *CampaignSocialCard) HasDescription() bool {
+// ContainsDescription returns a boolean if a field has been set.
+func (o *CampaignSocialCard) ContainsDescription() bool {
 	if o != nil && !IsNil(o.Description) {
 		return true
 	}
@@ -127,8 +127,8 @@ func (o *CampaignSocialCard) GetTitleOk() (*string, bool) {
 	return o.Title, true
 }
 
-// HasTitle returns a boolean if a field has been set.
-func (o *CampaignSocialCard) HasTitle() bool {
+// ContainsTitle returns a boolean if a field has been set.
+func (o *CampaignSocialCard) ContainsTitle() bool {
 	if o != nil && !IsNil(o.Title) {
 		return true
 	}

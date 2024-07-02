@@ -80,8 +80,8 @@ func (o *MergeField1) GetTagOk() (*string, bool) {
 	return o.Tag, true
 }
 
-// HasTag returns a boolean if a field has been set.
-func (o *MergeField1) HasTag() bool {
+// ContainsTag returns a boolean if a field has been set.
+func (o *MergeField1) ContainsTag() bool {
 	if o != nil && !IsNil(o.Tag) {
 		return true
 	}
@@ -160,8 +160,8 @@ func (o *MergeField1) GetRequiredOk() (*bool, bool) {
 	return o.Required, true
 }
 
-// HasRequired returns a boolean if a field has been set.
-func (o *MergeField1) HasRequired() bool {
+// ContainsRequired returns a boolean if a field has been set.
+func (o *MergeField1) ContainsRequired() bool {
 	if o != nil && !IsNil(o.Required) {
 		return true
 	}
@@ -192,8 +192,8 @@ func (o *MergeField1) GetDefaultValueOk() (*string, bool) {
 	return o.DefaultValue, true
 }
 
-// HasDefaultValue returns a boolean if a field has been set.
-func (o *MergeField1) HasDefaultValue() bool {
+// ContainsDefaultValue returns a boolean if a field has been set.
+func (o *MergeField1) ContainsDefaultValue() bool {
 	if o != nil && !IsNil(o.DefaultValue) {
 		return true
 	}
@@ -224,8 +224,8 @@ func (o *MergeField1) GetPublicOk() (*bool, bool) {
 	return o.Public, true
 }
 
-// HasPublic returns a boolean if a field has been set.
-func (o *MergeField1) HasPublic() bool {
+// ContainsPublic returns a boolean if a field has been set.
+func (o *MergeField1) ContainsPublic() bool {
 	if o != nil && !IsNil(o.Public) {
 		return true
 	}
@@ -256,8 +256,8 @@ func (o *MergeField1) GetDisplayOrderOk() (*int32, bool) {
 	return o.DisplayOrder, true
 }
 
-// HasDisplayOrder returns a boolean if a field has been set.
-func (o *MergeField1) HasDisplayOrder() bool {
+// ContainsDisplayOrder returns a boolean if a field has been set.
+func (o *MergeField1) ContainsDisplayOrder() bool {
 	if o != nil && !IsNil(o.DisplayOrder) {
 		return true
 	}
@@ -288,8 +288,8 @@ func (o *MergeField1) GetOptionsOk() (*MergeFieldOptions1, bool) {
 	return o.Options, true
 }
 
-// HasOptions returns a boolean if a field has been set.
-func (o *MergeField1) HasOptions() bool {
+// ContainsOptions returns a boolean if a field has been set.
+func (o *MergeField1) ContainsOptions() bool {
 	if o != nil && !IsNil(o.Options) {
 		return true
 	}
@@ -320,8 +320,8 @@ func (o *MergeField1) GetHelpTextOk() (*string, bool) {
 	return o.HelpText, true
 }
 
-// HasHelpText returns a boolean if a field has been set.
-func (o *MergeField1) HasHelpText() bool {
+// ContainsHelpText returns a boolean if a field has been set.
+func (o *MergeField1) ContainsHelpText() bool {
 	if o != nil && !IsNil(o.HelpText) {
 		return true
 	}

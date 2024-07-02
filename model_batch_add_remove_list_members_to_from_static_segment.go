@@ -71,8 +71,8 @@ func (o *BatchAddRemoveListMembersToFromStaticSegment) GetMembersAddedOk() ([]Li
 	return o.MembersAdded, true
 }
 
-// HasMembersAdded returns a boolean if a field has been set.
-func (o *BatchAddRemoveListMembersToFromStaticSegment) HasMembersAdded() bool {
+// ContainsMembersAdded returns a boolean if a field has been set.
+func (o *BatchAddRemoveListMembersToFromStaticSegment) ContainsMembersAdded() bool {
 	if o != nil && !IsNil(o.MembersAdded) {
 		return true
 	}
@@ -103,8 +103,8 @@ func (o *BatchAddRemoveListMembersToFromStaticSegment) GetMembersRemovedOk() ([]
 	return o.MembersRemoved, true
 }
 
-// HasMembersRemoved returns a boolean if a field has been set.
-func (o *BatchAddRemoveListMembersToFromStaticSegment) HasMembersRemoved() bool {
+// ContainsMembersRemoved returns a boolean if a field has been set.
+func (o *BatchAddRemoveListMembersToFromStaticSegment) ContainsMembersRemoved() bool {
 	if o != nil && !IsNil(o.MembersRemoved) {
 		return true
 	}
@@ -135,8 +135,8 @@ func (o *BatchAddRemoveListMembersToFromStaticSegment) GetErrorsOk() ([]ErrorsIn
 	return o.Errors, true
 }
 
-// HasErrors returns a boolean if a field has been set.
-func (o *BatchAddRemoveListMembersToFromStaticSegment) HasErrors() bool {
+// ContainsErrors returns a boolean if a field has been set.
+func (o *BatchAddRemoveListMembersToFromStaticSegment) ContainsErrors() bool {
 	if o != nil && !IsNil(o.Errors) {
 		return true
 	}
@@ -167,8 +167,8 @@ func (o *BatchAddRemoveListMembersToFromStaticSegment) GetTotalAddedOk() (*int32
 	return o.TotalAdded, true
 }
 
-// HasTotalAdded returns a boolean if a field has been set.
-func (o *BatchAddRemoveListMembersToFromStaticSegment) HasTotalAdded() bool {
+// ContainsTotalAdded returns a boolean if a field has been set.
+func (o *BatchAddRemoveListMembersToFromStaticSegment) ContainsTotalAdded() bool {
 	if o != nil && !IsNil(o.TotalAdded) {
 		return true
 	}
@@ -199,8 +199,8 @@ func (o *BatchAddRemoveListMembersToFromStaticSegment) GetTotalRemovedOk() (*int
 	return o.TotalRemoved, true
 }
 
-// HasTotalRemoved returns a boolean if a field has been set.
-func (o *BatchAddRemoveListMembersToFromStaticSegment) HasTotalRemoved() bool {
+// ContainsTotalRemoved returns a boolean if a field has been set.
+func (o *BatchAddRemoveListMembersToFromStaticSegment) ContainsTotalRemoved() bool {
 	if o != nil && !IsNil(o.TotalRemoved) {
 		return true
 	}
@@ -231,8 +231,8 @@ func (o *BatchAddRemoveListMembersToFromStaticSegment) GetErrorCountOk() (*int32
 	return o.ErrorCount, true
 }
 
-// HasErrorCount returns a boolean if a field has been set.
-func (o *BatchAddRemoveListMembersToFromStaticSegment) HasErrorCount() bool {
+// ContainsErrorCount returns a boolean if a field has been set.
+func (o *BatchAddRemoveListMembersToFromStaticSegment) ContainsErrorCount() bool {
 	if o != nil && !IsNil(o.ErrorCount) {
 		return true
 	}
@@ -263,8 +263,8 @@ func (o *BatchAddRemoveListMembersToFromStaticSegment) GetLinksOk() ([]ResourceL
 	return o.Links, true
 }
 
-// HasLinks returns a boolean if a field has been set.
-func (o *BatchAddRemoveListMembersToFromStaticSegment) HasLinks() bool {
+// ContainsLinks returns a boolean if a field has been set.
+func (o *BatchAddRemoveListMembersToFromStaticSegment) ContainsLinks() bool {
 	if o != nil && !IsNil(o.Links) {
 		return true
 	}

@@ -66,8 +66,8 @@ func (o *ClickSummary) GetClicksOk() (*int32, bool) {
 	return o.Clicks, true
 }
 
-// HasClicks returns a boolean if a field has been set.
-func (o *ClickSummary) HasClicks() bool {
+// ContainsClicks returns a boolean if a field has been set.
+func (o *ClickSummary) ContainsClicks() bool {
 	if o != nil && !IsNil(o.Clicks) {
 		return true
 	}
@@ -98,8 +98,8 @@ func (o *ClickSummary) GetFirstClickOk() (*time.Time, bool) {
 	return o.FirstClick, true
 }
 
-// HasFirstClick returns a boolean if a field has been set.
-func (o *ClickSummary) HasFirstClick() bool {
+// ContainsFirstClick returns a boolean if a field has been set.
+func (o *ClickSummary) ContainsFirstClick() bool {
 	if o != nil && !IsNil(o.FirstClick) {
 		return true
 	}
@@ -130,8 +130,8 @@ func (o *ClickSummary) GetLastClickOk() (*time.Time, bool) {
 	return o.LastClick, true
 }
 
-// HasLastClick returns a boolean if a field has been set.
-func (o *ClickSummary) HasLastClick() bool {
+// ContainsLastClick returns a boolean if a field has been set.
+func (o *ClickSummary) ContainsLastClick() bool {
 	if o != nil && !IsNil(o.LastClick) {
 		return true
 	}
@@ -162,8 +162,8 @@ func (o *ClickSummary) GetLocationsOk() ([]Location3, bool) {
 	return o.Locations, true
 }
 
-// HasLocations returns a boolean if a field has been set.
-func (o *ClickSummary) HasLocations() bool {
+// ContainsLocations returns a boolean if a field has been set.
+func (o *ClickSummary) ContainsLocations() bool {
 	if o != nil && !IsNil(o.Locations) {
 		return true
 	}

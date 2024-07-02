@@ -59,8 +59,8 @@ func (o *UpdateInformationAboutASpecificWorkflowEmail) GetSettingsOk() (*Campaig
 	return o.Settings, true
 }
 
-// HasSettings returns a boolean if a field has been set.
-func (o *UpdateInformationAboutASpecificWorkflowEmail) HasSettings() bool {
+// ContainsSettings returns a boolean if a field has been set.
+func (o *UpdateInformationAboutASpecificWorkflowEmail) ContainsSettings() bool {
 	if o != nil && !IsNil(o.Settings) {
 		return true
 	}
@@ -91,8 +91,8 @@ func (o *UpdateInformationAboutASpecificWorkflowEmail) GetDelayOk() (*Automation
 	return o.Delay, true
 }
 
-// HasDelay returns a boolean if a field has been set.
-func (o *UpdateInformationAboutASpecificWorkflowEmail) HasDelay() bool {
+// ContainsDelay returns a boolean if a field has been set.
+func (o *UpdateInformationAboutASpecificWorkflowEmail) ContainsDelay() bool {
 	if o != nil && !IsNil(o.Delay) {
 		return true
 	}

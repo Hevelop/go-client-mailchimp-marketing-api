@@ -65,8 +65,8 @@ func (o *ListSignupForms) GetSignupFormsOk() ([]SignupForm, bool) {
 	return o.SignupForms, true
 }
 
-// HasSignupForms returns a boolean if a field has been set.
-func (o *ListSignupForms) HasSignupForms() bool {
+// ContainsSignupForms returns a boolean if a field has been set.
+func (o *ListSignupForms) ContainsSignupForms() bool {
 	if o != nil && !IsNil(o.SignupForms) {
 		return true
 	}
@@ -97,8 +97,8 @@ func (o *ListSignupForms) GetListIdOk() (*string, bool) {
 	return o.ListId, true
 }
 
-// HasListId returns a boolean if a field has been set.
-func (o *ListSignupForms) HasListId() bool {
+// ContainsListId returns a boolean if a field has been set.
+func (o *ListSignupForms) ContainsListId() bool {
 	if o != nil && !IsNil(o.ListId) {
 		return true
 	}
@@ -129,8 +129,8 @@ func (o *ListSignupForms) GetTotalItemsOk() (*int32, bool) {
 	return o.TotalItems, true
 }
 
-// HasTotalItems returns a boolean if a field has been set.
-func (o *ListSignupForms) HasTotalItems() bool {
+// ContainsTotalItems returns a boolean if a field has been set.
+func (o *ListSignupForms) ContainsTotalItems() bool {
 	if o != nil && !IsNil(o.TotalItems) {
 		return true
 	}
@@ -161,8 +161,8 @@ func (o *ListSignupForms) GetLinksOk() ([]ResourceLink, bool) {
 	return o.Links, true
 }
 
-// HasLinks returns a boolean if a field has been set.
-func (o *ListSignupForms) HasLinks() bool {
+// ContainsLinks returns a boolean if a field has been set.
+func (o *ListSignupForms) ContainsLinks() bool {
 	if o != nil && !IsNil(o.Links) {
 		return true
 	}

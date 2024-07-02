@@ -92,8 +92,8 @@ func (o *MembersToSubscribeUnsubscribeToFromAListInBatch) GetSyncTagsOk() (*bool
 	return o.SyncTags, true
 }
 
-// HasSyncTags returns a boolean if a field has been set.
-func (o *MembersToSubscribeUnsubscribeToFromAListInBatch) HasSyncTags() bool {
+// ContainsSyncTags returns a boolean if a field has been set.
+func (o *MembersToSubscribeUnsubscribeToFromAListInBatch) ContainsSyncTags() bool {
 	if o != nil && !IsNil(o.SyncTags) {
 		return true
 	}
@@ -124,8 +124,8 @@ func (o *MembersToSubscribeUnsubscribeToFromAListInBatch) GetUpdateExistingOk() 
 	return o.UpdateExisting, true
 }
 
-// HasUpdateExisting returns a boolean if a field has been set.
-func (o *MembersToSubscribeUnsubscribeToFromAListInBatch) HasUpdateExisting() bool {
+// ContainsUpdateExisting returns a boolean if a field has been set.
+func (o *MembersToSubscribeUnsubscribeToFromAListInBatch) ContainsUpdateExisting() bool {
 	if o != nil && !IsNil(o.UpdateExisting) {
 		return true
 	}

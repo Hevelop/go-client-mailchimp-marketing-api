@@ -85,8 +85,8 @@ func (o *CampaignFeedback) GetFeedbackIdOk() (*int32, bool) {
 	return o.FeedbackId, true
 }
 
-// HasFeedbackId returns a boolean if a field has been set.
-func (o *CampaignFeedback) HasFeedbackId() bool {
+// ContainsFeedbackId returns a boolean if a field has been set.
+func (o *CampaignFeedback) ContainsFeedbackId() bool {
 	if o != nil && !IsNil(o.FeedbackId) {
 		return true
 	}
@@ -117,8 +117,8 @@ func (o *CampaignFeedback) GetParentIdOk() (*int32, bool) {
 	return o.ParentId, true
 }
 
-// HasParentId returns a boolean if a field has been set.
-func (o *CampaignFeedback) HasParentId() bool {
+// ContainsParentId returns a boolean if a field has been set.
+func (o *CampaignFeedback) ContainsParentId() bool {
 	if o != nil && !IsNil(o.ParentId) {
 		return true
 	}
@@ -149,8 +149,8 @@ func (o *CampaignFeedback) GetBlockIdOk() (*int32, bool) {
 	return o.BlockId, true
 }
 
-// HasBlockId returns a boolean if a field has been set.
-func (o *CampaignFeedback) HasBlockId() bool {
+// ContainsBlockId returns a boolean if a field has been set.
+func (o *CampaignFeedback) ContainsBlockId() bool {
 	if o != nil && !IsNil(o.BlockId) {
 		return true
 	}
@@ -205,8 +205,8 @@ func (o *CampaignFeedback) GetIsCompleteOk() (*bool, bool) {
 	return o.IsComplete, true
 }
 
-// HasIsComplete returns a boolean if a field has been set.
-func (o *CampaignFeedback) HasIsComplete() bool {
+// ContainsIsComplete returns a boolean if a field has been set.
+func (o *CampaignFeedback) ContainsIsComplete() bool {
 	if o != nil && !IsNil(o.IsComplete) {
 		return true
 	}
@@ -237,8 +237,8 @@ func (o *CampaignFeedback) GetCreatedByOk() (*string, bool) {
 	return o.CreatedBy, true
 }
 
-// HasCreatedBy returns a boolean if a field has been set.
-func (o *CampaignFeedback) HasCreatedBy() bool {
+// ContainsCreatedBy returns a boolean if a field has been set.
+func (o *CampaignFeedback) ContainsCreatedBy() bool {
 	if o != nil && !IsNil(o.CreatedBy) {
 		return true
 	}
@@ -269,8 +269,8 @@ func (o *CampaignFeedback) GetCreatedAtOk() (*time.Time, bool) {
 	return o.CreatedAt, true
 }
 
-// HasCreatedAt returns a boolean if a field has been set.
-func (o *CampaignFeedback) HasCreatedAt() bool {
+// ContainsCreatedAt returns a boolean if a field has been set.
+func (o *CampaignFeedback) ContainsCreatedAt() bool {
 	if o != nil && !IsNil(o.CreatedAt) {
 		return true
 	}
@@ -301,8 +301,8 @@ func (o *CampaignFeedback) GetUpdatedAtOk() (*time.Time, bool) {
 	return o.UpdatedAt, true
 }
 
-// HasUpdatedAt returns a boolean if a field has been set.
-func (o *CampaignFeedback) HasUpdatedAt() bool {
+// ContainsUpdatedAt returns a boolean if a field has been set.
+func (o *CampaignFeedback) ContainsUpdatedAt() bool {
 	if o != nil && !IsNil(o.UpdatedAt) {
 		return true
 	}
@@ -333,8 +333,8 @@ func (o *CampaignFeedback) GetSourceOk() (*string, bool) {
 	return o.Source, true
 }
 
-// HasSource returns a boolean if a field has been set.
-func (o *CampaignFeedback) HasSource() bool {
+// ContainsSource returns a boolean if a field has been set.
+func (o *CampaignFeedback) ContainsSource() bool {
 	if o != nil && !IsNil(o.Source) {
 		return true
 	}
@@ -365,8 +365,8 @@ func (o *CampaignFeedback) GetCampaignIdOk() (*string, bool) {
 	return o.CampaignId, true
 }
 
-// HasCampaignId returns a boolean if a field has been set.
-func (o *CampaignFeedback) HasCampaignId() bool {
+// ContainsCampaignId returns a boolean if a field has been set.
+func (o *CampaignFeedback) ContainsCampaignId() bool {
 	if o != nil && !IsNil(o.CampaignId) {
 		return true
 	}
@@ -397,8 +397,8 @@ func (o *CampaignFeedback) GetLinksOk() ([]ResourceLink, bool) {
 	return o.Links, true
 }
 
-// HasLinks returns a boolean if a field has been set.
-func (o *CampaignFeedback) HasLinks() bool {
+// ContainsLinks returns a boolean if a field has been set.
+func (o *CampaignFeedback) ContainsLinks() bool {
 	if o != nil && !IsNil(o.Links) {
 		return true
 	}

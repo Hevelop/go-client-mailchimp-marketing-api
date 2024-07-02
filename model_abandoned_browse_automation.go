@@ -63,8 +63,8 @@ func (o *AbandonedBrowseAutomation) GetIsSupportedOk() (*bool, bool) {
 	return o.IsSupported, true
 }
 
-// HasIsSupported returns a boolean if a field has been set.
-func (o *AbandonedBrowseAutomation) HasIsSupported() bool {
+// ContainsIsSupported returns a boolean if a field has been set.
+func (o *AbandonedBrowseAutomation) ContainsIsSupported() bool {
 	if o != nil && !IsNil(o.IsSupported) {
 		return true
 	}
@@ -95,8 +95,8 @@ func (o *AbandonedBrowseAutomation) GetIdOk() (*string, bool) {
 	return o.Id, true
 }
 
-// HasId returns a boolean if a field has been set.
-func (o *AbandonedBrowseAutomation) HasId() bool {
+// ContainsId returns a boolean if a field has been set.
+func (o *AbandonedBrowseAutomation) ContainsId() bool {
 	if o != nil && !IsNil(o.Id) {
 		return true
 	}
@@ -127,8 +127,8 @@ func (o *AbandonedBrowseAutomation) GetStatusOk() (*string, bool) {
 	return o.Status, true
 }
 
-// HasStatus returns a boolean if a field has been set.
-func (o *AbandonedBrowseAutomation) HasStatus() bool {
+// ContainsStatus returns a boolean if a field has been set.
+func (o *AbandonedBrowseAutomation) ContainsStatus() bool {
 	if o != nil && !IsNil(o.Status) {
 		return true
 	}

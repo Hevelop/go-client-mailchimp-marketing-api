@@ -79,8 +79,8 @@ func (o *OpenActivity) GetCampaignIdOk() (*string, bool) {
 	return o.CampaignId, true
 }
 
-// HasCampaignId returns a boolean if a field has been set.
-func (o *OpenActivity) HasCampaignId() bool {
+// ContainsCampaignId returns a boolean if a field has been set.
+func (o *OpenActivity) ContainsCampaignId() bool {
 	if o != nil && !IsNil(o.CampaignId) {
 		return true
 	}
@@ -111,8 +111,8 @@ func (o *OpenActivity) GetListIdOk() (*string, bool) {
 	return o.ListId, true
 }
 
-// HasListId returns a boolean if a field has been set.
-func (o *OpenActivity) HasListId() bool {
+// ContainsListId returns a boolean if a field has been set.
+func (o *OpenActivity) ContainsListId() bool {
 	if o != nil && !IsNil(o.ListId) {
 		return true
 	}
@@ -143,8 +143,8 @@ func (o *OpenActivity) GetListIsActiveOk() (*bool, bool) {
 	return o.ListIsActive, true
 }
 
-// HasListIsActive returns a boolean if a field has been set.
-func (o *OpenActivity) HasListIsActive() bool {
+// ContainsListIsActive returns a boolean if a field has been set.
+func (o *OpenActivity) ContainsListIsActive() bool {
 	if o != nil && !IsNil(o.ListIsActive) {
 		return true
 	}
@@ -175,8 +175,8 @@ func (o *OpenActivity) GetContactStatusOk() (*string, bool) {
 	return o.ContactStatus, true
 }
 
-// HasContactStatus returns a boolean if a field has been set.
-func (o *OpenActivity) HasContactStatus() bool {
+// ContainsContactStatus returns a boolean if a field has been set.
+func (o *OpenActivity) ContainsContactStatus() bool {
 	if o != nil && !IsNil(o.ContactStatus) {
 		return true
 	}
@@ -207,8 +207,8 @@ func (o *OpenActivity) GetEmailIdOk() (*string, bool) {
 	return o.EmailId, true
 }
 
-// HasEmailId returns a boolean if a field has been set.
-func (o *OpenActivity) HasEmailId() bool {
+// ContainsEmailId returns a boolean if a field has been set.
+func (o *OpenActivity) ContainsEmailId() bool {
 	if o != nil && !IsNil(o.EmailId) {
 		return true
 	}
@@ -239,8 +239,8 @@ func (o *OpenActivity) GetEmailAddressOk() (*string, bool) {
 	return o.EmailAddress, true
 }
 
-// HasEmailAddress returns a boolean if a field has been set.
-func (o *OpenActivity) HasEmailAddress() bool {
+// ContainsEmailAddress returns a boolean if a field has been set.
+func (o *OpenActivity) ContainsEmailAddress() bool {
 	if o != nil && !IsNil(o.EmailAddress) {
 		return true
 	}
@@ -271,8 +271,8 @@ func (o *OpenActivity) GetMergeFieldsOk() (map[string]map[string]interface{}, bo
 	return o.MergeFields, true
 }
 
-// HasMergeFields returns a boolean if a field has been set.
-func (o *OpenActivity) HasMergeFields() bool {
+// ContainsMergeFields returns a boolean if a field has been set.
+func (o *OpenActivity) ContainsMergeFields() bool {
 	if o != nil && !IsNil(o.MergeFields) {
 		return true
 	}
@@ -303,8 +303,8 @@ func (o *OpenActivity) GetVipOk() (*bool, bool) {
 	return o.Vip, true
 }
 
-// HasVip returns a boolean if a field has been set.
-func (o *OpenActivity) HasVip() bool {
+// ContainsVip returns a boolean if a field has been set.
+func (o *OpenActivity) ContainsVip() bool {
 	if o != nil && !IsNil(o.Vip) {
 		return true
 	}
@@ -335,8 +335,8 @@ func (o *OpenActivity) GetOpensCountOk() (*int32, bool) {
 	return o.OpensCount, true
 }
 
-// HasOpensCount returns a boolean if a field has been set.
-func (o *OpenActivity) HasOpensCount() bool {
+// ContainsOpensCount returns a boolean if a field has been set.
+func (o *OpenActivity) ContainsOpensCount() bool {
 	if o != nil && !IsNil(o.OpensCount) {
 		return true
 	}
@@ -367,8 +367,8 @@ func (o *OpenActivity) GetOpensOk() ([]MemberActivity1, bool) {
 	return o.Opens, true
 }
 
-// HasOpens returns a boolean if a field has been set.
-func (o *OpenActivity) HasOpens() bool {
+// ContainsOpens returns a boolean if a field has been set.
+func (o *OpenActivity) ContainsOpens() bool {
 	if o != nil && !IsNil(o.Opens) {
 		return true
 	}
@@ -399,8 +399,8 @@ func (o *OpenActivity) GetLinksOk() ([]ResourceLink, bool) {
 	return o.Links, true
 }
 
-// HasLinks returns a boolean if a field has been set.
-func (o *OpenActivity) HasLinks() bool {
+// ContainsLinks returns a boolean if a field has been set.
+func (o *OpenActivity) ContainsLinks() bool {
 	if o != nil && !IsNil(o.Links) {
 		return true
 	}

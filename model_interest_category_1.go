@@ -93,8 +93,8 @@ func (o *InterestCategory1) GetDisplayOrderOk() (*int32, bool) {
 	return o.DisplayOrder, true
 }
 
-// HasDisplayOrder returns a boolean if a field has been set.
-func (o *InterestCategory1) HasDisplayOrder() bool {
+// ContainsDisplayOrder returns a boolean if a field has been set.
+func (o *InterestCategory1) ContainsDisplayOrder() bool {
 	if o != nil && !IsNil(o.DisplayOrder) {
 		return true
 	}

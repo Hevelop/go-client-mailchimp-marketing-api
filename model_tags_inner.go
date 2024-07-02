@@ -61,8 +61,8 @@ func (o *TagsInner) GetIdOk() (*int32, bool) {
 	return o.Id, true
 }
 
-// HasId returns a boolean if a field has been set.
-func (o *TagsInner) HasId() bool {
+// ContainsId returns a boolean if a field has been set.
+func (o *TagsInner) ContainsId() bool {
 	if o != nil && !IsNil(o.Id) {
 		return true
 	}
@@ -93,8 +93,8 @@ func (o *TagsInner) GetNameOk() (*string, bool) {
 	return o.Name, true
 }
 
-// HasName returns a boolean if a field has been set.
-func (o *TagsInner) HasName() bool {
+// ContainsName returns a boolean if a field has been set.
+func (o *TagsInner) ContainsName() bool {
 	if o != nil && !IsNil(o.Name) {
 		return true
 	}

@@ -67,8 +67,8 @@ func (o *EcommerceProductVariants) GetStoreIdOk() (*string, bool) {
 	return o.StoreId, true
 }
 
-// HasStoreId returns a boolean if a field has been set.
-func (o *EcommerceProductVariants) HasStoreId() bool {
+// ContainsStoreId returns a boolean if a field has been set.
+func (o *EcommerceProductVariants) ContainsStoreId() bool {
 	if o != nil && !IsNil(o.StoreId) {
 		return true
 	}
@@ -99,8 +99,8 @@ func (o *EcommerceProductVariants) GetProductIdOk() (*string, bool) {
 	return o.ProductId, true
 }
 
-// HasProductId returns a boolean if a field has been set.
-func (o *EcommerceProductVariants) HasProductId() bool {
+// ContainsProductId returns a boolean if a field has been set.
+func (o *EcommerceProductVariants) ContainsProductId() bool {
 	if o != nil && !IsNil(o.ProductId) {
 		return true
 	}
@@ -131,8 +131,8 @@ func (o *EcommerceProductVariants) GetVariantsOk() ([]ECommerceProductVariant, b
 	return o.Variants, true
 }
 
-// HasVariants returns a boolean if a field has been set.
-func (o *EcommerceProductVariants) HasVariants() bool {
+// ContainsVariants returns a boolean if a field has been set.
+func (o *EcommerceProductVariants) ContainsVariants() bool {
 	if o != nil && !IsNil(o.Variants) {
 		return true
 	}
@@ -163,8 +163,8 @@ func (o *EcommerceProductVariants) GetTotalItemsOk() (*int32, bool) {
 	return o.TotalItems, true
 }
 
-// HasTotalItems returns a boolean if a field has been set.
-func (o *EcommerceProductVariants) HasTotalItems() bool {
+// ContainsTotalItems returns a boolean if a field has been set.
+func (o *EcommerceProductVariants) ContainsTotalItems() bool {
 	if o != nil && !IsNil(o.TotalItems) {
 		return true
 	}
@@ -195,8 +195,8 @@ func (o *EcommerceProductVariants) GetLinksOk() ([]ResourceLink, bool) {
 	return o.Links, true
 }
 
-// HasLinks returns a boolean if a field has been set.
-func (o *EcommerceProductVariants) HasLinks() bool {
+// ContainsLinks returns a boolean if a field has been set.
+func (o *EcommerceProductVariants) ContainsLinks() bool {
 	if o != nil && !IsNil(o.Links) {
 		return true
 	}

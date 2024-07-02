@@ -63,8 +63,8 @@ func (o *PromosInner) GetCodeOk() (*string, bool) {
 	return o.Code, true
 }
 
-// HasCode returns a boolean if a field has been set.
-func (o *PromosInner) HasCode() bool {
+// ContainsCode returns a boolean if a field has been set.
+func (o *PromosInner) ContainsCode() bool {
 	if o != nil && !IsNil(o.Code) {
 		return true
 	}
@@ -95,8 +95,8 @@ func (o *PromosInner) GetAmountDiscountedOk() (*float32, bool) {
 	return o.AmountDiscounted, true
 }
 
-// HasAmountDiscounted returns a boolean if a field has been set.
-func (o *PromosInner) HasAmountDiscounted() bool {
+// ContainsAmountDiscounted returns a boolean if a field has been set.
+func (o *PromosInner) ContainsAmountDiscounted() bool {
 	if o != nil && !IsNil(o.AmountDiscounted) {
 		return true
 	}
@@ -127,8 +127,8 @@ func (o *PromosInner) GetTypeOk() (*string, bool) {
 	return o.Type, true
 }
 
-// HasType returns a boolean if a field has been set.
-func (o *PromosInner) HasType() bool {
+// ContainsType returns a boolean if a field has been set.
+func (o *PromosInner) ContainsType() bool {
 	if o != nil && !IsNil(o.Type) {
 		return true
 	}

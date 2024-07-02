@@ -66,8 +66,8 @@ func (o *Outreach) GetIdOk() (*string, bool) {
 	return o.Id, true
 }
 
-// HasId returns a boolean if a field has been set.
-func (o *Outreach) HasId() bool {
+// ContainsId returns a boolean if a field has been set.
+func (o *Outreach) ContainsId() bool {
 	if o != nil && !IsNil(o.Id) {
 		return true
 	}
@@ -98,8 +98,8 @@ func (o *Outreach) GetNameOk() (*string, bool) {
 	return o.Name, true
 }
 
-// HasName returns a boolean if a field has been set.
-func (o *Outreach) HasName() bool {
+// ContainsName returns a boolean if a field has been set.
+func (o *Outreach) ContainsName() bool {
 	if o != nil && !IsNil(o.Name) {
 		return true
 	}
@@ -130,8 +130,8 @@ func (o *Outreach) GetTypeOk() (*string, bool) {
 	return o.Type, true
 }
 
-// HasType returns a boolean if a field has been set.
-func (o *Outreach) HasType() bool {
+// ContainsType returns a boolean if a field has been set.
+func (o *Outreach) ContainsType() bool {
 	if o != nil && !IsNil(o.Type) {
 		return true
 	}
@@ -162,8 +162,8 @@ func (o *Outreach) GetPublishedTimeOk() (*time.Time, bool) {
 	return o.PublishedTime, true
 }
 
-// HasPublishedTime returns a boolean if a field has been set.
-func (o *Outreach) HasPublishedTime() bool {
+// ContainsPublishedTime returns a boolean if a field has been set.
+func (o *Outreach) ContainsPublishedTime() bool {
 	if o != nil && !IsNil(o.PublishedTime) {
 		return true
 	}

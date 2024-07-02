@@ -65,8 +65,8 @@ func (o *CollectionOfConversationMessages) GetConversationMessagesOk() ([]Conver
 	return o.ConversationMessages, true
 }
 
-// HasConversationMessages returns a boolean if a field has been set.
-func (o *CollectionOfConversationMessages) HasConversationMessages() bool {
+// ContainsConversationMessages returns a boolean if a field has been set.
+func (o *CollectionOfConversationMessages) ContainsConversationMessages() bool {
 	if o != nil && !IsNil(o.ConversationMessages) {
 		return true
 	}
@@ -97,8 +97,8 @@ func (o *CollectionOfConversationMessages) GetConversationIdOk() (*string, bool)
 	return o.ConversationId, true
 }
 
-// HasConversationId returns a boolean if a field has been set.
-func (o *CollectionOfConversationMessages) HasConversationId() bool {
+// ContainsConversationId returns a boolean if a field has been set.
+func (o *CollectionOfConversationMessages) ContainsConversationId() bool {
 	if o != nil && !IsNil(o.ConversationId) {
 		return true
 	}
@@ -129,8 +129,8 @@ func (o *CollectionOfConversationMessages) GetTotalItemsOk() (*int32, bool) {
 	return o.TotalItems, true
 }
 
-// HasTotalItems returns a boolean if a field has been set.
-func (o *CollectionOfConversationMessages) HasTotalItems() bool {
+// ContainsTotalItems returns a boolean if a field has been set.
+func (o *CollectionOfConversationMessages) ContainsTotalItems() bool {
 	if o != nil && !IsNil(o.TotalItems) {
 		return true
 	}
@@ -161,8 +161,8 @@ func (o *CollectionOfConversationMessages) GetLinksOk() ([]ResourceLink, bool) {
 	return o.Links, true
 }
 
-// HasLinks returns a boolean if a field has been set.
-func (o *CollectionOfConversationMessages) HasLinks() bool {
+// ContainsLinks returns a boolean if a field has been set.
+func (o *CollectionOfConversationMessages) ContainsLinks() bool {
 	if o != nil && !IsNil(o.Links) {
 		return true
 	}

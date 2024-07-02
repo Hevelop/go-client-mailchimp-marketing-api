@@ -59,8 +59,8 @@ func (o *LandingPageReportTimeseries) GetDailyStatsOk() (*DailyClicksAndVisitsDa
 	return o.DailyStats, true
 }
 
-// HasDailyStats returns a boolean if a field has been set.
-func (o *LandingPageReportTimeseries) HasDailyStats() bool {
+// ContainsDailyStats returns a boolean if a field has been set.
+func (o *LandingPageReportTimeseries) ContainsDailyStats() bool {
 	if o != nil && !IsNil(o.DailyStats) {
 		return true
 	}
@@ -91,8 +91,8 @@ func (o *LandingPageReportTimeseries) GetWeeklyStatsOk() (*WeeklyClicksAndVisits
 	return o.WeeklyStats, true
 }
 
-// HasWeeklyStats returns a boolean if a field has been set.
-func (o *LandingPageReportTimeseries) HasWeeklyStats() bool {
+// ContainsWeeklyStats returns a boolean if a field has been set.
+func (o *LandingPageReportTimeseries) ContainsWeeklyStats() bool {
 	if o != nil && !IsNil(o.WeeklyStats) {
 		return true
 	}

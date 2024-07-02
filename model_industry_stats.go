@@ -63,8 +63,8 @@ func (o *IndustryStats) GetOpenRateOk() (*float32, bool) {
 	return o.OpenRate, true
 }
 
-// HasOpenRate returns a boolean if a field has been set.
-func (o *IndustryStats) HasOpenRate() bool {
+// ContainsOpenRate returns a boolean if a field has been set.
+func (o *IndustryStats) ContainsOpenRate() bool {
 	if o != nil && !IsNil(o.OpenRate) {
 		return true
 	}
@@ -95,8 +95,8 @@ func (o *IndustryStats) GetBounceRateOk() (*float32, bool) {
 	return o.BounceRate, true
 }
 
-// HasBounceRate returns a boolean if a field has been set.
-func (o *IndustryStats) HasBounceRate() bool {
+// ContainsBounceRate returns a boolean if a field has been set.
+func (o *IndustryStats) ContainsBounceRate() bool {
 	if o != nil && !IsNil(o.BounceRate) {
 		return true
 	}
@@ -127,8 +127,8 @@ func (o *IndustryStats) GetClickRateOk() (*float32, bool) {
 	return o.ClickRate, true
 }
 
-// HasClickRate returns a boolean if a field has been set.
-func (o *IndustryStats) HasClickRate() bool {
+// ContainsClickRate returns a boolean if a field has been set.
+func (o *IndustryStats) ContainsClickRate() bool {
 	if o != nil && !IsNil(o.ClickRate) {
 		return true
 	}

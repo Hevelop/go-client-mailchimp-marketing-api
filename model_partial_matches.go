@@ -61,8 +61,8 @@ func (o *PartialMatches) GetMembersOk() ([]ListMembers2, bool) {
 	return o.Members, true
 }
 
-// HasMembers returns a boolean if a field has been set.
-func (o *PartialMatches) HasMembers() bool {
+// ContainsMembers returns a boolean if a field has been set.
+func (o *PartialMatches) ContainsMembers() bool {
 	if o != nil && !IsNil(o.Members) {
 		return true
 	}
@@ -93,8 +93,8 @@ func (o *PartialMatches) GetTotalItemsOk() (*int32, bool) {
 	return o.TotalItems, true
 }
 
-// HasTotalItems returns a boolean if a field has been set.
-func (o *PartialMatches) HasTotalItems() bool {
+// ContainsTotalItems returns a boolean if a field has been set.
+func (o *PartialMatches) ContainsTotalItems() bool {
 	if o != nil && !IsNil(o.TotalItems) {
 		return true
 	}

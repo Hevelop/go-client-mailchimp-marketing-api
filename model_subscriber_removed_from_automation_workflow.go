@@ -67,8 +67,8 @@ func (o *SubscriberRemovedFromAutomationWorkflow) GetIdOk() (*string, bool) {
 	return o.Id, true
 }
 
-// HasId returns a boolean if a field has been set.
-func (o *SubscriberRemovedFromAutomationWorkflow) HasId() bool {
+// ContainsId returns a boolean if a field has been set.
+func (o *SubscriberRemovedFromAutomationWorkflow) ContainsId() bool {
 	if o != nil && !IsNil(o.Id) {
 		return true
 	}
@@ -99,8 +99,8 @@ func (o *SubscriberRemovedFromAutomationWorkflow) GetWorkflowIdOk() (*string, bo
 	return o.WorkflowId, true
 }
 
-// HasWorkflowId returns a boolean if a field has been set.
-func (o *SubscriberRemovedFromAutomationWorkflow) HasWorkflowId() bool {
+// ContainsWorkflowId returns a boolean if a field has been set.
+func (o *SubscriberRemovedFromAutomationWorkflow) ContainsWorkflowId() bool {
 	if o != nil && !IsNil(o.WorkflowId) {
 		return true
 	}
@@ -131,8 +131,8 @@ func (o *SubscriberRemovedFromAutomationWorkflow) GetListIdOk() (*string, bool) 
 	return o.ListId, true
 }
 
-// HasListId returns a boolean if a field has been set.
-func (o *SubscriberRemovedFromAutomationWorkflow) HasListId() bool {
+// ContainsListId returns a boolean if a field has been set.
+func (o *SubscriberRemovedFromAutomationWorkflow) ContainsListId() bool {
 	if o != nil && !IsNil(o.ListId) {
 		return true
 	}
@@ -163,8 +163,8 @@ func (o *SubscriberRemovedFromAutomationWorkflow) GetEmailAddressOk() (*string, 
 	return o.EmailAddress, true
 }
 
-// HasEmailAddress returns a boolean if a field has been set.
-func (o *SubscriberRemovedFromAutomationWorkflow) HasEmailAddress() bool {
+// ContainsEmailAddress returns a boolean if a field has been set.
+func (o *SubscriberRemovedFromAutomationWorkflow) ContainsEmailAddress() bool {
 	if o != nil && !IsNil(o.EmailAddress) {
 		return true
 	}
@@ -195,8 +195,8 @@ func (o *SubscriberRemovedFromAutomationWorkflow) GetLinksOk() ([]ResourceLink, 
 	return o.Links, true
 }
 
-// HasLinks returns a boolean if a field has been set.
-func (o *SubscriberRemovedFromAutomationWorkflow) HasLinks() bool {
+// ContainsLinks returns a boolean if a field has been set.
+func (o *SubscriberRemovedFromAutomationWorkflow) ContainsLinks() bool {
 	if o != nil && !IsNil(o.Links) {
 		return true
 	}

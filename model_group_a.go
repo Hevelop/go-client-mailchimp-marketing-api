@@ -65,8 +65,8 @@ func (o *GroupA) GetTotalClicksAOk() (*int32, bool) {
 	return o.TotalClicksA, true
 }
 
-// HasTotalClicksA returns a boolean if a field has been set.
-func (o *GroupA) HasTotalClicksA() bool {
+// ContainsTotalClicksA returns a boolean if a field has been set.
+func (o *GroupA) ContainsTotalClicksA() bool {
 	if o != nil && !IsNil(o.TotalClicksA) {
 		return true
 	}
@@ -97,8 +97,8 @@ func (o *GroupA) GetClickPercentageAOk() (*float32, bool) {
 	return o.ClickPercentageA, true
 }
 
-// HasClickPercentageA returns a boolean if a field has been set.
-func (o *GroupA) HasClickPercentageA() bool {
+// ContainsClickPercentageA returns a boolean if a field has been set.
+func (o *GroupA) ContainsClickPercentageA() bool {
 	if o != nil && !IsNil(o.ClickPercentageA) {
 		return true
 	}
@@ -129,8 +129,8 @@ func (o *GroupA) GetUniqueClicksAOk() (*int32, bool) {
 	return o.UniqueClicksA, true
 }
 
-// HasUniqueClicksA returns a boolean if a field has been set.
-func (o *GroupA) HasUniqueClicksA() bool {
+// ContainsUniqueClicksA returns a boolean if a field has been set.
+func (o *GroupA) ContainsUniqueClicksA() bool {
 	if o != nil && !IsNil(o.UniqueClicksA) {
 		return true
 	}
@@ -161,8 +161,8 @@ func (o *GroupA) GetUniqueClickPercentageAOk() (*float32, bool) {
 	return o.UniqueClickPercentageA, true
 }
 
-// HasUniqueClickPercentageA returns a boolean if a field has been set.
-func (o *GroupA) HasUniqueClickPercentageA() bool {
+// ContainsUniqueClickPercentageA returns a boolean if a field has been set.
+func (o *GroupA) ContainsUniqueClickPercentageA() bool {
 	if o != nil && !IsNil(o.UniqueClickPercentageA) {
 		return true
 	}

@@ -65,8 +65,8 @@ func (o *CollectionOfMergeFields) GetMergeFieldsOk() ([]MergeField, bool) {
 	return o.MergeFields, true
 }
 
-// HasMergeFields returns a boolean if a field has been set.
-func (o *CollectionOfMergeFields) HasMergeFields() bool {
+// ContainsMergeFields returns a boolean if a field has been set.
+func (o *CollectionOfMergeFields) ContainsMergeFields() bool {
 	if o != nil && !IsNil(o.MergeFields) {
 		return true
 	}
@@ -97,8 +97,8 @@ func (o *CollectionOfMergeFields) GetListIdOk() (*string, bool) {
 	return o.ListId, true
 }
 
-// HasListId returns a boolean if a field has been set.
-func (o *CollectionOfMergeFields) HasListId() bool {
+// ContainsListId returns a boolean if a field has been set.
+func (o *CollectionOfMergeFields) ContainsListId() bool {
 	if o != nil && !IsNil(o.ListId) {
 		return true
 	}
@@ -129,8 +129,8 @@ func (o *CollectionOfMergeFields) GetTotalItemsOk() (*int32, bool) {
 	return o.TotalItems, true
 }
 
-// HasTotalItems returns a boolean if a field has been set.
-func (o *CollectionOfMergeFields) HasTotalItems() bool {
+// ContainsTotalItems returns a boolean if a field has been set.
+func (o *CollectionOfMergeFields) ContainsTotalItems() bool {
 	if o != nil && !IsNil(o.TotalItems) {
 		return true
 	}
@@ -161,8 +161,8 @@ func (o *CollectionOfMergeFields) GetLinksOk() ([]ResourceLink, bool) {
 	return o.Links, true
 }
 
-// HasLinks returns a boolean if a field has been set.
-func (o *CollectionOfMergeFields) HasLinks() bool {
+// ContainsLinks returns a boolean if a field has been set.
+func (o *CollectionOfMergeFields) ContainsLinks() bool {
 	if o != nil && !IsNil(o.Links) {
 		return true
 	}

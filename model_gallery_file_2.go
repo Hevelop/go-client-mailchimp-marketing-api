@@ -61,8 +61,8 @@ func (o *GalleryFile2) GetFolderIdOk() (*int32, bool) {
 	return o.FolderId, true
 }
 
-// HasFolderId returns a boolean if a field has been set.
-func (o *GalleryFile2) HasFolderId() bool {
+// ContainsFolderId returns a boolean if a field has been set.
+func (o *GalleryFile2) ContainsFolderId() bool {
 	if o != nil && !IsNil(o.FolderId) {
 		return true
 	}
@@ -93,8 +93,8 @@ func (o *GalleryFile2) GetNameOk() (*string, bool) {
 	return o.Name, true
 }
 
-// HasName returns a boolean if a field has been set.
-func (o *GalleryFile2) HasName() bool {
+// ContainsName returns a boolean if a field has been set.
+func (o *GalleryFile2) ContainsName() bool {
 	if o != nil && !IsNil(o.Name) {
 		return true
 	}

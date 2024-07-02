@@ -71,8 +71,8 @@ func (o *BatchUpdateListMembers) GetNewMembersOk() ([]ListMembers, bool) {
 	return o.NewMembers, true
 }
 
-// HasNewMembers returns a boolean if a field has been set.
-func (o *BatchUpdateListMembers) HasNewMembers() bool {
+// ContainsNewMembers returns a boolean if a field has been set.
+func (o *BatchUpdateListMembers) ContainsNewMembers() bool {
 	if o != nil && !IsNil(o.NewMembers) {
 		return true
 	}
@@ -103,8 +103,8 @@ func (o *BatchUpdateListMembers) GetUpdatedMembersOk() ([]ListMembers, bool) {
 	return o.UpdatedMembers, true
 }
 
-// HasUpdatedMembers returns a boolean if a field has been set.
-func (o *BatchUpdateListMembers) HasUpdatedMembers() bool {
+// ContainsUpdatedMembers returns a boolean if a field has been set.
+func (o *BatchUpdateListMembers) ContainsUpdatedMembers() bool {
 	if o != nil && !IsNil(o.UpdatedMembers) {
 		return true
 	}
@@ -135,8 +135,8 @@ func (o *BatchUpdateListMembers) GetErrorsOk() ([]ErrorsInner, bool) {
 	return o.Errors, true
 }
 
-// HasErrors returns a boolean if a field has been set.
-func (o *BatchUpdateListMembers) HasErrors() bool {
+// ContainsErrors returns a boolean if a field has been set.
+func (o *BatchUpdateListMembers) ContainsErrors() bool {
 	if o != nil && !IsNil(o.Errors) {
 		return true
 	}
@@ -167,8 +167,8 @@ func (o *BatchUpdateListMembers) GetTotalCreatedOk() (*int32, bool) {
 	return o.TotalCreated, true
 }
 
-// HasTotalCreated returns a boolean if a field has been set.
-func (o *BatchUpdateListMembers) HasTotalCreated() bool {
+// ContainsTotalCreated returns a boolean if a field has been set.
+func (o *BatchUpdateListMembers) ContainsTotalCreated() bool {
 	if o != nil && !IsNil(o.TotalCreated) {
 		return true
 	}
@@ -199,8 +199,8 @@ func (o *BatchUpdateListMembers) GetTotalUpdatedOk() (*int32, bool) {
 	return o.TotalUpdated, true
 }
 
-// HasTotalUpdated returns a boolean if a field has been set.
-func (o *BatchUpdateListMembers) HasTotalUpdated() bool {
+// ContainsTotalUpdated returns a boolean if a field has been set.
+func (o *BatchUpdateListMembers) ContainsTotalUpdated() bool {
 	if o != nil && !IsNil(o.TotalUpdated) {
 		return true
 	}
@@ -231,8 +231,8 @@ func (o *BatchUpdateListMembers) GetErrorCountOk() (*int32, bool) {
 	return o.ErrorCount, true
 }
 
-// HasErrorCount returns a boolean if a field has been set.
-func (o *BatchUpdateListMembers) HasErrorCount() bool {
+// ContainsErrorCount returns a boolean if a field has been set.
+func (o *BatchUpdateListMembers) ContainsErrorCount() bool {
 	if o != nil && !IsNil(o.ErrorCount) {
 		return true
 	}
@@ -263,8 +263,8 @@ func (o *BatchUpdateListMembers) GetLinksOk() ([]ResourceLink, bool) {
 	return o.Links, true
 }
 
-// HasLinks returns a boolean if a field has been set.
-func (o *BatchUpdateListMembers) HasLinks() bool {
+// ContainsLinks returns a boolean if a field has been set.
+func (o *BatchUpdateListMembers) ContainsLinks() bool {
 	if o != nil && !IsNil(o.Links) {
 		return true
 	}

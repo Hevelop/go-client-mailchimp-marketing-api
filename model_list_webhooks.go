@@ -65,8 +65,8 @@ func (o *ListWebhooks) GetWebhooksOk() ([]ListWebhooks, bool) {
 	return o.Webhooks, true
 }
 
-// HasWebhooks returns a boolean if a field has been set.
-func (o *ListWebhooks) HasWebhooks() bool {
+// ContainsWebhooks returns a boolean if a field has been set.
+func (o *ListWebhooks) ContainsWebhooks() bool {
 	if o != nil && !IsNil(o.Webhooks) {
 		return true
 	}
@@ -97,8 +97,8 @@ func (o *ListWebhooks) GetListIdOk() (*string, bool) {
 	return o.ListId, true
 }
 
-// HasListId returns a boolean if a field has been set.
-func (o *ListWebhooks) HasListId() bool {
+// ContainsListId returns a boolean if a field has been set.
+func (o *ListWebhooks) ContainsListId() bool {
 	if o != nil && !IsNil(o.ListId) {
 		return true
 	}
@@ -129,8 +129,8 @@ func (o *ListWebhooks) GetTotalItemsOk() (*int32, bool) {
 	return o.TotalItems, true
 }
 
-// HasTotalItems returns a boolean if a field has been set.
-func (o *ListWebhooks) HasTotalItems() bool {
+// ContainsTotalItems returns a boolean if a field has been set.
+func (o *ListWebhooks) ContainsTotalItems() bool {
 	if o != nil && !IsNil(o.TotalItems) {
 		return true
 	}
@@ -161,8 +161,8 @@ func (o *ListWebhooks) GetLinksOk() ([]ResourceLink, bool) {
 	return o.Links, true
 }
 
-// HasLinks returns a boolean if a field has been set.
-func (o *ListWebhooks) HasLinks() bool {
+// ContainsLinks returns a boolean if a field has been set.
+func (o *ListWebhooks) ContainsLinks() bool {
 	if o != nil && !IsNil(o.Links) {
 		return true
 	}

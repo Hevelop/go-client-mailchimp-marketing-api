@@ -68,8 +68,8 @@ func (o *MemberActivity2) GetActionOk() (*string, bool) {
 	return o.Action, true
 }
 
-// HasAction returns a boolean if a field has been set.
-func (o *MemberActivity2) HasAction() bool {
+// ContainsAction returns a boolean if a field has been set.
+func (o *MemberActivity2) ContainsAction() bool {
 	if o != nil && !IsNil(o.Action) {
 		return true
 	}
@@ -100,8 +100,8 @@ func (o *MemberActivity2) GetTypeOk() (*string, bool) {
 	return o.Type, true
 }
 
-// HasType returns a boolean if a field has been set.
-func (o *MemberActivity2) HasType() bool {
+// ContainsType returns a boolean if a field has been set.
+func (o *MemberActivity2) ContainsType() bool {
 	if o != nil && !IsNil(o.Type) {
 		return true
 	}
@@ -132,8 +132,8 @@ func (o *MemberActivity2) GetTimestampOk() (*time.Time, bool) {
 	return o.Timestamp, true
 }
 
-// HasTimestamp returns a boolean if a field has been set.
-func (o *MemberActivity2) HasTimestamp() bool {
+// ContainsTimestamp returns a boolean if a field has been set.
+func (o *MemberActivity2) ContainsTimestamp() bool {
 	if o != nil && !IsNil(o.Timestamp) {
 		return true
 	}
@@ -164,8 +164,8 @@ func (o *MemberActivity2) GetUrlOk() (*string, bool) {
 	return o.Url, true
 }
 
-// HasUrl returns a boolean if a field has been set.
-func (o *MemberActivity2) HasUrl() bool {
+// ContainsUrl returns a boolean if a field has been set.
+func (o *MemberActivity2) ContainsUrl() bool {
 	if o != nil && !IsNil(o.Url) {
 		return true
 	}
@@ -196,8 +196,8 @@ func (o *MemberActivity2) GetIpOk() (*string, bool) {
 	return o.Ip, true
 }
 
-// HasIp returns a boolean if a field has been set.
-func (o *MemberActivity2) HasIp() bool {
+// ContainsIp returns a boolean if a field has been set.
+func (o *MemberActivity2) ContainsIp() bool {
 	if o != nil && !IsNil(o.Ip) {
 		return true
 	}
