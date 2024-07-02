@@ -76,8 +76,6 @@ type APIClient struct {
 
 	EcommerceAPI EcommerceAPI
 
-	FacebookAdsAPI FacebookAdsAPI
-
 	FileManagerAPI FileManagerAPI
 
 	LandingPagesAPI LandingPagesAPI
@@ -134,7 +132,6 @@ func NewAPIClient(cfg *Configuration) *APIClient {
 	c.ConversationsAPI = (*ConversationsAPIService)(&c.common)
 	c.CustomerJourneysAPI = (*CustomerJourneysAPIService)(&c.common)
 	c.EcommerceAPI = (*EcommerceAPIService)(&c.common)
-	c.FacebookAdsAPI = (*FacebookAdsAPIService)(&c.common)
 	c.FileManagerAPI = (*FileManagerAPIService)(&c.common)
 	c.LandingPagesAPI = (*LandingPagesAPIService)(&c.common)
 	c.ListsAPI = (*ListsAPIService)(&c.common)

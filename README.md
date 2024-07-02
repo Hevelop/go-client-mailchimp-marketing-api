@@ -205,8 +205,6 @@ Class | Method | HTTP request | Description
 *EcommerceAPI* | [**PostEcommerceStoresIdPromorules**](docs/EcommerceAPI.md#postecommercestoresidpromorules) | **Post** /ecommerce/stores/{store_id}/promo-rules | Add promo rule
 *EcommerceAPI* | [**PutEcommerceStoresIdCustomersId**](docs/EcommerceAPI.md#putecommercestoresidcustomersid) | **Put** /ecommerce/stores/{store_id}/customers/{customer_id} | Add or update customer
 *EcommerceAPI* | [**PutEcommerceStoresIdProductsIdVariantsId**](docs/EcommerceAPI.md#putecommercestoresidproductsidvariantsid) | **Put** /ecommerce/stores/{store_id}/products/{product_id}/variants/{variant_id} | Add or update product variant
-*FacebookAdsAPI* | [**GetAllFacebookAds**](docs/FacebookAdsAPI.md#getallfacebookads) | **Get** /facebook-ads | List facebook ads
-*FacebookAdsAPI* | [**GetFacebookAdsId**](docs/FacebookAdsAPI.md#getfacebookadsid) | **Get** /facebook-ads/{outreach_id} | Get facebook ad info
 *FileManagerAPI* | [**DeleteFileManagerFilesId**](docs/FileManagerAPI.md#deletefilemanagerfilesid) | **Delete** /file-manager/files/{file_id} | Delete file
 *FileManagerAPI* | [**DeleteFileManagerFoldersId**](docs/FileManagerAPI.md#deletefilemanagerfoldersid) | **Delete** /file-manager/folders/{folder_id} | Delete folder
 *FileManagerAPI* | [**GetFileManagerFiles**](docs/FileManagerAPI.md#getfilemanagerfiles) | **Get** /file-manager/files | List stored files
@@ -293,9 +291,6 @@ Class | Method | HTTP request | Description
 *ListsAPI* | [**PutListsIdMembersId**](docs/ListsAPI.md#putlistsidmembersid) | **Put** /lists/{list_id}/members/{subscriber_hash} | Add or update list member
 *ListsAPI* | [**SearchTagsByName**](docs/ListsAPI.md#searchtagsbyname) | **Get** /lists/{list_id}/tag-search | Search for tags on a list by name.
 *PingAPI* | [**GetPing**](docs/PingAPI.md#getping) | **Get** /ping | Ping
-*ReportingAPI* | [**GetReportingFacebookAds**](docs/ReportingAPI.md#getreportingfacebookads) | **Get** /reporting/facebook-ads | List facebook ads reports
-*ReportingAPI* | [**GetReportingFacebookAdsId**](docs/ReportingAPI.md#getreportingfacebookadsid) | **Get** /reporting/facebook-ads/{outreach_id} | Get facebook ad report
-*ReportingAPI* | [**GetReportingFacebookAdsIdEcommerceProductActivity**](docs/ReportingAPI.md#getreportingfacebookadsidecommerceproductactivity) | **Get** /reporting/facebook-ads/{outreach_id}/ecommerce-product-activity | List facebook ecommerce report
 *ReportingAPI* | [**GetReportingLandingPages**](docs/ReportingAPI.md#getreportinglandingpages) | **Get** /reporting/landing-pages | List landing pages reports
 *ReportingAPI* | [**GetReportingLandingPagesId**](docs/ReportingAPI.md#getreportinglandingpagesid) | **Get** /reporting/landing-pages/{outreach_id} | Get landing page report
 *ReportingAPI* | [**GetReportingSurveys**](docs/ReportingAPI.md#getreportingsurveys) | **Get** /reporting/surveys | List survey reports
@@ -547,36 +542,11 @@ Class | Method | HTTP request | Description
  - [GalleryFolder1](docs/GalleryFolder1.md)
  - [GetAccountExports200Response](docs/GetAccountExports200Response.md)
  - [GetActivityFeedChimpChatter200Response](docs/GetActivityFeedChimpChatter200Response.md)
- - [GetAllFacebookAds200Response](docs/GetAllFacebookAds200Response.md)
- - [GetAllFacebookAds200ResponseFacebookAdsInner](docs/GetAllFacebookAds200ResponseFacebookAdsInner.md)
- - [GetAllFacebookAds200ResponseFacebookAdsInnerAllOfAudience](docs/GetAllFacebookAds200ResponseFacebookAdsInnerAllOfAudience.md)
- - [GetAllFacebookAds200ResponseFacebookAdsInnerAllOfAudienceEmailSource](docs/GetAllFacebookAds200ResponseFacebookAdsInnerAllOfAudienceEmailSource.md)
- - [GetAllFacebookAds200ResponseFacebookAdsInnerAllOfAudienceTargetingSpecs](docs/GetAllFacebookAds200ResponseFacebookAdsInnerAllOfAudienceTargetingSpecs.md)
- - [GetAllFacebookAds200ResponseFacebookAdsInnerAllOfAudienceTargetingSpecsInterestsInner](docs/GetAllFacebookAds200ResponseFacebookAdsInnerAllOfAudienceTargetingSpecsInterestsInner.md)
- - [GetAllFacebookAds200ResponseFacebookAdsInnerAllOfAudienceTargetingSpecsLocations](docs/GetAllFacebookAds200ResponseFacebookAdsInnerAllOfAudienceTargetingSpecsLocations.md)
- - [GetAllFacebookAds200ResponseFacebookAdsInnerAllOfBudget](docs/GetAllFacebookAds200ResponseFacebookAdsInnerAllOfBudget.md)
- - [GetAllFacebookAds200ResponseFacebookAdsInnerAllOfChannel](docs/GetAllFacebookAds200ResponseFacebookAdsInnerAllOfChannel.md)
- - [GetAllFacebookAds200ResponseFacebookAdsInnerAllOfContent](docs/GetAllFacebookAds200ResponseFacebookAdsInnerAllOfContent.md)
- - [GetAllFacebookAds200ResponseFacebookAdsInnerAllOfContentAttachmentsInner](docs/GetAllFacebookAds200ResponseFacebookAdsInnerAllOfContentAttachmentsInner.md)
- - [GetAllFacebookAds200ResponseFacebookAdsInnerAllOfFeedback](docs/GetAllFacebookAds200ResponseFacebookAdsInnerAllOfFeedback.md)
- - [GetAllFacebookAds200ResponseFacebookAdsInnerAllOfSite](docs/GetAllFacebookAds200ResponseFacebookAdsInnerAllOfSite.md)
  - [GetAllLandingPages200Response](docs/GetAllLandingPages200Response.md)
  - [GetAuthorizedApps200Response](docs/GetAuthorizedApps200Response.md)
  - [GetAutomations200Response](docs/GetAutomations200Response.md)
  - [GetAutomationsIdEmailsIdQueue200Response](docs/GetAutomationsIdEmailsIdQueue200Response.md)
  - [GetCampaigns200Response](docs/GetCampaigns200Response.md)
- - [GetFacebookAdsId200Response](docs/GetFacebookAdsId200Response.md)
- - [GetReportingFacebookAds200Response](docs/GetReportingFacebookAds200Response.md)
- - [GetReportingFacebookAds200ResponseFacebookAdsInner](docs/GetReportingFacebookAds200ResponseFacebookAdsInner.md)
- - [GetReportingFacebookAds200ResponseFacebookAdsInnerAllOfAudienceActivity](docs/GetReportingFacebookAds200ResponseFacebookAdsInnerAllOfAudienceActivity.md)
- - [GetReportingFacebookAds200ResponseFacebookAdsInnerAllOfAudienceActivityClicksInner](docs/GetReportingFacebookAds200ResponseFacebookAdsInnerAllOfAudienceActivityClicksInner.md)
- - [GetReportingFacebookAds200ResponseFacebookAdsInnerAllOfAudienceActivityImpressionsInner](docs/GetReportingFacebookAds200ResponseFacebookAdsInnerAllOfAudienceActivityImpressionsInner.md)
- - [GetReportingFacebookAds200ResponseFacebookAdsInnerAllOfAudienceActivityRevenueInner](docs/GetReportingFacebookAds200ResponseFacebookAdsInnerAllOfAudienceActivityRevenueInner.md)
- - [GetReportingFacebookAds200ResponseFacebookAdsInnerAllOfReportSummary](docs/GetReportingFacebookAds200ResponseFacebookAdsInnerAllOfReportSummary.md)
- - [GetReportingFacebookAds200ResponseFacebookAdsInnerAllOfReportSummaryAverageOrderAmount](docs/GetReportingFacebookAds200ResponseFacebookAdsInnerAllOfReportSummaryAverageOrderAmount.md)
- - [GetReportingFacebookAds200ResponseFacebookAdsInnerAllOfReportSummaryEcommerce](docs/GetReportingFacebookAds200ResponseFacebookAdsInnerAllOfReportSummaryEcommerce.md)
- - [GetReportingFacebookAds200ResponseFacebookAdsInnerAllOfReportSummaryExtendedAt](docs/GetReportingFacebookAds200ResponseFacebookAdsInnerAllOfReportSummaryExtendedAt.md)
- - [GetReportingFacebookAdsId200Response](docs/GetReportingFacebookAdsId200Response.md)
  - [GetReportingLandingPages200Response](docs/GetReportingLandingPages200Response.md)
  - [GetReportingSurveys200Response](docs/GetReportingSurveys200Response.md)
  - [GetReportingSurveysIdQuestions200Response](docs/GetReportingSurveysIdQuestions200Response.md)
@@ -682,11 +652,8 @@ Class | Method | HTTP request | Description
  - [RSSOptions1](docs/RSSOptions1.md)
  - [RSSOptions2](docs/RSSOptions2.md)
  - [RSSOptions3](docs/RSSOptions3.md)
- - [Recipients](docs/Recipients.md)
  - [Referrer](docs/Referrer.md)
  - [RemovedSubscribers](docs/RemovedSubscribers.md)
- - [ReportSummary](docs/ReportSummary.md)
- - [ReportSummaryEcommerce](docs/ReportSummaryEcommerce.md)
  - [ResendShortcutEligibility](docs/ResendShortcutEligibility.md)
  - [ResourceLink](docs/ResourceLink.md)
  - [Response](docs/Response.md)
