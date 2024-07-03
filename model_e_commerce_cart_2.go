@@ -32,7 +32,7 @@ type ECommerceCart2 struct {
 	// The total tax for the cart.
 	TaxTotal *float32 `json:"tax_total,omitempty"`
 	// An array of the cart's line items.
-	Lines []ECommerceCartLineItem2 `json:"lines,omitempty"`
+	Lines []ECommerceCartLineItem1 `json:"lines,omitempty"`
 }
 
 // NewECommerceCart2 instantiates a new ECommerceCart2 object
@@ -245,9 +245,9 @@ func (o *ECommerceCart2) SetTaxTotal(v float32) {
 }
 
 // GetLines returns the Lines field value if set, zero value otherwise.
-func (o *ECommerceCart2) GetLines() []ECommerceCartLineItem2 {
+func (o *ECommerceCart2) GetLines() []ECommerceCartLineItem1 {
 	if o == nil || IsNil(o.Lines) {
-		var ret []ECommerceCartLineItem2
+		var ret []ECommerceCartLineItem1
 		return ret
 	}
 	return o.Lines
@@ -255,7 +255,7 @@ func (o *ECommerceCart2) GetLines() []ECommerceCartLineItem2 {
 
 // GetLinesOk returns a tuple with the Lines field value if set, nil otherwise
 // and a boolean to check if the value has been set.
-func (o *ECommerceCart2) GetLinesOk() ([]ECommerceCartLineItem2, bool) {
+func (o *ECommerceCart2) GetLinesOk() ([]ECommerceCartLineItem1, bool) {
 	if o == nil || IsNil(o.Lines) {
 		return nil, false
 	}
@@ -271,8 +271,8 @@ func (o *ECommerceCart2) HasLines() bool {
 	return false
 }
 
-// SetLines gets a reference to the given []ECommerceCartLineItem2 and assigns it to the Lines field.
-func (o *ECommerceCart2) SetLines(v []ECommerceCartLineItem2) {
+// SetLines gets a reference to the given []ECommerceCartLineItem1 and assigns it to the Lines field.
+func (o *ECommerceCart2) SetLines(v []ECommerceCartLineItem1) {
 	o.Lines = v
 }
 

@@ -12,7 +12,7 @@ Name | Type | Description | Notes
 **CurrencyCode**| **string** | The three-letter ISO 4217 code for the currency that the cart uses.  | [optional]
 **OrderTotal**| **float32** | The order total for the cart.  | [optional]
 **TaxTotal**| **float32** | The total tax for the cart.  | [optional]
-**Lines**| [**[]ECommerceCartLineItem2**](ECommerceCartLineItem2.md) | An array of the cart&#39;s line items.  | [optional]
+**Lines**| [**[]ECommerceCartLineItem1**](ECommerceCartLineItem1.md) | An array of the cart&#39;s line items.  | [optional]
 
 
 [[Back to Model list]](../../README.md#models) [[Back to API list]](../../README.md#endpoints) [[Back to README]](../../README.md)

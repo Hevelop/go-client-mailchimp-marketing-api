@@ -20445,7 +20445,7 @@ components:
         lines:
           description: An array of the cart's line items.
           items:
-            $ref: '#/components/schemas/E_commerce_Cart_Line_Item_2'
+            $ref: '#/components/schemas/E_commerce_Cart_Line_Item_1'
           title: Cart Line Items
           type: array
       title: E-commerce Cart
