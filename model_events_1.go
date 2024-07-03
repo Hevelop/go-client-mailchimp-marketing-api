@@ -69,8 +69,8 @@ func (o *Events1) GetSubscribeOk() (*bool, bool) {
 	return o.Subscribe, true
 }
 
-// ContainsSubscribe returns a boolean if a field has been set.
-func (o *Events1) ContainsSubscribe() bool {
+// HasSubscribe returns a boolean if a field has been set.
+func (o *Events1) HasSubscribe() bool {
 	if o != nil && !IsNil(o.Subscribe) {
 		return true
 	}
@@ -101,8 +101,8 @@ func (o *Events1) GetUnsubscribeOk() (*bool, bool) {
 	return o.Unsubscribe, true
 }
 
-// ContainsUnsubscribe returns a boolean if a field has been set.
-func (o *Events1) ContainsUnsubscribe() bool {
+// HasUnsubscribe returns a boolean if a field has been set.
+func (o *Events1) HasUnsubscribe() bool {
 	if o != nil && !IsNil(o.Unsubscribe) {
 		return true
 	}
@@ -133,8 +133,8 @@ func (o *Events1) GetProfileOk() (*bool, bool) {
 	return o.Profile, true
 }
 
-// ContainsProfile returns a boolean if a field has been set.
-func (o *Events1) ContainsProfile() bool {
+// HasProfile returns a boolean if a field has been set.
+func (o *Events1) HasProfile() bool {
 	if o != nil && !IsNil(o.Profile) {
 		return true
 	}
@@ -165,8 +165,8 @@ func (o *Events1) GetCleanedOk() (*bool, bool) {
 	return o.Cleaned, true
 }
 
-// ContainsCleaned returns a boolean if a field has been set.
-func (o *Events1) ContainsCleaned() bool {
+// HasCleaned returns a boolean if a field has been set.
+func (o *Events1) HasCleaned() bool {
 	if o != nil && !IsNil(o.Cleaned) {
 		return true
 	}
@@ -197,8 +197,8 @@ func (o *Events1) GetUpemailOk() (*bool, bool) {
 	return o.Upemail, true
 }
 
-// ContainsUpemail returns a boolean if a field has been set.
-func (o *Events1) ContainsUpemail() bool {
+// HasUpemail returns a boolean if a field has been set.
+func (o *Events1) HasUpemail() bool {
 	if o != nil && !IsNil(o.Upemail) {
 		return true
 	}
@@ -229,8 +229,8 @@ func (o *Events1) GetCampaignOk() (*bool, bool) {
 	return o.Campaign, true
 }
 
-// ContainsCampaign returns a boolean if a field has been set.
-func (o *Events1) ContainsCampaign() bool {
+// HasCampaign returns a boolean if a field has been set.
+func (o *Events1) HasCampaign() bool {
 	if o != nil && !IsNil(o.Campaign) {
 		return true
 	}

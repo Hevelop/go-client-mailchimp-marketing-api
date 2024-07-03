@@ -65,8 +65,8 @@ func (o *ECommerceCartLineItem2) GetProductIdOk() (*string, bool) {
 	return o.ProductId, true
 }
 
-// ContainsProductId returns a boolean if a field has been set.
-func (o *ECommerceCartLineItem2) ContainsProductId() bool {
+// HasProductId returns a boolean if a field has been set.
+func (o *ECommerceCartLineItem2) HasProductId() bool {
 	if o != nil && !IsNil(o.ProductId) {
 		return true
 	}
@@ -97,8 +97,8 @@ func (o *ECommerceCartLineItem2) GetProductVariantIdOk() (*string, bool) {
 	return o.ProductVariantId, true
 }
 
-// ContainsProductVariantId returns a boolean if a field has been set.
-func (o *ECommerceCartLineItem2) ContainsProductVariantId() bool {
+// HasProductVariantId returns a boolean if a field has been set.
+func (o *ECommerceCartLineItem2) HasProductVariantId() bool {
 	if o != nil && !IsNil(o.ProductVariantId) {
 		return true
 	}
@@ -129,8 +129,8 @@ func (o *ECommerceCartLineItem2) GetQuantityOk() (*int32, bool) {
 	return o.Quantity, true
 }
 
-// ContainsQuantity returns a boolean if a field has been set.
-func (o *ECommerceCartLineItem2) ContainsQuantity() bool {
+// HasQuantity returns a boolean if a field has been set.
+func (o *ECommerceCartLineItem2) HasQuantity() bool {
 	if o != nil && !IsNil(o.Quantity) {
 		return true
 	}
@@ -161,8 +161,8 @@ func (o *ECommerceCartLineItem2) GetPriceOk() (*float32, bool) {
 	return o.Price, true
 }
 
-// ContainsPrice returns a boolean if a field has been set.
-func (o *ECommerceCartLineItem2) ContainsPrice() bool {
+// HasPrice returns a boolean if a field has been set.
+func (o *ECommerceCartLineItem2) HasPrice() bool {
 	if o != nil && !IsNil(o.Price) {
 		return true
 	}

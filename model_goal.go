@@ -66,8 +66,8 @@ func (o *Goal) GetGoalIdOk() (*int32, bool) {
 	return o.GoalId, true
 }
 
-// ContainsGoalId returns a boolean if a field has been set.
-func (o *Goal) ContainsGoalId() bool {
+// HasGoalId returns a boolean if a field has been set.
+func (o *Goal) HasGoalId() bool {
 	if o != nil && !IsNil(o.GoalId) {
 		return true
 	}
@@ -98,8 +98,8 @@ func (o *Goal) GetEventOk() (*string, bool) {
 	return o.Event, true
 }
 
-// ContainsEvent returns a boolean if a field has been set.
-func (o *Goal) ContainsEvent() bool {
+// HasEvent returns a boolean if a field has been set.
+func (o *Goal) HasEvent() bool {
 	if o != nil && !IsNil(o.Event) {
 		return true
 	}
@@ -130,8 +130,8 @@ func (o *Goal) GetLastVisitedAtOk() (*time.Time, bool) {
 	return o.LastVisitedAt, true
 }
 
-// ContainsLastVisitedAt returns a boolean if a field has been set.
-func (o *Goal) ContainsLastVisitedAt() bool {
+// HasLastVisitedAt returns a boolean if a field has been set.
+func (o *Goal) HasLastVisitedAt() bool {
 	if o != nil && !IsNil(o.LastVisitedAt) {
 		return true
 	}
@@ -162,8 +162,8 @@ func (o *Goal) GetDataOk() (*string, bool) {
 	return o.Data, true
 }
 
-// ContainsData returns a boolean if a field has been set.
-func (o *Goal) ContainsData() bool {
+// HasData returns a boolean if a field has been set.
+func (o *Goal) HasData() bool {
 	if o != nil && !IsNil(o.Data) {
 		return true
 	}

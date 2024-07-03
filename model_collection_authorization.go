@@ -117,8 +117,8 @@ func (o *CollectionAuthorization) GetCurrentTotalInstancesOk() (*int32, bool) {
 	return o.CurrentTotalInstances, true
 }
 
-// ContainsCurrentTotalInstances returns a boolean if a field has been set.
-func (o *CollectionAuthorization) ContainsCurrentTotalInstances() bool {
+// HasCurrentTotalInstances returns a boolean if a field has been set.
+func (o *CollectionAuthorization) HasCurrentTotalInstances() bool {
 	if o != nil && !IsNil(o.CurrentTotalInstances) {
 		return true
 	}

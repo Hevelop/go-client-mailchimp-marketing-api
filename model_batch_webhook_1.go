@@ -90,8 +90,8 @@ func (o *BatchWebhook1) GetEnabledOk() (*bool, bool) {
 	return o.Enabled, true
 }
 
-// ContainsEnabled returns a boolean if a field has been set.
-func (o *BatchWebhook1) ContainsEnabled() bool {
+// HasEnabled returns a boolean if a field has been set.
+func (o *BatchWebhook1) HasEnabled() bool {
 	if o != nil && !IsNil(o.Enabled) {
 		return true
 	}

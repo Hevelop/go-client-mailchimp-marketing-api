@@ -65,8 +65,8 @@ func (o *AbuseComplaints) GetAbuseReportsOk() ([]AbuseComplaint, bool) {
 	return o.AbuseReports, true
 }
 
-// ContainsAbuseReports returns a boolean if a field has been set.
-func (o *AbuseComplaints) ContainsAbuseReports() bool {
+// HasAbuseReports returns a boolean if a field has been set.
+func (o *AbuseComplaints) HasAbuseReports() bool {
 	if o != nil && !IsNil(o.AbuseReports) {
 		return true
 	}
@@ -97,8 +97,8 @@ func (o *AbuseComplaints) GetListIdOk() (*string, bool) {
 	return o.ListId, true
 }
 
-// ContainsListId returns a boolean if a field has been set.
-func (o *AbuseComplaints) ContainsListId() bool {
+// HasListId returns a boolean if a field has been set.
+func (o *AbuseComplaints) HasListId() bool {
 	if o != nil && !IsNil(o.ListId) {
 		return true
 	}
@@ -129,8 +129,8 @@ func (o *AbuseComplaints) GetTotalItemsOk() (*int32, bool) {
 	return o.TotalItems, true
 }
 
-// ContainsTotalItems returns a boolean if a field has been set.
-func (o *AbuseComplaints) ContainsTotalItems() bool {
+// HasTotalItems returns a boolean if a field has been set.
+func (o *AbuseComplaints) HasTotalItems() bool {
 	if o != nil && !IsNil(o.TotalItems) {
 		return true
 	}
@@ -161,8 +161,8 @@ func (o *AbuseComplaints) GetLinksOk() ([]ResourceLink, bool) {
 	return o.Links, true
 }
 
-// ContainsLinks returns a boolean if a field has been set.
-func (o *AbuseComplaints) ContainsLinks() bool {
+// HasLinks returns a boolean if a field has been set.
+func (o *AbuseComplaints) HasLinks() bool {
 	if o != nil && !IsNil(o.Links) {
 		return true
 	}

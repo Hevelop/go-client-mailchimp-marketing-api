@@ -65,8 +65,8 @@ func (o *ListStats) GetSubRateOk() (*float32, bool) {
 	return o.SubRate, true
 }
 
-// ContainsSubRate returns a boolean if a field has been set.
-func (o *ListStats) ContainsSubRate() bool {
+// HasSubRate returns a boolean if a field has been set.
+func (o *ListStats) HasSubRate() bool {
 	if o != nil && !IsNil(o.SubRate) {
 		return true
 	}
@@ -97,8 +97,8 @@ func (o *ListStats) GetUnsubRateOk() (*float32, bool) {
 	return o.UnsubRate, true
 }
 
-// ContainsUnsubRate returns a boolean if a field has been set.
-func (o *ListStats) ContainsUnsubRate() bool {
+// HasUnsubRate returns a boolean if a field has been set.
+func (o *ListStats) HasUnsubRate() bool {
 	if o != nil && !IsNil(o.UnsubRate) {
 		return true
 	}
@@ -129,8 +129,8 @@ func (o *ListStats) GetOpenRateOk() (*float32, bool) {
 	return o.OpenRate, true
 }
 
-// ContainsOpenRate returns a boolean if a field has been set.
-func (o *ListStats) ContainsOpenRate() bool {
+// HasOpenRate returns a boolean if a field has been set.
+func (o *ListStats) HasOpenRate() bool {
 	if o != nil && !IsNil(o.OpenRate) {
 		return true
 	}
@@ -161,8 +161,8 @@ func (o *ListStats) GetClickRateOk() (*float32, bool) {
 	return o.ClickRate, true
 }
 
-// ContainsClickRate returns a boolean if a field has been set.
-func (o *ListStats) ContainsClickRate() bool {
+// HasClickRate returns a boolean if a field has been set.
+func (o *ListStats) HasClickRate() bool {
 	if o != nil && !IsNil(o.ClickRate) {
 		return true
 	}

@@ -74,8 +74,8 @@ func (o *SubscriberInAutomationQueue2) GetIdOk() (*string, bool) {
 	return o.Id, true
 }
 
-// ContainsId returns a boolean if a field has been set.
-func (o *SubscriberInAutomationQueue2) ContainsId() bool {
+// HasId returns a boolean if a field has been set.
+func (o *SubscriberInAutomationQueue2) HasId() bool {
 	if o != nil && !IsNil(o.Id) {
 		return true
 	}
@@ -106,8 +106,8 @@ func (o *SubscriberInAutomationQueue2) GetWorkflowIdOk() (*string, bool) {
 	return o.WorkflowId, true
 }
 
-// ContainsWorkflowId returns a boolean if a field has been set.
-func (o *SubscriberInAutomationQueue2) ContainsWorkflowId() bool {
+// HasWorkflowId returns a boolean if a field has been set.
+func (o *SubscriberInAutomationQueue2) HasWorkflowId() bool {
 	if o != nil && !IsNil(o.WorkflowId) {
 		return true
 	}
@@ -138,8 +138,8 @@ func (o *SubscriberInAutomationQueue2) GetEmailIdOk() (*string, bool) {
 	return o.EmailId, true
 }
 
-// ContainsEmailId returns a boolean if a field has been set.
-func (o *SubscriberInAutomationQueue2) ContainsEmailId() bool {
+// HasEmailId returns a boolean if a field has been set.
+func (o *SubscriberInAutomationQueue2) HasEmailId() bool {
 	if o != nil && !IsNil(o.EmailId) {
 		return true
 	}
@@ -170,8 +170,8 @@ func (o *SubscriberInAutomationQueue2) GetListIdOk() (*string, bool) {
 	return o.ListId, true
 }
 
-// ContainsListId returns a boolean if a field has been set.
-func (o *SubscriberInAutomationQueue2) ContainsListId() bool {
+// HasListId returns a boolean if a field has been set.
+func (o *SubscriberInAutomationQueue2) HasListId() bool {
 	if o != nil && !IsNil(o.ListId) {
 		return true
 	}
@@ -202,8 +202,8 @@ func (o *SubscriberInAutomationQueue2) GetListIsActiveOk() (*bool, bool) {
 	return o.ListIsActive, true
 }
 
-// ContainsListIsActive returns a boolean if a field has been set.
-func (o *SubscriberInAutomationQueue2) ContainsListIsActive() bool {
+// HasListIsActive returns a boolean if a field has been set.
+func (o *SubscriberInAutomationQueue2) HasListIsActive() bool {
 	if o != nil && !IsNil(o.ListIsActive) {
 		return true
 	}
@@ -234,8 +234,8 @@ func (o *SubscriberInAutomationQueue2) GetEmailAddressOk() (*string, bool) {
 	return o.EmailAddress, true
 }
 
-// ContainsEmailAddress returns a boolean if a field has been set.
-func (o *SubscriberInAutomationQueue2) ContainsEmailAddress() bool {
+// HasEmailAddress returns a boolean if a field has been set.
+func (o *SubscriberInAutomationQueue2) HasEmailAddress() bool {
 	if o != nil && !IsNil(o.EmailAddress) {
 		return true
 	}
@@ -266,8 +266,8 @@ func (o *SubscriberInAutomationQueue2) GetNextSendOk() (*time.Time, bool) {
 	return o.NextSend, true
 }
 
-// ContainsNextSend returns a boolean if a field has been set.
-func (o *SubscriberInAutomationQueue2) ContainsNextSend() bool {
+// HasNextSend returns a boolean if a field has been set.
+func (o *SubscriberInAutomationQueue2) HasNextSend() bool {
 	if o != nil && !IsNil(o.NextSend) {
 		return true
 	}
@@ -298,8 +298,8 @@ func (o *SubscriberInAutomationQueue2) GetLinksOk() ([]ResourceLink, bool) {
 	return o.Links, true
 }
 
-// ContainsLinks returns a boolean if a field has been set.
-func (o *SubscriberInAutomationQueue2) ContainsLinks() bool {
+// HasLinks returns a boolean if a field has been set.
+func (o *SubscriberInAutomationQueue2) HasLinks() bool {
 	if o != nil && !IsNil(o.Links) {
 		return true
 	}

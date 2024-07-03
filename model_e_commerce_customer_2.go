@@ -13,6 +13,8 @@ package mailchimpmarketingapi
 
 import (
 	"encoding/json"
+	"bytes"
+	"fmt"
 )
 
 // checks if the ECommerceCustomer2 type satisfies the MappedNullable interface at compile time
@@ -20,6 +22,8 @@ var _ MappedNullable = &ECommerceCustomer2{}
 
 // ECommerceCustomer2 Information about a specific customer. Orders for existing customers should include only the `id` parameter in the `customer` object body.
 type ECommerceCustomer2 struct {
+	// A unique identifier for the customer. Limited to 50 characters.
+	Id string `json:"id"`
 	// The customer's opt-in status. This value will never overwrite the opt-in status of a pre-existing Mailchimp list member, but will apply to list members that are added through the e-commerce API endpoints. Customers who don't opt in to your Mailchimp list [will be added as `Transactional` members](https://mailchimp.com/developer/marketing/docs/e-commerce/#customers).
 	OptInStatus *bool `json:"opt_in_status,omitempty"`
 	// The customer's company.
@@ -31,12 +35,15 @@ type ECommerceCustomer2 struct {
 	Address *Address `json:"address,omitempty"`
 }
 
+type _ECommerceCustomer2 ECommerceCustomer2
+
 // NewECommerceCustomer2 instantiates a new ECommerceCustomer2 object
 // This constructor will assign default values to properties that have it defined,
 // and makes sure properties required by API are set, but the set of arguments
 // will change when the set of required properties is changed
-func NewECommerceCustomer2() *ECommerceCustomer2 {
+func NewECommerceCustomer2(id string) *ECommerceCustomer2 {
 	this := ECommerceCustomer2{}
+	this.Id = id
 	return &this
 }
 
@@ -46,6 +53,30 @@ func NewECommerceCustomer2() *ECommerceCustomer2 {
 func NewECommerceCustomer2WithDefaults() *ECommerceCustomer2 {
 	this := ECommerceCustomer2{}
 	return &this
+}
+
+// GetId returns the Id field value
+func (o *ECommerceCustomer2) GetId() string {
+	if o == nil {
+		var ret string
+		return ret
+	}
+
+	return o.Id
+}
+
+// GetIdOk returns a tuple with the Id field value
+// and a boolean to check if the value has been set.
+func (o *ECommerceCustomer2) GetIdOk() (*string, bool) {
+	if o == nil {
+		return nil, false
+	}
+	return &o.Id, true
+}
+
+// SetId sets field value
+func (o *ECommerceCustomer2) SetId(v string) {
+	o.Id = v
 }
 
 // GetOptInStatus returns the OptInStatus field value if set, zero value otherwise.
@@ -66,8 +97,8 @@ func (o *ECommerceCustomer2) GetOptInStatusOk() (*bool, bool) {
 	return o.OptInStatus, true
 }
 
-// ContainsOptInStatus returns a boolean if a field has been set.
-func (o *ECommerceCustomer2) ContainsOptInStatus() bool {
+// HasOptInStatus returns a boolean if a field has been set.
+func (o *ECommerceCustomer2) HasOptInStatus() bool {
 	if o != nil && !IsNil(o.OptInStatus) {
 		return true
 	}
@@ -98,8 +129,8 @@ func (o *ECommerceCustomer2) GetCompanyOk() (*string, bool) {
 	return o.Company, true
 }
 
-// ContainsCompany returns a boolean if a field has been set.
-func (o *ECommerceCustomer2) ContainsCompany() bool {
+// HasCompany returns a boolean if a field has been set.
+func (o *ECommerceCustomer2) HasCompany() bool {
 	if o != nil && !IsNil(o.Company) {
 		return true
 	}
@@ -130,8 +161,8 @@ func (o *ECommerceCustomer2) GetFirstNameOk() (*string, bool) {
 	return o.FirstName, true
 }
 
-// ContainsFirstName returns a boolean if a field has been set.
-func (o *ECommerceCustomer2) ContainsFirstName() bool {
+// HasFirstName returns a boolean if a field has been set.
+func (o *ECommerceCustomer2) HasFirstName() bool {
 	if o != nil && !IsNil(o.FirstName) {
 		return true
 	}
@@ -162,8 +193,8 @@ func (o *ECommerceCustomer2) GetLastNameOk() (*string, bool) {
 	return o.LastName, true
 }
 
-// ContainsLastName returns a boolean if a field has been set.
-func (o *ECommerceCustomer2) ContainsLastName() bool {
+// HasLastName returns a boolean if a field has been set.
+func (o *ECommerceCustomer2) HasLastName() bool {
 	if o != nil && !IsNil(o.LastName) {
 		return true
 	}
@@ -194,8 +225,8 @@ func (o *ECommerceCustomer2) GetAddressOk() (*Address, bool) {
 	return o.Address, true
 }
 
-// ContainsAddress returns a boolean if a field has been set.
-func (o *ECommerceCustomer2) ContainsAddress() bool {
+// HasAddress returns a boolean if a field has been set.
+func (o *ECommerceCustomer2) HasAddress() bool {
 	if o != nil && !IsNil(o.Address) {
 		return true
 	}
@@ -218,6 +249,7 @@ func (o ECommerceCustomer2) MarshalJSON() ([]byte, error) {
 
 func (o ECommerceCustomer2) ToMap() (map[string]interface{}, error) {
 	toSerialize := map[string]interface{}{}
+	toSerialize["id"] = o.Id
 	if !IsNil(o.OptInStatus) {
 		toSerialize["opt_in_status"] = o.OptInStatus
 	}
@@ -234,6 +266,43 @@ func (o ECommerceCustomer2) ToMap() (map[string]interface{}, error) {
 		toSerialize["address"] = o.Address
 	}
 	return toSerialize, nil
+}
+
+func (o *ECommerceCustomer2) UnmarshalJSON(data []byte) (err error) {
+	// This validates that all required properties are included in the JSON object
+	// by unmarshalling the object into a generic map with string keys and checking
+	// that every required field exists as a key in the generic map.
+	requiredProperties := []string{
+		"id",
+	}
+
+	allProperties := make(map[string]interface{})
+
+	err = json.Unmarshal(data, &allProperties)
+
+	if err != nil {
+		return err;
+	}
+
+	for _, requiredProperty := range(requiredProperties) {
+		if _, exists := allProperties[requiredProperty]; !exists {
+			return fmt.Errorf("no value given for required property %v", requiredProperty)
+		}
+	}
+
+	varECommerceCustomer2 := _ECommerceCustomer2{}
+
+	decoder := json.NewDecoder(bytes.NewReader(data))
+	decoder.DisallowUnknownFields()
+	err = decoder.Decode(&varECommerceCustomer2)
+
+	if err != nil {
+		return err
+	}
+
+	*o = ECommerceCustomer2(varECommerceCustomer2)
+
+	return err
 }
 
 type NullableECommerceCustomer2 struct {

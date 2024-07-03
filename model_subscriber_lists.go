@@ -93,8 +93,8 @@ func (o *SubscriberLists) GetTotalItemsOk() (*int32, bool) {
 	return o.TotalItems, true
 }
 
-// ContainsTotalItems returns a boolean if a field has been set.
-func (o *SubscriberLists) ContainsTotalItems() bool {
+// HasTotalItems returns a boolean if a field has been set.
+func (o *SubscriberLists) HasTotalItems() bool {
 	if o != nil && !IsNil(o.TotalItems) {
 		return true
 	}
@@ -125,8 +125,8 @@ func (o *SubscriberLists) GetConstraintsOk() (*CollectionAuthorization, bool) {
 	return o.Constraints, true
 }
 
-// ContainsConstraints returns a boolean if a field has been set.
-func (o *SubscriberLists) ContainsConstraints() bool {
+// HasConstraints returns a boolean if a field has been set.
+func (o *SubscriberLists) HasConstraints() bool {
 	if o != nil && !IsNil(o.Constraints) {
 		return true
 	}
@@ -157,8 +157,8 @@ func (o *SubscriberLists) GetLinksOk() ([]ResourceLink, bool) {
 	return o.Links, true
 }
 
-// ContainsLinks returns a boolean if a field has been set.
-func (o *SubscriberLists) ContainsLinks() bool {
+// HasLinks returns a boolean if a field has been set.
+func (o *SubscriberLists) HasLinks() bool {
 	if o != nil && !IsNil(o.Links) {
 		return true
 	}

@@ -63,8 +63,8 @@ func (o *MergeField3) GetIdOk() (*int32, bool) {
 	return o.Id, true
 }
 
-// ContainsId returns a boolean if a field has been set.
-func (o *MergeField3) ContainsId() bool {
+// HasId returns a boolean if a field has been set.
+func (o *MergeField3) HasId() bool {
 	if o != nil && !IsNil(o.Id) {
 		return true
 	}
@@ -95,8 +95,8 @@ func (o *MergeField3) GetLabelOk() (*string, bool) {
 	return o.Label, true
 }
 
-// ContainsLabel returns a boolean if a field has been set.
-func (o *MergeField3) ContainsLabel() bool {
+// HasLabel returns a boolean if a field has been set.
+func (o *MergeField3) HasLabel() bool {
 	if o != nil && !IsNil(o.Label) {
 		return true
 	}
@@ -127,8 +127,8 @@ func (o *MergeField3) GetTypeOk() (*string, bool) {
 	return o.Type, true
 }
 
-// ContainsType returns a boolean if a field has been set.
-func (o *MergeField3) ContainsType() bool {
+// HasType returns a boolean if a field has been set.
+func (o *MergeField3) HasType() bool {
 	if o != nil && !IsNil(o.Type) {
 		return true
 	}

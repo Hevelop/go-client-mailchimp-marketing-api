@@ -63,8 +63,8 @@ func (o *GetReportingSurveysIdQuestionsIdAnswers200Response) GetAnswersOk() ([]S
 	return o.Answers, true
 }
 
-// ContainsAnswers returns a boolean if a field has been set.
-func (o *GetReportingSurveysIdQuestionsIdAnswers200Response) ContainsAnswers() bool {
+// HasAnswers returns a boolean if a field has been set.
+func (o *GetReportingSurveysIdQuestionsIdAnswers200Response) HasAnswers() bool {
 	if o != nil && !IsNil(o.Answers) {
 		return true
 	}
@@ -95,8 +95,8 @@ func (o *GetReportingSurveysIdQuestionsIdAnswers200Response) GetTotalItemsOk() (
 	return o.TotalItems, true
 }
 
-// ContainsTotalItems returns a boolean if a field has been set.
-func (o *GetReportingSurveysIdQuestionsIdAnswers200Response) ContainsTotalItems() bool {
+// HasTotalItems returns a boolean if a field has been set.
+func (o *GetReportingSurveysIdQuestionsIdAnswers200Response) HasTotalItems() bool {
 	if o != nil && !IsNil(o.TotalItems) {
 		return true
 	}
@@ -127,8 +127,8 @@ func (o *GetReportingSurveysIdQuestionsIdAnswers200Response) GetLinksOk() ([]Res
 	return o.Links, true
 }
 
-// ContainsLinks returns a boolean if a field has been set.
-func (o *GetReportingSurveysIdQuestionsIdAnswers200Response) ContainsLinks() bool {
+// HasLinks returns a boolean if a field has been set.
+func (o *GetReportingSurveysIdQuestionsIdAnswers200Response) HasLinks() bool {
 	if o != nil && !IsNil(o.Links) {
 		return true
 	}

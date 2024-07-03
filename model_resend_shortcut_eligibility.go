@@ -60,8 +60,8 @@ func (o *ResendShortcutEligibility) GetToNonOpenersOk() (*ToNonOpeners, bool) {
 	return o.ToNonOpeners, true
 }
 
-// ContainsToNonOpeners returns a boolean if a field has been set.
-func (o *ResendShortcutEligibility) ContainsToNonOpeners() bool {
+// HasToNonOpeners returns a boolean if a field has been set.
+func (o *ResendShortcutEligibility) HasToNonOpeners() bool {
 	if o != nil && !IsNil(o.ToNonOpeners) {
 		return true
 	}
@@ -92,8 +92,8 @@ func (o *ResendShortcutEligibility) GetToNewSubscribersOk() (*ToNewSubscribers, 
 	return o.ToNewSubscribers, true
 }
 
-// ContainsToNewSubscribers returns a boolean if a field has been set.
-func (o *ResendShortcutEligibility) ContainsToNewSubscribers() bool {
+// HasToNewSubscribers returns a boolean if a field has been set.
+func (o *ResendShortcutEligibility) HasToNewSubscribers() bool {
 	if o != nil && !IsNil(o.ToNewSubscribers) {
 		return true
 	}
@@ -124,8 +124,8 @@ func (o *ResendShortcutEligibility) GetToNonClickersOk() (*ToNonClickers, bool) 
 	return o.ToNonClickers, true
 }
 
-// ContainsToNonClickers returns a boolean if a field has been set.
-func (o *ResendShortcutEligibility) ContainsToNonClickers() bool {
+// HasToNonClickers returns a boolean if a field has been set.
+func (o *ResendShortcutEligibility) HasToNonClickers() bool {
 	if o != nil && !IsNil(o.ToNonClickers) {
 		return true
 	}

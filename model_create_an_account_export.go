@@ -91,8 +91,8 @@ func (o *CreateAnAccountExport) GetSinceTimestampOk() (*time.Time, bool) {
 	return o.SinceTimestamp, true
 }
 
-// ContainsSinceTimestamp returns a boolean if a field has been set.
-func (o *CreateAnAccountExport) ContainsSinceTimestamp() bool {
+// HasSinceTimestamp returns a boolean if a field has been set.
+func (o *CreateAnAccountExport) HasSinceTimestamp() bool {
 	if o != nil && !IsNil(o.SinceTimestamp) {
 		return true
 	}

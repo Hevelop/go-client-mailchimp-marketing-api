@@ -67,8 +67,8 @@ func (o *DomainPerformance) GetDomainsOk() ([]EmailDomain, bool) {
 	return o.Domains, true
 }
 
-// ContainsDomains returns a boolean if a field has been set.
-func (o *DomainPerformance) ContainsDomains() bool {
+// HasDomains returns a boolean if a field has been set.
+func (o *DomainPerformance) HasDomains() bool {
 	if o != nil && !IsNil(o.Domains) {
 		return true
 	}
@@ -99,8 +99,8 @@ func (o *DomainPerformance) GetTotalSentOk() (*int32, bool) {
 	return o.TotalSent, true
 }
 
-// ContainsTotalSent returns a boolean if a field has been set.
-func (o *DomainPerformance) ContainsTotalSent() bool {
+// HasTotalSent returns a boolean if a field has been set.
+func (o *DomainPerformance) HasTotalSent() bool {
 	if o != nil && !IsNil(o.TotalSent) {
 		return true
 	}
@@ -131,8 +131,8 @@ func (o *DomainPerformance) GetCampaignIdOk() (*string, bool) {
 	return o.CampaignId, true
 }
 
-// ContainsCampaignId returns a boolean if a field has been set.
-func (o *DomainPerformance) ContainsCampaignId() bool {
+// HasCampaignId returns a boolean if a field has been set.
+func (o *DomainPerformance) HasCampaignId() bool {
 	if o != nil && !IsNil(o.CampaignId) {
 		return true
 	}
@@ -163,8 +163,8 @@ func (o *DomainPerformance) GetTotalItemsOk() (*int32, bool) {
 	return o.TotalItems, true
 }
 
-// ContainsTotalItems returns a boolean if a field has been set.
-func (o *DomainPerformance) ContainsTotalItems() bool {
+// HasTotalItems returns a boolean if a field has been set.
+func (o *DomainPerformance) HasTotalItems() bool {
 	if o != nil && !IsNil(o.TotalItems) {
 		return true
 	}
@@ -195,8 +195,8 @@ func (o *DomainPerformance) GetLinksOk() ([]ResourceLink, bool) {
 	return o.Links, true
 }
 
-// ContainsLinks returns a boolean if a field has been set.
-func (o *DomainPerformance) ContainsLinks() bool {
+// HasLinks returns a boolean if a field has been set.
+func (o *DomainPerformance) HasLinks() bool {
 	if o != nil && !IsNil(o.Links) {
 		return true
 	}

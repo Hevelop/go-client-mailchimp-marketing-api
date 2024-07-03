@@ -90,8 +90,8 @@ func (o *TemplateContent1) GetSectionsOk() (map[string]interface{}, bool) {
 	return o.Sections, true
 }
 
-// ContainsSections returns a boolean if a field has been set.
-func (o *TemplateContent1) ContainsSections() bool {
+// HasSections returns a boolean if a field has been set.
+func (o *TemplateContent1) HasSections() bool {
 	if o != nil && !IsNil(o.Sections) {
 		return true
 	}

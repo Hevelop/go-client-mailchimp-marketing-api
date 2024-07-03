@@ -69,8 +69,8 @@ func (o *MemberActivityEvents) GetActivityOk() ([]MemberActivity, bool) {
 	return o.Activity, true
 }
 
-// ContainsActivity returns a boolean if a field has been set.
-func (o *MemberActivityEvents) ContainsActivity() bool {
+// HasActivity returns a boolean if a field has been set.
+func (o *MemberActivityEvents) HasActivity() bool {
 	if o != nil && !IsNil(o.Activity) {
 		return true
 	}
@@ -101,8 +101,8 @@ func (o *MemberActivityEvents) GetEmailIdOk() (*string, bool) {
 	return o.EmailId, true
 }
 
-// ContainsEmailId returns a boolean if a field has been set.
-func (o *MemberActivityEvents) ContainsEmailId() bool {
+// HasEmailId returns a boolean if a field has been set.
+func (o *MemberActivityEvents) HasEmailId() bool {
 	if o != nil && !IsNil(o.EmailId) {
 		return true
 	}
@@ -133,8 +133,8 @@ func (o *MemberActivityEvents) GetContactIdOk() (*string, bool) {
 	return o.ContactId, true
 }
 
-// ContainsContactId returns a boolean if a field has been set.
-func (o *MemberActivityEvents) ContainsContactId() bool {
+// HasContactId returns a boolean if a field has been set.
+func (o *MemberActivityEvents) HasContactId() bool {
 	if o != nil && !IsNil(o.ContactId) {
 		return true
 	}
@@ -165,8 +165,8 @@ func (o *MemberActivityEvents) GetListIdOk() (*string, bool) {
 	return o.ListId, true
 }
 
-// ContainsListId returns a boolean if a field has been set.
-func (o *MemberActivityEvents) ContainsListId() bool {
+// HasListId returns a boolean if a field has been set.
+func (o *MemberActivityEvents) HasListId() bool {
 	if o != nil && !IsNil(o.ListId) {
 		return true
 	}
@@ -197,8 +197,8 @@ func (o *MemberActivityEvents) GetTotalItemsOk() (*int32, bool) {
 	return o.TotalItems, true
 }
 
-// ContainsTotalItems returns a boolean if a field has been set.
-func (o *MemberActivityEvents) ContainsTotalItems() bool {
+// HasTotalItems returns a boolean if a field has been set.
+func (o *MemberActivityEvents) HasTotalItems() bool {
 	if o != nil && !IsNil(o.TotalItems) {
 		return true
 	}
@@ -229,8 +229,8 @@ func (o *MemberActivityEvents) GetLinksOk() ([]ResourceLink, bool) {
 	return o.Links, true
 }
 
-// ContainsLinks returns a boolean if a field has been set.
-func (o *MemberActivityEvents) ContainsLinks() bool {
+// HasLinks returns a boolean if a field has been set.
+func (o *MemberActivityEvents) HasLinks() bool {
 	if o != nil && !IsNil(o.Links) {
 		return true
 	}

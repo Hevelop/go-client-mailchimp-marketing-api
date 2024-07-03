@@ -67,8 +67,8 @@ func (o *CampaignContent1) GetPlainTextOk() (*string, bool) {
 	return o.PlainText, true
 }
 
-// ContainsPlainText returns a boolean if a field has been set.
-func (o *CampaignContent1) ContainsPlainText() bool {
+// HasPlainText returns a boolean if a field has been set.
+func (o *CampaignContent1) HasPlainText() bool {
 	if o != nil && !IsNil(o.PlainText) {
 		return true
 	}
@@ -99,8 +99,8 @@ func (o *CampaignContent1) GetHtmlOk() (*string, bool) {
 	return o.Html, true
 }
 
-// ContainsHtml returns a boolean if a field has been set.
-func (o *CampaignContent1) ContainsHtml() bool {
+// HasHtml returns a boolean if a field has been set.
+func (o *CampaignContent1) HasHtml() bool {
 	if o != nil && !IsNil(o.Html) {
 		return true
 	}
@@ -131,8 +131,8 @@ func (o *CampaignContent1) GetUrlOk() (*string, bool) {
 	return o.Url, true
 }
 
-// ContainsUrl returns a boolean if a field has been set.
-func (o *CampaignContent1) ContainsUrl() bool {
+// HasUrl returns a boolean if a field has been set.
+func (o *CampaignContent1) HasUrl() bool {
 	if o != nil && !IsNil(o.Url) {
 		return true
 	}
@@ -163,8 +163,8 @@ func (o *CampaignContent1) GetTemplateOk() (*TemplateContent, bool) {
 	return o.Template, true
 }
 
-// ContainsTemplate returns a boolean if a field has been set.
-func (o *CampaignContent1) ContainsTemplate() bool {
+// HasTemplate returns a boolean if a field has been set.
+func (o *CampaignContent1) HasTemplate() bool {
 	if o != nil && !IsNil(o.Template) {
 		return true
 	}
@@ -195,8 +195,8 @@ func (o *CampaignContent1) GetArchiveOk() (*UploadArchive, bool) {
 	return o.Archive, true
 }
 
-// ContainsArchive returns a boolean if a field has been set.
-func (o *CampaignContent1) ContainsArchive() bool {
+// HasArchive returns a boolean if a field has been set.
+func (o *CampaignContent1) HasArchive() bool {
 	if o != nil && !IsNil(o.Archive) {
 		return true
 	}
@@ -227,8 +227,8 @@ func (o *CampaignContent1) GetVariateContentsOk() ([]VariateContentsInner1, bool
 	return o.VariateContents, true
 }
 
-// ContainsVariateContents returns a boolean if a field has been set.
-func (o *CampaignContent1) ContainsVariateContents() bool {
+// HasVariateContents returns a boolean if a field has been set.
+func (o *CampaignContent1) HasVariateContents() bool {
 	if o != nil && !IsNil(o.VariateContents) {
 		return true
 	}

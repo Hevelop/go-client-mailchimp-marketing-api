@@ -67,8 +67,8 @@ func (o *TwitterStats) GetTweetsOk() (*int32, bool) {
 	return o.Tweets, true
 }
 
-// ContainsTweets returns a boolean if a field has been set.
-func (o *TwitterStats) ContainsTweets() bool {
+// HasTweets returns a boolean if a field has been set.
+func (o *TwitterStats) HasTweets() bool {
 	if o != nil && !IsNil(o.Tweets) {
 		return true
 	}
@@ -99,8 +99,8 @@ func (o *TwitterStats) GetFirstTweetOk() (*string, bool) {
 	return o.FirstTweet, true
 }
 
-// ContainsFirstTweet returns a boolean if a field has been set.
-func (o *TwitterStats) ContainsFirstTweet() bool {
+// HasFirstTweet returns a boolean if a field has been set.
+func (o *TwitterStats) HasFirstTweet() bool {
 	if o != nil && !IsNil(o.FirstTweet) {
 		return true
 	}
@@ -131,8 +131,8 @@ func (o *TwitterStats) GetLastTweetOk() (*string, bool) {
 	return o.LastTweet, true
 }
 
-// ContainsLastTweet returns a boolean if a field has been set.
-func (o *TwitterStats) ContainsLastTweet() bool {
+// HasLastTweet returns a boolean if a field has been set.
+func (o *TwitterStats) HasLastTweet() bool {
 	if o != nil && !IsNil(o.LastTweet) {
 		return true
 	}
@@ -163,8 +163,8 @@ func (o *TwitterStats) GetRetweetsOk() (*int32, bool) {
 	return o.Retweets, true
 }
 
-// ContainsRetweets returns a boolean if a field has been set.
-func (o *TwitterStats) ContainsRetweets() bool {
+// HasRetweets returns a boolean if a field has been set.
+func (o *TwitterStats) HasRetweets() bool {
 	if o != nil && !IsNil(o.Retweets) {
 		return true
 	}
@@ -195,8 +195,8 @@ func (o *TwitterStats) GetStatusesOk() ([]TwitterStatus, bool) {
 	return o.Statuses, true
 }
 
-// ContainsStatuses returns a boolean if a field has been set.
-func (o *TwitterStats) ContainsStatuses() bool {
+// HasStatuses returns a boolean if a field has been set.
+func (o *TwitterStats) HasStatuses() bool {
 	if o != nil && !IsNil(o.Statuses) {
 		return true
 	}

@@ -63,8 +63,8 @@ func (o *CampaignAdvice) GetTypeOk() (*string, bool) {
 	return o.Type, true
 }
 
-// ContainsType returns a boolean if a field has been set.
-func (o *CampaignAdvice) ContainsType() bool {
+// HasType returns a boolean if a field has been set.
+func (o *CampaignAdvice) HasType() bool {
 	if o != nil && !IsNil(o.Type) {
 		return true
 	}
@@ -95,8 +95,8 @@ func (o *CampaignAdvice) GetMessageOk() (*string, bool) {
 	return o.Message, true
 }
 
-// ContainsMessage returns a boolean if a field has been set.
-func (o *CampaignAdvice) ContainsMessage() bool {
+// HasMessage returns a boolean if a field has been set.
+func (o *CampaignAdvice) HasMessage() bool {
 	if o != nil && !IsNil(o.Message) {
 		return true
 	}
@@ -127,8 +127,8 @@ func (o *CampaignAdvice) GetLinksOk() ([]ResourceLink, bool) {
 	return o.Links, true
 }
 
-// ContainsLinks returns a boolean if a field has been set.
-func (o *CampaignAdvice) ContainsLinks() bool {
+// HasLinks returns a boolean if a field has been set.
+func (o *CampaignAdvice) HasLinks() bool {
 	if o != nil && !IsNil(o.Links) {
 		return true
 	}

@@ -67,8 +67,8 @@ func (o *RSSOptions) GetFeedUrlOk() (*string, bool) {
 	return o.FeedUrl, true
 }
 
-// ContainsFeedUrl returns a boolean if a field has been set.
-func (o *RSSOptions) ContainsFeedUrl() bool {
+// HasFeedUrl returns a boolean if a field has been set.
+func (o *RSSOptions) HasFeedUrl() bool {
 	if o != nil && !IsNil(o.FeedUrl) {
 		return true
 	}
@@ -99,8 +99,8 @@ func (o *RSSOptions) GetFrequencyOk() (*string, bool) {
 	return o.Frequency, true
 }
 
-// ContainsFrequency returns a boolean if a field has been set.
-func (o *RSSOptions) ContainsFrequency() bool {
+// HasFrequency returns a boolean if a field has been set.
+func (o *RSSOptions) HasFrequency() bool {
 	if o != nil && !IsNil(o.Frequency) {
 		return true
 	}
@@ -131,8 +131,8 @@ func (o *RSSOptions) GetScheduleOk() (*SendingSchedule, bool) {
 	return o.Schedule, true
 }
 
-// ContainsSchedule returns a boolean if a field has been set.
-func (o *RSSOptions) ContainsSchedule() bool {
+// HasSchedule returns a boolean if a field has been set.
+func (o *RSSOptions) HasSchedule() bool {
 	if o != nil && !IsNil(o.Schedule) {
 		return true
 	}
@@ -163,8 +163,8 @@ func (o *RSSOptions) GetLastSentOk() (*time.Time, bool) {
 	return o.LastSent, true
 }
 
-// ContainsLastSent returns a boolean if a field has been set.
-func (o *RSSOptions) ContainsLastSent() bool {
+// HasLastSent returns a boolean if a field has been set.
+func (o *RSSOptions) HasLastSent() bool {
 	if o != nil && !IsNil(o.LastSent) {
 		return true
 	}
@@ -195,8 +195,8 @@ func (o *RSSOptions) GetConstrainRssImgOk() (*bool, bool) {
 	return o.ConstrainRssImg, true
 }
 
-// ContainsConstrainRssImg returns a boolean if a field has been set.
-func (o *RSSOptions) ContainsConstrainRssImg() bool {
+// HasConstrainRssImg returns a boolean if a field has been set.
+func (o *RSSOptions) HasConstrainRssImg() bool {
 	if o != nil && !IsNil(o.ConstrainRssImg) {
 		return true
 	}

@@ -65,8 +65,8 @@ func (o *OpenLocations) GetLocationsOk() ([]ListsInner, bool) {
 	return o.Locations, true
 }
 
-// ContainsLocations returns a boolean if a field has been set.
-func (o *OpenLocations) ContainsLocations() bool {
+// HasLocations returns a boolean if a field has been set.
+func (o *OpenLocations) HasLocations() bool {
 	if o != nil && !IsNil(o.Locations) {
 		return true
 	}
@@ -97,8 +97,8 @@ func (o *OpenLocations) GetCampaignIdOk() (*string, bool) {
 	return o.CampaignId, true
 }
 
-// ContainsCampaignId returns a boolean if a field has been set.
-func (o *OpenLocations) ContainsCampaignId() bool {
+// HasCampaignId returns a boolean if a field has been set.
+func (o *OpenLocations) HasCampaignId() bool {
 	if o != nil && !IsNil(o.CampaignId) {
 		return true
 	}
@@ -129,8 +129,8 @@ func (o *OpenLocations) GetTotalItemsOk() (*int32, bool) {
 	return o.TotalItems, true
 }
 
-// ContainsTotalItems returns a boolean if a field has been set.
-func (o *OpenLocations) ContainsTotalItems() bool {
+// HasTotalItems returns a boolean if a field has been set.
+func (o *OpenLocations) HasTotalItems() bool {
 	if o != nil && !IsNil(o.TotalItems) {
 		return true
 	}
@@ -161,8 +161,8 @@ func (o *OpenLocations) GetLinksOk() ([]ResourceLink, bool) {
 	return o.Links, true
 }
 
-// ContainsLinks returns a boolean if a field has been set.
-func (o *OpenLocations) ContainsLinks() bool {
+// HasLinks returns a boolean if a field has been set.
+func (o *OpenLocations) HasLinks() bool {
 	if o != nil && !IsNil(o.Links) {
 		return true
 	}

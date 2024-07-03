@@ -61,8 +61,8 @@ func (o *ToNonOpeners) GetIsEligibleOk() (*bool, bool) {
 	return o.IsEligible, true
 }
 
-// ContainsIsEligible returns a boolean if a field has been set.
-func (o *ToNonOpeners) ContainsIsEligible() bool {
+// HasIsEligible returns a boolean if a field has been set.
+func (o *ToNonOpeners) HasIsEligible() bool {
 	if o != nil && !IsNil(o.IsEligible) {
 		return true
 	}
@@ -93,8 +93,8 @@ func (o *ToNonOpeners) GetReasonOk() (*string, bool) {
 	return o.Reason, true
 }
 
-// ContainsReason returns a boolean if a field has been set.
-func (o *ToNonOpeners) ContainsReason() bool {
+// HasReason returns a boolean if a field has been set.
+func (o *ToNonOpeners) HasReason() bool {
 	if o != nil && !IsNil(o.Reason) {
 		return true
 	}

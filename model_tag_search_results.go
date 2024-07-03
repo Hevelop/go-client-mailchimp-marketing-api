@@ -61,8 +61,8 @@ func (o *TagSearchResults) GetTagsOk() ([]TagsInner1, bool) {
 	return o.Tags, true
 }
 
-// ContainsTags returns a boolean if a field has been set.
-func (o *TagSearchResults) ContainsTags() bool {
+// HasTags returns a boolean if a field has been set.
+func (o *TagSearchResults) HasTags() bool {
 	if o != nil && !IsNil(o.Tags) {
 		return true
 	}
@@ -93,8 +93,8 @@ func (o *TagSearchResults) GetTotalItemsOk() (*int32, bool) {
 	return o.TotalItems, true
 }
 
-// ContainsTotalItems returns a boolean if a field has been set.
-func (o *TagSearchResults) ContainsTotalItems() bool {
+// HasTotalItems returns a boolean if a field has been set.
+func (o *TagSearchResults) HasTotalItems() bool {
 	if o != nil && !IsNil(o.TotalItems) {
 		return true
 	}

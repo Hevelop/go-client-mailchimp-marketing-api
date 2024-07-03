@@ -80,8 +80,8 @@ func (o *SurveyReport) GetIdOk() (*string, bool) {
 	return o.Id, true
 }
 
-// ContainsId returns a boolean if a field has been set.
-func (o *SurveyReport) ContainsId() bool {
+// HasId returns a boolean if a field has been set.
+func (o *SurveyReport) HasId() bool {
 	if o != nil && !IsNil(o.Id) {
 		return true
 	}
@@ -112,8 +112,8 @@ func (o *SurveyReport) GetWebIdOk() (*int32, bool) {
 	return o.WebId, true
 }
 
-// ContainsWebId returns a boolean if a field has been set.
-func (o *SurveyReport) ContainsWebId() bool {
+// HasWebId returns a boolean if a field has been set.
+func (o *SurveyReport) HasWebId() bool {
 	if o != nil && !IsNil(o.WebId) {
 		return true
 	}
@@ -144,8 +144,8 @@ func (o *SurveyReport) GetListIdOk() (*string, bool) {
 	return o.ListId, true
 }
 
-// ContainsListId returns a boolean if a field has been set.
-func (o *SurveyReport) ContainsListId() bool {
+// HasListId returns a boolean if a field has been set.
+func (o *SurveyReport) HasListId() bool {
 	if o != nil && !IsNil(o.ListId) {
 		return true
 	}
@@ -176,8 +176,8 @@ func (o *SurveyReport) GetListNameOk() (*string, bool) {
 	return o.ListName, true
 }
 
-// ContainsListName returns a boolean if a field has been set.
-func (o *SurveyReport) ContainsListName() bool {
+// HasListName returns a boolean if a field has been set.
+func (o *SurveyReport) HasListName() bool {
 	if o != nil && !IsNil(o.ListName) {
 		return true
 	}
@@ -208,8 +208,8 @@ func (o *SurveyReport) GetTitleOk() (*string, bool) {
 	return o.Title, true
 }
 
-// ContainsTitle returns a boolean if a field has been set.
-func (o *SurveyReport) ContainsTitle() bool {
+// HasTitle returns a boolean if a field has been set.
+func (o *SurveyReport) HasTitle() bool {
 	if o != nil && !IsNil(o.Title) {
 		return true
 	}
@@ -240,8 +240,8 @@ func (o *SurveyReport) GetUrlOk() (*string, bool) {
 	return o.Url, true
 }
 
-// ContainsUrl returns a boolean if a field has been set.
-func (o *SurveyReport) ContainsUrl() bool {
+// HasUrl returns a boolean if a field has been set.
+func (o *SurveyReport) HasUrl() bool {
 	if o != nil && !IsNil(o.Url) {
 		return true
 	}
@@ -272,8 +272,8 @@ func (o *SurveyReport) GetStatusOk() (*string, bool) {
 	return o.Status, true
 }
 
-// ContainsStatus returns a boolean if a field has been set.
-func (o *SurveyReport) ContainsStatus() bool {
+// HasStatus returns a boolean if a field has been set.
+func (o *SurveyReport) HasStatus() bool {
 	if o != nil && !IsNil(o.Status) {
 		return true
 	}
@@ -304,8 +304,8 @@ func (o *SurveyReport) GetPublishedAtOk() (*time.Time, bool) {
 	return o.PublishedAt, true
 }
 
-// ContainsPublishedAt returns a boolean if a field has been set.
-func (o *SurveyReport) ContainsPublishedAt() bool {
+// HasPublishedAt returns a boolean if a field has been set.
+func (o *SurveyReport) HasPublishedAt() bool {
 	if o != nil && !IsNil(o.PublishedAt) {
 		return true
 	}
@@ -336,8 +336,8 @@ func (o *SurveyReport) GetCreatedAtOk() (*time.Time, bool) {
 	return o.CreatedAt, true
 }
 
-// ContainsCreatedAt returns a boolean if a field has been set.
-func (o *SurveyReport) ContainsCreatedAt() bool {
+// HasCreatedAt returns a boolean if a field has been set.
+func (o *SurveyReport) HasCreatedAt() bool {
 	if o != nil && !IsNil(o.CreatedAt) {
 		return true
 	}
@@ -368,8 +368,8 @@ func (o *SurveyReport) GetUpdatedAtOk() (*time.Time, bool) {
 	return o.UpdatedAt, true
 }
 
-// ContainsUpdatedAt returns a boolean if a field has been set.
-func (o *SurveyReport) ContainsUpdatedAt() bool {
+// HasUpdatedAt returns a boolean if a field has been set.
+func (o *SurveyReport) HasUpdatedAt() bool {
 	if o != nil && !IsNil(o.UpdatedAt) {
 		return true
 	}
@@ -400,8 +400,8 @@ func (o *SurveyReport) GetTotalResponsesOk() (*int32, bool) {
 	return o.TotalResponses, true
 }
 
-// ContainsTotalResponses returns a boolean if a field has been set.
-func (o *SurveyReport) ContainsTotalResponses() bool {
+// HasTotalResponses returns a boolean if a field has been set.
+func (o *SurveyReport) HasTotalResponses() bool {
 	if o != nil && !IsNil(o.TotalResponses) {
 		return true
 	}

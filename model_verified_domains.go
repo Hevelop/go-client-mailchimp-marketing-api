@@ -68,8 +68,8 @@ func (o *VerifiedDomains) GetDomainOk() (*string, bool) {
 	return o.Domain, true
 }
 
-// ContainsDomain returns a boolean if a field has been set.
-func (o *VerifiedDomains) ContainsDomain() bool {
+// HasDomain returns a boolean if a field has been set.
+func (o *VerifiedDomains) HasDomain() bool {
 	if o != nil && !IsNil(o.Domain) {
 		return true
 	}
@@ -100,8 +100,8 @@ func (o *VerifiedDomains) GetVerifiedOk() (*bool, bool) {
 	return o.Verified, true
 }
 
-// ContainsVerified returns a boolean if a field has been set.
-func (o *VerifiedDomains) ContainsVerified() bool {
+// HasVerified returns a boolean if a field has been set.
+func (o *VerifiedDomains) HasVerified() bool {
 	if o != nil && !IsNil(o.Verified) {
 		return true
 	}
@@ -132,8 +132,8 @@ func (o *VerifiedDomains) GetAuthenticatedOk() (*bool, bool) {
 	return o.Authenticated, true
 }
 
-// ContainsAuthenticated returns a boolean if a field has been set.
-func (o *VerifiedDomains) ContainsAuthenticated() bool {
+// HasAuthenticated returns a boolean if a field has been set.
+func (o *VerifiedDomains) HasAuthenticated() bool {
 	if o != nil && !IsNil(o.Authenticated) {
 		return true
 	}
@@ -164,8 +164,8 @@ func (o *VerifiedDomains) GetVerificationEmailOk() (*string, bool) {
 	return o.VerificationEmail, true
 }
 
-// ContainsVerificationEmail returns a boolean if a field has been set.
-func (o *VerifiedDomains) ContainsVerificationEmail() bool {
+// HasVerificationEmail returns a boolean if a field has been set.
+func (o *VerifiedDomains) HasVerificationEmail() bool {
 	if o != nil && !IsNil(o.VerificationEmail) {
 		return true
 	}
@@ -196,8 +196,8 @@ func (o *VerifiedDomains) GetVerificationSentOk() (*time.Time, bool) {
 	return o.VerificationSent, true
 }
 
-// ContainsVerificationSent returns a boolean if a field has been set.
-func (o *VerifiedDomains) ContainsVerificationSent() bool {
+// HasVerificationSent returns a boolean if a field has been set.
+func (o *VerifiedDomains) HasVerificationSent() bool {
 	if o != nil && !IsNil(o.VerificationSent) {
 		return true
 	}

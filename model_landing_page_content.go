@@ -63,8 +63,8 @@ func (o *LandingPageContent) GetHtmlOk() (*string, bool) {
 	return o.Html, true
 }
 
-// ContainsHtml returns a boolean if a field has been set.
-func (o *LandingPageContent) ContainsHtml() bool {
+// HasHtml returns a boolean if a field has been set.
+func (o *LandingPageContent) HasHtml() bool {
 	if o != nil && !IsNil(o.Html) {
 		return true
 	}
@@ -95,8 +95,8 @@ func (o *LandingPageContent) GetJsonOk() (*string, bool) {
 	return o.Json, true
 }
 
-// ContainsJson returns a boolean if a field has been set.
-func (o *LandingPageContent) ContainsJson() bool {
+// HasJson returns a boolean if a field has been set.
+func (o *LandingPageContent) HasJson() bool {
 	if o != nil && !IsNil(o.Json) {
 		return true
 	}
@@ -127,8 +127,8 @@ func (o *LandingPageContent) GetLinksOk() ([]ResourceLink, bool) {
 	return o.Links, true
 }
 
-// ContainsLinks returns a boolean if a field has been set.
-func (o *LandingPageContent) ContainsLinks() bool {
+// HasLinks returns a boolean if a field has been set.
+func (o *LandingPageContent) HasLinks() bool {
 	if o != nil && !IsNil(o.Links) {
 		return true
 	}

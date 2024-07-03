@@ -63,8 +63,8 @@ func (o *FacebookLikes) GetRecipientLikesOk() (*int32, bool) {
 	return o.RecipientLikes, true
 }
 
-// ContainsRecipientLikes returns a boolean if a field has been set.
-func (o *FacebookLikes) ContainsRecipientLikes() bool {
+// HasRecipientLikes returns a boolean if a field has been set.
+func (o *FacebookLikes) HasRecipientLikes() bool {
 	if o != nil && !IsNil(o.RecipientLikes) {
 		return true
 	}
@@ -95,8 +95,8 @@ func (o *FacebookLikes) GetUniqueLikesOk() (*int32, bool) {
 	return o.UniqueLikes, true
 }
 
-// ContainsUniqueLikes returns a boolean if a field has been set.
-func (o *FacebookLikes) ContainsUniqueLikes() bool {
+// HasUniqueLikes returns a boolean if a field has been set.
+func (o *FacebookLikes) HasUniqueLikes() bool {
 	if o != nil && !IsNil(o.UniqueLikes) {
 		return true
 	}
@@ -127,8 +127,8 @@ func (o *FacebookLikes) GetFacebookLikesOk() (*int32, bool) {
 	return o.FacebookLikes, true
 }
 
-// ContainsFacebookLikes returns a boolean if a field has been set.
-func (o *FacebookLikes) ContainsFacebookLikes() bool {
+// HasFacebookLikes returns a boolean if a field has been set.
+func (o *FacebookLikes) HasFacebookLikes() bool {
 	if o != nil && !IsNil(o.FacebookLikes) {
 		return true
 	}

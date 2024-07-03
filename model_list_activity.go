@@ -65,8 +65,8 @@ func (o *ListActivity) GetActivityOk() ([]DailyListActivity, bool) {
 	return o.Activity, true
 }
 
-// ContainsActivity returns a boolean if a field has been set.
-func (o *ListActivity) ContainsActivity() bool {
+// HasActivity returns a boolean if a field has been set.
+func (o *ListActivity) HasActivity() bool {
 	if o != nil && !IsNil(o.Activity) {
 		return true
 	}
@@ -97,8 +97,8 @@ func (o *ListActivity) GetListIdOk() (*string, bool) {
 	return o.ListId, true
 }
 
-// ContainsListId returns a boolean if a field has been set.
-func (o *ListActivity) ContainsListId() bool {
+// HasListId returns a boolean if a field has been set.
+func (o *ListActivity) HasListId() bool {
 	if o != nil && !IsNil(o.ListId) {
 		return true
 	}
@@ -129,8 +129,8 @@ func (o *ListActivity) GetTotalItemsOk() (*int32, bool) {
 	return o.TotalItems, true
 }
 
-// ContainsTotalItems returns a boolean if a field has been set.
-func (o *ListActivity) ContainsTotalItems() bool {
+// HasTotalItems returns a boolean if a field has been set.
+func (o *ListActivity) HasTotalItems() bool {
 	if o != nil && !IsNil(o.TotalItems) {
 		return true
 	}
@@ -161,8 +161,8 @@ func (o *ListActivity) GetLinksOk() ([]ResourceLink, bool) {
 	return o.Links, true
 }
 
-// ContainsLinks returns a boolean if a field has been set.
-func (o *ListActivity) ContainsLinks() bool {
+// HasLinks returns a boolean if a field has been set.
+func (o *ListActivity) HasLinks() bool {
 	if o != nil && !IsNil(o.Links) {
 		return true
 	}

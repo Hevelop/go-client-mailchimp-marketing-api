@@ -65,8 +65,8 @@ func (o *Customers) GetStoreIdOk() (*string, bool) {
 	return o.StoreId, true
 }
 
-// ContainsStoreId returns a boolean if a field has been set.
-func (o *Customers) ContainsStoreId() bool {
+// HasStoreId returns a boolean if a field has been set.
+func (o *Customers) HasStoreId() bool {
 	if o != nil && !IsNil(o.StoreId) {
 		return true
 	}
@@ -97,8 +97,8 @@ func (o *Customers) GetCustomersOk() ([]ECommerceCustomer, bool) {
 	return o.Customers, true
 }
 
-// ContainsCustomers returns a boolean if a field has been set.
-func (o *Customers) ContainsCustomers() bool {
+// HasCustomers returns a boolean if a field has been set.
+func (o *Customers) HasCustomers() bool {
 	if o != nil && !IsNil(o.Customers) {
 		return true
 	}
@@ -129,8 +129,8 @@ func (o *Customers) GetTotalItemsOk() (*int32, bool) {
 	return o.TotalItems, true
 }
 
-// ContainsTotalItems returns a boolean if a field has been set.
-func (o *Customers) ContainsTotalItems() bool {
+// HasTotalItems returns a boolean if a field has been set.
+func (o *Customers) HasTotalItems() bool {
 	if o != nil && !IsNil(o.TotalItems) {
 		return true
 	}
@@ -161,8 +161,8 @@ func (o *Customers) GetLinksOk() ([]ResourceLink, bool) {
 	return o.Links, true
 }
 
-// ContainsLinks returns a boolean if a field has been set.
-func (o *Customers) ContainsLinks() bool {
+// HasLinks returns a boolean if a field has been set.
+func (o *Customers) HasLinks() bool {
 	if o != nil && !IsNil(o.Links) {
 		return true
 	}

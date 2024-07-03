@@ -63,8 +63,8 @@ func (o *FileManagerFolders) GetFoldersOk() ([]GalleryFolder, bool) {
 	return o.Folders, true
 }
 
-// ContainsFolders returns a boolean if a field has been set.
-func (o *FileManagerFolders) ContainsFolders() bool {
+// HasFolders returns a boolean if a field has been set.
+func (o *FileManagerFolders) HasFolders() bool {
 	if o != nil && !IsNil(o.Folders) {
 		return true
 	}
@@ -95,8 +95,8 @@ func (o *FileManagerFolders) GetTotalItemsOk() (*int32, bool) {
 	return o.TotalItems, true
 }
 
-// ContainsTotalItems returns a boolean if a field has been set.
-func (o *FileManagerFolders) ContainsTotalItems() bool {
+// HasTotalItems returns a boolean if a field has been set.
+func (o *FileManagerFolders) HasTotalItems() bool {
 	if o != nil && !IsNil(o.TotalItems) {
 		return true
 	}
@@ -127,8 +127,8 @@ func (o *FileManagerFolders) GetLinksOk() ([]ResourceLink, bool) {
 	return o.Links, true
 }
 
-// ContainsLinks returns a boolean if a field has been set.
-func (o *FileManagerFolders) ContainsLinks() bool {
+// HasLinks returns a boolean if a field has been set.
+func (o *FileManagerFolders) HasLinks() bool {
 	if o != nil && !IsNil(o.Links) {
 		return true
 	}

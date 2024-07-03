@@ -63,8 +63,8 @@ func (o *VariateContentsInner) GetContentLabelOk() (*string, bool) {
 	return o.ContentLabel, true
 }
 
-// ContainsContentLabel returns a boolean if a field has been set.
-func (o *VariateContentsInner) ContainsContentLabel() bool {
+// HasContentLabel returns a boolean if a field has been set.
+func (o *VariateContentsInner) HasContentLabel() bool {
 	if o != nil && !IsNil(o.ContentLabel) {
 		return true
 	}
@@ -95,8 +95,8 @@ func (o *VariateContentsInner) GetPlainTextOk() (*string, bool) {
 	return o.PlainText, true
 }
 
-// ContainsPlainText returns a boolean if a field has been set.
-func (o *VariateContentsInner) ContainsPlainText() bool {
+// HasPlainText returns a boolean if a field has been set.
+func (o *VariateContentsInner) HasPlainText() bool {
 	if o != nil && !IsNil(o.PlainText) {
 		return true
 	}
@@ -127,8 +127,8 @@ func (o *VariateContentsInner) GetHtmlOk() (*string, bool) {
 	return o.Html, true
 }
 
-// ContainsHtml returns a boolean if a field has been set.
-func (o *VariateContentsInner) ContainsHtml() bool {
+// HasHtml returns a boolean if a field has been set.
+func (o *VariateContentsInner) HasHtml() bool {
 	if o != nil && !IsNil(o.Html) {
 		return true
 	}

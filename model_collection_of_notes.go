@@ -67,8 +67,8 @@ func (o *CollectionOfNotes) GetNotesOk() ([]MemberNotes, bool) {
 	return o.Notes, true
 }
 
-// ContainsNotes returns a boolean if a field has been set.
-func (o *CollectionOfNotes) ContainsNotes() bool {
+// HasNotes returns a boolean if a field has been set.
+func (o *CollectionOfNotes) HasNotes() bool {
 	if o != nil && !IsNil(o.Notes) {
 		return true
 	}
@@ -99,8 +99,8 @@ func (o *CollectionOfNotes) GetEmailIdOk() (*string, bool) {
 	return o.EmailId, true
 }
 
-// ContainsEmailId returns a boolean if a field has been set.
-func (o *CollectionOfNotes) ContainsEmailId() bool {
+// HasEmailId returns a boolean if a field has been set.
+func (o *CollectionOfNotes) HasEmailId() bool {
 	if o != nil && !IsNil(o.EmailId) {
 		return true
 	}
@@ -131,8 +131,8 @@ func (o *CollectionOfNotes) GetListIdOk() (*string, bool) {
 	return o.ListId, true
 }
 
-// ContainsListId returns a boolean if a field has been set.
-func (o *CollectionOfNotes) ContainsListId() bool {
+// HasListId returns a boolean if a field has been set.
+func (o *CollectionOfNotes) HasListId() bool {
 	if o != nil && !IsNil(o.ListId) {
 		return true
 	}
@@ -163,8 +163,8 @@ func (o *CollectionOfNotes) GetTotalItemsOk() (*int32, bool) {
 	return o.TotalItems, true
 }
 
-// ContainsTotalItems returns a boolean if a field has been set.
-func (o *CollectionOfNotes) ContainsTotalItems() bool {
+// HasTotalItems returns a boolean if a field has been set.
+func (o *CollectionOfNotes) HasTotalItems() bool {
 	if o != nil && !IsNil(o.TotalItems) {
 		return true
 	}
@@ -195,8 +195,8 @@ func (o *CollectionOfNotes) GetLinksOk() ([]ResourceLink, bool) {
 	return o.Links, true
 }
 
-// ContainsLinks returns a boolean if a field has been set.
-func (o *CollectionOfNotes) ContainsLinks() bool {
+// HasLinks returns a boolean if a field has been set.
+func (o *CollectionOfNotes) HasLinks() bool {
 	if o != nil && !IsNil(o.Links) {
 		return true
 	}

@@ -59,8 +59,8 @@ func (o *PostCampaignsIdActionsCreateResendRequest) GetShortcutTypeOk() (*string
 	return o.ShortcutType, true
 }
 
-// ContainsShortcutType returns a boolean if a field has been set.
-func (o *PostCampaignsIdActionsCreateResendRequest) ContainsShortcutType() bool {
+// HasShortcutType returns a boolean if a field has been set.
+func (o *PostCampaignsIdActionsCreateResendRequest) HasShortcutType() bool {
 	if o != nil && !IsNil(o.ShortcutType) {
 		return true
 	}

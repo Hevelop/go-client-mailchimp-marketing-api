@@ -67,8 +67,8 @@ func (o *Interests) GetInterestsOk() ([]Interest, bool) {
 	return o.Interests, true
 }
 
-// ContainsInterests returns a boolean if a field has been set.
-func (o *Interests) ContainsInterests() bool {
+// HasInterests returns a boolean if a field has been set.
+func (o *Interests) HasInterests() bool {
 	if o != nil && !IsNil(o.Interests) {
 		return true
 	}
@@ -99,8 +99,8 @@ func (o *Interests) GetListIdOk() (*string, bool) {
 	return o.ListId, true
 }
 
-// ContainsListId returns a boolean if a field has been set.
-func (o *Interests) ContainsListId() bool {
+// HasListId returns a boolean if a field has been set.
+func (o *Interests) HasListId() bool {
 	if o != nil && !IsNil(o.ListId) {
 		return true
 	}
@@ -131,8 +131,8 @@ func (o *Interests) GetCategoryIdOk() (*string, bool) {
 	return o.CategoryId, true
 }
 
-// ContainsCategoryId returns a boolean if a field has been set.
-func (o *Interests) ContainsCategoryId() bool {
+// HasCategoryId returns a boolean if a field has been set.
+func (o *Interests) HasCategoryId() bool {
 	if o != nil && !IsNil(o.CategoryId) {
 		return true
 	}
@@ -163,8 +163,8 @@ func (o *Interests) GetTotalItemsOk() (*int32, bool) {
 	return o.TotalItems, true
 }
 
-// ContainsTotalItems returns a boolean if a field has been set.
-func (o *Interests) ContainsTotalItems() bool {
+// HasTotalItems returns a boolean if a field has been set.
+func (o *Interests) HasTotalItems() bool {
 	if o != nil && !IsNil(o.TotalItems) {
 		return true
 	}
@@ -195,8 +195,8 @@ func (o *Interests) GetLinksOk() ([]ResourceLink, bool) {
 	return o.Links, true
 }
 
-// ContainsLinks returns a boolean if a field has been set.
-func (o *Interests) ContainsLinks() bool {
+// HasLinks returns a boolean if a field has been set.
+func (o *Interests) HasLinks() bool {
 	if o != nil && !IsNil(o.Links) {
 		return true
 	}

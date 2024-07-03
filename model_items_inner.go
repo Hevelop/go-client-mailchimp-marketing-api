@@ -65,8 +65,8 @@ func (o *ItemsInner) GetTypeOk() (*string, bool) {
 	return o.Type, true
 }
 
-// ContainsType returns a boolean if a field has been set.
-func (o *ItemsInner) ContainsType() bool {
+// HasType returns a boolean if a field has been set.
+func (o *ItemsInner) HasType() bool {
 	if o != nil && !IsNil(o.Type) {
 		return true
 	}
@@ -97,8 +97,8 @@ func (o *ItemsInner) GetIdOk() (*int32, bool) {
 	return o.Id, true
 }
 
-// ContainsId returns a boolean if a field has been set.
-func (o *ItemsInner) ContainsId() bool {
+// HasId returns a boolean if a field has been set.
+func (o *ItemsInner) HasId() bool {
 	if o != nil && !IsNil(o.Id) {
 		return true
 	}
@@ -129,8 +129,8 @@ func (o *ItemsInner) GetHeadingOk() (*string, bool) {
 	return o.Heading, true
 }
 
-// ContainsHeading returns a boolean if a field has been set.
-func (o *ItemsInner) ContainsHeading() bool {
+// HasHeading returns a boolean if a field has been set.
+func (o *ItemsInner) HasHeading() bool {
 	if o != nil && !IsNil(o.Heading) {
 		return true
 	}
@@ -161,8 +161,8 @@ func (o *ItemsInner) GetDetailsOk() (*string, bool) {
 	return o.Details, true
 }
 
-// ContainsDetails returns a boolean if a field has been set.
-func (o *ItemsInner) ContainsDetails() bool {
+// HasDetails returns a boolean if a field has been set.
+func (o *ItemsInner) HasDetails() bool {
 	if o != nil && !IsNil(o.Details) {
 		return true
 	}

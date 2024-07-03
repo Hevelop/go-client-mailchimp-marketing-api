@@ -123,8 +123,8 @@ func (o *SubscriberList) GetIdOk() (*string, bool) {
 	return o.Id, true
 }
 
-// ContainsId returns a boolean if a field has been set.
-func (o *SubscriberList) ContainsId() bool {
+// HasId returns a boolean if a field has been set.
+func (o *SubscriberList) HasId() bool {
 	if o != nil && !IsNil(o.Id) {
 		return true
 	}
@@ -155,8 +155,8 @@ func (o *SubscriberList) GetWebIdOk() (*int32, bool) {
 	return o.WebId, true
 }
 
-// ContainsWebId returns a boolean if a field has been set.
-func (o *SubscriberList) ContainsWebId() bool {
+// HasWebId returns a boolean if a field has been set.
+func (o *SubscriberList) HasWebId() bool {
 	if o != nil && !IsNil(o.WebId) {
 		return true
 	}
@@ -187,8 +187,8 @@ func (o *SubscriberList) GetNameOk() (*string, bool) {
 	return o.Name, true
 }
 
-// ContainsName returns a boolean if a field has been set.
-func (o *SubscriberList) ContainsName() bool {
+// HasName returns a boolean if a field has been set.
+func (o *SubscriberList) HasName() bool {
 	if o != nil && !IsNil(o.Name) {
 		return true
 	}
@@ -219,8 +219,8 @@ func (o *SubscriberList) GetContactOk() (*ListContact, bool) {
 	return o.Contact, true
 }
 
-// ContainsContact returns a boolean if a field has been set.
-func (o *SubscriberList) ContainsContact() bool {
+// HasContact returns a boolean if a field has been set.
+func (o *SubscriberList) HasContact() bool {
 	if o != nil && !IsNil(o.Contact) {
 		return true
 	}
@@ -251,8 +251,8 @@ func (o *SubscriberList) GetPermissionReminderOk() (*string, bool) {
 	return o.PermissionReminder, true
 }
 
-// ContainsPermissionReminder returns a boolean if a field has been set.
-func (o *SubscriberList) ContainsPermissionReminder() bool {
+// HasPermissionReminder returns a boolean if a field has been set.
+func (o *SubscriberList) HasPermissionReminder() bool {
 	if o != nil && !IsNil(o.PermissionReminder) {
 		return true
 	}
@@ -283,8 +283,8 @@ func (o *SubscriberList) GetUseArchiveBarOk() (*bool, bool) {
 	return o.UseArchiveBar, true
 }
 
-// ContainsUseArchiveBar returns a boolean if a field has been set.
-func (o *SubscriberList) ContainsUseArchiveBar() bool {
+// HasUseArchiveBar returns a boolean if a field has been set.
+func (o *SubscriberList) HasUseArchiveBar() bool {
 	if o != nil && !IsNil(o.UseArchiveBar) {
 		return true
 	}
@@ -315,8 +315,8 @@ func (o *SubscriberList) GetCampaignDefaultsOk() (*CampaignDefaults, bool) {
 	return o.CampaignDefaults, true
 }
 
-// ContainsCampaignDefaults returns a boolean if a field has been set.
-func (o *SubscriberList) ContainsCampaignDefaults() bool {
+// HasCampaignDefaults returns a boolean if a field has been set.
+func (o *SubscriberList) HasCampaignDefaults() bool {
 	if o != nil && !IsNil(o.CampaignDefaults) {
 		return true
 	}
@@ -347,8 +347,8 @@ func (o *SubscriberList) GetNotifyOnSubscribeOk() (*string, bool) {
 	return o.NotifyOnSubscribe, true
 }
 
-// ContainsNotifyOnSubscribe returns a boolean if a field has been set.
-func (o *SubscriberList) ContainsNotifyOnSubscribe() bool {
+// HasNotifyOnSubscribe returns a boolean if a field has been set.
+func (o *SubscriberList) HasNotifyOnSubscribe() bool {
 	if o != nil && !IsNil(o.NotifyOnSubscribe) {
 		return true
 	}
@@ -379,8 +379,8 @@ func (o *SubscriberList) GetNotifyOnUnsubscribeOk() (*string, bool) {
 	return o.NotifyOnUnsubscribe, true
 }
 
-// ContainsNotifyOnUnsubscribe returns a boolean if a field has been set.
-func (o *SubscriberList) ContainsNotifyOnUnsubscribe() bool {
+// HasNotifyOnUnsubscribe returns a boolean if a field has been set.
+func (o *SubscriberList) HasNotifyOnUnsubscribe() bool {
 	if o != nil && !IsNil(o.NotifyOnUnsubscribe) {
 		return true
 	}
@@ -411,8 +411,8 @@ func (o *SubscriberList) GetDateCreatedOk() (*time.Time, bool) {
 	return o.DateCreated, true
 }
 
-// ContainsDateCreated returns a boolean if a field has been set.
-func (o *SubscriberList) ContainsDateCreated() bool {
+// HasDateCreated returns a boolean if a field has been set.
+func (o *SubscriberList) HasDateCreated() bool {
 	if o != nil && !IsNil(o.DateCreated) {
 		return true
 	}
@@ -443,8 +443,8 @@ func (o *SubscriberList) GetListRatingOk() (*int32, bool) {
 	return o.ListRating, true
 }
 
-// ContainsListRating returns a boolean if a field has been set.
-func (o *SubscriberList) ContainsListRating() bool {
+// HasListRating returns a boolean if a field has been set.
+func (o *SubscriberList) HasListRating() bool {
 	if o != nil && !IsNil(o.ListRating) {
 		return true
 	}
@@ -475,8 +475,8 @@ func (o *SubscriberList) GetEmailTypeOptionOk() (*bool, bool) {
 	return o.EmailTypeOption, true
 }
 
-// ContainsEmailTypeOption returns a boolean if a field has been set.
-func (o *SubscriberList) ContainsEmailTypeOption() bool {
+// HasEmailTypeOption returns a boolean if a field has been set.
+func (o *SubscriberList) HasEmailTypeOption() bool {
 	if o != nil && !IsNil(o.EmailTypeOption) {
 		return true
 	}
@@ -507,8 +507,8 @@ func (o *SubscriberList) GetSubscribeUrlShortOk() (*string, bool) {
 	return o.SubscribeUrlShort, true
 }
 
-// ContainsSubscribeUrlShort returns a boolean if a field has been set.
-func (o *SubscriberList) ContainsSubscribeUrlShort() bool {
+// HasSubscribeUrlShort returns a boolean if a field has been set.
+func (o *SubscriberList) HasSubscribeUrlShort() bool {
 	if o != nil && !IsNil(o.SubscribeUrlShort) {
 		return true
 	}
@@ -539,8 +539,8 @@ func (o *SubscriberList) GetSubscribeUrlLongOk() (*string, bool) {
 	return o.SubscribeUrlLong, true
 }
 
-// ContainsSubscribeUrlLong returns a boolean if a field has been set.
-func (o *SubscriberList) ContainsSubscribeUrlLong() bool {
+// HasSubscribeUrlLong returns a boolean if a field has been set.
+func (o *SubscriberList) HasSubscribeUrlLong() bool {
 	if o != nil && !IsNil(o.SubscribeUrlLong) {
 		return true
 	}
@@ -571,8 +571,8 @@ func (o *SubscriberList) GetBeamerAddressOk() (*string, bool) {
 	return o.BeamerAddress, true
 }
 
-// ContainsBeamerAddress returns a boolean if a field has been set.
-func (o *SubscriberList) ContainsBeamerAddress() bool {
+// HasBeamerAddress returns a boolean if a field has been set.
+func (o *SubscriberList) HasBeamerAddress() bool {
 	if o != nil && !IsNil(o.BeamerAddress) {
 		return true
 	}
@@ -603,8 +603,8 @@ func (o *SubscriberList) GetVisibilityOk() (*string, bool) {
 	return o.Visibility, true
 }
 
-// ContainsVisibility returns a boolean if a field has been set.
-func (o *SubscriberList) ContainsVisibility() bool {
+// HasVisibility returns a boolean if a field has been set.
+func (o *SubscriberList) HasVisibility() bool {
 	if o != nil && !IsNil(o.Visibility) {
 		return true
 	}
@@ -635,8 +635,8 @@ func (o *SubscriberList) GetDoubleOptinOk() (*bool, bool) {
 	return o.DoubleOptin, true
 }
 
-// ContainsDoubleOptin returns a boolean if a field has been set.
-func (o *SubscriberList) ContainsDoubleOptin() bool {
+// HasDoubleOptin returns a boolean if a field has been set.
+func (o *SubscriberList) HasDoubleOptin() bool {
 	if o != nil && !IsNil(o.DoubleOptin) {
 		return true
 	}
@@ -667,8 +667,8 @@ func (o *SubscriberList) GetHasWelcomeOk() (*bool, bool) {
 	return o.HasWelcome, true
 }
 
-// ContainsHasWelcome returns a boolean if a field has been set.
-func (o *SubscriberList) ContainsHasWelcome() bool {
+// HasHasWelcome returns a boolean if a field has been set.
+func (o *SubscriberList) HasHasWelcome() bool {
 	if o != nil && !IsNil(o.HasWelcome) {
 		return true
 	}
@@ -699,8 +699,8 @@ func (o *SubscriberList) GetMarketingPermissionsOk() (*bool, bool) {
 	return o.MarketingPermissions, true
 }
 
-// ContainsMarketingPermissions returns a boolean if a field has been set.
-func (o *SubscriberList) ContainsMarketingPermissions() bool {
+// HasMarketingPermissions returns a boolean if a field has been set.
+func (o *SubscriberList) HasMarketingPermissions() bool {
 	if o != nil && !IsNil(o.MarketingPermissions) {
 		return true
 	}
@@ -731,8 +731,8 @@ func (o *SubscriberList) GetModulesOk() ([]string, bool) {
 	return o.Modules, true
 }
 
-// ContainsModules returns a boolean if a field has been set.
-func (o *SubscriberList) ContainsModules() bool {
+// HasModules returns a boolean if a field has been set.
+func (o *SubscriberList) HasModules() bool {
 	if o != nil && !IsNil(o.Modules) {
 		return true
 	}
@@ -763,8 +763,8 @@ func (o *SubscriberList) GetStatsOk() (*Statistics, bool) {
 	return o.Stats, true
 }
 
-// ContainsStats returns a boolean if a field has been set.
-func (o *SubscriberList) ContainsStats() bool {
+// HasStats returns a boolean if a field has been set.
+func (o *SubscriberList) HasStats() bool {
 	if o != nil && !IsNil(o.Stats) {
 		return true
 	}
@@ -795,8 +795,8 @@ func (o *SubscriberList) GetLinksOk() ([]ResourceLink, bool) {
 	return o.Links, true
 }
 
-// ContainsLinks returns a boolean if a field has been set.
-func (o *SubscriberList) ContainsLinks() bool {
+// HasLinks returns a boolean if a field has been set.
+func (o *SubscriberList) HasLinks() bool {
 	if o != nil && !IsNil(o.Links) {
 		return true
 	}

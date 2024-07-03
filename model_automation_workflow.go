@@ -75,8 +75,8 @@ func (o *AutomationWorkflow) GetIdOk() (*string, bool) {
 	return o.Id, true
 }
 
-// ContainsId returns a boolean if a field has been set.
-func (o *AutomationWorkflow) ContainsId() bool {
+// HasId returns a boolean if a field has been set.
+func (o *AutomationWorkflow) HasId() bool {
 	if o != nil && !IsNil(o.Id) {
 		return true
 	}
@@ -107,8 +107,8 @@ func (o *AutomationWorkflow) GetCreateTimeOk() (*time.Time, bool) {
 	return o.CreateTime, true
 }
 
-// ContainsCreateTime returns a boolean if a field has been set.
-func (o *AutomationWorkflow) ContainsCreateTime() bool {
+// HasCreateTime returns a boolean if a field has been set.
+func (o *AutomationWorkflow) HasCreateTime() bool {
 	if o != nil && !IsNil(o.CreateTime) {
 		return true
 	}
@@ -139,8 +139,8 @@ func (o *AutomationWorkflow) GetStartTimeOk() (*time.Time, bool) {
 	return o.StartTime, true
 }
 
-// ContainsStartTime returns a boolean if a field has been set.
-func (o *AutomationWorkflow) ContainsStartTime() bool {
+// HasStartTime returns a boolean if a field has been set.
+func (o *AutomationWorkflow) HasStartTime() bool {
 	if o != nil && !IsNil(o.StartTime) {
 		return true
 	}
@@ -171,8 +171,8 @@ func (o *AutomationWorkflow) GetStatusOk() (*string, bool) {
 	return o.Status, true
 }
 
-// ContainsStatus returns a boolean if a field has been set.
-func (o *AutomationWorkflow) ContainsStatus() bool {
+// HasStatus returns a boolean if a field has been set.
+func (o *AutomationWorkflow) HasStatus() bool {
 	if o != nil && !IsNil(o.Status) {
 		return true
 	}
@@ -203,8 +203,8 @@ func (o *AutomationWorkflow) GetEmailsSentOk() (*int32, bool) {
 	return o.EmailsSent, true
 }
 
-// ContainsEmailsSent returns a boolean if a field has been set.
-func (o *AutomationWorkflow) ContainsEmailsSent() bool {
+// HasEmailsSent returns a boolean if a field has been set.
+func (o *AutomationWorkflow) HasEmailsSent() bool {
 	if o != nil && !IsNil(o.EmailsSent) {
 		return true
 	}
@@ -235,8 +235,8 @@ func (o *AutomationWorkflow) GetRecipientsOk() (*List, bool) {
 	return o.Recipients, true
 }
 
-// ContainsRecipients returns a boolean if a field has been set.
-func (o *AutomationWorkflow) ContainsRecipients() bool {
+// HasRecipients returns a boolean if a field has been set.
+func (o *AutomationWorkflow) HasRecipients() bool {
 	if o != nil && !IsNil(o.Recipients) {
 		return true
 	}
@@ -267,8 +267,8 @@ func (o *AutomationWorkflow) GetSettingsOk() (*AutomationCampaignSettings, bool)
 	return o.Settings, true
 }
 
-// ContainsSettings returns a boolean if a field has been set.
-func (o *AutomationWorkflow) ContainsSettings() bool {
+// HasSettings returns a boolean if a field has been set.
+func (o *AutomationWorkflow) HasSettings() bool {
 	if o != nil && !IsNil(o.Settings) {
 		return true
 	}
@@ -299,8 +299,8 @@ func (o *AutomationWorkflow) GetTrackingOk() (*AutomationTrackingOptions, bool) 
 	return o.Tracking, true
 }
 
-// ContainsTracking returns a boolean if a field has been set.
-func (o *AutomationWorkflow) ContainsTracking() bool {
+// HasTracking returns a boolean if a field has been set.
+func (o *AutomationWorkflow) HasTracking() bool {
 	if o != nil && !IsNil(o.Tracking) {
 		return true
 	}
@@ -331,8 +331,8 @@ func (o *AutomationWorkflow) GetTriggerSettingsOk() (*AutomationTrigger, bool) {
 	return o.TriggerSettings, true
 }
 
-// ContainsTriggerSettings returns a boolean if a field has been set.
-func (o *AutomationWorkflow) ContainsTriggerSettings() bool {
+// HasTriggerSettings returns a boolean if a field has been set.
+func (o *AutomationWorkflow) HasTriggerSettings() bool {
 	if o != nil && !IsNil(o.TriggerSettings) {
 		return true
 	}
@@ -363,8 +363,8 @@ func (o *AutomationWorkflow) GetReportSummaryOk() (*CampaignReportSummary, bool)
 	return o.ReportSummary, true
 }
 
-// ContainsReportSummary returns a boolean if a field has been set.
-func (o *AutomationWorkflow) ContainsReportSummary() bool {
+// HasReportSummary returns a boolean if a field has been set.
+func (o *AutomationWorkflow) HasReportSummary() bool {
 	if o != nil && !IsNil(o.ReportSummary) {
 		return true
 	}
@@ -395,8 +395,8 @@ func (o *AutomationWorkflow) GetLinksOk() ([]ResourceLink, bool) {
 	return o.Links, true
 }
 
-// ContainsLinks returns a boolean if a field has been set.
-func (o *AutomationWorkflow) ContainsLinks() bool {
+// HasLinks returns a boolean if a field has been set.
+func (o *AutomationWorkflow) HasLinks() bool {
 	if o != nil && !IsNil(o.Links) {
 		return true
 	}

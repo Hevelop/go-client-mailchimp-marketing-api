@@ -92,8 +92,8 @@ func (o *PostCampaignsIdActionsScheduleRequest) GetTimewarpOk() (*bool, bool) {
 	return o.Timewarp, true
 }
 
-// ContainsTimewarp returns a boolean if a field has been set.
-func (o *PostCampaignsIdActionsScheduleRequest) ContainsTimewarp() bool {
+// HasTimewarp returns a boolean if a field has been set.
+func (o *PostCampaignsIdActionsScheduleRequest) HasTimewarp() bool {
 	if o != nil && !IsNil(o.Timewarp) {
 		return true
 	}
@@ -124,8 +124,8 @@ func (o *PostCampaignsIdActionsScheduleRequest) GetBatchDeliveryOk() (*BatchDeli
 	return o.BatchDelivery, true
 }
 
-// ContainsBatchDelivery returns a boolean if a field has been set.
-func (o *PostCampaignsIdActionsScheduleRequest) ContainsBatchDelivery() bool {
+// HasBatchDelivery returns a boolean if a field has been set.
+func (o *PostCampaignsIdActionsScheduleRequest) HasBatchDelivery() bool {
 	if o != nil && !IsNil(o.BatchDelivery) {
 		return true
 	}

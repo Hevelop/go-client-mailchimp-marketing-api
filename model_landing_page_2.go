@@ -68,8 +68,8 @@ func (o *LandingPage2) GetNameOk() (*string, bool) {
 	return o.Name, true
 }
 
-// ContainsName returns a boolean if a field has been set.
-func (o *LandingPage2) ContainsName() bool {
+// HasName returns a boolean if a field has been set.
+func (o *LandingPage2) HasName() bool {
 	if o != nil && !IsNil(o.Name) {
 		return true
 	}
@@ -100,8 +100,8 @@ func (o *LandingPage2) GetTitleOk() (*string, bool) {
 	return o.Title, true
 }
 
-// ContainsTitle returns a boolean if a field has been set.
-func (o *LandingPage2) ContainsTitle() bool {
+// HasTitle returns a boolean if a field has been set.
+func (o *LandingPage2) HasTitle() bool {
 	if o != nil && !IsNil(o.Title) {
 		return true
 	}
@@ -132,8 +132,8 @@ func (o *LandingPage2) GetDescriptionOk() (*string, bool) {
 	return o.Description, true
 }
 
-// ContainsDescription returns a boolean if a field has been set.
-func (o *LandingPage2) ContainsDescription() bool {
+// HasDescription returns a boolean if a field has been set.
+func (o *LandingPage2) HasDescription() bool {
 	if o != nil && !IsNil(o.Description) {
 		return true
 	}
@@ -164,8 +164,8 @@ func (o *LandingPage2) GetStoreIdOk() (*string, bool) {
 	return o.StoreId, true
 }
 
-// ContainsStoreId returns a boolean if a field has been set.
-func (o *LandingPage2) ContainsStoreId() bool {
+// HasStoreId returns a boolean if a field has been set.
+func (o *LandingPage2) HasStoreId() bool {
 	if o != nil && !IsNil(o.StoreId) {
 		return true
 	}
@@ -196,8 +196,8 @@ func (o *LandingPage2) GetListIdOk() (*string, bool) {
 	return o.ListId, true
 }
 
-// ContainsListId returns a boolean if a field has been set.
-func (o *LandingPage2) ContainsListId() bool {
+// HasListId returns a boolean if a field has been set.
+func (o *LandingPage2) HasListId() bool {
 	if o != nil && !IsNil(o.ListId) {
 		return true
 	}
@@ -228,8 +228,8 @@ func (o *LandingPage2) GetTrackingOk() (*TrackingSettings, bool) {
 	return o.Tracking, true
 }
 
-// ContainsTracking returns a boolean if a field has been set.
-func (o *LandingPage2) ContainsTracking() bool {
+// HasTracking returns a boolean if a field has been set.
+func (o *LandingPage2) HasTracking() bool {
 	if o != nil && !IsNil(o.Tracking) {
 		return true
 	}

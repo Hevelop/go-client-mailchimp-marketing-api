@@ -65,8 +65,8 @@ func (o *RemovedSubscribers) GetWorkflowIdOk() (*string, bool) {
 	return o.WorkflowId, true
 }
 
-// ContainsWorkflowId returns a boolean if a field has been set.
-func (o *RemovedSubscribers) ContainsWorkflowId() bool {
+// HasWorkflowId returns a boolean if a field has been set.
+func (o *RemovedSubscribers) HasWorkflowId() bool {
 	if o != nil && !IsNil(o.WorkflowId) {
 		return true
 	}
@@ -97,8 +97,8 @@ func (o *RemovedSubscribers) GetSubscribersOk() ([]SubscriberRemovedFromAutomati
 	return o.Subscribers, true
 }
 
-// ContainsSubscribers returns a boolean if a field has been set.
-func (o *RemovedSubscribers) ContainsSubscribers() bool {
+// HasSubscribers returns a boolean if a field has been set.
+func (o *RemovedSubscribers) HasSubscribers() bool {
 	if o != nil && !IsNil(o.Subscribers) {
 		return true
 	}
@@ -129,8 +129,8 @@ func (o *RemovedSubscribers) GetTotalItemsOk() (*int32, bool) {
 	return o.TotalItems, true
 }
 
-// ContainsTotalItems returns a boolean if a field has been set.
-func (o *RemovedSubscribers) ContainsTotalItems() bool {
+// HasTotalItems returns a boolean if a field has been set.
+func (o *RemovedSubscribers) HasTotalItems() bool {
 	if o != nil && !IsNil(o.TotalItems) {
 		return true
 	}
@@ -161,8 +161,8 @@ func (o *RemovedSubscribers) GetLinksOk() ([]ResourceLink, bool) {
 	return o.Links, true
 }
 
-// ContainsLinks returns a boolean if a field has been set.
-func (o *RemovedSubscribers) ContainsLinks() bool {
+// HasLinks returns a boolean if a field has been set.
+func (o *RemovedSubscribers) HasLinks() bool {
 	if o != nil && !IsNil(o.Links) {
 		return true
 	}

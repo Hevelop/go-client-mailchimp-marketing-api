@@ -65,8 +65,8 @@ func (o *CampaignDefaults) GetFromNameOk() (*string, bool) {
 	return o.FromName, true
 }
 
-// ContainsFromName returns a boolean if a field has been set.
-func (o *CampaignDefaults) ContainsFromName() bool {
+// HasFromName returns a boolean if a field has been set.
+func (o *CampaignDefaults) HasFromName() bool {
 	if o != nil && !IsNil(o.FromName) {
 		return true
 	}
@@ -97,8 +97,8 @@ func (o *CampaignDefaults) GetFromEmailOk() (*string, bool) {
 	return o.FromEmail, true
 }
 
-// ContainsFromEmail returns a boolean if a field has been set.
-func (o *CampaignDefaults) ContainsFromEmail() bool {
+// HasFromEmail returns a boolean if a field has been set.
+func (o *CampaignDefaults) HasFromEmail() bool {
 	if o != nil && !IsNil(o.FromEmail) {
 		return true
 	}
@@ -129,8 +129,8 @@ func (o *CampaignDefaults) GetSubjectOk() (*string, bool) {
 	return o.Subject, true
 }
 
-// ContainsSubject returns a boolean if a field has been set.
-func (o *CampaignDefaults) ContainsSubject() bool {
+// HasSubject returns a boolean if a field has been set.
+func (o *CampaignDefaults) HasSubject() bool {
 	if o != nil && !IsNil(o.Subject) {
 		return true
 	}
@@ -161,8 +161,8 @@ func (o *CampaignDefaults) GetLanguageOk() (*string, bool) {
 	return o.Language, true
 }
 
-// ContainsLanguage returns a boolean if a field has been set.
-func (o *CampaignDefaults) ContainsLanguage() bool {
+// HasLanguage returns a boolean if a field has been set.
+func (o *CampaignDefaults) HasLanguage() bool {
 	if o != nil && !IsNil(o.Language) {
 		return true
 	}

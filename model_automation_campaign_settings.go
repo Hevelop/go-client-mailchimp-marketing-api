@@ -73,8 +73,8 @@ func (o *AutomationCampaignSettings) GetTitleOk() (*string, bool) {
 	return o.Title, true
 }
 
-// ContainsTitle returns a boolean if a field has been set.
-func (o *AutomationCampaignSettings) ContainsTitle() bool {
+// HasTitle returns a boolean if a field has been set.
+func (o *AutomationCampaignSettings) HasTitle() bool {
 	if o != nil && !IsNil(o.Title) {
 		return true
 	}
@@ -105,8 +105,8 @@ func (o *AutomationCampaignSettings) GetFromNameOk() (*string, bool) {
 	return o.FromName, true
 }
 
-// ContainsFromName returns a boolean if a field has been set.
-func (o *AutomationCampaignSettings) ContainsFromName() bool {
+// HasFromName returns a boolean if a field has been set.
+func (o *AutomationCampaignSettings) HasFromName() bool {
 	if o != nil && !IsNil(o.FromName) {
 		return true
 	}
@@ -137,8 +137,8 @@ func (o *AutomationCampaignSettings) GetReplyToOk() (*string, bool) {
 	return o.ReplyTo, true
 }
 
-// ContainsReplyTo returns a boolean if a field has been set.
-func (o *AutomationCampaignSettings) ContainsReplyTo() bool {
+// HasReplyTo returns a boolean if a field has been set.
+func (o *AutomationCampaignSettings) HasReplyTo() bool {
 	if o != nil && !IsNil(o.ReplyTo) {
 		return true
 	}
@@ -169,8 +169,8 @@ func (o *AutomationCampaignSettings) GetUseConversationOk() (*bool, bool) {
 	return o.UseConversation, true
 }
 
-// ContainsUseConversation returns a boolean if a field has been set.
-func (o *AutomationCampaignSettings) ContainsUseConversation() bool {
+// HasUseConversation returns a boolean if a field has been set.
+func (o *AutomationCampaignSettings) HasUseConversation() bool {
 	if o != nil && !IsNil(o.UseConversation) {
 		return true
 	}
@@ -201,8 +201,8 @@ func (o *AutomationCampaignSettings) GetToNameOk() (*string, bool) {
 	return o.ToName, true
 }
 
-// ContainsToName returns a boolean if a field has been set.
-func (o *AutomationCampaignSettings) ContainsToName() bool {
+// HasToName returns a boolean if a field has been set.
+func (o *AutomationCampaignSettings) HasToName() bool {
 	if o != nil && !IsNil(o.ToName) {
 		return true
 	}
@@ -233,8 +233,8 @@ func (o *AutomationCampaignSettings) GetAuthenticateOk() (*bool, bool) {
 	return o.Authenticate, true
 }
 
-// ContainsAuthenticate returns a boolean if a field has been set.
-func (o *AutomationCampaignSettings) ContainsAuthenticate() bool {
+// HasAuthenticate returns a boolean if a field has been set.
+func (o *AutomationCampaignSettings) HasAuthenticate() bool {
 	if o != nil && !IsNil(o.Authenticate) {
 		return true
 	}
@@ -265,8 +265,8 @@ func (o *AutomationCampaignSettings) GetAutoFooterOk() (*bool, bool) {
 	return o.AutoFooter, true
 }
 
-// ContainsAutoFooter returns a boolean if a field has been set.
-func (o *AutomationCampaignSettings) ContainsAutoFooter() bool {
+// HasAutoFooter returns a boolean if a field has been set.
+func (o *AutomationCampaignSettings) HasAutoFooter() bool {
 	if o != nil && !IsNil(o.AutoFooter) {
 		return true
 	}
@@ -297,8 +297,8 @@ func (o *AutomationCampaignSettings) GetInlineCssOk() (*bool, bool) {
 	return o.InlineCss, true
 }
 
-// ContainsInlineCss returns a boolean if a field has been set.
-func (o *AutomationCampaignSettings) ContainsInlineCss() bool {
+// HasInlineCss returns a boolean if a field has been set.
+func (o *AutomationCampaignSettings) HasInlineCss() bool {
 	if o != nil && !IsNil(o.InlineCss) {
 		return true
 	}

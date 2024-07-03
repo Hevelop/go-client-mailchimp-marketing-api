@@ -65,8 +65,8 @@ func (o *Unsubscribes) GetUnsubscribesOk() ([]Unsubscribes, bool) {
 	return o.Unsubscribes, true
 }
 
-// ContainsUnsubscribes returns a boolean if a field has been set.
-func (o *Unsubscribes) ContainsUnsubscribes() bool {
+// HasUnsubscribes returns a boolean if a field has been set.
+func (o *Unsubscribes) HasUnsubscribes() bool {
 	if o != nil && !IsNil(o.Unsubscribes) {
 		return true
 	}
@@ -97,8 +97,8 @@ func (o *Unsubscribes) GetCampaignIdOk() (*string, bool) {
 	return o.CampaignId, true
 }
 
-// ContainsCampaignId returns a boolean if a field has been set.
-func (o *Unsubscribes) ContainsCampaignId() bool {
+// HasCampaignId returns a boolean if a field has been set.
+func (o *Unsubscribes) HasCampaignId() bool {
 	if o != nil && !IsNil(o.CampaignId) {
 		return true
 	}
@@ -129,8 +129,8 @@ func (o *Unsubscribes) GetTotalItemsOk() (*int32, bool) {
 	return o.TotalItems, true
 }
 
-// ContainsTotalItems returns a boolean if a field has been set.
-func (o *Unsubscribes) ContainsTotalItems() bool {
+// HasTotalItems returns a boolean if a field has been set.
+func (o *Unsubscribes) HasTotalItems() bool {
 	if o != nil && !IsNil(o.TotalItems) {
 		return true
 	}
@@ -161,8 +161,8 @@ func (o *Unsubscribes) GetLinksOk() ([]ResourceLink, bool) {
 	return o.Links, true
 }
 
-// ContainsLinks returns a boolean if a field has been set.
-func (o *Unsubscribes) ContainsLinks() bool {
+// HasLinks returns a boolean if a field has been set.
+func (o *Unsubscribes) HasLinks() bool {
 	if o != nil && !IsNil(o.Links) {
 		return true
 	}

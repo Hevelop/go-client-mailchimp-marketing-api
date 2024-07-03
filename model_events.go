@@ -95,8 +95,8 @@ func (o *Events) GetPropertiesOk() (*map[string]string, bool) {
 	return o.Properties, true
 }
 
-// ContainsProperties returns a boolean if a field has been set.
-func (o *Events) ContainsProperties() bool {
+// HasProperties returns a boolean if a field has been set.
+func (o *Events) HasProperties() bool {
 	if o != nil && !IsNil(o.Properties) {
 		return true
 	}
@@ -127,8 +127,8 @@ func (o *Events) GetIsSyncingOk() (*bool, bool) {
 	return o.IsSyncing, true
 }
 
-// ContainsIsSyncing returns a boolean if a field has been set.
-func (o *Events) ContainsIsSyncing() bool {
+// HasIsSyncing returns a boolean if a field has been set.
+func (o *Events) HasIsSyncing() bool {
 	if o != nil && !IsNil(o.IsSyncing) {
 		return true
 	}
@@ -159,8 +159,8 @@ func (o *Events) GetOccurredAtOk() (*time.Time, bool) {
 	return o.OccurredAt, true
 }
 
-// ContainsOccurredAt returns a boolean if a field has been set.
-func (o *Events) ContainsOccurredAt() bool {
+// HasOccurredAt returns a boolean if a field has been set.
+func (o *Events) HasOccurredAt() bool {
 	if o != nil && !IsNil(o.OccurredAt) {
 		return true
 	}

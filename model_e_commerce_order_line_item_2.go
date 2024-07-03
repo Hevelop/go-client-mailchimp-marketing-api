@@ -67,8 +67,8 @@ func (o *ECommerceOrderLineItem2) GetProductIdOk() (*string, bool) {
 	return o.ProductId, true
 }
 
-// ContainsProductId returns a boolean if a field has been set.
-func (o *ECommerceOrderLineItem2) ContainsProductId() bool {
+// HasProductId returns a boolean if a field has been set.
+func (o *ECommerceOrderLineItem2) HasProductId() bool {
 	if o != nil && !IsNil(o.ProductId) {
 		return true
 	}
@@ -99,8 +99,8 @@ func (o *ECommerceOrderLineItem2) GetProductVariantIdOk() (*string, bool) {
 	return o.ProductVariantId, true
 }
 
-// ContainsProductVariantId returns a boolean if a field has been set.
-func (o *ECommerceOrderLineItem2) ContainsProductVariantId() bool {
+// HasProductVariantId returns a boolean if a field has been set.
+func (o *ECommerceOrderLineItem2) HasProductVariantId() bool {
 	if o != nil && !IsNil(o.ProductVariantId) {
 		return true
 	}
@@ -131,8 +131,8 @@ func (o *ECommerceOrderLineItem2) GetQuantityOk() (*int32, bool) {
 	return o.Quantity, true
 }
 
-// ContainsQuantity returns a boolean if a field has been set.
-func (o *ECommerceOrderLineItem2) ContainsQuantity() bool {
+// HasQuantity returns a boolean if a field has been set.
+func (o *ECommerceOrderLineItem2) HasQuantity() bool {
 	if o != nil && !IsNil(o.Quantity) {
 		return true
 	}
@@ -163,8 +163,8 @@ func (o *ECommerceOrderLineItem2) GetPriceOk() (*float32, bool) {
 	return o.Price, true
 }
 
-// ContainsPrice returns a boolean if a field has been set.
-func (o *ECommerceOrderLineItem2) ContainsPrice() bool {
+// HasPrice returns a boolean if a field has been set.
+func (o *ECommerceOrderLineItem2) HasPrice() bool {
 	if o != nil && !IsNil(o.Price) {
 		return true
 	}
@@ -195,8 +195,8 @@ func (o *ECommerceOrderLineItem2) GetDiscountOk() (*float32, bool) {
 	return o.Discount, true
 }
 
-// ContainsDiscount returns a boolean if a field has been set.
-func (o *ECommerceOrderLineItem2) ContainsDiscount() bool {
+// HasDiscount returns a boolean if a field has been set.
+func (o *ECommerceOrderLineItem2) HasDiscount() bool {
 	if o != nil && !IsNil(o.Discount) {
 		return true
 	}

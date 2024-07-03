@@ -135,8 +135,8 @@ func (o *ECommerceProduct1) GetHandleOk() (*string, bool) {
 	return o.Handle, true
 }
 
-// ContainsHandle returns a boolean if a field has been set.
-func (o *ECommerceProduct1) ContainsHandle() bool {
+// HasHandle returns a boolean if a field has been set.
+func (o *ECommerceProduct1) HasHandle() bool {
 	if o != nil && !IsNil(o.Handle) {
 		return true
 	}
@@ -167,8 +167,8 @@ func (o *ECommerceProduct1) GetUrlOk() (*string, bool) {
 	return o.Url, true
 }
 
-// ContainsUrl returns a boolean if a field has been set.
-func (o *ECommerceProduct1) ContainsUrl() bool {
+// HasUrl returns a boolean if a field has been set.
+func (o *ECommerceProduct1) HasUrl() bool {
 	if o != nil && !IsNil(o.Url) {
 		return true
 	}
@@ -199,8 +199,8 @@ func (o *ECommerceProduct1) GetDescriptionOk() (*string, bool) {
 	return o.Description, true
 }
 
-// ContainsDescription returns a boolean if a field has been set.
-func (o *ECommerceProduct1) ContainsDescription() bool {
+// HasDescription returns a boolean if a field has been set.
+func (o *ECommerceProduct1) HasDescription() bool {
 	if o != nil && !IsNil(o.Description) {
 		return true
 	}
@@ -231,8 +231,8 @@ func (o *ECommerceProduct1) GetTypeOk() (*string, bool) {
 	return o.Type, true
 }
 
-// ContainsType returns a boolean if a field has been set.
-func (o *ECommerceProduct1) ContainsType() bool {
+// HasType returns a boolean if a field has been set.
+func (o *ECommerceProduct1) HasType() bool {
 	if o != nil && !IsNil(o.Type) {
 		return true
 	}
@@ -263,8 +263,8 @@ func (o *ECommerceProduct1) GetVendorOk() (*string, bool) {
 	return o.Vendor, true
 }
 
-// ContainsVendor returns a boolean if a field has been set.
-func (o *ECommerceProduct1) ContainsVendor() bool {
+// HasVendor returns a boolean if a field has been set.
+func (o *ECommerceProduct1) HasVendor() bool {
 	if o != nil && !IsNil(o.Vendor) {
 		return true
 	}
@@ -295,8 +295,8 @@ func (o *ECommerceProduct1) GetImageUrlOk() (*string, bool) {
 	return o.ImageUrl, true
 }
 
-// ContainsImageUrl returns a boolean if a field has been set.
-func (o *ECommerceProduct1) ContainsImageUrl() bool {
+// HasImageUrl returns a boolean if a field has been set.
+func (o *ECommerceProduct1) HasImageUrl() bool {
 	if o != nil && !IsNil(o.ImageUrl) {
 		return true
 	}
@@ -351,8 +351,8 @@ func (o *ECommerceProduct1) GetImagesOk() ([]ECommerceProductImage1, bool) {
 	return o.Images, true
 }
 
-// ContainsImages returns a boolean if a field has been set.
-func (o *ECommerceProduct1) ContainsImages() bool {
+// HasImages returns a boolean if a field has been set.
+func (o *ECommerceProduct1) HasImages() bool {
 	if o != nil && !IsNil(o.Images) {
 		return true
 	}
@@ -383,8 +383,8 @@ func (o *ECommerceProduct1) GetPublishedAtForeignOk() (*time.Time, bool) {
 	return o.PublishedAtForeign, true
 }
 
-// ContainsPublishedAtForeign returns a boolean if a field has been set.
-func (o *ECommerceProduct1) ContainsPublishedAtForeign() bool {
+// HasPublishedAtForeign returns a boolean if a field has been set.
+func (o *ECommerceProduct1) HasPublishedAtForeign() bool {
 	if o != nil && !IsNil(o.PublishedAtForeign) {
 		return true
 	}

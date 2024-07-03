@@ -65,8 +65,8 @@ func (o *MergeFieldOptions2) GetDefaultCountryOk() (*int32, bool) {
 	return o.DefaultCountry, true
 }
 
-// ContainsDefaultCountry returns a boolean if a field has been set.
-func (o *MergeFieldOptions2) ContainsDefaultCountry() bool {
+// HasDefaultCountry returns a boolean if a field has been set.
+func (o *MergeFieldOptions2) HasDefaultCountry() bool {
 	if o != nil && !IsNil(o.DefaultCountry) {
 		return true
 	}
@@ -97,8 +97,8 @@ func (o *MergeFieldOptions2) GetPhoneFormatOk() (*string, bool) {
 	return o.PhoneFormat, true
 }
 
-// ContainsPhoneFormat returns a boolean if a field has been set.
-func (o *MergeFieldOptions2) ContainsPhoneFormat() bool {
+// HasPhoneFormat returns a boolean if a field has been set.
+func (o *MergeFieldOptions2) HasPhoneFormat() bool {
 	if o != nil && !IsNil(o.PhoneFormat) {
 		return true
 	}
@@ -129,8 +129,8 @@ func (o *MergeFieldOptions2) GetDateFormatOk() (*string, bool) {
 	return o.DateFormat, true
 }
 
-// ContainsDateFormat returns a boolean if a field has been set.
-func (o *MergeFieldOptions2) ContainsDateFormat() bool {
+// HasDateFormat returns a boolean if a field has been set.
+func (o *MergeFieldOptions2) HasDateFormat() bool {
 	if o != nil && !IsNil(o.DateFormat) {
 		return true
 	}
@@ -161,8 +161,8 @@ func (o *MergeFieldOptions2) GetChoicesOk() ([]string, bool) {
 	return o.Choices, true
 }
 
-// ContainsChoices returns a boolean if a field has been set.
-func (o *MergeFieldOptions2) ContainsChoices() bool {
+// HasChoices returns a boolean if a field has been set.
+func (o *MergeFieldOptions2) HasChoices() bool {
 	if o != nil && !IsNil(o.Choices) {
 		return true
 	}

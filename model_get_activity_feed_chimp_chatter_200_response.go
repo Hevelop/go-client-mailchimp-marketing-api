@@ -63,8 +63,8 @@ func (o *GetActivityFeedChimpChatter200Response) GetChimpChatterOk() ([]ChimpCha
 	return o.ChimpChatter, true
 }
 
-// ContainsChimpChatter returns a boolean if a field has been set.
-func (o *GetActivityFeedChimpChatter200Response) ContainsChimpChatter() bool {
+// HasChimpChatter returns a boolean if a field has been set.
+func (o *GetActivityFeedChimpChatter200Response) HasChimpChatter() bool {
 	if o != nil && !IsNil(o.ChimpChatter) {
 		return true
 	}
@@ -95,8 +95,8 @@ func (o *GetActivityFeedChimpChatter200Response) GetTotalItemsOk() (*int32, bool
 	return o.TotalItems, true
 }
 
-// ContainsTotalItems returns a boolean if a field has been set.
-func (o *GetActivityFeedChimpChatter200Response) ContainsTotalItems() bool {
+// HasTotalItems returns a boolean if a field has been set.
+func (o *GetActivityFeedChimpChatter200Response) HasTotalItems() bool {
 	if o != nil && !IsNil(o.TotalItems) {
 		return true
 	}
@@ -127,8 +127,8 @@ func (o *GetActivityFeedChimpChatter200Response) GetLinksOk() ([]ResourceLink, b
 	return o.Links, true
 }
 
-// ContainsLinks returns a boolean if a field has been set.
-func (o *GetActivityFeedChimpChatter200Response) ContainsLinks() bool {
+// HasLinks returns a boolean if a field has been set.
+func (o *GetActivityFeedChimpChatter200Response) HasLinks() bool {
 	if o != nil && !IsNil(o.Links) {
 		return true
 	}

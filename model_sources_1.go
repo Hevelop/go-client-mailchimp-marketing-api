@@ -63,8 +63,8 @@ func (o *Sources1) GetUserOk() (*bool, bool) {
 	return o.User, true
 }
 
-// ContainsUser returns a boolean if a field has been set.
-func (o *Sources1) ContainsUser() bool {
+// HasUser returns a boolean if a field has been set.
+func (o *Sources1) HasUser() bool {
 	if o != nil && !IsNil(o.User) {
 		return true
 	}
@@ -95,8 +95,8 @@ func (o *Sources1) GetAdminOk() (*bool, bool) {
 	return o.Admin, true
 }
 
-// ContainsAdmin returns a boolean if a field has been set.
-func (o *Sources1) ContainsAdmin() bool {
+// HasAdmin returns a boolean if a field has been set.
+func (o *Sources1) HasAdmin() bool {
 	if o != nil && !IsNil(o.Admin) {
 		return true
 	}
@@ -127,8 +127,8 @@ func (o *Sources1) GetApiOk() (*bool, bool) {
 	return o.Api, true
 }
 
-// ContainsApi returns a boolean if a field has been set.
-func (o *Sources1) ContainsApi() bool {
+// HasApi returns a boolean if a field has been set.
+func (o *Sources1) HasApi() bool {
 	if o != nil && !IsNil(o.Api) {
 		return true
 	}

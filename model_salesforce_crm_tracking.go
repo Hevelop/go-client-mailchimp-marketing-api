@@ -61,8 +61,8 @@ func (o *SalesforceCRMTracking) GetCampaignOk() (*bool, bool) {
 	return o.Campaign, true
 }
 
-// ContainsCampaign returns a boolean if a field has been set.
-func (o *SalesforceCRMTracking) ContainsCampaign() bool {
+// HasCampaign returns a boolean if a field has been set.
+func (o *SalesforceCRMTracking) HasCampaign() bool {
 	if o != nil && !IsNil(o.Campaign) {
 		return true
 	}
@@ -93,8 +93,8 @@ func (o *SalesforceCRMTracking) GetNotesOk() (*bool, bool) {
 	return o.Notes, true
 }
 
-// ContainsNotes returns a boolean if a field has been set.
-func (o *SalesforceCRMTracking) ContainsNotes() bool {
+// HasNotes returns a boolean if a field has been set.
+func (o *SalesforceCRMTracking) HasNotes() bool {
 	if o != nil && !IsNil(o.Notes) {
 		return true
 	}

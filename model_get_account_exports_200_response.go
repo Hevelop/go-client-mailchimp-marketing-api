@@ -63,8 +63,8 @@ func (o *GetAccountExports200Response) GetExportsOk() ([]AccountExportsInner, bo
 	return o.Exports, true
 }
 
-// ContainsExports returns a boolean if a field has been set.
-func (o *GetAccountExports200Response) ContainsExports() bool {
+// HasExports returns a boolean if a field has been set.
+func (o *GetAccountExports200Response) HasExports() bool {
 	if o != nil && !IsNil(o.Exports) {
 		return true
 	}
@@ -95,8 +95,8 @@ func (o *GetAccountExports200Response) GetTotalItemsOk() (*int32, bool) {
 	return o.TotalItems, true
 }
 
-// ContainsTotalItems returns a boolean if a field has been set.
-func (o *GetAccountExports200Response) ContainsTotalItems() bool {
+// HasTotalItems returns a boolean if a field has been set.
+func (o *GetAccountExports200Response) HasTotalItems() bool {
 	if o != nil && !IsNil(o.TotalItems) {
 		return true
 	}
@@ -127,8 +127,8 @@ func (o *GetAccountExports200Response) GetLinksOk() ([]ResourceLink, bool) {
 	return o.Links, true
 }
 
-// ContainsLinks returns a boolean if a field has been set.
-func (o *GetAccountExports200Response) ContainsLinks() bool {
+// HasLinks returns a boolean if a field has been set.
+func (o *GetAccountExports200Response) HasLinks() bool {
 	if o != nil && !IsNil(o.Links) {
 		return true
 	}

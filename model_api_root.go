@@ -96,8 +96,8 @@ func (o *APIRoot) GetAccountIdOk() (*string, bool) {
 	return o.AccountId, true
 }
 
-// ContainsAccountId returns a boolean if a field has been set.
-func (o *APIRoot) ContainsAccountId() bool {
+// HasAccountId returns a boolean if a field has been set.
+func (o *APIRoot) HasAccountId() bool {
 	if o != nil && !IsNil(o.AccountId) {
 		return true
 	}
@@ -128,8 +128,8 @@ func (o *APIRoot) GetLoginIdOk() (*string, bool) {
 	return o.LoginId, true
 }
 
-// ContainsLoginId returns a boolean if a field has been set.
-func (o *APIRoot) ContainsLoginId() bool {
+// HasLoginId returns a boolean if a field has been set.
+func (o *APIRoot) HasLoginId() bool {
 	if o != nil && !IsNil(o.LoginId) {
 		return true
 	}
@@ -160,8 +160,8 @@ func (o *APIRoot) GetAccountNameOk() (*string, bool) {
 	return o.AccountName, true
 }
 
-// ContainsAccountName returns a boolean if a field has been set.
-func (o *APIRoot) ContainsAccountName() bool {
+// HasAccountName returns a boolean if a field has been set.
+func (o *APIRoot) HasAccountName() bool {
 	if o != nil && !IsNil(o.AccountName) {
 		return true
 	}
@@ -192,8 +192,8 @@ func (o *APIRoot) GetEmailOk() (*string, bool) {
 	return o.Email, true
 }
 
-// ContainsEmail returns a boolean if a field has been set.
-func (o *APIRoot) ContainsEmail() bool {
+// HasEmail returns a boolean if a field has been set.
+func (o *APIRoot) HasEmail() bool {
 	if o != nil && !IsNil(o.Email) {
 		return true
 	}
@@ -224,8 +224,8 @@ func (o *APIRoot) GetFirstNameOk() (*string, bool) {
 	return o.FirstName, true
 }
 
-// ContainsFirstName returns a boolean if a field has been set.
-func (o *APIRoot) ContainsFirstName() bool {
+// HasFirstName returns a boolean if a field has been set.
+func (o *APIRoot) HasFirstName() bool {
 	if o != nil && !IsNil(o.FirstName) {
 		return true
 	}
@@ -256,8 +256,8 @@ func (o *APIRoot) GetLastNameOk() (*string, bool) {
 	return o.LastName, true
 }
 
-// ContainsLastName returns a boolean if a field has been set.
-func (o *APIRoot) ContainsLastName() bool {
+// HasLastName returns a boolean if a field has been set.
+func (o *APIRoot) HasLastName() bool {
 	if o != nil && !IsNil(o.LastName) {
 		return true
 	}
@@ -288,8 +288,8 @@ func (o *APIRoot) GetUsernameOk() (*string, bool) {
 	return o.Username, true
 }
 
-// ContainsUsername returns a boolean if a field has been set.
-func (o *APIRoot) ContainsUsername() bool {
+// HasUsername returns a boolean if a field has been set.
+func (o *APIRoot) HasUsername() bool {
 	if o != nil && !IsNil(o.Username) {
 		return true
 	}
@@ -320,8 +320,8 @@ func (o *APIRoot) GetAvatarUrlOk() (*string, bool) {
 	return o.AvatarUrl, true
 }
 
-// ContainsAvatarUrl returns a boolean if a field has been set.
-func (o *APIRoot) ContainsAvatarUrl() bool {
+// HasAvatarUrl returns a boolean if a field has been set.
+func (o *APIRoot) HasAvatarUrl() bool {
 	if o != nil && !IsNil(o.AvatarUrl) {
 		return true
 	}
@@ -352,8 +352,8 @@ func (o *APIRoot) GetRoleOk() (*string, bool) {
 	return o.Role, true
 }
 
-// ContainsRole returns a boolean if a field has been set.
-func (o *APIRoot) ContainsRole() bool {
+// HasRole returns a boolean if a field has been set.
+func (o *APIRoot) HasRole() bool {
 	if o != nil && !IsNil(o.Role) {
 		return true
 	}
@@ -384,8 +384,8 @@ func (o *APIRoot) GetMemberSinceOk() (*time.Time, bool) {
 	return o.MemberSince, true
 }
 
-// ContainsMemberSince returns a boolean if a field has been set.
-func (o *APIRoot) ContainsMemberSince() bool {
+// HasMemberSince returns a boolean if a field has been set.
+func (o *APIRoot) HasMemberSince() bool {
 	if o != nil && !IsNil(o.MemberSince) {
 		return true
 	}
@@ -416,8 +416,8 @@ func (o *APIRoot) GetPricingPlanTypeOk() (*string, bool) {
 	return o.PricingPlanType, true
 }
 
-// ContainsPricingPlanType returns a boolean if a field has been set.
-func (o *APIRoot) ContainsPricingPlanType() bool {
+// HasPricingPlanType returns a boolean if a field has been set.
+func (o *APIRoot) HasPricingPlanType() bool {
 	if o != nil && !IsNil(o.PricingPlanType) {
 		return true
 	}
@@ -448,8 +448,8 @@ func (o *APIRoot) GetFirstPaymentOk() (*time.Time, bool) {
 	return o.FirstPayment, true
 }
 
-// ContainsFirstPayment returns a boolean if a field has been set.
-func (o *APIRoot) ContainsFirstPayment() bool {
+// HasFirstPayment returns a boolean if a field has been set.
+func (o *APIRoot) HasFirstPayment() bool {
 	if o != nil && !IsNil(o.FirstPayment) {
 		return true
 	}
@@ -480,8 +480,8 @@ func (o *APIRoot) GetAccountTimezoneOk() (*string, bool) {
 	return o.AccountTimezone, true
 }
 
-// ContainsAccountTimezone returns a boolean if a field has been set.
-func (o *APIRoot) ContainsAccountTimezone() bool {
+// HasAccountTimezone returns a boolean if a field has been set.
+func (o *APIRoot) HasAccountTimezone() bool {
 	if o != nil && !IsNil(o.AccountTimezone) {
 		return true
 	}
@@ -512,8 +512,8 @@ func (o *APIRoot) GetAccountIndustryOk() (*string, bool) {
 	return o.AccountIndustry, true
 }
 
-// ContainsAccountIndustry returns a boolean if a field has been set.
-func (o *APIRoot) ContainsAccountIndustry() bool {
+// HasAccountIndustry returns a boolean if a field has been set.
+func (o *APIRoot) HasAccountIndustry() bool {
 	if o != nil && !IsNil(o.AccountIndustry) {
 		return true
 	}
@@ -544,8 +544,8 @@ func (o *APIRoot) GetContactOk() (*AccountContact, bool) {
 	return o.Contact, true
 }
 
-// ContainsContact returns a boolean if a field has been set.
-func (o *APIRoot) ContainsContact() bool {
+// HasContact returns a boolean if a field has been set.
+func (o *APIRoot) HasContact() bool {
 	if o != nil && !IsNil(o.Contact) {
 		return true
 	}
@@ -576,8 +576,8 @@ func (o *APIRoot) GetProEnabledOk() (*bool, bool) {
 	return o.ProEnabled, true
 }
 
-// ContainsProEnabled returns a boolean if a field has been set.
-func (o *APIRoot) ContainsProEnabled() bool {
+// HasProEnabled returns a boolean if a field has been set.
+func (o *APIRoot) HasProEnabled() bool {
 	if o != nil && !IsNil(o.ProEnabled) {
 		return true
 	}
@@ -608,8 +608,8 @@ func (o *APIRoot) GetLastLoginOk() (*time.Time, bool) {
 	return o.LastLogin, true
 }
 
-// ContainsLastLogin returns a boolean if a field has been set.
-func (o *APIRoot) ContainsLastLogin() bool {
+// HasLastLogin returns a boolean if a field has been set.
+func (o *APIRoot) HasLastLogin() bool {
 	if o != nil && !IsNil(o.LastLogin) {
 		return true
 	}
@@ -640,8 +640,8 @@ func (o *APIRoot) GetTotalSubscribersOk() (*int32, bool) {
 	return o.TotalSubscribers, true
 }
 
-// ContainsTotalSubscribers returns a boolean if a field has been set.
-func (o *APIRoot) ContainsTotalSubscribers() bool {
+// HasTotalSubscribers returns a boolean if a field has been set.
+func (o *APIRoot) HasTotalSubscribers() bool {
 	if o != nil && !IsNil(o.TotalSubscribers) {
 		return true
 	}
@@ -672,8 +672,8 @@ func (o *APIRoot) GetIndustryStatsOk() (*IndustryStats, bool) {
 	return o.IndustryStats, true
 }
 
-// ContainsIndustryStats returns a boolean if a field has been set.
-func (o *APIRoot) ContainsIndustryStats() bool {
+// HasIndustryStats returns a boolean if a field has been set.
+func (o *APIRoot) HasIndustryStats() bool {
 	if o != nil && !IsNil(o.IndustryStats) {
 		return true
 	}
@@ -704,8 +704,8 @@ func (o *APIRoot) GetLinksOk() ([]ResourceLink, bool) {
 	return o.Links, true
 }
 
-// ContainsLinks returns a boolean if a field has been set.
-func (o *APIRoot) ContainsLinks() bool {
+// HasLinks returns a boolean if a field has been set.
+func (o *APIRoot) HasLinks() bool {
 	if o != nil && !IsNil(o.Links) {
 		return true
 	}

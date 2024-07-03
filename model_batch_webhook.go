@@ -65,8 +65,8 @@ func (o *BatchWebhook) GetIdOk() (*string, bool) {
 	return o.Id, true
 }
 
-// ContainsId returns a boolean if a field has been set.
-func (o *BatchWebhook) ContainsId() bool {
+// HasId returns a boolean if a field has been set.
+func (o *BatchWebhook) HasId() bool {
 	if o != nil && !IsNil(o.Id) {
 		return true
 	}
@@ -97,8 +97,8 @@ func (o *BatchWebhook) GetUrlOk() (*string, bool) {
 	return o.Url, true
 }
 
-// ContainsUrl returns a boolean if a field has been set.
-func (o *BatchWebhook) ContainsUrl() bool {
+// HasUrl returns a boolean if a field has been set.
+func (o *BatchWebhook) HasUrl() bool {
 	if o != nil && !IsNil(o.Url) {
 		return true
 	}
@@ -129,8 +129,8 @@ func (o *BatchWebhook) GetEnabledOk() (*bool, bool) {
 	return o.Enabled, true
 }
 
-// ContainsEnabled returns a boolean if a field has been set.
-func (o *BatchWebhook) ContainsEnabled() bool {
+// HasEnabled returns a boolean if a field has been set.
+func (o *BatchWebhook) HasEnabled() bool {
 	if o != nil && !IsNil(o.Enabled) {
 		return true
 	}
@@ -161,8 +161,8 @@ func (o *BatchWebhook) GetLinksOk() ([]ResourceLink, bool) {
 	return o.Links, true
 }
 
-// ContainsLinks returns a boolean if a field has been set.
-func (o *BatchWebhook) ContainsLinks() bool {
+// HasLinks returns a boolean if a field has been set.
+func (o *BatchWebhook) HasLinks() bool {
 	if o != nil && !IsNil(o.Links) {
 		return true
 	}

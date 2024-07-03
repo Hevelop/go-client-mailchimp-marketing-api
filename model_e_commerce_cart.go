@@ -79,8 +79,8 @@ func (o *ECommerceCart) GetIdOk() (*string, bool) {
 	return o.Id, true
 }
 
-// ContainsId returns a boolean if a field has been set.
-func (o *ECommerceCart) ContainsId() bool {
+// HasId returns a boolean if a field has been set.
+func (o *ECommerceCart) HasId() bool {
 	if o != nil && !IsNil(o.Id) {
 		return true
 	}
@@ -111,8 +111,8 @@ func (o *ECommerceCart) GetCustomerOk() (*ECommerceCustomer, bool) {
 	return o.Customer, true
 }
 
-// ContainsCustomer returns a boolean if a field has been set.
-func (o *ECommerceCart) ContainsCustomer() bool {
+// HasCustomer returns a boolean if a field has been set.
+func (o *ECommerceCart) HasCustomer() bool {
 	if o != nil && !IsNil(o.Customer) {
 		return true
 	}
@@ -143,8 +143,8 @@ func (o *ECommerceCart) GetCampaignIdOk() (*string, bool) {
 	return o.CampaignId, true
 }
 
-// ContainsCampaignId returns a boolean if a field has been set.
-func (o *ECommerceCart) ContainsCampaignId() bool {
+// HasCampaignId returns a boolean if a field has been set.
+func (o *ECommerceCart) HasCampaignId() bool {
 	if o != nil && !IsNil(o.CampaignId) {
 		return true
 	}
@@ -175,8 +175,8 @@ func (o *ECommerceCart) GetCheckoutUrlOk() (*string, bool) {
 	return o.CheckoutUrl, true
 }
 
-// ContainsCheckoutUrl returns a boolean if a field has been set.
-func (o *ECommerceCart) ContainsCheckoutUrl() bool {
+// HasCheckoutUrl returns a boolean if a field has been set.
+func (o *ECommerceCart) HasCheckoutUrl() bool {
 	if o != nil && !IsNil(o.CheckoutUrl) {
 		return true
 	}
@@ -207,8 +207,8 @@ func (o *ECommerceCart) GetCurrencyCodeOk() (*string, bool) {
 	return o.CurrencyCode, true
 }
 
-// ContainsCurrencyCode returns a boolean if a field has been set.
-func (o *ECommerceCart) ContainsCurrencyCode() bool {
+// HasCurrencyCode returns a boolean if a field has been set.
+func (o *ECommerceCart) HasCurrencyCode() bool {
 	if o != nil && !IsNil(o.CurrencyCode) {
 		return true
 	}
@@ -239,8 +239,8 @@ func (o *ECommerceCart) GetOrderTotalOk() (*float32, bool) {
 	return o.OrderTotal, true
 }
 
-// ContainsOrderTotal returns a boolean if a field has been set.
-func (o *ECommerceCart) ContainsOrderTotal() bool {
+// HasOrderTotal returns a boolean if a field has been set.
+func (o *ECommerceCart) HasOrderTotal() bool {
 	if o != nil && !IsNil(o.OrderTotal) {
 		return true
 	}
@@ -271,8 +271,8 @@ func (o *ECommerceCart) GetTaxTotalOk() (*float32, bool) {
 	return o.TaxTotal, true
 }
 
-// ContainsTaxTotal returns a boolean if a field has been set.
-func (o *ECommerceCart) ContainsTaxTotal() bool {
+// HasTaxTotal returns a boolean if a field has been set.
+func (o *ECommerceCart) HasTaxTotal() bool {
 	if o != nil && !IsNil(o.TaxTotal) {
 		return true
 	}
@@ -303,8 +303,8 @@ func (o *ECommerceCart) GetLinesOk() ([]ECommerceCartLineItem, bool) {
 	return o.Lines, true
 }
 
-// ContainsLines returns a boolean if a field has been set.
-func (o *ECommerceCart) ContainsLines() bool {
+// HasLines returns a boolean if a field has been set.
+func (o *ECommerceCart) HasLines() bool {
 	if o != nil && !IsNil(o.Lines) {
 		return true
 	}
@@ -335,8 +335,8 @@ func (o *ECommerceCart) GetCreatedAtOk() (*time.Time, bool) {
 	return o.CreatedAt, true
 }
 
-// ContainsCreatedAt returns a boolean if a field has been set.
-func (o *ECommerceCart) ContainsCreatedAt() bool {
+// HasCreatedAt returns a boolean if a field has been set.
+func (o *ECommerceCart) HasCreatedAt() bool {
 	if o != nil && !IsNil(o.CreatedAt) {
 		return true
 	}
@@ -367,8 +367,8 @@ func (o *ECommerceCart) GetUpdatedAtOk() (*time.Time, bool) {
 	return o.UpdatedAt, true
 }
 
-// ContainsUpdatedAt returns a boolean if a field has been set.
-func (o *ECommerceCart) ContainsUpdatedAt() bool {
+// HasUpdatedAt returns a boolean if a field has been set.
+func (o *ECommerceCart) HasUpdatedAt() bool {
 	if o != nil && !IsNil(o.UpdatedAt) {
 		return true
 	}
@@ -399,8 +399,8 @@ func (o *ECommerceCart) GetLinksOk() ([]ResourceLink, bool) {
 	return o.Links, true
 }
 
-// ContainsLinks returns a boolean if a field has been set.
-func (o *ECommerceCart) ContainsLinks() bool {
+// HasLinks returns a boolean if a field has been set.
+func (o *ECommerceCart) HasLinks() bool {
 	if o != nil && !IsNil(o.Links) {
 		return true
 	}

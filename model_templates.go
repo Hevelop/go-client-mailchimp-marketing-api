@@ -63,8 +63,8 @@ func (o *Templates) GetTemplatesOk() ([]TemplateInstance, bool) {
 	return o.Templates, true
 }
 
-// ContainsTemplates returns a boolean if a field has been set.
-func (o *Templates) ContainsTemplates() bool {
+// HasTemplates returns a boolean if a field has been set.
+func (o *Templates) HasTemplates() bool {
 	if o != nil && !IsNil(o.Templates) {
 		return true
 	}
@@ -95,8 +95,8 @@ func (o *Templates) GetTotalItemsOk() (*int32, bool) {
 	return o.TotalItems, true
 }
 
-// ContainsTotalItems returns a boolean if a field has been set.
-func (o *Templates) ContainsTotalItems() bool {
+// HasTotalItems returns a boolean if a field has been set.
+func (o *Templates) HasTotalItems() bool {
 	if o != nil && !IsNil(o.TotalItems) {
 		return true
 	}
@@ -127,8 +127,8 @@ func (o *Templates) GetLinksOk() ([]ResourceLink, bool) {
 	return o.Links, true
 }
 
-// ContainsLinks returns a boolean if a field has been set.
-func (o *Templates) ContainsLinks() bool {
+// HasLinks returns a boolean if a field has been set.
+func (o *Templates) HasLinks() bool {
 	if o != nil && !IsNil(o.Links) {
 		return true
 	}

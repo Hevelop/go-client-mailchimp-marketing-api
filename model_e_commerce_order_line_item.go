@@ -77,8 +77,8 @@ func (o *ECommerceOrderLineItem) GetIdOk() (*string, bool) {
 	return o.Id, true
 }
 
-// ContainsId returns a boolean if a field has been set.
-func (o *ECommerceOrderLineItem) ContainsId() bool {
+// HasId returns a boolean if a field has been set.
+func (o *ECommerceOrderLineItem) HasId() bool {
 	if o != nil && !IsNil(o.Id) {
 		return true
 	}
@@ -109,8 +109,8 @@ func (o *ECommerceOrderLineItem) GetProductIdOk() (*string, bool) {
 	return o.ProductId, true
 }
 
-// ContainsProductId returns a boolean if a field has been set.
-func (o *ECommerceOrderLineItem) ContainsProductId() bool {
+// HasProductId returns a boolean if a field has been set.
+func (o *ECommerceOrderLineItem) HasProductId() bool {
 	if o != nil && !IsNil(o.ProductId) {
 		return true
 	}
@@ -141,8 +141,8 @@ func (o *ECommerceOrderLineItem) GetProductTitleOk() (*string, bool) {
 	return o.ProductTitle, true
 }
 
-// ContainsProductTitle returns a boolean if a field has been set.
-func (o *ECommerceOrderLineItem) ContainsProductTitle() bool {
+// HasProductTitle returns a boolean if a field has been set.
+func (o *ECommerceOrderLineItem) HasProductTitle() bool {
 	if o != nil && !IsNil(o.ProductTitle) {
 		return true
 	}
@@ -173,8 +173,8 @@ func (o *ECommerceOrderLineItem) GetProductVariantIdOk() (*string, bool) {
 	return o.ProductVariantId, true
 }
 
-// ContainsProductVariantId returns a boolean if a field has been set.
-func (o *ECommerceOrderLineItem) ContainsProductVariantId() bool {
+// HasProductVariantId returns a boolean if a field has been set.
+func (o *ECommerceOrderLineItem) HasProductVariantId() bool {
 	if o != nil && !IsNil(o.ProductVariantId) {
 		return true
 	}
@@ -205,8 +205,8 @@ func (o *ECommerceOrderLineItem) GetProductVariantTitleOk() (*string, bool) {
 	return o.ProductVariantTitle, true
 }
 
-// ContainsProductVariantTitle returns a boolean if a field has been set.
-func (o *ECommerceOrderLineItem) ContainsProductVariantTitle() bool {
+// HasProductVariantTitle returns a boolean if a field has been set.
+func (o *ECommerceOrderLineItem) HasProductVariantTitle() bool {
 	if o != nil && !IsNil(o.ProductVariantTitle) {
 		return true
 	}
@@ -237,8 +237,8 @@ func (o *ECommerceOrderLineItem) GetImageUrlOk() (*string, bool) {
 	return o.ImageUrl, true
 }
 
-// ContainsImageUrl returns a boolean if a field has been set.
-func (o *ECommerceOrderLineItem) ContainsImageUrl() bool {
+// HasImageUrl returns a boolean if a field has been set.
+func (o *ECommerceOrderLineItem) HasImageUrl() bool {
 	if o != nil && !IsNil(o.ImageUrl) {
 		return true
 	}
@@ -269,8 +269,8 @@ func (o *ECommerceOrderLineItem) GetQuantityOk() (*int32, bool) {
 	return o.Quantity, true
 }
 
-// ContainsQuantity returns a boolean if a field has been set.
-func (o *ECommerceOrderLineItem) ContainsQuantity() bool {
+// HasQuantity returns a boolean if a field has been set.
+func (o *ECommerceOrderLineItem) HasQuantity() bool {
 	if o != nil && !IsNil(o.Quantity) {
 		return true
 	}
@@ -301,8 +301,8 @@ func (o *ECommerceOrderLineItem) GetPriceOk() (*float32, bool) {
 	return o.Price, true
 }
 
-// ContainsPrice returns a boolean if a field has been set.
-func (o *ECommerceOrderLineItem) ContainsPrice() bool {
+// HasPrice returns a boolean if a field has been set.
+func (o *ECommerceOrderLineItem) HasPrice() bool {
 	if o != nil && !IsNil(o.Price) {
 		return true
 	}
@@ -333,8 +333,8 @@ func (o *ECommerceOrderLineItem) GetDiscountOk() (*float32, bool) {
 	return o.Discount, true
 }
 
-// ContainsDiscount returns a boolean if a field has been set.
-func (o *ECommerceOrderLineItem) ContainsDiscount() bool {
+// HasDiscount returns a boolean if a field has been set.
+func (o *ECommerceOrderLineItem) HasDiscount() bool {
 	if o != nil && !IsNil(o.Discount) {
 		return true
 	}
@@ -365,8 +365,8 @@ func (o *ECommerceOrderLineItem) GetLinksOk() ([]ResourceLink, bool) {
 	return o.Links, true
 }
 
-// ContainsLinks returns a boolean if a field has been set.
-func (o *ECommerceOrderLineItem) ContainsLinks() bool {
+// HasLinks returns a boolean if a field has been set.
+func (o *ECommerceOrderLineItem) HasLinks() bool {
 	if o != nil && !IsNil(o.Links) {
 		return true
 	}

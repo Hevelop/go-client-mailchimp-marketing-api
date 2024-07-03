@@ -61,8 +61,8 @@ func (o *Conditions2) GetMatchOk() (*string, bool) {
 	return o.Match, true
 }
 
-// ContainsMatch returns a boolean if a field has been set.
-func (o *Conditions2) ContainsMatch() bool {
+// HasMatch returns a boolean if a field has been set.
+func (o *Conditions2) HasMatch() bool {
 	if o != nil && !IsNil(o.Match) {
 		return true
 	}
@@ -93,8 +93,8 @@ func (o *Conditions2) GetConditionsOk() ([][]map[string]interface{}, bool) {
 	return o.Conditions, true
 }
 
-// ContainsConditions returns a boolean if a field has been set.
-func (o *Conditions2) ContainsConditions() bool {
+// HasConditions returns a boolean if a field has been set.
+func (o *Conditions2) HasConditions() bool {
 	if o != nil && !IsNil(o.Conditions) {
 		return true
 	}

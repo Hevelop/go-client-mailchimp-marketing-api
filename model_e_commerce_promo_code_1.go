@@ -151,8 +151,8 @@ func (o *ECommercePromoCode1) GetUsageCountOk() (*int32, bool) {
 	return o.UsageCount, true
 }
 
-// ContainsUsageCount returns a boolean if a field has been set.
-func (o *ECommercePromoCode1) ContainsUsageCount() bool {
+// HasUsageCount returns a boolean if a field has been set.
+func (o *ECommercePromoCode1) HasUsageCount() bool {
 	if o != nil && !IsNil(o.UsageCount) {
 		return true
 	}
@@ -183,8 +183,8 @@ func (o *ECommercePromoCode1) GetEnabledOk() (*bool, bool) {
 	return o.Enabled, true
 }
 
-// ContainsEnabled returns a boolean if a field has been set.
-func (o *ECommercePromoCode1) ContainsEnabled() bool {
+// HasEnabled returns a boolean if a field has been set.
+func (o *ECommercePromoCode1) HasEnabled() bool {
 	if o != nil && !IsNil(o.Enabled) {
 		return true
 	}
@@ -215,8 +215,8 @@ func (o *ECommercePromoCode1) GetCreatedAtForeignOk() (*time.Time, bool) {
 	return o.CreatedAtForeign, true
 }
 
-// ContainsCreatedAtForeign returns a boolean if a field has been set.
-func (o *ECommercePromoCode1) ContainsCreatedAtForeign() bool {
+// HasCreatedAtForeign returns a boolean if a field has been set.
+func (o *ECommercePromoCode1) HasCreatedAtForeign() bool {
 	if o != nil && !IsNil(o.CreatedAtForeign) {
 		return true
 	}
@@ -247,8 +247,8 @@ func (o *ECommercePromoCode1) GetUpdatedAtForeignOk() (*time.Time, bool) {
 	return o.UpdatedAtForeign, true
 }
 
-// ContainsUpdatedAtForeign returns a boolean if a field has been set.
-func (o *ECommercePromoCode1) ContainsUpdatedAtForeign() bool {
+// HasUpdatedAtForeign returns a boolean if a field has been set.
+func (o *ECommercePromoCode1) HasUpdatedAtForeign() bool {
 	if o != nil && !IsNil(o.UpdatedAtForeign) {
 		return true
 	}

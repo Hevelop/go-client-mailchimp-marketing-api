@@ -67,8 +67,8 @@ func (o *CampaignDeliveryStatus) GetEnabledOk() (*bool, bool) {
 	return o.Enabled, true
 }
 
-// ContainsEnabled returns a boolean if a field has been set.
-func (o *CampaignDeliveryStatus) ContainsEnabled() bool {
+// HasEnabled returns a boolean if a field has been set.
+func (o *CampaignDeliveryStatus) HasEnabled() bool {
 	if o != nil && !IsNil(o.Enabled) {
 		return true
 	}
@@ -99,8 +99,8 @@ func (o *CampaignDeliveryStatus) GetCanCancelOk() (*bool, bool) {
 	return o.CanCancel, true
 }
 
-// ContainsCanCancel returns a boolean if a field has been set.
-func (o *CampaignDeliveryStatus) ContainsCanCancel() bool {
+// HasCanCancel returns a boolean if a field has been set.
+func (o *CampaignDeliveryStatus) HasCanCancel() bool {
 	if o != nil && !IsNil(o.CanCancel) {
 		return true
 	}
@@ -131,8 +131,8 @@ func (o *CampaignDeliveryStatus) GetStatusOk() (*string, bool) {
 	return o.Status, true
 }
 
-// ContainsStatus returns a boolean if a field has been set.
-func (o *CampaignDeliveryStatus) ContainsStatus() bool {
+// HasStatus returns a boolean if a field has been set.
+func (o *CampaignDeliveryStatus) HasStatus() bool {
 	if o != nil && !IsNil(o.Status) {
 		return true
 	}
@@ -163,8 +163,8 @@ func (o *CampaignDeliveryStatus) GetEmailsSentOk() (*int32, bool) {
 	return o.EmailsSent, true
 }
 
-// ContainsEmailsSent returns a boolean if a field has been set.
-func (o *CampaignDeliveryStatus) ContainsEmailsSent() bool {
+// HasEmailsSent returns a boolean if a field has been set.
+func (o *CampaignDeliveryStatus) HasEmailsSent() bool {
 	if o != nil && !IsNil(o.EmailsSent) {
 		return true
 	}
@@ -195,8 +195,8 @@ func (o *CampaignDeliveryStatus) GetEmailsCanceledOk() (*int32, bool) {
 	return o.EmailsCanceled, true
 }
 
-// ContainsEmailsCanceled returns a boolean if a field has been set.
-func (o *CampaignDeliveryStatus) ContainsEmailsCanceled() bool {
+// HasEmailsCanceled returns a boolean if a field has been set.
+func (o *CampaignDeliveryStatus) HasEmailsCanceled() bool {
 	if o != nil && !IsNil(o.EmailsCanceled) {
 		return true
 	}

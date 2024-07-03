@@ -61,8 +61,8 @@ func (o *BatchWebhook2) GetUrlOk() (*string, bool) {
 	return o.Url, true
 }
 
-// ContainsUrl returns a boolean if a field has been set.
-func (o *BatchWebhook2) ContainsUrl() bool {
+// HasUrl returns a boolean if a field has been set.
+func (o *BatchWebhook2) HasUrl() bool {
 	if o != nil && !IsNil(o.Url) {
 		return true
 	}
@@ -93,8 +93,8 @@ func (o *BatchWebhook2) GetEnabledOk() (*bool, bool) {
 	return o.Enabled, true
 }
 
-// ContainsEnabled returns a boolean if a field has been set.
-func (o *BatchWebhook2) ContainsEnabled() bool {
+// HasEnabled returns a boolean if a field has been set.
+func (o *BatchWebhook2) HasEnabled() bool {
 	if o != nil && !IsNil(o.Enabled) {
 		return true
 	}

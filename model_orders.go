@@ -63,8 +63,8 @@ func (o *Orders) GetOrdersOk() ([]ECommerceOrder, bool) {
 	return o.Orders, true
 }
 
-// ContainsOrders returns a boolean if a field has been set.
-func (o *Orders) ContainsOrders() bool {
+// HasOrders returns a boolean if a field has been set.
+func (o *Orders) HasOrders() bool {
 	if o != nil && !IsNil(o.Orders) {
 		return true
 	}
@@ -95,8 +95,8 @@ func (o *Orders) GetTotalItemsOk() (*int32, bool) {
 	return o.TotalItems, true
 }
 
-// ContainsTotalItems returns a boolean if a field has been set.
-func (o *Orders) ContainsTotalItems() bool {
+// HasTotalItems returns a boolean if a field has been set.
+func (o *Orders) HasTotalItems() bool {
 	if o != nil && !IsNil(o.TotalItems) {
 		return true
 	}
@@ -127,8 +127,8 @@ func (o *Orders) GetLinksOk() ([]ResourceLink, bool) {
 	return o.Links, true
 }
 
-// ContainsLinks returns a boolean if a field has been set.
-func (o *Orders) ContainsLinks() bool {
+// HasLinks returns a boolean if a field has been set.
+func (o *Orders) HasLinks() bool {
 	if o != nil && !IsNil(o.Links) {
 		return true
 	}

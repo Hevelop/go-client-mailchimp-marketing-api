@@ -61,8 +61,8 @@ func (o *Location) GetLatitudeOk() (*float32, bool) {
 	return o.Latitude, true
 }
 
-// ContainsLatitude returns a boolean if a field has been set.
-func (o *Location) ContainsLatitude() bool {
+// HasLatitude returns a boolean if a field has been set.
+func (o *Location) HasLatitude() bool {
 	if o != nil && !IsNil(o.Latitude) {
 		return true
 	}
@@ -93,8 +93,8 @@ func (o *Location) GetLongitudeOk() (*float32, bool) {
 	return o.Longitude, true
 }
 
-// ContainsLongitude returns a boolean if a field has been set.
-func (o *Location) ContainsLongitude() bool {
+// HasLongitude returns a boolean if a field has been set.
+func (o *Location) HasLongitude() bool {
 	if o != nil && !IsNil(o.Longitude) {
 		return true
 	}

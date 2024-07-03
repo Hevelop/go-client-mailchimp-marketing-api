@@ -70,8 +70,8 @@ func (o *CampaignReportSummary3) GetOpensOk() (*int32, bool) {
 	return o.Opens, true
 }
 
-// ContainsOpens returns a boolean if a field has been set.
-func (o *CampaignReportSummary3) ContainsOpens() bool {
+// HasOpens returns a boolean if a field has been set.
+func (o *CampaignReportSummary3) HasOpens() bool {
 	if o != nil && !IsNil(o.Opens) {
 		return true
 	}
@@ -102,8 +102,8 @@ func (o *CampaignReportSummary3) GetUniqueOpensOk() (*int32, bool) {
 	return o.UniqueOpens, true
 }
 
-// ContainsUniqueOpens returns a boolean if a field has been set.
-func (o *CampaignReportSummary3) ContainsUniqueOpens() bool {
+// HasUniqueOpens returns a boolean if a field has been set.
+func (o *CampaignReportSummary3) HasUniqueOpens() bool {
 	if o != nil && !IsNil(o.UniqueOpens) {
 		return true
 	}
@@ -134,8 +134,8 @@ func (o *CampaignReportSummary3) GetOpenRateOk() (*float32, bool) {
 	return o.OpenRate, true
 }
 
-// ContainsOpenRate returns a boolean if a field has been set.
-func (o *CampaignReportSummary3) ContainsOpenRate() bool {
+// HasOpenRate returns a boolean if a field has been set.
+func (o *CampaignReportSummary3) HasOpenRate() bool {
 	if o != nil && !IsNil(o.OpenRate) {
 		return true
 	}
@@ -166,8 +166,8 @@ func (o *CampaignReportSummary3) GetClicksOk() (*int32, bool) {
 	return o.Clicks, true
 }
 
-// ContainsClicks returns a boolean if a field has been set.
-func (o *CampaignReportSummary3) ContainsClicks() bool {
+// HasClicks returns a boolean if a field has been set.
+func (o *CampaignReportSummary3) HasClicks() bool {
 	if o != nil && !IsNil(o.Clicks) {
 		return true
 	}
@@ -198,8 +198,8 @@ func (o *CampaignReportSummary3) GetSubscriberClicksOk() (*int32, bool) {
 	return o.SubscriberClicks, true
 }
 
-// ContainsSubscriberClicks returns a boolean if a field has been set.
-func (o *CampaignReportSummary3) ContainsSubscriberClicks() bool {
+// HasSubscriberClicks returns a boolean if a field has been set.
+func (o *CampaignReportSummary3) HasSubscriberClicks() bool {
 	if o != nil && !IsNil(o.SubscriberClicks) {
 		return true
 	}
@@ -230,8 +230,8 @@ func (o *CampaignReportSummary3) GetClickRateOk() (*float32, bool) {
 	return o.ClickRate, true
 }
 
-// ContainsClickRate returns a boolean if a field has been set.
-func (o *CampaignReportSummary3) ContainsClickRate() bool {
+// HasClickRate returns a boolean if a field has been set.
+func (o *CampaignReportSummary3) HasClickRate() bool {
 	if o != nil && !IsNil(o.ClickRate) {
 		return true
 	}
@@ -262,8 +262,8 @@ func (o *CampaignReportSummary3) GetEcommerceOk() (*ECommerceReport, bool) {
 	return o.Ecommerce, true
 }
 
-// ContainsEcommerce returns a boolean if a field has been set.
-func (o *CampaignReportSummary3) ContainsEcommerce() bool {
+// HasEcommerce returns a boolean if a field has been set.
+func (o *CampaignReportSummary3) HasEcommerce() bool {
 	if o != nil && !IsNil(o.Ecommerce) {
 		return true
 	}

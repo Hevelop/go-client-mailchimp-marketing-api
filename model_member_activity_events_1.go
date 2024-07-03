@@ -65,8 +65,8 @@ func (o *MemberActivityEvents1) GetActivityOk() ([]map[string]interface{}, bool)
 	return o.Activity, true
 }
 
-// ContainsActivity returns a boolean if a field has been set.
-func (o *MemberActivityEvents1) ContainsActivity() bool {
+// HasActivity returns a boolean if a field has been set.
+func (o *MemberActivityEvents1) HasActivity() bool {
 	if o != nil && !IsNil(o.Activity) {
 		return true
 	}
@@ -97,8 +97,8 @@ func (o *MemberActivityEvents1) GetEmailIdOk() (*string, bool) {
 	return o.EmailId, true
 }
 
-// ContainsEmailId returns a boolean if a field has been set.
-func (o *MemberActivityEvents1) ContainsEmailId() bool {
+// HasEmailId returns a boolean if a field has been set.
+func (o *MemberActivityEvents1) HasEmailId() bool {
 	if o != nil && !IsNil(o.EmailId) {
 		return true
 	}
@@ -129,8 +129,8 @@ func (o *MemberActivityEvents1) GetListIdOk() (*string, bool) {
 	return o.ListId, true
 }
 
-// ContainsListId returns a boolean if a field has been set.
-func (o *MemberActivityEvents1) ContainsListId() bool {
+// HasListId returns a boolean if a field has been set.
+func (o *MemberActivityEvents1) HasListId() bool {
 	if o != nil && !IsNil(o.ListId) {
 		return true
 	}
@@ -161,8 +161,8 @@ func (o *MemberActivityEvents1) GetLinksOk() ([]ResourceLink, bool) {
 	return o.Links, true
 }
 
-// ContainsLinks returns a boolean if a field has been set.
-func (o *MemberActivityEvents1) ContainsLinks() bool {
+// HasLinks returns a boolean if a field has been set.
+func (o *MemberActivityEvents1) HasLinks() bool {
 	if o != nil && !IsNil(o.Links) {
 		return true
 	}

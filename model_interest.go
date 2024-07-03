@@ -71,8 +71,8 @@ func (o *Interest) GetCategoryIdOk() (*string, bool) {
 	return o.CategoryId, true
 }
 
-// ContainsCategoryId returns a boolean if a field has been set.
-func (o *Interest) ContainsCategoryId() bool {
+// HasCategoryId returns a boolean if a field has been set.
+func (o *Interest) HasCategoryId() bool {
 	if o != nil && !IsNil(o.CategoryId) {
 		return true
 	}
@@ -103,8 +103,8 @@ func (o *Interest) GetListIdOk() (*string, bool) {
 	return o.ListId, true
 }
 
-// ContainsListId returns a boolean if a field has been set.
-func (o *Interest) ContainsListId() bool {
+// HasListId returns a boolean if a field has been set.
+func (o *Interest) HasListId() bool {
 	if o != nil && !IsNil(o.ListId) {
 		return true
 	}
@@ -135,8 +135,8 @@ func (o *Interest) GetIdOk() (*string, bool) {
 	return o.Id, true
 }
 
-// ContainsId returns a boolean if a field has been set.
-func (o *Interest) ContainsId() bool {
+// HasId returns a boolean if a field has been set.
+func (o *Interest) HasId() bool {
 	if o != nil && !IsNil(o.Id) {
 		return true
 	}
@@ -167,8 +167,8 @@ func (o *Interest) GetNameOk() (*string, bool) {
 	return o.Name, true
 }
 
-// ContainsName returns a boolean if a field has been set.
-func (o *Interest) ContainsName() bool {
+// HasName returns a boolean if a field has been set.
+func (o *Interest) HasName() bool {
 	if o != nil && !IsNil(o.Name) {
 		return true
 	}
@@ -199,8 +199,8 @@ func (o *Interest) GetSubscriberCountOk() (*string, bool) {
 	return o.SubscriberCount, true
 }
 
-// ContainsSubscriberCount returns a boolean if a field has been set.
-func (o *Interest) ContainsSubscriberCount() bool {
+// HasSubscriberCount returns a boolean if a field has been set.
+func (o *Interest) HasSubscriberCount() bool {
 	if o != nil && !IsNil(o.SubscriberCount) {
 		return true
 	}
@@ -231,8 +231,8 @@ func (o *Interest) GetDisplayOrderOk() (*int32, bool) {
 	return o.DisplayOrder, true
 }
 
-// ContainsDisplayOrder returns a boolean if a field has been set.
-func (o *Interest) ContainsDisplayOrder() bool {
+// HasDisplayOrder returns a boolean if a field has been set.
+func (o *Interest) HasDisplayOrder() bool {
 	if o != nil && !IsNil(o.DisplayOrder) {
 		return true
 	}
@@ -263,8 +263,8 @@ func (o *Interest) GetLinksOk() ([]ResourceLink, bool) {
 	return o.Links, true
 }
 
-// ContainsLinks returns a boolean if a field has been set.
-func (o *Interest) ContainsLinks() bool {
+// HasLinks returns a boolean if a field has been set.
+func (o *Interest) HasLinks() bool {
 	if o != nil && !IsNil(o.Links) {
 		return true
 	}

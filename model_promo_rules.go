@@ -65,8 +65,8 @@ func (o *PromoRules) GetStoreIdOk() (*string, bool) {
 	return o.StoreId, true
 }
 
-// ContainsStoreId returns a boolean if a field has been set.
-func (o *PromoRules) ContainsStoreId() bool {
+// HasStoreId returns a boolean if a field has been set.
+func (o *PromoRules) HasStoreId() bool {
 	if o != nil && !IsNil(o.StoreId) {
 		return true
 	}
@@ -97,8 +97,8 @@ func (o *PromoRules) GetPromoRulesOk() ([]ECommercePromoRule, bool) {
 	return o.PromoRules, true
 }
 
-// ContainsPromoRules returns a boolean if a field has been set.
-func (o *PromoRules) ContainsPromoRules() bool {
+// HasPromoRules returns a boolean if a field has been set.
+func (o *PromoRules) HasPromoRules() bool {
 	if o != nil && !IsNil(o.PromoRules) {
 		return true
 	}
@@ -129,8 +129,8 @@ func (o *PromoRules) GetTotalItemsOk() (*int32, bool) {
 	return o.TotalItems, true
 }
 
-// ContainsTotalItems returns a boolean if a field has been set.
-func (o *PromoRules) ContainsTotalItems() bool {
+// HasTotalItems returns a boolean if a field has been set.
+func (o *PromoRules) HasTotalItems() bool {
 	if o != nil && !IsNil(o.TotalItems) {
 		return true
 	}
@@ -161,8 +161,8 @@ func (o *PromoRules) GetLinksOk() ([]ResourceLink, bool) {
 	return o.Links, true
 }
 
-// ContainsLinks returns a boolean if a field has been set.
-func (o *PromoRules) ContainsLinks() bool {
+// HasLinks returns a boolean if a field has been set.
+func (o *PromoRules) HasLinks() bool {
 	if o != nil && !IsNil(o.Links) {
 		return true
 	}

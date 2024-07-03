@@ -70,8 +70,8 @@ func (o *AutomationDelay1) GetAmountOk() (*int32, bool) {
 	return o.Amount, true
 }
 
-// ContainsAmount returns a boolean if a field has been set.
-func (o *AutomationDelay1) ContainsAmount() bool {
+// HasAmount returns a boolean if a field has been set.
+func (o *AutomationDelay1) HasAmount() bool {
 	if o != nil && !IsNil(o.Amount) {
 		return true
 	}
@@ -102,8 +102,8 @@ func (o *AutomationDelay1) GetTypeOk() (*string, bool) {
 	return o.Type, true
 }
 
-// ContainsType returns a boolean if a field has been set.
-func (o *AutomationDelay1) ContainsType() bool {
+// HasType returns a boolean if a field has been set.
+func (o *AutomationDelay1) HasType() bool {
 	if o != nil && !IsNil(o.Type) {
 		return true
 	}
@@ -134,8 +134,8 @@ func (o *AutomationDelay1) GetDirectionOk() (*string, bool) {
 	return o.Direction, true
 }
 
-// ContainsDirection returns a boolean if a field has been set.
-func (o *AutomationDelay1) ContainsDirection() bool {
+// HasDirection returns a boolean if a field has been set.
+func (o *AutomationDelay1) HasDirection() bool {
 	if o != nil && !IsNil(o.Direction) {
 		return true
 	}

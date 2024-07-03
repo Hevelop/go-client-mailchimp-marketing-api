@@ -63,8 +63,8 @@ func (o *ConnectedSites) GetSitesOk() ([]ConnectedSite, bool) {
 	return o.Sites, true
 }
 
-// ContainsSites returns a boolean if a field has been set.
-func (o *ConnectedSites) ContainsSites() bool {
+// HasSites returns a boolean if a field has been set.
+func (o *ConnectedSites) HasSites() bool {
 	if o != nil && !IsNil(o.Sites) {
 		return true
 	}
@@ -95,8 +95,8 @@ func (o *ConnectedSites) GetTotalItemsOk() (*int32, bool) {
 	return o.TotalItems, true
 }
 
-// ContainsTotalItems returns a boolean if a field has been set.
-func (o *ConnectedSites) ContainsTotalItems() bool {
+// HasTotalItems returns a boolean if a field has been set.
+func (o *ConnectedSites) HasTotalItems() bool {
 	if o != nil && !IsNil(o.TotalItems) {
 		return true
 	}
@@ -127,8 +127,8 @@ func (o *ConnectedSites) GetLinksOk() ([]ResourceLink, bool) {
 	return o.Links, true
 }
 
-// ContainsLinks returns a boolean if a field has been set.
-func (o *ConnectedSites) ContainsLinks() bool {
+// HasLinks returns a boolean if a field has been set.
+func (o *ConnectedSites) HasLinks() bool {
 	if o != nil && !IsNil(o.Links) {
 		return true
 	}

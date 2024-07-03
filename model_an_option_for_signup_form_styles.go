@@ -61,8 +61,8 @@ func (o *AnOptionForSignupFormStyles) GetPropertyOk() (*string, bool) {
 	return o.Property, true
 }
 
-// ContainsProperty returns a boolean if a field has been set.
-func (o *AnOptionForSignupFormStyles) ContainsProperty() bool {
+// HasProperty returns a boolean if a field has been set.
+func (o *AnOptionForSignupFormStyles) HasProperty() bool {
 	if o != nil && !IsNil(o.Property) {
 		return true
 	}
@@ -93,8 +93,8 @@ func (o *AnOptionForSignupFormStyles) GetValueOk() (*string, bool) {
 	return o.Value, true
 }
 
-// ContainsValue returns a boolean if a field has been set.
-func (o *AnOptionForSignupFormStyles) ContainsValue() bool {
+// HasValue returns a boolean if a field has been set.
+func (o *AnOptionForSignupFormStyles) HasValue() bool {
 	if o != nil && !IsNil(o.Value) {
 		return true
 	}

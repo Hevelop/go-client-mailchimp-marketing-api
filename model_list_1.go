@@ -61,8 +61,8 @@ func (o *List1) GetListIdOk() (*string, bool) {
 	return o.ListId, true
 }
 
-// ContainsListId returns a boolean if a field has been set.
-func (o *List1) ContainsListId() bool {
+// HasListId returns a boolean if a field has been set.
+func (o *List1) HasListId() bool {
 	if o != nil && !IsNil(o.ListId) {
 		return true
 	}
@@ -93,8 +93,8 @@ func (o *List1) GetStoreIdOk() (*string, bool) {
 	return o.StoreId, true
 }
 
-// ContainsStoreId returns a boolean if a field has been set.
-func (o *List1) ContainsStoreId() bool {
+// HasStoreId returns a boolean if a field has been set.
+func (o *List1) HasStoreId() bool {
 	if o != nil && !IsNil(o.StoreId) {
 		return true
 	}

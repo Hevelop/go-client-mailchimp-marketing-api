@@ -73,8 +73,8 @@ func (o *Contact) GetEmailIdOk() (*string, bool) {
 	return o.EmailId, true
 }
 
-// ContainsEmailId returns a boolean if a field has been set.
-func (o *Contact) ContainsEmailId() bool {
+// HasEmailId returns a boolean if a field has been set.
+func (o *Contact) HasEmailId() bool {
 	if o != nil && !IsNil(o.EmailId) {
 		return true
 	}
@@ -105,8 +105,8 @@ func (o *Contact) GetContactIdOk() (*string, bool) {
 	return o.ContactId, true
 }
 
-// ContainsContactId returns a boolean if a field has been set.
-func (o *Contact) ContainsContactId() bool {
+// HasContactId returns a boolean if a field has been set.
+func (o *Contact) HasContactId() bool {
 	if o != nil && !IsNil(o.ContactId) {
 		return true
 	}
@@ -137,8 +137,8 @@ func (o *Contact) GetStatusOk() (*string, bool) {
 	return o.Status, true
 }
 
-// ContainsStatus returns a boolean if a field has been set.
-func (o *Contact) ContainsStatus() bool {
+// HasStatus returns a boolean if a field has been set.
+func (o *Contact) HasStatus() bool {
 	if o != nil && !IsNil(o.Status) {
 		return true
 	}
@@ -169,8 +169,8 @@ func (o *Contact) GetEmailOk() (*string, bool) {
 	return o.Email, true
 }
 
-// ContainsEmail returns a boolean if a field has been set.
-func (o *Contact) ContainsEmail() bool {
+// HasEmail returns a boolean if a field has been set.
+func (o *Contact) HasEmail() bool {
 	if o != nil && !IsNil(o.Email) {
 		return true
 	}
@@ -201,8 +201,8 @@ func (o *Contact) GetPhoneOk() (*string, bool) {
 	return o.Phone, true
 }
 
-// ContainsPhone returns a boolean if a field has been set.
-func (o *Contact) ContainsPhone() bool {
+// HasPhone returns a boolean if a field has been set.
+func (o *Contact) HasPhone() bool {
 	if o != nil && !IsNil(o.Phone) {
 		return true
 	}
@@ -233,8 +233,8 @@ func (o *Contact) GetFullNameOk() (*string, bool) {
 	return o.FullName, true
 }
 
-// ContainsFullName returns a boolean if a field has been set.
-func (o *Contact) ContainsFullName() bool {
+// HasFullName returns a boolean if a field has been set.
+func (o *Contact) HasFullName() bool {
 	if o != nil && !IsNil(o.FullName) {
 		return true
 	}
@@ -265,8 +265,8 @@ func (o *Contact) GetConsentsToOneToOneMessagingOk() (*bool, bool) {
 	return o.ConsentsToOneToOneMessaging, true
 }
 
-// ContainsConsentsToOneToOneMessaging returns a boolean if a field has been set.
-func (o *Contact) ContainsConsentsToOneToOneMessaging() bool {
+// HasConsentsToOneToOneMessaging returns a boolean if a field has been set.
+func (o *Contact) HasConsentsToOneToOneMessaging() bool {
 	if o != nil && !IsNil(o.ConsentsToOneToOneMessaging) {
 		return true
 	}
@@ -297,8 +297,8 @@ func (o *Contact) GetAvatarUrlOk() (*string, bool) {
 	return o.AvatarUrl, true
 }
 
-// ContainsAvatarUrl returns a boolean if a field has been set.
-func (o *Contact) ContainsAvatarUrl() bool {
+// HasAvatarUrl returns a boolean if a field has been set.
+func (o *Contact) HasAvatarUrl() bool {
 	if o != nil && !IsNil(o.AvatarUrl) {
 		return true
 	}

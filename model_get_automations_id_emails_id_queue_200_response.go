@@ -67,8 +67,8 @@ func (o *GetAutomationsIdEmailsIdQueue200Response) GetWorkflowIdOk() (*string, b
 	return o.WorkflowId, true
 }
 
-// ContainsWorkflowId returns a boolean if a field has been set.
-func (o *GetAutomationsIdEmailsIdQueue200Response) ContainsWorkflowId() bool {
+// HasWorkflowId returns a boolean if a field has been set.
+func (o *GetAutomationsIdEmailsIdQueue200Response) HasWorkflowId() bool {
 	if o != nil && !IsNil(o.WorkflowId) {
 		return true
 	}
@@ -99,8 +99,8 @@ func (o *GetAutomationsIdEmailsIdQueue200Response) GetEmailIdOk() (*string, bool
 	return o.EmailId, true
 }
 
-// ContainsEmailId returns a boolean if a field has been set.
-func (o *GetAutomationsIdEmailsIdQueue200Response) ContainsEmailId() bool {
+// HasEmailId returns a boolean if a field has been set.
+func (o *GetAutomationsIdEmailsIdQueue200Response) HasEmailId() bool {
 	if o != nil && !IsNil(o.EmailId) {
 		return true
 	}
@@ -131,8 +131,8 @@ func (o *GetAutomationsIdEmailsIdQueue200Response) GetQueueOk() ([]SubscriberInA
 	return o.Queue, true
 }
 
-// ContainsQueue returns a boolean if a field has been set.
-func (o *GetAutomationsIdEmailsIdQueue200Response) ContainsQueue() bool {
+// HasQueue returns a boolean if a field has been set.
+func (o *GetAutomationsIdEmailsIdQueue200Response) HasQueue() bool {
 	if o != nil && !IsNil(o.Queue) {
 		return true
 	}
@@ -163,8 +163,8 @@ func (o *GetAutomationsIdEmailsIdQueue200Response) GetTotalItemsOk() (*int32, bo
 	return o.TotalItems, true
 }
 
-// ContainsTotalItems returns a boolean if a field has been set.
-func (o *GetAutomationsIdEmailsIdQueue200Response) ContainsTotalItems() bool {
+// HasTotalItems returns a boolean if a field has been set.
+func (o *GetAutomationsIdEmailsIdQueue200Response) HasTotalItems() bool {
 	if o != nil && !IsNil(o.TotalItems) {
 		return true
 	}
@@ -195,8 +195,8 @@ func (o *GetAutomationsIdEmailsIdQueue200Response) GetLinksOk() ([]ResourceLink,
 	return o.Links, true
 }
 
-// ContainsLinks returns a boolean if a field has been set.
-func (o *GetAutomationsIdEmailsIdQueue200Response) ContainsLinks() bool {
+// HasLinks returns a boolean if a field has been set.
+func (o *GetAutomationsIdEmailsIdQueue200Response) HasLinks() bool {
 	if o != nil && !IsNil(o.Links) {
 		return true
 	}

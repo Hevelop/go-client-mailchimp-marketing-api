@@ -59,8 +59,8 @@ func (o *APIHealthStatus) GetHealthStatusOk() (*string, bool) {
 	return o.HealthStatus, true
 }
 
-// ContainsHealthStatus returns a boolean if a field has been set.
-func (o *APIHealthStatus) ContainsHealthStatus() bool {
+// HasHealthStatus returns a boolean if a field has been set.
+func (o *APIHealthStatus) HasHealthStatus() bool {
 	if o != nil && !IsNil(o.HealthStatus) {
 		return true
 	}

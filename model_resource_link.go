@@ -67,8 +67,8 @@ func (o *ResourceLink) GetRelOk() (*string, bool) {
 	return o.Rel, true
 }
 
-// ContainsRel returns a boolean if a field has been set.
-func (o *ResourceLink) ContainsRel() bool {
+// HasRel returns a boolean if a field has been set.
+func (o *ResourceLink) HasRel() bool {
 	if o != nil && !IsNil(o.Rel) {
 		return true
 	}
@@ -99,8 +99,8 @@ func (o *ResourceLink) GetHrefOk() (*string, bool) {
 	return o.Href, true
 }
 
-// ContainsHref returns a boolean if a field has been set.
-func (o *ResourceLink) ContainsHref() bool {
+// HasHref returns a boolean if a field has been set.
+func (o *ResourceLink) HasHref() bool {
 	if o != nil && !IsNil(o.Href) {
 		return true
 	}
@@ -131,8 +131,8 @@ func (o *ResourceLink) GetMethodOk() (*string, bool) {
 	return o.Method, true
 }
 
-// ContainsMethod returns a boolean if a field has been set.
-func (o *ResourceLink) ContainsMethod() bool {
+// HasMethod returns a boolean if a field has been set.
+func (o *ResourceLink) HasMethod() bool {
 	if o != nil && !IsNil(o.Method) {
 		return true
 	}
@@ -163,8 +163,8 @@ func (o *ResourceLink) GetTargetSchemaOk() (*string, bool) {
 	return o.TargetSchema, true
 }
 
-// ContainsTargetSchema returns a boolean if a field has been set.
-func (o *ResourceLink) ContainsTargetSchema() bool {
+// HasTargetSchema returns a boolean if a field has been set.
+func (o *ResourceLink) HasTargetSchema() bool {
 	if o != nil && !IsNil(o.TargetSchema) {
 		return true
 	}
@@ -195,8 +195,8 @@ func (o *ResourceLink) GetSchemaOk() (*string, bool) {
 	return o.Schema, true
 }
 
-// ContainsSchema returns a boolean if a field has been set.
-func (o *ResourceLink) ContainsSchema() bool {
+// HasSchema returns a boolean if a field has been set.
+func (o *ResourceLink) HasSchema() bool {
 	if o != nil && !IsNil(o.Schema) {
 		return true
 	}

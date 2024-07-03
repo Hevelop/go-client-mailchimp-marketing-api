@@ -149,8 +149,8 @@ func (o *ECommerceCustomer4) GetCompanyOk() (*string, bool) {
 	return o.Company, true
 }
 
-// ContainsCompany returns a boolean if a field has been set.
-func (o *ECommerceCustomer4) ContainsCompany() bool {
+// HasCompany returns a boolean if a field has been set.
+func (o *ECommerceCustomer4) HasCompany() bool {
 	if o != nil && !IsNil(o.Company) {
 		return true
 	}
@@ -181,8 +181,8 @@ func (o *ECommerceCustomer4) GetFirstNameOk() (*string, bool) {
 	return o.FirstName, true
 }
 
-// ContainsFirstName returns a boolean if a field has been set.
-func (o *ECommerceCustomer4) ContainsFirstName() bool {
+// HasFirstName returns a boolean if a field has been set.
+func (o *ECommerceCustomer4) HasFirstName() bool {
 	if o != nil && !IsNil(o.FirstName) {
 		return true
 	}
@@ -213,8 +213,8 @@ func (o *ECommerceCustomer4) GetLastNameOk() (*string, bool) {
 	return o.LastName, true
 }
 
-// ContainsLastName returns a boolean if a field has been set.
-func (o *ECommerceCustomer4) ContainsLastName() bool {
+// HasLastName returns a boolean if a field has been set.
+func (o *ECommerceCustomer4) HasLastName() bool {
 	if o != nil && !IsNil(o.LastName) {
 		return true
 	}
@@ -245,8 +245,8 @@ func (o *ECommerceCustomer4) GetAddressOk() (*Address, bool) {
 	return o.Address, true
 }
 
-// ContainsAddress returns a boolean if a field has been set.
-func (o *ECommerceCustomer4) ContainsAddress() bool {
+// HasAddress returns a boolean if a field has been set.
+func (o *ECommerceCustomer4) HasAddress() bool {
 	if o != nil && !IsNil(o.Address) {
 		return true
 	}
