@@ -489,7 +489,6 @@ Class | Method | HTTP request | Description
  - [ECommerceCustomer3](docs/ECommerceCustomer3.md)
  - [ECommerceCustomer4](docs/ECommerceCustomer4.md)
  - [ECommerceCustomer5](docs/ECommerceCustomer5.md)
- - [ECommerceCustomer6](docs/ECommerceCustomer6.md)
  - [ECommerceOrder](docs/ECommerceOrder.md)
  - [ECommerceOrder1](docs/ECommerceOrder1.md)
  - [ECommerceOrder2](docs/ECommerceOrder2.md)

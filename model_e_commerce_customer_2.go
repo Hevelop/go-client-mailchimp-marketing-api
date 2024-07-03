@@ -24,8 +24,10 @@ var _ MappedNullable = &ECommerceCustomer2{}
 type ECommerceCustomer2 struct {
 	// A unique identifier for the customer. Limited to 50 characters.
 	Id string `json:"id"`
+	// The customer's email address.
+	EmailAddress string `json:"email_address"`
 	// The customer's opt-in status. This value will never overwrite the opt-in status of a pre-existing Mailchimp list member, but will apply to list members that are added through the e-commerce API endpoints. Customers who don't opt in to your Mailchimp list [will be added as `Transactional` members](https://mailchimp.com/developer/marketing/docs/e-commerce/#customers).
-	OptInStatus *bool `json:"opt_in_status,omitempty"`
+	OptInStatus bool `json:"opt_in_status"`
 	// The customer's company.
 	Company *string `json:"company,omitempty"`
 	// The customer's first name.
@@ -41,9 +43,11 @@ type _ECommerceCustomer2 ECommerceCustomer2
 // This constructor will assign default values to properties that have it defined,
 // and makes sure properties required by API are set, but the set of arguments
 // will change when the set of required properties is changed
-func NewECommerceCustomer2(id string) *ECommerceCustomer2 {
+func NewECommerceCustomer2(id string, emailAddress string, optInStatus bool) *ECommerceCustomer2 {
 	this := ECommerceCustomer2{}
 	this.Id = id
+	this.EmailAddress = emailAddress
+	this.OptInStatus = optInStatus
 	return &this
 }
 
@@ -79,36 +83,52 @@ func (o *ECommerceCustomer2) SetId(v string) {
 	o.Id = v
 }
 
-// GetOptInStatus returns the OptInStatus field value if set, zero value otherwise.
+// GetEmailAddress returns the EmailAddress field value
+func (o *ECommerceCustomer2) GetEmailAddress() string {
+	if o == nil {
+		var ret string
+		return ret
+	}
+
+	return o.EmailAddress
+}
+
+// GetEmailAddressOk returns a tuple with the EmailAddress field value
+// and a boolean to check if the value has been set.
+func (o *ECommerceCustomer2) GetEmailAddressOk() (*string, bool) {
+	if o == nil {
+		return nil, false
+	}
+	return &o.EmailAddress, true
+}
+
+// SetEmailAddress sets field value
+func (o *ECommerceCustomer2) SetEmailAddress(v string) {
+	o.EmailAddress = v
+}
+
+// GetOptInStatus returns the OptInStatus field value
 func (o *ECommerceCustomer2) GetOptInStatus() bool {
-	if o == nil || IsNil(o.OptInStatus) {
+	if o == nil {
 		var ret bool
 		return ret
 	}
-	return *o.OptInStatus
+
+	return o.OptInStatus
 }
 
-// GetOptInStatusOk returns a tuple with the OptInStatus field value if set, nil otherwise
+// GetOptInStatusOk returns a tuple with the OptInStatus field value
 // and a boolean to check if the value has been set.
 func (o *ECommerceCustomer2) GetOptInStatusOk() (*bool, bool) {
-	if o == nil || IsNil(o.OptInStatus) {
+	if o == nil {
 		return nil, false
 	}
-	return o.OptInStatus, true
+	return &o.OptInStatus, true
 }
 
-// HasOptInStatus returns a boolean if a field has been set.
-func (o *ECommerceCustomer2) HasOptInStatus() bool {
-	if o != nil && !IsNil(o.OptInStatus) {
-		return true
-	}
-
-	return false
-}
-
-// SetOptInStatus gets a reference to the given bool and assigns it to the OptInStatus field.
+// SetOptInStatus sets field value
 func (o *ECommerceCustomer2) SetOptInStatus(v bool) {
-	o.OptInStatus = &v
+	o.OptInStatus = v
 }
 
 // GetCompany returns the Company field value if set, zero value otherwise.
@@ -250,9 +270,8 @@ func (o ECommerceCustomer2) MarshalJSON() ([]byte, error) {
 func (o ECommerceCustomer2) ToMap() (map[string]interface{}, error) {
 	toSerialize := map[string]interface{}{}
 	toSerialize["id"] = o.Id
-	if !IsNil(o.OptInStatus) {
-		toSerialize["opt_in_status"] = o.OptInStatus
-	}
+	toSerialize["email_address"] = o.EmailAddress
+	toSerialize["opt_in_status"] = o.OptInStatus
 	if !IsNil(o.Company) {
 		toSerialize["company"] = o.Company
 	}
@@ -274,6 +293,8 @@ func (o *ECommerceCustomer2) UnmarshalJSON(data []byte) (err error) {
 	// that every required field exists as a key in the generic map.
 	requiredProperties := []string{
 		"id",
+		"email_address",
+		"opt_in_status",
 	}
 
 	allProperties := make(map[string]interface{})

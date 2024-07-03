@@ -5983,10 +5983,10 @@ type EcommerceAPIPatchEcommerceStoresIdCustomersIdRequest struct {
 	ApiService EcommerceAPI
 	storeId string
 	customerId string
-	body *ECommerceCustomer5
+	body *ECommerceCustomer4
 }
 
-func (r EcommerceAPIPatchEcommerceStoresIdCustomersIdRequest) Body(body ECommerceCustomer5) EcommerceAPIPatchEcommerceStoresIdCustomersIdRequest {
+func (r EcommerceAPIPatchEcommerceStoresIdCustomersIdRequest) Body(body ECommerceCustomer4) EcommerceAPIPatchEcommerceStoresIdCustomersIdRequest {
 	r.body = &body
 	return r
 }
@@ -8365,10 +8365,10 @@ type EcommerceAPIPutEcommerceStoresIdCustomersIdRequest struct {
 	ApiService EcommerceAPI
 	storeId string
 	customerId string
-	body *ECommerceCustomer4
+	body *ECommerceCustomer2
 }
 
-func (r EcommerceAPIPutEcommerceStoresIdCustomersIdRequest) Body(body ECommerceCustomer4) EcommerceAPIPutEcommerceStoresIdCustomersIdRequest {
+func (r EcommerceAPIPutEcommerceStoresIdCustomersIdRequest) Body(body ECommerceCustomer2) EcommerceAPIPutEcommerceStoresIdCustomersIdRequest {
 	r.body = &body
 	return r
 }

@@ -183,7 +183,6 @@ docs/ECommerceCustomer2.md
 docs/ECommerceCustomer3.md
 docs/ECommerceCustomer4.md
 docs/ECommerceCustomer5.md
-docs/ECommerceCustomer6.md
 docs/ECommerceOrder.md
 docs/ECommerceOrder1.md
 docs/ECommerceOrder2.md
@@ -584,7 +583,6 @@ model_e_commerce_customer_2.go
 model_e_commerce_customer_3.go
 model_e_commerce_customer_4.go
 model_e_commerce_customer_5.go
-model_e_commerce_customer_6.go
 model_e_commerce_order.go
 model_e_commerce_order_1.go
 model_e_commerce_order_2.go

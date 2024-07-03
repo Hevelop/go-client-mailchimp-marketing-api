@@ -13081,7 +13081,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: '#/components/schemas/E_commerce_Customer_5'
+              $ref: '#/components/schemas/E_commerce_Customer_4'
         required: true
       responses:
         "200":
@@ -13134,7 +13134,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: '#/components/schemas/E_commerce_Customer_4'
+              $ref: '#/components/schemas/E_commerce_Customer_2'
         required: true
       responses:
         "200":
@@ -25206,6 +25206,34 @@ components:
       description: Information about a specific customer. Orders for existing customers
         should include only the `id` parameter in the `customer` object body.
       properties:
+        opt_in_status:
+          description: "The customer's opt-in status. This value will never overwrite\
+            \ the opt-in status of a pre-existing Mailchimp list member, but will\
+            \ apply to list members that are added through the e-commerce API endpoints.\
+            \ Customers who don't opt in to your Mailchimp list [will be added as\
+            \ `Transactional` members](https://mailchimp.com/developer/marketing/docs/e-commerce/#customers)."
+          title: Opt-in Status
+          type: boolean
+        company:
+          description: The customer's company.
+          title: Company
+          type: string
+        first_name:
+          description: The customer's first name.
+          title: First Name
+          type: string
+        last_name:
+          description: The customer's last name.
+          title: Last Name
+          type: string
+        address:
+          $ref: '#/components/schemas/Address'
+      title: E-commerce Customer
+      type: object
+    E_commerce_Customer_5:
+      description: Information about a specific customer. For existing customers include
+        only the `id` parameter in the `customer` object body.
+      properties:
         id:
           description: A unique identifier for the customer. Limited to 50 characters.
           maxLength: 50
@@ -25238,37 +25266,7 @@ components:
         address:
           $ref: '#/components/schemas/Address'
       required:
-      - email_address
       - id
-      - opt_in_status
-      title: E-commerce Customer
-      type: object
-    E_commerce_Customer_5:
-      description: Information about a specific customer. Orders for existing customers
-        should include only the `id` parameter in the `customer` object body.
-      properties:
-        opt_in_status:
-          description: "The customer's opt-in status. This value will never overwrite\
-            \ the opt-in status of a pre-existing Mailchimp list member, but will\
-            \ apply to list members that are added through the e-commerce API endpoints.\
-            \ Customers who don't opt in to your Mailchimp list [will be added as\
-            \ `Transactional` members](https://mailchimp.com/developer/marketing/docs/e-commerce/#customers)."
-          title: Opt-in Status
-          type: boolean
-        company:
-          description: The customer's company.
-          title: Company
-          type: string
-        first_name:
-          description: The customer's first name.
-          title: First Name
-          type: string
-        last_name:
-          description: The customer's last name.
-          title: Last Name
-          type: string
-        address:
-          $ref: '#/components/schemas/Address'
       title: E-commerce Customer
       type: object
     Resource_Link:
@@ -25339,45 +25337,6 @@ components:
           type: number
       readOnly: true
       title: Subscriber Stats
-      type: object
-    E_commerce_Customer_6:
-      description: Information about a specific customer. For existing customers include
-        only the `id` parameter in the `customer` object body.
-      properties:
-        id:
-          description: A unique identifier for the customer. Limited to 50 characters.
-          maxLength: 50
-          title: Customer Foreign ID
-          type: string
-        email_address:
-          description: The customer's email address.
-          title: Email Address
-          type: string
-        opt_in_status:
-          description: "The customer's opt-in status. This value will never overwrite\
-            \ the opt-in status of a pre-existing Mailchimp list member, but will\
-            \ apply to list members that are added through the e-commerce API endpoints.\
-            \ Customers who don't opt in to your Mailchimp list [will be added as\
-            \ `Transactional` members](https://mailchimp.com/developer/marketing/docs/e-commerce/#customers)."
-          title: Opt-in Status
-          type: boolean
-        company:
-          description: The customer's company.
-          title: Company
-          type: string
-        first_name:
-          description: The customer's first name.
-          title: First Name
-          type: string
-        last_name:
-          description: The customer's last name.
-          title: Last Name
-          type: string
-        address:
-          $ref: '#/components/schemas/Address'
-      required:
-      - id
-      title: E-commerce Customer
       type: object
     Clicks:
       description: An object describing the click activity for the campaign.
@@ -25483,6 +25442,10 @@ components:
           maxLength: 50
           title: Customer Foreign ID
           type: string
+        email_address:
+          description: The customer's email address.
+          title: Email Address
+          type: string
         opt_in_status:
           description: "The customer's opt-in status. This value will never overwrite\
             \ the opt-in status of a pre-existing Mailchimp list member, but will\
@@ -25506,7 +25469,9 @@ components:
         address:
           $ref: '#/components/schemas/Address'
       required:
+      - email_address
       - id
+      - opt_in_status
       title: E-commerce Customer
       type: object
     Collection_of_Events:
@@ -49240,7 +49205,7 @@ components:
       description: Information about a specific order.
       properties:
         customer:
-          $ref: '#/components/schemas/E_commerce_Customer_5'
+          $ref: '#/components/schemas/E_commerce_Customer_4'
         campaign_id:
           description: A string that uniquely identifies the campaign associated with
             an order.
@@ -49529,7 +49494,7 @@ components:
           title: Order Foreign ID
           type: string
         customer:
-          $ref: '#/components/schemas/E_commerce_Customer_6'
+          $ref: '#/components/schemas/E_commerce_Customer_5'
         campaign_id:
           description: A string that uniquely identifies the campaign for an order.
           example: 839488a60b

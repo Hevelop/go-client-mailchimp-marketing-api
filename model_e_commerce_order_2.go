@@ -21,7 +21,7 @@ var _ MappedNullable = &ECommerceOrder2{}
 
 // ECommerceOrder2 Information about a specific order.
 type ECommerceOrder2 struct {
-	Customer *ECommerceCustomer5 `json:"customer,omitempty"`
+	Customer *ECommerceCustomer4 `json:"customer,omitempty"`
 	// A string that uniquely identifies the campaign associated with an order.
 	CampaignId *string `json:"campaign_id,omitempty"`
 	// The URL for the page where the buyer landed when entering the shop.
@@ -83,9 +83,9 @@ func NewECommerceOrder2WithDefaults() *ECommerceOrder2 {
 }
 
 // GetCustomer returns the Customer field value if set, zero value otherwise.
-func (o *ECommerceOrder2) GetCustomer() ECommerceCustomer5 {
+func (o *ECommerceOrder2) GetCustomer() ECommerceCustomer4 {
 	if o == nil || IsNil(o.Customer) {
-		var ret ECommerceCustomer5
+		var ret ECommerceCustomer4
 		return ret
 	}
 	return *o.Customer
@@ -93,7 +93,7 @@ func (o *ECommerceOrder2) GetCustomer() ECommerceCustomer5 {
 
 // GetCustomerOk returns a tuple with the Customer field value if set, nil otherwise
 // and a boolean to check if the value has been set.
-func (o *ECommerceOrder2) GetCustomerOk() (*ECommerceCustomer5, bool) {
+func (o *ECommerceOrder2) GetCustomerOk() (*ECommerceCustomer4, bool) {
 	if o == nil || IsNil(o.Customer) {
 		return nil, false
 	}
@@ -109,8 +109,8 @@ func (o *ECommerceOrder2) HasCustomer() bool {
 	return false
 }
 
-// SetCustomer gets a reference to the given ECommerceCustomer5 and assigns it to the Customer field.
-func (o *ECommerceOrder2) SetCustomer(v ECommerceCustomer5) {
+// SetCustomer gets a reference to the given ECommerceCustomer4 and assigns it to the Customer field.
+func (o *ECommerceOrder2) SetCustomer(v ECommerceCustomer4) {
 	o.Customer = &v
 }
 

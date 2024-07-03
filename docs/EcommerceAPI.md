@@ -2924,7 +2924,7 @@ import (
 func main() {
 	storeId := "storeId_example" // string | The store id.
 	customerId := "customerId_example" // string | The id for the customer of a store.
-	body := *openapiclient.NewECommerceCustomer5() // ECommerceCustomer5 | 
+	body := *openapiclient.NewECommerceCustomer4() // ECommerceCustomer4 | 
 
 	configuration := openapiclient.NewConfiguration()
 	apiClient := openapiclient.NewAPIClient(configuration)
@@ -2956,7 +2956,7 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
 
- **body** | [**ECommerceCustomer5**](ECommerceCustomer5.md) |  | 
+ **body** | [**ECommerceCustomer4**](ECommerceCustomer4.md) |  | 
 
 ### Return type
 
@@ -3820,7 +3820,7 @@ import (
 
 func main() {
 	storeId := "storeId_example" // string | The store id.
-	body := *openapiclient.NewECommerceOrder1("Id_example", *openapiclient.NewECommerceCustomer6("Id_example"), "CurrencyCode_example", float32(123), []openapiclient.ECommerceOrderLineItem1{*openapiclient.NewECommerceOrderLineItem1("Id_example", "ProductId_example", "ProductVariantId_example", int32(123), float32(123))}) // ECommerceOrder1 | 
+	body := *openapiclient.NewECommerceOrder1("Id_example", *openapiclient.NewECommerceCustomer5("Id_example"), "CurrencyCode_example", float32(123), []openapiclient.ECommerceOrderLineItem1{*openapiclient.NewECommerceOrderLineItem1("Id_example", "ProductId_example", "ProductVariantId_example", int32(123), float32(123))}) // ECommerceOrder1 | 
 
 	configuration := openapiclient.NewConfiguration()
 	apiClient := openapiclient.NewAPIClient(configuration)
@@ -4337,7 +4337,7 @@ import (
 func main() {
 	storeId := "storeId_example" // string | The store id.
 	customerId := "customerId_example" // string | The id for the customer of a store.
-	body := *openapiclient.NewECommerceCustomer4("Id_example", "EmailAddress_example", false) // ECommerceCustomer4 | 
+	body := *openapiclient.NewECommerceCustomer2("Id_example", "EmailAddress_example", false) // ECommerceCustomer2 | 
 
 	configuration := openapiclient.NewConfiguration()
 	apiClient := openapiclient.NewAPIClient(configuration)
@@ -4369,7 +4369,7 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
 
 
- **body** | [**ECommerceCustomer4**](ECommerceCustomer4.md) |  | 
+ **body** | [**ECommerceCustomer2**](ECommerceCustomer2.md) |  | 
 
 ### Return type
 

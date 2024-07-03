@@ -7,7 +7,7 @@ Information about a specific order.
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **Id**| **string** | A unique identifier for the order.  |
-**Customer**| [**ECommerceCustomer6**](ECommerceCustomer6.md) |   |
+**Customer**| [**ECommerceCustomer5**](ECommerceCustomer5.md) |   |
 **CampaignId**| **string** | A string that uniquely identifies the campaign for an order.  | [optional]
 **LandingSite**| **string** | The URL for the page where the buyer landed when entering the shop.  | [optional]
 **FinancialStatus**| **string** | The order status. Use this parameter to trigger [Order Notifications](https://mailchimp.com/developer/marketing/docs/e-commerce/#order-notifications).  | [optional]

@@ -13,8 +13,6 @@ package mailchimpmarketingapi
 
 import (
 	"encoding/json"
-	"bytes"
-	"fmt"
 )
 
 // checks if the ECommerceCustomer4 type satisfies the MappedNullable interface at compile time
@@ -22,12 +20,8 @@ var _ MappedNullable = &ECommerceCustomer4{}
 
 // ECommerceCustomer4 Information about a specific customer. Orders for existing customers should include only the `id` parameter in the `customer` object body.
 type ECommerceCustomer4 struct {
-	// A unique identifier for the customer. Limited to 50 characters.
-	Id string `json:"id"`
-	// The customer's email address.
-	EmailAddress string `json:"email_address"`
 	// The customer's opt-in status. This value will never overwrite the opt-in status of a pre-existing Mailchimp list member, but will apply to list members that are added through the e-commerce API endpoints. Customers who don't opt in to your Mailchimp list [will be added as `Transactional` members](https://mailchimp.com/developer/marketing/docs/e-commerce/#customers).
-	OptInStatus bool `json:"opt_in_status"`
+	OptInStatus *bool `json:"opt_in_status,omitempty"`
 	// The customer's company.
 	Company *string `json:"company,omitempty"`
 	// The customer's first name.
@@ -37,17 +31,12 @@ type ECommerceCustomer4 struct {
 	Address *Address `json:"address,omitempty"`
 }
 
-type _ECommerceCustomer4 ECommerceCustomer4
-
 // NewECommerceCustomer4 instantiates a new ECommerceCustomer4 object
 // This constructor will assign default values to properties that have it defined,
 // and makes sure properties required by API are set, but the set of arguments
 // will change when the set of required properties is changed
-func NewECommerceCustomer4(id string, emailAddress string, optInStatus bool) *ECommerceCustomer4 {
+func NewECommerceCustomer4() *ECommerceCustomer4 {
 	this := ECommerceCustomer4{}
-	this.Id = id
-	this.EmailAddress = emailAddress
-	this.OptInStatus = optInStatus
 	return &this
 }
 
@@ -59,76 +48,36 @@ func NewECommerceCustomer4WithDefaults() *ECommerceCustomer4 {
 	return &this
 }
 
-// GetId returns the Id field value
-func (o *ECommerceCustomer4) GetId() string {
-	if o == nil {
-		var ret string
-		return ret
-	}
-
-	return o.Id
-}
-
-// GetIdOk returns a tuple with the Id field value
-// and a boolean to check if the value has been set.
-func (o *ECommerceCustomer4) GetIdOk() (*string, bool) {
-	if o == nil {
-		return nil, false
-	}
-	return &o.Id, true
-}
-
-// SetId sets field value
-func (o *ECommerceCustomer4) SetId(v string) {
-	o.Id = v
-}
-
-// GetEmailAddress returns the EmailAddress field value
-func (o *ECommerceCustomer4) GetEmailAddress() string {
-	if o == nil {
-		var ret string
-		return ret
-	}
-
-	return o.EmailAddress
-}
-
-// GetEmailAddressOk returns a tuple with the EmailAddress field value
-// and a boolean to check if the value has been set.
-func (o *ECommerceCustomer4) GetEmailAddressOk() (*string, bool) {
-	if o == nil {
-		return nil, false
-	}
-	return &o.EmailAddress, true
-}
-
-// SetEmailAddress sets field value
-func (o *ECommerceCustomer4) SetEmailAddress(v string) {
-	o.EmailAddress = v
-}
-
-// GetOptInStatus returns the OptInStatus field value
+// GetOptInStatus returns the OptInStatus field value if set, zero value otherwise.
 func (o *ECommerceCustomer4) GetOptInStatus() bool {
-	if o == nil {
+	if o == nil || IsNil(o.OptInStatus) {
 		var ret bool
 		return ret
 	}
-
-	return o.OptInStatus
+	return *o.OptInStatus
 }
 
-// GetOptInStatusOk returns a tuple with the OptInStatus field value
+// GetOptInStatusOk returns a tuple with the OptInStatus field value if set, nil otherwise
 // and a boolean to check if the value has been set.
 func (o *ECommerceCustomer4) GetOptInStatusOk() (*bool, bool) {
-	if o == nil {
+	if o == nil || IsNil(o.OptInStatus) {
 		return nil, false
 	}
-	return &o.OptInStatus, true
+	return o.OptInStatus, true
 }
 
-// SetOptInStatus sets field value
+// HasOptInStatus returns a boolean if a field has been set.
+func (o *ECommerceCustomer4) HasOptInStatus() bool {
+	if o != nil && !IsNil(o.OptInStatus) {
+		return true
+	}
+
+	return false
+}
+
+// SetOptInStatus gets a reference to the given bool and assigns it to the OptInStatus field.
 func (o *ECommerceCustomer4) SetOptInStatus(v bool) {
-	o.OptInStatus = v
+	o.OptInStatus = &v
 }
 
 // GetCompany returns the Company field value if set, zero value otherwise.
@@ -269,9 +218,9 @@ func (o ECommerceCustomer4) MarshalJSON() ([]byte, error) {
 
 func (o ECommerceCustomer4) ToMap() (map[string]interface{}, error) {
 	toSerialize := map[string]interface{}{}
-	toSerialize["id"] = o.Id
-	toSerialize["email_address"] = o.EmailAddress
-	toSerialize["opt_in_status"] = o.OptInStatus
+	if !IsNil(o.OptInStatus) {
+		toSerialize["opt_in_status"] = o.OptInStatus
+	}
 	if !IsNil(o.Company) {
 		toSerialize["company"] = o.Company
 	}
@@ -285,45 +234,6 @@ func (o ECommerceCustomer4) ToMap() (map[string]interface{}, error) {
 		toSerialize["address"] = o.Address
 	}
 	return toSerialize, nil
-}
-
-func (o *ECommerceCustomer4) UnmarshalJSON(data []byte) (err error) {
-	// This validates that all required properties are included in the JSON object
-	// by unmarshalling the object into a generic map with string keys and checking
-	// that every required field exists as a key in the generic map.
-	requiredProperties := []string{
-		"id",
-		"email_address",
-		"opt_in_status",
-	}
-
-	allProperties := make(map[string]interface{})
-
-	err = json.Unmarshal(data, &allProperties)
-
-	if err != nil {
-		return err;
-	}
-
-	for _, requiredProperty := range(requiredProperties) {
-		if _, exists := allProperties[requiredProperty]; !exists {
-			return fmt.Errorf("no value given for required property %v", requiredProperty)
-		}
-	}
-
-	varECommerceCustomer4 := _ECommerceCustomer4{}
-
-	decoder := json.NewDecoder(bytes.NewReader(data))
-	decoder.DisallowUnknownFields()
-	err = decoder.Decode(&varECommerceCustomer4)
-
-	if err != nil {
-		return err
-	}
-
-	*o = ECommerceCustomer4(varECommerceCustomer4)
-
-	return err
 }
 
 type NullableECommerceCustomer4 struct {
